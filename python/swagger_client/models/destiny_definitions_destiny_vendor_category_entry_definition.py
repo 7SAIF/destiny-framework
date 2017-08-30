@@ -143,7 +143,7 @@ class DestinyDefinitionsDestinyVendorCategoryEntryDefinition(object):
     def category_hash(self):
         """
         Gets the category_hash of this DestinyDefinitionsDestinyVendorCategoryEntryDefinition.
-        The hashed identifier for the category.  (note that this is NOT pointing to a DestinyVendorCategoryDefinition,  it's confusing but this is a sale item category in a vendor, not a categorization of vendors themselves)
+        The hashed identifier for the category.  (note that this is NOT pointing to a DestinyVendorCategoryDefinition,it's confusing but this is a sale item category in a vendor, not a categorization of vendors themselves)
 
         :return: The category_hash of this DestinyDefinitionsDestinyVendorCategoryEntryDefinition.
         :rtype: int
@@ -154,7 +154,7 @@ class DestinyDefinitionsDestinyVendorCategoryEntryDefinition(object):
     def category_hash(self, category_hash):
         """
         Sets the category_hash of this DestinyDefinitionsDestinyVendorCategoryEntryDefinition.
-        The hashed identifier for the category.  (note that this is NOT pointing to a DestinyVendorCategoryDefinition,  it's confusing but this is a sale item category in a vendor, not a categorization of vendors themselves)
+        The hashed identifier for the category.  (note that this is NOT pointing to a DestinyVendorCategoryDefinition,it's confusing but this is a sale item category in a vendor, not a categorization of vendors themselves)
 
         :param category_hash: The category_hash of this DestinyDefinitionsDestinyVendorCategoryEntryDefinition.
         :type: int

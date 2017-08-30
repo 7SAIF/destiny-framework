@@ -80,7 +80,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition(objec
     def activity_hash(self):
         """
         Gets the activity_hash of this DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition.
-        The activity that will be activated if the user clicks on this node.  Controls all activity-related  information displayed on the node if it is active (the text shown in the tooltip etc)
+        The activity that will be activated if the user clicks on this node.  Controls all activity-relatedinformation displayed on the node if it is active (the text shown in the tooltip etc)
 
         :return: The activity_hash of this DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition.
         :rtype: int
@@ -91,7 +91,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition(objec
     def activity_hash(self, activity_hash):
         """
         Sets the activity_hash of this DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition.
-        The activity that will be activated if the user clicks on this node.  Controls all activity-related  information displayed on the node if it is active (the text shown in the tooltip etc)
+        The activity that will be activated if the user clicks on this node.  Controls all activity-relatedinformation displayed on the node if it is active (the text shown in the tooltip etc)
 
         :param activity_hash: The activity_hash of this DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition.
         :type: int

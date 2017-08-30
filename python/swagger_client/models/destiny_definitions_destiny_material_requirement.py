@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyMaterialRequirement(object):
     def omit_from_requirements(self):
         """
         Gets the omit_from_requirements of this DestinyDefinitionsDestinyMaterialRequirement.
-        If True, this requirement is \"silent\": don't bother showing it in a material requirements display.  I mean, I'm not your mom: I'm not going to tell you you *can't* show it.  But we won't show it in our UI.
+        If True, this requirement is \"silent\": don't bother showing it in a material requirements display.I mean, I'm not your mom: I'm not going to tell you you *can't* show it.  But we won't show it in our UI.
 
         :return: The omit_from_requirements of this DestinyDefinitionsDestinyMaterialRequirement.
         :rtype: bool
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyMaterialRequirement(object):
     def omit_from_requirements(self, omit_from_requirements):
         """
         Sets the omit_from_requirements of this DestinyDefinitionsDestinyMaterialRequirement.
-        If True, this requirement is \"silent\": don't bother showing it in a material requirements display.  I mean, I'm not your mom: I'm not going to tell you you *can't* show it.  But we won't show it in our UI.
+        If True, this requirement is \"silent\": don't bother showing it in a material requirements display.I mean, I'm not your mom: I'm not going to tell you you *can't* show it.  But we won't show it in our UI.
 
         :param omit_from_requirements: The omit_from_requirements of this DestinyDefinitionsDestinyMaterialRequirement.
         :type: bool

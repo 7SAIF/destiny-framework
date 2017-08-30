@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**DestinyHistoricalStatsDestinyHistoricalStatsAccountResult**](DestinyHistoricalStatsDestinyHistoricalStatsAccountResult.md) |  | [optional] 
+**response** | [**DestinyDefinitionsDestinyEntitySearchResult**](DestinyDefinitionsDestinyEntitySearchResult.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 

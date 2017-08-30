@@ -52,7 +52,7 @@ class DestinyDefinitionsDestinyTalentNodeExclusiveSetDefinition(object):
     def node_indexes(self):
         """
         Gets the node_indexes of this DestinyDefinitionsDestinyTalentNodeExclusiveSetDefinition.
-        The list of node indexes for the exclusive set.  Historically, these were indexes.  I would have liked to replace this with nodeHashes for consistency, but it's way too late for that.  (9:09 PM, he's right!)
+        The list of node indexes for the exclusive set.  Historically, these were indexes.I would have liked to replace this with nodeHashes for consistency, but it's way too late for that.(9:09 PM, he's right!)
 
         :return: The node_indexes of this DestinyDefinitionsDestinyTalentNodeExclusiveSetDefinition.
         :rtype: list[int]
@@ -63,7 +63,7 @@ class DestinyDefinitionsDestinyTalentNodeExclusiveSetDefinition(object):
     def node_indexes(self, node_indexes):
         """
         Sets the node_indexes of this DestinyDefinitionsDestinyTalentNodeExclusiveSetDefinition.
-        The list of node indexes for the exclusive set.  Historically, these were indexes.  I would have liked to replace this with nodeHashes for consistency, but it's way too late for that.  (9:09 PM, he's right!)
+        The list of node indexes for the exclusive set.  Historically, these were indexes.I would have liked to replace this with nodeHashes for consistency, but it's way too late for that.(9:09 PM, he's right!)
 
         :param node_indexes: The node_indexes of this DestinyDefinitionsDestinyTalentNodeExclusiveSetDefinition.
         :type: list[int]

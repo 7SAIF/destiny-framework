@@ -67,7 +67,7 @@ class DestinyDefinitionsDestinyProgressionMappingDefinition(object):
     def display_units(self):
         """
         Gets the display_units of this DestinyDefinitionsDestinyProgressionMappingDefinition.
-        The localized unit of measurement for progression across the progressions defined in this  mapping.  Unfortunately, this is very infrequently defined.  Defer to the individual  progressions' display units.
+        The localized unit of measurement for progression across the progressions defined in thismapping.  Unfortunately, this is very infrequently defined.  Defer to the individualprogressions' display units.
 
         :return: The display_units of this DestinyDefinitionsDestinyProgressionMappingDefinition.
         :rtype: str
@@ -78,7 +78,7 @@ class DestinyDefinitionsDestinyProgressionMappingDefinition(object):
     def display_units(self, display_units):
         """
         Sets the display_units of this DestinyDefinitionsDestinyProgressionMappingDefinition.
-        The localized unit of measurement for progression across the progressions defined in this  mapping.  Unfortunately, this is very infrequently defined.  Defer to the individual  progressions' display units.
+        The localized unit of measurement for progression across the progressions defined in thismapping.  Unfortunately, this is very infrequently defined.  Defer to the individualprogressions' display units.
 
         :param display_units: The display_units of this DestinyDefinitionsDestinyProgressionMappingDefinition.
         :type: str
@@ -90,7 +90,7 @@ class DestinyDefinitionsDestinyProgressionMappingDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyProgressionMappingDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyProgressionMappingDefinition.
         :rtype: int
@@ -101,7 +101,7 @@ class DestinyDefinitionsDestinyProgressionMappingDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyProgressionMappingDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyProgressionMappingDefinition.
         :type: int
@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyProgressionMappingDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyProgressionMappingDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyProgressionMappingDefinition.
         :rtype: bool
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyProgressionMappingDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyProgressionMappingDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyProgressionMappingDefinition.
         :type: bool

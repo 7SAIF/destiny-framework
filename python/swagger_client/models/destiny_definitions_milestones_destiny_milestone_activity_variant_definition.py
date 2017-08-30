@@ -57,7 +57,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition(obje
     def activity_hash(self):
         """
         Gets the activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
-        The hash to use for looking up the variant Activity's definition (DestinyActivityDefinition),  where you can find its distinguishing characteristics such as difficulty level and recommended  light level.      Frequently, that will be the only distinguishing characteristics in practice, which  is somewhat of a bummer.
+        The hash to use for looking up the variant Activity's definition (DestinyActivityDefinition),where you can find its distinguishing characteristics such as difficulty level and recommendedlight level.    Frequently, that will be the only distinguishing characteristics in practice, whichis somewhat of a bummer.
 
         :return: The activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition(obje
     def activity_hash(self, activity_hash):
         """
         Sets the activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
-        The hash to use for looking up the variant Activity's definition (DestinyActivityDefinition),  where you can find its distinguishing characteristics such as difficulty level and recommended  light level.      Frequently, that will be the only distinguishing characteristics in practice, which  is somewhat of a bummer.
+        The hash to use for looking up the variant Activity's definition (DestinyActivityDefinition),where you can find its distinguishing characteristics such as difficulty level and recommendedlight level.    Frequently, that will be the only distinguishing characteristics in practice, whichis somewhat of a bummer.
 
         :param activity_hash: The activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
         :type: int
@@ -80,7 +80,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition(obje
     def order(self):
         """
         Gets the order of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
-        If you care to do so, render the variants in the order prescribed by this value.    When you combine live Milestone data with the definition, the order becomes more useful  because you'll be cross-referencing between the definition and live data.
+        If you care to do so, render the variants in the order prescribed by this value.  When you combine live Milestone data with the definition, the order becomes more usefulbecause you'll be cross-referencing between the definition and live data.
 
         :return: The order of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
         :rtype: int
@@ -91,7 +91,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition(obje
     def order(self, order):
         """
         Sets the order of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
-        If you care to do so, render the variants in the order prescribed by this value.    When you combine live Milestone data with the definition, the order becomes more useful  because you'll be cross-referencing between the definition and live data.
+        If you care to do so, render the variants in the order prescribed by this value.  When you combine live Milestone data with the definition, the order becomes more usefulbecause you'll be cross-referencing between the definition and live data.
 
         :param order: The order of this DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition.
         :type: int

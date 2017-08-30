@@ -72,7 +72,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def progressions(self):
         """
         Gets the progressions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        A Dictionary of all known progressions for the Character, keyed by the Progression's hash.    Not all progressions have user-facing data, but those who do will have that data contained in the DestinyProgressionDefinition.
+        A Dictionary of all known progressions for the Character, keyed by the Progression's hash.  Not all progressions have user-facing data, but those who do will have that data contained in the DestinyProgressionDefinition.
 
         :return: The progressions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :rtype: dict(str, DestinyDestinyProgression)
@@ -83,7 +83,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def progressions(self, progressions):
         """
         Sets the progressions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        A Dictionary of all known progressions for the Character, keyed by the Progression's hash.    Not all progressions have user-facing data, but those who do will have that data contained in the DestinyProgressionDefinition.
+        A Dictionary of all known progressions for the Character, keyed by the Progression's hash.  Not all progressions have user-facing data, but those who do will have that data contained in the DestinyProgressionDefinition.
 
         :param progressions: The progressions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :type: dict(str, DestinyDestinyProgression)
@@ -95,7 +95,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def factions(self):
         """
         Gets the factions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        A dictionary of all known Factions, keyed by the Faction's hash.  It contains data about this character's  status with the faction.
+        A dictionary of all known Factions, keyed by the Faction's hash.  It contains data about this character'sstatus with the faction.
 
         :return: The factions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :rtype: dict(str, DestinyProgressionDestinyFactionProgression)
@@ -106,7 +106,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def factions(self, factions):
         """
         Sets the factions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        A dictionary of all known Factions, keyed by the Faction's hash.  It contains data about this character's  status with the faction.
+        A dictionary of all known Factions, keyed by the Faction's hash.  It contains data about this character'sstatus with the faction.
 
         :param factions: The factions of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :type: dict(str, DestinyProgressionDestinyFactionProgression)
@@ -118,7 +118,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def milestones(self):
         """
         Gets the milestones of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        Milestones are related to the simple progressions shown in the game, but return additional and  hopefully helpful information for users about the specifics of the Milestone's status.
+        Milestones are related to the simple progressions shown in the game, but return additional andhopefully helpful information for users about the specifics of the Milestone's status.
 
         :return: The milestones of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :rtype: dict(str, DestinyMilestonesDestinyMilestone)
@@ -129,7 +129,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def milestones(self, milestones):
         """
         Sets the milestones of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        Milestones are related to the simple progressions shown in the game, but return additional and  hopefully helpful information for users about the specifics of the Milestone's status.
+        Milestones are related to the simple progressions shown in the game, but return additional andhopefully helpful information for users about the specifics of the Milestone's status.
 
         :param milestones: The milestones of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :type: dict(str, DestinyMilestonesDestinyMilestone)
@@ -141,7 +141,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def quests(self):
         """
         Gets the quests of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        If the user has any active quests, the quests' statuses will be returned here.    Note that quests have been largely supplanted by Milestones, but that doesn't mean that  they won't make a comeback independent of milestones at some point.
+        If the user has any active quests, the quests' statuses will be returned here.  Note that quests have been largely supplanted by Milestones, but that doesn't mean thatthey won't make a comeback independent of milestones at some point.
 
         :return: The quests of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :rtype: list[DestinyQuestsDestinyQuestStatus]
@@ -152,7 +152,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def quests(self, quests):
         """
         Sets the quests of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        If the user has any active quests, the quests' statuses will be returned here.    Note that quests have been largely supplanted by Milestones, but that doesn't mean that  they won't make a comeback independent of milestones at some point.
+        If the user has any active quests, the quests' statuses will be returned here.  Note that quests have been largely supplanted by Milestones, but that doesn't mean thatthey won't make a comeback independent of milestones at some point.
 
         :param quests: The quests of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :type: list[DestinyQuestsDestinyQuestStatus]
@@ -164,7 +164,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def uninstanced_item_objectives(self):
         """
         Gets the uninstanced_item_objectives of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        Sometimes, you have items in your inventory that don't have instances, but still have  Objective information.  This provides you that objective information for uninstanced  items.      This dictionary is keyed by the item's hash: which you can use to look up the  name and description for the overall task(s) implied by the objective.  The value is the list of objectives for this item, and their statuses.
+        Sometimes, you have items in your inventory that don't have instances, but still haveObjective information.  This provides you that objective information for uninstanceditems.    This dictionary is keyed by the item's hash: which you can use to look up thename and description for the overall task(s) implied by the objective.The value is the list of objectives for this item, and their statuses.
 
         :return: The uninstanced_item_objectives of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :rtype: dict(str, list[DestinyQuestsDestinyObjectiveProgress])
@@ -175,7 +175,7 @@ class DestinyEntitiesCharactersDestinyCharacterProgressionComponent(object):
     def uninstanced_item_objectives(self, uninstanced_item_objectives):
         """
         Sets the uninstanced_item_objectives of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
-        Sometimes, you have items in your inventory that don't have instances, but still have  Objective information.  This provides you that objective information for uninstanced  items.      This dictionary is keyed by the item's hash: which you can use to look up the  name and description for the overall task(s) implied by the objective.  The value is the list of objectives for this item, and their statuses.
+        Sometimes, you have items in your inventory that don't have instances, but still haveObjective information.  This provides you that objective information for uninstanceditems.    This dictionary is keyed by the item's hash: which you can use to look up thename and description for the overall task(s) implied by the objective.The value is the list of objectives for this item, and their statuses.
 
         :param uninstanced_item_objectives: The uninstanced_item_objectives of this DestinyEntitiesCharactersDestinyCharacterProgressionComponent.
         :type: dict(str, list[DestinyQuestsDestinyObjectiveProgress])

@@ -149,10 +149,10 @@ class ForumApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str category_filter: The category filter. (required)
+        :param int category_filter: The category filter. (required)
         :param int page: Zero base page (required)
-        :param str quick_date: The date filter. (required)
-        :param str sort: The sort mode. (required)
+        :param int quick_date: The date filter. (required)
+        :param int sort: The sort mode. (required)
         :param str locales: Comma seperated list of locales posts must match to return in the result list. Default 'en'
         :return: InlineResponse2006
                  If the method is called asynchronously,
@@ -178,10 +178,10 @@ class ForumApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str category_filter: The category filter. (required)
+        :param int category_filter: The category filter. (required)
         :param int page: Zero base page (required)
-        :param str quick_date: The date filter. (required)
-        :param str sort: The sort mode. (required)
+        :param int quick_date: The date filter. (required)
+        :param int sort: The sort mode. (required)
         :param str locales: Comma seperated list of locales posts must match to return in the result list. Default 'en'
         :return: InlineResponse2006
                  If the method is called asynchronously,
@@ -665,7 +665,7 @@ class ForumApi(object):
         :param int parent_post_id:  (required)
         :param int reply_size:  (required)
         :param bool root_thread_mode:  (required)
-        :param str sort_mode:  (required)
+        :param int sort_mode:  (required)
         :param str showbanned: If this value is not null or empty, banned posts are requested to be returned
         :return: InlineResponse2006
                  If the method is called asynchronously,
@@ -697,7 +697,7 @@ class ForumApi(object):
         :param int parent_post_id:  (required)
         :param int reply_size:  (required)
         :param bool root_thread_mode:  (required)
-        :param str sort_mode:  (required)
+        :param int sort_mode:  (required)
         :param str showbanned: If this value is not null or empty, banned posts are requested to be returned
         :return: InlineResponse2006
                  If the method is called asynchronously,
@@ -806,7 +806,7 @@ class ForumApi(object):
         :param int page_size:  (required)
         :param int reply_size:  (required)
         :param bool root_thread_mode:  (required)
-        :param str sort_mode:  (required)
+        :param int sort_mode:  (required)
         :param str showbanned: If this value is not null or empty, banned posts are requested to be returned
         :return: InlineResponse2006
                  If the method is called asynchronously,
@@ -837,7 +837,7 @@ class ForumApi(object):
         :param int page_size:  (required)
         :param int reply_size:  (required)
         :param bool root_thread_mode:  (required)
-        :param str sort_mode:  (required)
+        :param int sort_mode:  (required)
         :param str showbanned: If this value is not null or empty, banned posts are requested to be returned
         :return: InlineResponse2006
                  If the method is called asynchronously,
@@ -1120,12 +1120,12 @@ class ForumApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str category_filter: A category filter (required)
+        :param int category_filter: A category filter (required)
         :param int group: The group, if any. (required)
         :param int page: Zero paged page number (required)
         :param int page_size: Unused (required)
-        :param str quick_date: A date filter. (required)
-        :param str sort: The sort mode. (required)
+        :param int quick_date: A date filter. (required)
+        :param int sort: The sort mode. (required)
         :param str locales: Comma seperated list of locales posts must match to return in the result list. Default 'en'
         :param str tagstring: The tags to search, if any.
         :return: InlineResponse2006
@@ -1152,12 +1152,12 @@ class ForumApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str category_filter: A category filter (required)
+        :param int category_filter: A category filter (required)
         :param int group: The group, if any. (required)
         :param int page: Zero paged page number (required)
         :param int page_size: Unused (required)
-        :param str quick_date: A date filter. (required)
-        :param str sort: The sort mode. (required)
+        :param int quick_date: A date filter. (required)
+        :param int sort: The sort mode. (required)
         :param str locales: Comma seperated list of locales posts must match to return in the result list. Default 'en'
         :param str tagstring: The tags to search, if any.
         :return: InlineResponse2006

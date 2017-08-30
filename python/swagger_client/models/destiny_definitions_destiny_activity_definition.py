@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def release_icon(self):
         """
         Gets the release_icon of this DestinyDefinitionsDestinyActivityDefinition.
-        If the activity has an icon associated with a specific release (such as a DLC),  this is the path to that release's icon.
+        If the activity has an icon associated with a specific release (such as a DLC),this is the path to that release's icon.
 
         :return: The release_icon of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: str
@@ -158,7 +158,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def release_icon(self, release_icon):
         """
         Sets the release_icon of this DestinyDefinitionsDestinyActivityDefinition.
-        If the activity has an icon associated with a specific release (such as a DLC),  this is the path to that release's icon.
+        If the activity has an icon associated with a specific release (such as a DLC),this is the path to that release's icon.
 
         :param release_icon: The release_icon of this DestinyDefinitionsDestinyActivityDefinition.
         :type: str
@@ -170,7 +170,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def release_time(self):
         """
         Gets the release_time of this DestinyDefinitionsDestinyActivityDefinition.
-        If the activity will not be visible until a specific and known time, this will be  the seconds since the Epoch when it will become visible.
+        If the activity will not be visible until a specific and known time, this will bethe seconds since the Epoch when it will become visible.
 
         :return: The release_time of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: int
@@ -181,7 +181,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def release_time(self, release_time):
         """
         Sets the release_time of this DestinyDefinitionsDestinyActivityDefinition.
-        If the activity will not be visible until a specific and known time, this will be  the seconds since the Epoch when it will become visible.
+        If the activity will not be visible until a specific and known time, this will bethe seconds since the Epoch when it will become visible.
 
         :param release_time: The release_time of this DestinyDefinitionsDestinyActivityDefinition.
         :type: int
@@ -239,7 +239,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def destination_hash(self):
         """
         Gets the destination_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The hash identifier for the Destination on which this Activity is played.  Use it to look up  the DestinyDestinationDefinition for human readable info about the destination.  A Destination can be thought of as a more specific location than a \"Place\".  For instance,  if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
+        The hash identifier for the Destination on which this Activity is played.  Use it to look upthe DestinyDestinationDefinition for human readable info about the destination.A Destination can be thought of as a more specific location than a \"Place\".  For instance,if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
 
         :return: The destination_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: int
@@ -250,7 +250,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def destination_hash(self, destination_hash):
         """
         Sets the destination_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The hash identifier for the Destination on which this Activity is played.  Use it to look up  the DestinyDestinationDefinition for human readable info about the destination.  A Destination can be thought of as a more specific location than a \"Place\".  For instance,  if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
+        The hash identifier for the Destination on which this Activity is played.  Use it to look upthe DestinyDestinationDefinition for human readable info about the destination.A Destination can be thought of as a more specific location than a \"Place\".  For instance,if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
 
         :param destination_hash: The destination_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :type: int
@@ -262,7 +262,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def place_hash(self):
         """
         Gets the place_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The hash identifier for the \"Place\" on which this Activity is played.  Use it to look up  the DestinyPlaceDefinition for human readable info about the Place.  A Place is the largest-scoped concept for location information.  For instance,  if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
+        The hash identifier for the \"Place\" on which this Activity is played.  Use it to look upthe DestinyPlaceDefinition for human readable info about the Place.A Place is the largest-scoped concept for location information.  For instance,if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
 
         :return: The place_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: int
@@ -273,7 +273,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def place_hash(self, place_hash):
         """
         Sets the place_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The hash identifier for the \"Place\" on which this Activity is played.  Use it to look up  the DestinyPlaceDefinition for human readable info about the Place.  A Place is the largest-scoped concept for location information.  For instance,  if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
+        The hash identifier for the \"Place\" on which this Activity is played.  Use it to look upthe DestinyPlaceDefinition for human readable info about the Place.A Place is the largest-scoped concept for location information.  For instance,if the \"Place\" is Earth, the \"Destination\" would be a specific city or region on Earth.
 
         :param place_hash: The place_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :type: int
@@ -285,7 +285,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def activity_type_hash(self):
         """
         Gets the activity_type_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The hash identifier for the Activity Type of this Activity.  You may use it to look up  the DestinyActivityTypeDefinition for human readable info, but be forewarned: Playlists and  many PVP Map Activities will map to generic Activity Types.  You'll have to use your knowledge  of the Activity Mode being played to get more specific information about what the user is playing.
+        The hash identifier for the Activity Type of this Activity.  You may use it to look upthe DestinyActivityTypeDefinition for human readable info, but be forewarned: Playlists andmany PVP Map Activities will map to generic Activity Types.  You'll have to use your knowledgeof the Activity Mode being played to get more specific information about what the user is playing.
 
         :return: The activity_type_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: int
@@ -296,7 +296,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def activity_type_hash(self, activity_type_hash):
         """
         Sets the activity_type_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The hash identifier for the Activity Type of this Activity.  You may use it to look up  the DestinyActivityTypeDefinition for human readable info, but be forewarned: Playlists and  many PVP Map Activities will map to generic Activity Types.  You'll have to use your knowledge  of the Activity Mode being played to get more specific information about what the user is playing.
+        The hash identifier for the Activity Type of this Activity.  You may use it to look upthe DestinyActivityTypeDefinition for human readable info, but be forewarned: Playlists andmany PVP Map Activities will map to generic Activity Types.  You'll have to use your knowledgeof the Activity Mode being played to get more specific information about what the user is playing.
 
         :param activity_type_hash: The activity_type_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :type: int
@@ -331,7 +331,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def pgcr_image(self):
         """
         Gets the pgcr_image of this DestinyDefinitionsDestinyActivityDefinition.
-        When Activities are completed, we generate a \"Post-Game Carnage Report\", or PGCR, with details about  what happened in that activity (how many kills someone got, which team won, etc...)  We use this image  as the background when displaying PGCR information, and often use it when we refer to the Activity in general.
+        When Activities are completed, we generate a \"Post-Game Carnage Report\", or PGCR, with details aboutwhat happened in that activity (how many kills someone got, which team won, etc...)  We use this imageas the background when displaying PGCR information, and often use it when we refer to the Activity in general.
 
         :return: The pgcr_image of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: str
@@ -342,7 +342,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def pgcr_image(self, pgcr_image):
         """
         Sets the pgcr_image of this DestinyDefinitionsDestinyActivityDefinition.
-        When Activities are completed, we generate a \"Post-Game Carnage Report\", or PGCR, with details about  what happened in that activity (how many kills someone got, which team won, etc...)  We use this image  as the background when displaying PGCR information, and often use it when we refer to the Activity in general.
+        When Activities are completed, we generate a \"Post-Game Carnage Report\", or PGCR, with details aboutwhat happened in that activity (how many kills someone got, which team won, etc...)  We use this imageas the background when displaying PGCR information, and often use it when we refer to the Activity in general.
 
         :param pgcr_image: The pgcr_image of this DestinyDefinitionsDestinyActivityDefinition.
         :type: str
@@ -354,7 +354,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def rewards(self):
         """
         Gets the rewards of this DestinyDefinitionsDestinyActivityDefinition.
-        The expected possible rewards for the activity.  These rewards may or may not be accessible for an individual player  based on their character state, the account state, and even the game's state overall.  But it is a useful reference  for possible rewards you can earn in the activity.  These match up to rewards displayed when you hover over  the Activity in the in-game Director, and often refer to Placeholder or \"Dummy\" items: items that tell you   what you can earn in vague terms rather than what you'll specifically be earning (partly because the game  doesn't even know what you'll earn specifically until you roll for it at the end)
+        The expected possible rewards for the activity.  These rewards may or may not be accessible for an individual playerbased on their character state, the account state, and even the game's state overall.  But it is a useful referencefor possible rewards you can earn in the activity.  These match up to rewards displayed when you hover overthe Activity in the in-game Director, and often refer to Placeholder or \"Dummy\" items: items that tell you what you can earn in vague terms rather than what you'll specifically be earning (partly because the gamedoesn't even know what you'll earn specifically until you roll for it at the end)
 
         :return: The rewards of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: list[DestinyDefinitionsDestinyActivityRewardDefinition]
@@ -365,7 +365,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def rewards(self, rewards):
         """
         Sets the rewards of this DestinyDefinitionsDestinyActivityDefinition.
-        The expected possible rewards for the activity.  These rewards may or may not be accessible for an individual player  based on their character state, the account state, and even the game's state overall.  But it is a useful reference  for possible rewards you can earn in the activity.  These match up to rewards displayed when you hover over  the Activity in the in-game Director, and often refer to Placeholder or \"Dummy\" items: items that tell you   what you can earn in vague terms rather than what you'll specifically be earning (partly because the game  doesn't even know what you'll earn specifically until you roll for it at the end)
+        The expected possible rewards for the activity.  These rewards may or may not be accessible for an individual playerbased on their character state, the account state, and even the game's state overall.  But it is a useful referencefor possible rewards you can earn in the activity.  These match up to rewards displayed when you hover overthe Activity in the in-game Director, and often refer to Placeholder or \"Dummy\" items: items that tell you what you can earn in vague terms rather than what you'll specifically be earning (partly because the gamedoesn't even know what you'll earn specifically until you roll for it at the end)
 
         :param rewards: The rewards of this DestinyDefinitionsDestinyActivityDefinition.
         :type: list[DestinyDefinitionsDestinyActivityRewardDefinition]
@@ -377,7 +377,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def modifiers(self):
         """
         Gets the modifiers of this DestinyDefinitionsDestinyActivityDefinition.
-        Activities can have Modifiers, as defined in DestinyActivityModifierDefinition.  These are references  to the modifiers that *can* be applied to that activity, along with data that we use to determine if  that modifier is actually active at any given point in time.
+        Activities can have Modifiers, as defined in DestinyActivityModifierDefinition.  These are referencesto the modifiers that *can* be applied to that activity, along with data that we use to determine ifthat modifier is actually active at any given point in time.
 
         :return: The modifiers of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: list[DestinyDefinitionsDestinyActivityModifierReferenceDefinition]
@@ -388,7 +388,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def modifiers(self, modifiers):
         """
         Sets the modifiers of this DestinyDefinitionsDestinyActivityDefinition.
-        Activities can have Modifiers, as defined in DestinyActivityModifierDefinition.  These are references  to the modifiers that *can* be applied to that activity, along with data that we use to determine if  that modifier is actually active at any given point in time.
+        Activities can have Modifiers, as defined in DestinyActivityModifierDefinition.  These are referencesto the modifiers that *can* be applied to that activity, along with data that we use to determine ifthat modifier is actually active at any given point in time.
 
         :param modifiers: The modifiers of this DestinyDefinitionsDestinyActivityDefinition.
         :type: list[DestinyDefinitionsDestinyActivityModifierReferenceDefinition]
@@ -400,7 +400,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def is_playlist(self):
         """
         Gets the is_playlist of this DestinyDefinitionsDestinyActivityDefinition.
-        If True, this Activity is actually a Playlist that refers to multiple possible specific Activities and Activity  Modes.  For instance, a Crucible Playlist may have references to multiple Activities (Maps) with multiple Activity Modes  (specific PvP gameplay modes).  If this is true, refer to the playlistItems property for the specific entries  in the playlist.
+        If True, this Activity is actually a Playlist that refers to multiple possible specific Activities and ActivityModes.  For instance, a Crucible Playlist may have references to multiple Activities (Maps) with multiple Activity Modes(specific PvP gameplay modes).  If this is true, refer to the playlistItems property for the specific entriesin the playlist.
 
         :return: The is_playlist of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: bool
@@ -411,7 +411,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def is_playlist(self, is_playlist):
         """
         Sets the is_playlist of this DestinyDefinitionsDestinyActivityDefinition.
-        If True, this Activity is actually a Playlist that refers to multiple possible specific Activities and Activity  Modes.  For instance, a Crucible Playlist may have references to multiple Activities (Maps) with multiple Activity Modes  (specific PvP gameplay modes).  If this is true, refer to the playlistItems property for the specific entries  in the playlist.
+        If True, this Activity is actually a Playlist that refers to multiple possible specific Activities and ActivityModes.  For instance, a Crucible Playlist may have references to multiple Activities (Maps) with multiple Activity Modes(specific PvP gameplay modes).  If this is true, refer to the playlistItems property for the specific entriesin the playlist.
 
         :param is_playlist: The is_playlist of this DestinyDefinitionsDestinyActivityDefinition.
         :type: bool
@@ -423,7 +423,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def challenges(self):
         """
         Gets the challenges of this DestinyDefinitionsDestinyActivityDefinition.
-        An activity can have many Challenges, of which any subset of them may be active for play  at any given period of time.  This gives the information about the challenges and data  that we use to understand when they're active and what rewards they provide.  Sadly, at the moment there's no central definition for challenges: much like \"Skulls\" were  in Destiny 1, these are defined on individual activities and there can be many duplicates/near duplicates  across the Destiny 2 ecosystem.  I have it in mind to centralize these in a future revision of the API, but  we are out of time.
+        An activity can have many Challenges, of which any subset of them may be active for playat any given period of time.  This gives the information about the challenges and datathat we use to understand when they're active and what rewards they provide.Sadly, at the moment there's no central definition for challenges: much like \"Skulls\" werein Destiny 1, these are defined on individual activities and there can be many duplicates/near duplicatesacross the Destiny 2 ecosystem.  I have it in mind to centralize these in a future revision of the API, butwe are out of time.
 
         :return: The challenges of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: list[DestinyDefinitionsDestinyActivityChallengeDefinition]
@@ -434,7 +434,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def challenges(self, challenges):
         """
         Sets the challenges of this DestinyDefinitionsDestinyActivityDefinition.
-        An activity can have many Challenges, of which any subset of them may be active for play  at any given period of time.  This gives the information about the challenges and data  that we use to understand when they're active and what rewards they provide.  Sadly, at the moment there's no central definition for challenges: much like \"Skulls\" were  in Destiny 1, these are defined on individual activities and there can be many duplicates/near duplicates  across the Destiny 2 ecosystem.  I have it in mind to centralize these in a future revision of the API, but  we are out of time.
+        An activity can have many Challenges, of which any subset of them may be active for playat any given period of time.  This gives the information about the challenges and datathat we use to understand when they're active and what rewards they provide.Sadly, at the moment there's no central definition for challenges: much like \"Skulls\" werein Destiny 1, these are defined on individual activities and there can be many duplicates/near duplicatesacross the Destiny 2 ecosystem.  I have it in mind to centralize these in a future revision of the API, butwe are out of time.
 
         :param challenges: The challenges of this DestinyDefinitionsDestinyActivityDefinition.
         :type: list[DestinyDefinitionsDestinyActivityChallengeDefinition]
@@ -446,7 +446,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def optional_unlock_strings(self):
         """
         Gets the optional_unlock_strings of this DestinyDefinitionsDestinyActivityDefinition.
-        If there are status strings related to the activity and based on internal state of the game, account, or character,  then this will be the definition of those strings and the states needed in order for the strings to be shown.
+        If there are status strings related to the activity and based on internal state of the game, account, or character,then this will be the definition of those strings and the states needed in order for the strings to be shown.
 
         :return: The optional_unlock_strings of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: list[DestinyDefinitionsDestinyActivityUnlockStringDefinition]
@@ -457,7 +457,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def optional_unlock_strings(self, optional_unlock_strings):
         """
         Sets the optional_unlock_strings of this DestinyDefinitionsDestinyActivityDefinition.
-        If there are status strings related to the activity and based on internal state of the game, account, or character,  then this will be the definition of those strings and the states needed in order for the strings to be shown.
+        If there are status strings related to the activity and based on internal state of the game, account, or character,then this will be the definition of those strings and the states needed in order for the strings to be shown.
 
         :param optional_unlock_strings: The optional_unlock_strings of this DestinyDefinitionsDestinyActivityDefinition.
         :type: list[DestinyDefinitionsDestinyActivityUnlockStringDefinition]
@@ -469,7 +469,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def activity_graph_list(self):
         """
         Gets the activity_graph_list of this DestinyDefinitionsDestinyActivityDefinition.
-        Unfortunately, in practice this is almost never populated.  In theory, this is supposed to tell  which Activity Graph to show if you bring up the director while in this activity.
+        Unfortunately, in practice this is almost never populated.  In theory, this is supposed to tellwhich Activity Graph to show if you bring up the director while in this activity.
 
         :return: The activity_graph_list of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: list[DestinyDefinitionsDestinyActivityGraphListEntryDefinition]
@@ -480,7 +480,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def activity_graph_list(self, activity_graph_list):
         """
         Sets the activity_graph_list of this DestinyDefinitionsDestinyActivityDefinition.
-        Unfortunately, in practice this is almost never populated.  In theory, this is supposed to tell  which Activity Graph to show if you bring up the director while in this activity.
+        Unfortunately, in practice this is almost never populated.  In theory, this is supposed to tellwhich Activity Graph to show if you bring up the director while in this activity.
 
         :param activity_graph_list: The activity_graph_list of this DestinyDefinitionsDestinyActivityDefinition.
         :type: list[DestinyDefinitionsDestinyActivityGraphListEntryDefinition]
@@ -492,7 +492,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def activity_mode_hash(self):
         """
         Gets the activity_mode_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The Activity Mode for this activity.  Note that if this is a playlist, the specific playlist entry chosen  will determine the actual activity mode that ends up being played.
+        The Activity Mode for this activity.  Note that if this is a playlist, the specific playlist entry chosenwill determine the actual activity mode that ends up being played.
 
         :return: The activity_mode_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: int
@@ -503,7 +503,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def activity_mode_hash(self, activity_mode_hash):
         """
         Sets the activity_mode_hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The Activity Mode for this activity.  Note that if this is a playlist, the specific playlist entry chosen  will determine the actual activity mode that ends up being played.
+        The Activity Mode for this activity.  Note that if this is a playlist, the specific playlist entry chosenwill determine the actual activity mode that ends up being played.
 
         :param activity_mode_hash: The activity_mode_hash of this DestinyDefinitionsDestinyActivityDefinition.
         :type: int
@@ -538,7 +538,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: int
@@ -549,7 +549,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyActivityDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyActivityDefinition.
         :type: int
@@ -584,7 +584,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyActivityDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyActivityDefinition.
         :rtype: bool
@@ -595,7 +595,7 @@ class DestinyDefinitionsDestinyActivityDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyActivityDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyActivityDefinition.
         :type: bool

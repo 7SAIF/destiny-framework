@@ -57,7 +57,7 @@ class DestinyMilestonesDestinyPublicMilestoneQuest(object):
     def quest_item_hash(self):
         """
         Gets the quest_item_hash of this DestinyMilestonesDestinyPublicMilestoneQuest.
-        Quests are defined as Items in content.  As such, this is the hash identifier   of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the steps  in the quest, and display information for the quest (title, description, icon etc)  Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setData  property, and themselves are Items with their own renderable data.
+        Quests are defined as Items in content.  As such, this is the hash identifier of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the stepsin the quest, and display information for the quest (title, description, icon etc)Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setDataproperty, and themselves are Items with their own renderable data.
 
         :return: The quest_item_hash of this DestinyMilestonesDestinyPublicMilestoneQuest.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyMilestonesDestinyPublicMilestoneQuest(object):
     def quest_item_hash(self, quest_item_hash):
         """
         Sets the quest_item_hash of this DestinyMilestonesDestinyPublicMilestoneQuest.
-        Quests are defined as Items in content.  As such, this is the hash identifier   of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the steps  in the quest, and display information for the quest (title, description, icon etc)  Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setData  property, and themselves are Items with their own renderable data.
+        Quests are defined as Items in content.  As such, this is the hash identifier of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the stepsin the quest, and display information for the quest (title, description, icon etc)Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setDataproperty, and themselves are Items with their own renderable data.
 
         :param quest_item_hash: The quest_item_hash of this DestinyMilestonesDestinyPublicMilestoneQuest.
         :type: int
@@ -80,7 +80,7 @@ class DestinyMilestonesDestinyPublicMilestoneQuest(object):
     def challenges(self):
         """
         Gets the challenges of this DestinyMilestonesDestinyPublicMilestoneQuest.
-        For the given quest there could be 0-to-Many challenges: mini quests  that you can perform in the course of doing this quest, that may grant you rewards and benefits.
+        For the given quest there could be 0-to-Many challenges: mini queststhat you can perform in the course of doing this quest, that may grant you rewards and benefits.
 
         :return: The challenges of this DestinyMilestonesDestinyPublicMilestoneQuest.
         :rtype: list[DestinyMilestonesDestinyPublicMilestoneChallenge]
@@ -91,7 +91,7 @@ class DestinyMilestonesDestinyPublicMilestoneQuest(object):
     def challenges(self, challenges):
         """
         Sets the challenges of this DestinyMilestonesDestinyPublicMilestoneQuest.
-        For the given quest there could be 0-to-Many challenges: mini quests  that you can perform in the course of doing this quest, that may grant you rewards and benefits.
+        For the given quest there could be 0-to-Many challenges: mini queststhat you can perform in the course of doing this quest, that may grant you rewards and benefits.
 
         :param challenges: The challenges of this DestinyMilestonesDestinyPublicMilestoneQuest.
         :type: list[DestinyMilestonesDestinyPublicMilestoneChallenge]

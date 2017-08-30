@@ -87,7 +87,7 @@ class DestinyDefinitionsDestinyItemObjectiveBlockDefinition(object):
     def objective_hashes(self):
         """
         Gets the objective_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
-        The hashes to Objectives (DestinyObjectiveDefinition) that are part of this Quest Step, in the  order that they should be rendered.
+        The hashes to Objectives (DestinyObjectiveDefinition) that are part of this Quest Step, in theorder that they should be rendered.
 
         :return: The objective_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
         :rtype: list[int]
@@ -98,7 +98,7 @@ class DestinyDefinitionsDestinyItemObjectiveBlockDefinition(object):
     def objective_hashes(self, objective_hashes):
         """
         Sets the objective_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
-        The hashes to Objectives (DestinyObjectiveDefinition) that are part of this Quest Step, in the  order that they should be rendered.
+        The hashes to Objectives (DestinyObjectiveDefinition) that are part of this Quest Step, in theorder that they should be rendered.
 
         :param objective_hashes: The objective_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
         :type: list[int]
@@ -110,7 +110,7 @@ class DestinyDefinitionsDestinyItemObjectiveBlockDefinition(object):
     def display_activity_hashes(self):
         """
         Gets the display_activity_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
-        For every entry in objectiveHashes, there is a corresponding entry in this array  at the same index.  If the objective is meant to be associated with a specific DestinyActivityDefinition,  there will be a valid hash at that index.  Otherwise, it will be invalid (0).
+        For every entry in objectiveHashes, there is a corresponding entry in this arrayat the same index.  If the objective is meant to be associated with a specific DestinyActivityDefinition,there will be a valid hash at that index.  Otherwise, it will be invalid (0).
 
         :return: The display_activity_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
         :rtype: list[int]
@@ -121,7 +121,7 @@ class DestinyDefinitionsDestinyItemObjectiveBlockDefinition(object):
     def display_activity_hashes(self, display_activity_hashes):
         """
         Sets the display_activity_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
-        For every entry in objectiveHashes, there is a corresponding entry in this array  at the same index.  If the objective is meant to be associated with a specific DestinyActivityDefinition,  there will be a valid hash at that index.  Otherwise, it will be invalid (0).
+        For every entry in objectiveHashes, there is a corresponding entry in this arrayat the same index.  If the objective is meant to be associated with a specific DestinyActivityDefinition,there will be a valid hash at that index.  Otherwise, it will be invalid (0).
 
         :param display_activity_hashes: The display_activity_hashes of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
         :type: list[int]
@@ -133,7 +133,7 @@ class DestinyDefinitionsDestinyItemObjectiveBlockDefinition(object):
     def require_full_objective_completion(self):
         """
         Gets the require_full_objective_completion of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
-        If True, all objectives must be completed for the step to be completed.  If False, any one objective can be completed for the step to be completed.
+        If True, all objectives must be completed for the step to be completed.If False, any one objective can be completed for the step to be completed.
 
         :return: The require_full_objective_completion of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
         :rtype: bool
@@ -144,7 +144,7 @@ class DestinyDefinitionsDestinyItemObjectiveBlockDefinition(object):
     def require_full_objective_completion(self, require_full_objective_completion):
         """
         Sets the require_full_objective_completion of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
-        If True, all objectives must be completed for the step to be completed.  If False, any one objective can be completed for the step to be completed.
+        If True, all objectives must be completed for the step to be completed.If False, any one objective can be completed for the step to be completed.
 
         :param require_full_objective_completion: The require_full_objective_completion of this DestinyDefinitionsDestinyItemObjectiveBlockDefinition.
         :type: bool

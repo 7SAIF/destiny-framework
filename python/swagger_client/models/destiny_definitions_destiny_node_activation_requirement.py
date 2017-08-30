@@ -57,7 +57,7 @@ class DestinyDefinitionsDestinyNodeActivationRequirement(object):
     def grid_level(self):
         """
         Gets the grid_level of this DestinyDefinitionsDestinyNodeActivationRequirement.
-        The Progression level on the Talent Grid required to activate this node.    See DestinyTalentGridDefinition.progressionHash for the related Progression, and read  DestinyProgressionDefinition's documentation to learn more about Progressions.
+        The Progression level on the Talent Grid required to activate this node.  See DestinyTalentGridDefinition.progressionHash for the related Progression, and readDestinyProgressionDefinition's documentation to learn more about Progressions.
 
         :return: The grid_level of this DestinyDefinitionsDestinyNodeActivationRequirement.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsDestinyNodeActivationRequirement(object):
     def grid_level(self, grid_level):
         """
         Sets the grid_level of this DestinyDefinitionsDestinyNodeActivationRequirement.
-        The Progression level on the Talent Grid required to activate this node.    See DestinyTalentGridDefinition.progressionHash for the related Progression, and read  DestinyProgressionDefinition's documentation to learn more about Progressions.
+        The Progression level on the Talent Grid required to activate this node.  See DestinyTalentGridDefinition.progressionHash for the related Progression, and readDestinyProgressionDefinition's documentation to learn more about Progressions.
 
         :param grid_level: The grid_level of this DestinyDefinitionsDestinyNodeActivationRequirement.
         :type: int
@@ -80,7 +80,7 @@ class DestinyDefinitionsDestinyNodeActivationRequirement(object):
     def material_requirement_hashes(self):
         """
         Gets the material_requirement_hashes of this DestinyDefinitionsDestinyNodeActivationRequirement.
-        The list of hash identifiers for material requirement sets: materials that  are required for the node to be activated.  See DestinyMaterialRequirementSetDefinition for  more information about material requirements.    In this case, only a single DestinyMaterialRequirementSetDefinition will be chosen  from this list, and we won't know which one will be chosen until an instance of the item is created.
+        The list of hash identifiers for material requirement sets: materials thatare required for the node to be activated.  See DestinyMaterialRequirementSetDefinition formore information about material requirements.  In this case, only a single DestinyMaterialRequirementSetDefinition will be chosenfrom this list, and we won't know which one will be chosen until an instance of the item is created.
 
         :return: The material_requirement_hashes of this DestinyDefinitionsDestinyNodeActivationRequirement.
         :rtype: list[int]
@@ -91,7 +91,7 @@ class DestinyDefinitionsDestinyNodeActivationRequirement(object):
     def material_requirement_hashes(self, material_requirement_hashes):
         """
         Sets the material_requirement_hashes of this DestinyDefinitionsDestinyNodeActivationRequirement.
-        The list of hash identifiers for material requirement sets: materials that  are required for the node to be activated.  See DestinyMaterialRequirementSetDefinition for  more information about material requirements.    In this case, only a single DestinyMaterialRequirementSetDefinition will be chosen  from this list, and we won't know which one will be chosen until an instance of the item is created.
+        The list of hash identifiers for material requirement sets: materials thatare required for the node to be activated.  See DestinyMaterialRequirementSetDefinition formore information about material requirements.  In this case, only a single DestinyMaterialRequirementSetDefinition will be chosenfrom this list, and we won't know which one will be chosen until an instance of the item is created.
 
         :param material_requirement_hashes: The material_requirement_hashes of this DestinyDefinitionsDestinyNodeActivationRequirement.
         :type: list[int]

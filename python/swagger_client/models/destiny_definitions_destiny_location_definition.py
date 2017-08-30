@@ -72,7 +72,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def vendor_hash(self):
         """
         Gets the vendor_hash of this DestinyDefinitionsDestinyLocationDefinition.
-        If the location has a Vendor on it, this is the hash identifier for that Vendor.  Look them up with DestinyVendorDefinition.
+        If the location has a Vendor on it, this is the hash identifier for that Vendor.Look them up with DestinyVendorDefinition.
 
         :return: The vendor_hash of this DestinyDefinitionsDestinyLocationDefinition.
         :rtype: int
@@ -83,7 +83,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def vendor_hash(self, vendor_hash):
         """
         Sets the vendor_hash of this DestinyDefinitionsDestinyLocationDefinition.
-        If the location has a Vendor on it, this is the hash identifier for that Vendor.  Look them up with DestinyVendorDefinition.
+        If the location has a Vendor on it, this is the hash identifier for that Vendor.Look them up with DestinyVendorDefinition.
 
         :param vendor_hash: The vendor_hash of this DestinyDefinitionsDestinyLocationDefinition.
         :type: int
@@ -95,7 +95,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def location_releases(self):
         """
         Gets the location_releases of this DestinyDefinitionsDestinyLocationDefinition.
-        A Location may refer to different specific spots in the world based on the world's current state.  This is a list of those potential spots, and the data we can use at runtime to determine  which one of the spots is the currently valid one.
+        A Location may refer to different specific spots in the world based on the world's current state.This is a list of those potential spots, and the data we can use at runtime to determinewhich one of the spots is the currently valid one.
 
         :return: The location_releases of this DestinyDefinitionsDestinyLocationDefinition.
         :rtype: list[DestinyDefinitionsDestinyLocationReleaseDefinition]
@@ -106,7 +106,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def location_releases(self, location_releases):
         """
         Sets the location_releases of this DestinyDefinitionsDestinyLocationDefinition.
-        A Location may refer to different specific spots in the world based on the world's current state.  This is a list of those potential spots, and the data we can use at runtime to determine  which one of the spots is the currently valid one.
+        A Location may refer to different specific spots in the world based on the world's current state.This is a list of those potential spots, and the data we can use at runtime to determinewhich one of the spots is the currently valid one.
 
         :param location_releases: The location_releases of this DestinyDefinitionsDestinyLocationDefinition.
         :type: list[DestinyDefinitionsDestinyLocationReleaseDefinition]
@@ -118,7 +118,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyLocationDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyLocationDefinition.
         :rtype: int
@@ -129,7 +129,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyLocationDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyLocationDefinition.
         :type: int
@@ -164,7 +164,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyLocationDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyLocationDefinition.
         :rtype: bool
@@ -175,7 +175,7 @@ class DestinyDefinitionsDestinyLocationDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyLocationDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyLocationDefinition.
         :type: bool

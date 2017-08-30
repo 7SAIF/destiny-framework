@@ -254,7 +254,7 @@ class DestinyDefinitionsDestinyActivityModeDefinition(object):
     def display(self):
         """
         Gets the display of this DestinyDefinitionsDestinyActivityModeDefinition.
-        If FALSE, we want to ignore this type when we're showing activity modes in BNet UI.  It will still be returned in case  3rd parties want to use it for any purpose.
+        If FALSE, we want to ignore this type when we're showing activity modes in BNet UI.  It will still be returned in case3rd parties want to use it for any purpose.
 
         :return: The display of this DestinyDefinitionsDestinyActivityModeDefinition.
         :rtype: bool
@@ -265,7 +265,7 @@ class DestinyDefinitionsDestinyActivityModeDefinition(object):
     def display(self, display):
         """
         Sets the display of this DestinyDefinitionsDestinyActivityModeDefinition.
-        If FALSE, we want to ignore this type when we're showing activity modes in BNet UI.  It will still be returned in case  3rd parties want to use it for any purpose.
+        If FALSE, we want to ignore this type when we're showing activity modes in BNet UI.  It will still be returned in case3rd parties want to use it for any purpose.
 
         :param display: The display of this DestinyDefinitionsDestinyActivityModeDefinition.
         :type: bool
@@ -300,7 +300,7 @@ class DestinyDefinitionsDestinyActivityModeDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyActivityModeDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyActivityModeDefinition.
         :rtype: int
@@ -311,7 +311,7 @@ class DestinyDefinitionsDestinyActivityModeDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyActivityModeDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyActivityModeDefinition.
         :type: int
@@ -346,7 +346,7 @@ class DestinyDefinitionsDestinyActivityModeDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyActivityModeDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyActivityModeDefinition.
         :rtype: bool
@@ -357,7 +357,7 @@ class DestinyDefinitionsDestinyActivityModeDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyActivityModeDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyActivityModeDefinition.
         :type: bool

@@ -179,7 +179,7 @@ class DestinyDestinyActivity(object):
     def is_completed(self):
         """
         Gets the is_completed of this DestinyDestinyActivity.
-        If true, we both have the ability to know that the user has completed this activity and  they have completed it.  Unfortunately, we can't necessarily know this for all activities.  As such,  this should probably only be used if you already know in advance which specific activities you wish to check.
+        If true, we both have the ability to know that the user has completed this activity andthey have completed it.  Unfortunately, we can't necessarily know this for all activities.  As such,this should probably only be used if you already know in advance which specific activities you wish to check.
 
         :return: The is_completed of this DestinyDestinyActivity.
         :rtype: bool
@@ -190,7 +190,7 @@ class DestinyDestinyActivity(object):
     def is_completed(self, is_completed):
         """
         Sets the is_completed of this DestinyDestinyActivity.
-        If true, we both have the ability to know that the user has completed this activity and  they have completed it.  Unfortunately, we can't necessarily know this for all activities.  As such,  this should probably only be used if you already know in advance which specific activities you wish to check.
+        If true, we both have the ability to know that the user has completed this activity andthey have completed it.  Unfortunately, we can't necessarily know this for all activities.  As such,this should probably only be used if you already know in advance which specific activities you wish to check.
 
         :param is_completed: The is_completed of this DestinyDestinyActivity.
         :type: bool

@@ -57,7 +57,7 @@ class DestinyDefinitionsDestinyNodeSocketReplaceResponse(object):
     def socket_type_hash(self):
         """
         Gets the socket_type_hash of this DestinyDefinitionsDestinyNodeSocketReplaceResponse.
-        The hash identifier of the socket type to find amidst the item's sockets (the item to which this  talent grid is attached).  See DestinyInventoryItemDefinition.sockets.socketEntries to find  the socket type of sockets on the item in question.
+        The hash identifier of the socket type to find amidst the item's sockets (the item to which thistalent grid is attached).  See DestinyInventoryItemDefinition.sockets.socketEntries to findthe socket type of sockets on the item in question.
 
         :return: The socket_type_hash of this DestinyDefinitionsDestinyNodeSocketReplaceResponse.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsDestinyNodeSocketReplaceResponse(object):
     def socket_type_hash(self, socket_type_hash):
         """
         Sets the socket_type_hash of this DestinyDefinitionsDestinyNodeSocketReplaceResponse.
-        The hash identifier of the socket type to find amidst the item's sockets (the item to which this  talent grid is attached).  See DestinyInventoryItemDefinition.sockets.socketEntries to find  the socket type of sockets on the item in question.
+        The hash identifier of the socket type to find amidst the item's sockets (the item to which thistalent grid is attached).  See DestinyInventoryItemDefinition.sockets.socketEntries to findthe socket type of sockets on the item in question.
 
         :param socket_type_hash: The socket_type_hash of this DestinyDefinitionsDestinyNodeSocketReplaceResponse.
         :type: int

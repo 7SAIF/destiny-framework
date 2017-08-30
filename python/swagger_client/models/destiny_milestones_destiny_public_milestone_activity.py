@@ -62,7 +62,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivity(object):
     def activity_hash(self):
         """
         Gets the activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivity.
-        The hash identifier of the activity that's been chosen to be considered the canonical   \"conceptual\" activity definition.  This may have many variants, defined herein.
+        The hash identifier of the activity that's been chosen to be considered the canonical \"conceptual\" activity definition.  This may have many variants, defined herein.
 
         :return: The activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivity.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivity(object):
     def activity_hash(self, activity_hash):
         """
         Sets the activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivity.
-        The hash identifier of the activity that's been chosen to be considered the canonical   \"conceptual\" activity definition.  This may have many variants, defined herein.
+        The hash identifier of the activity that's been chosen to be considered the canonical \"conceptual\" activity definition.  This may have many variants, defined herein.
 
         :param activity_hash: The activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivity.
         :type: int
@@ -85,7 +85,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivity(object):
     def modifier_hashes(self):
         """
         Gets the modifier_hashes of this DestinyMilestonesDestinyPublicMilestoneActivity.
-        The activity may have 0-to-many modifiers: if it does, this will contain the hashes  to the DestinyActivityModifierDefinition that defines the modifier being applied.
+        The activity may have 0-to-many modifiers: if it does, this will contain the hashesto the DestinyActivityModifierDefinition that defines the modifier being applied.
 
         :return: The modifier_hashes of this DestinyMilestonesDestinyPublicMilestoneActivity.
         :rtype: list[int]
@@ -96,7 +96,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivity(object):
     def modifier_hashes(self, modifier_hashes):
         """
         Sets the modifier_hashes of this DestinyMilestonesDestinyPublicMilestoneActivity.
-        The activity may have 0-to-many modifiers: if it does, this will contain the hashes  to the DestinyActivityModifierDefinition that defines the modifier being applied.
+        The activity may have 0-to-many modifiers: if it does, this will contain the hashesto the DestinyActivityModifierDefinition that defines the modifier being applied.
 
         :param modifier_hashes: The modifier_hashes of this DestinyMilestonesDestinyPublicMilestoneActivity.
         :type: list[int]
@@ -108,7 +108,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivity(object):
     def variants(self):
         """
         Gets the variants of this DestinyMilestonesDestinyPublicMilestoneActivity.
-        Every relevant variation of this conceptual activity, including the conceptual activity itself,  have variants defined here.
+        Every relevant variation of this conceptual activity, including the conceptual activity itself,have variants defined here.
 
         :return: The variants of this DestinyMilestonesDestinyPublicMilestoneActivity.
         :rtype: list[DestinyMilestonesDestinyPublicMilestoneActivityVariant]
@@ -119,7 +119,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivity(object):
     def variants(self, variants):
         """
         Sets the variants of this DestinyMilestonesDestinyPublicMilestoneActivity.
-        Every relevant variation of this conceptual activity, including the conceptual activity itself,  have variants defined here.
+        Every relevant variation of this conceptual activity, including the conceptual activity itself,have variants defined here.
 
         :param variants: The variants of this DestinyMilestonesDestinyPublicMilestoneActivity.
         :type: list[DestinyMilestonesDestinyPublicMilestoneActivityVariant]

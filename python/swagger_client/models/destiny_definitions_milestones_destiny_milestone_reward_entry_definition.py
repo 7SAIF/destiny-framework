@@ -72,7 +72,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition(object):
     def reward_entry_hash(self):
         """
         Gets the reward_entry_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
-        The identifier for this reward entry.  Runtime data will refer to reward entries  by this hash.  Only guaranteed unique within the specific Milestone.
+        The identifier for this reward entry.  Runtime data will refer to reward entriesby this hash.  Only guaranteed unique within the specific Milestone.
 
         :return: The reward_entry_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
         :rtype: int
@@ -83,7 +83,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition(object):
     def reward_entry_hash(self, reward_entry_hash):
         """
         Sets the reward_entry_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
-        The identifier for this reward entry.  Runtime data will refer to reward entries  by this hash.  Only guaranteed unique within the specific Milestone.
+        The identifier for this reward entry.  Runtime data will refer to reward entriesby this hash.  Only guaranteed unique within the specific Milestone.
 
         :param reward_entry_hash: The reward_entry_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
         :type: int
@@ -141,7 +141,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition(object):
     def vendor_hash(self):
         """
         Gets the vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
-        If this reward is redeemed at a Vendor, this is the hash of the Vendor to go to in order  to redeem the reward.  Use this hash to look up the DestinyVendorDefinition.
+        If this reward is redeemed at a Vendor, this is the hash of the Vendor to go to in orderto redeem the reward.  Use this hash to look up the DestinyVendorDefinition.
 
         :return: The vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
         :rtype: int
@@ -152,7 +152,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition(object):
     def vendor_hash(self, vendor_hash):
         """
         Sets the vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
-        If this reward is redeemed at a Vendor, this is the hash of the Vendor to go to in order  to redeem the reward.  Use this hash to look up the DestinyVendorDefinition.
+        If this reward is redeemed at a Vendor, this is the hash of the Vendor to go to in orderto redeem the reward.  Use this hash to look up the DestinyVendorDefinition.
 
         :param vendor_hash: The vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
         :type: int
@@ -164,7 +164,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition(object):
     def order(self):
         """
         Gets the order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
-        If you want to follow BNet's ordering of these rewards, use this number within a given category  to order the rewards.  Yeah, I know.  I feel dirty too.
+        If you want to follow BNet's ordering of these rewards, use this number within a given categoryto order the rewards.  Yeah, I know.  I feel dirty too.
 
         :return: The order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
         :rtype: int
@@ -175,7 +175,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition(object):
     def order(self, order):
         """
         Sets the order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
-        If you want to follow BNet's ordering of these rewards, use this number within a given category  to order the rewards.  Yeah, I know.  I feel dirty too.
+        If you want to follow BNet's ordering of these rewards, use this number within a given categoryto order the rewards.  Yeah, I know.  I feel dirty too.
 
         :param order: The order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition.
         :type: int

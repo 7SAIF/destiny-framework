@@ -77,7 +77,7 @@ class DestinyDefinitionsSocketsDestinySocketTypeDefinition(object):
     def plug_whitelist(self):
         """
         Gets the plug_whitelist of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
-        A list of Plug \"Categories\" that are allowed to be plugged into sockets of this type.    These should be compared against a given plug item's DestinyInventoryItemDefinition.plug.plugCategoryHash,  which indicates the plug item's category.    If the plug's category matches any whitelisted plug, or if the whitelist is empty, it is allowed to be inserted.
+        A list of Plug \"Categories\" that are allowed to be plugged into sockets of this type.  These should be compared against a given plug item's DestinyInventoryItemDefinition.plug.plugCategoryHash,which indicates the plug item's category.  If the plug's category matches any whitelisted plug, or if the whitelist is empty, it is allowed to be inserted.
 
         :return: The plug_whitelist of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
         :rtype: list[DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition]
@@ -88,7 +88,7 @@ class DestinyDefinitionsSocketsDestinySocketTypeDefinition(object):
     def plug_whitelist(self, plug_whitelist):
         """
         Sets the plug_whitelist of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
-        A list of Plug \"Categories\" that are allowed to be plugged into sockets of this type.    These should be compared against a given plug item's DestinyInventoryItemDefinition.plug.plugCategoryHash,  which indicates the plug item's category.    If the plug's category matches any whitelisted plug, or if the whitelist is empty, it is allowed to be inserted.
+        A list of Plug \"Categories\" that are allowed to be plugged into sockets of this type.  These should be compared against a given plug item's DestinyInventoryItemDefinition.plug.plugCategoryHash,which indicates the plug item's category.  If the plug's category matches any whitelisted plug, or if the whitelist is empty, it is allowed to be inserted.
 
         :param plug_whitelist: The plug_whitelist of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
         :type: list[DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition]
@@ -142,7 +142,7 @@ class DestinyDefinitionsSocketsDestinySocketTypeDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
         :rtype: int
@@ -153,7 +153,7 @@ class DestinyDefinitionsSocketsDestinySocketTypeDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
         :type: int
@@ -188,7 +188,7 @@ class DestinyDefinitionsSocketsDestinySocketTypeDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
         :rtype: bool
@@ -199,7 +199,7 @@ class DestinyDefinitionsSocketsDestinySocketTypeDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsSocketsDestinySocketTypeDefinition.
         :type: bool

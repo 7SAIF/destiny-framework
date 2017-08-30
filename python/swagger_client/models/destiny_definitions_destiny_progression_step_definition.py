@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyProgressionStepDefinition(object):
     def step_name(self):
         """
         Gets the step_name of this DestinyDefinitionsDestinyProgressionStepDefinition.
-        Very rarely, Progressions will have localized text describing the Level of the progression.  This will be that localized text, if it exists.  Otherwise, the standard appears to be  to simply show the level numerically.
+        Very rarely, Progressions will have localized text describing the Level of the progression.This will be that localized text, if it exists.  Otherwise, the standard appears to beto simply show the level numerically.
 
         :return: The step_name of this DestinyDefinitionsDestinyProgressionStepDefinition.
         :rtype: str
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyProgressionStepDefinition(object):
     def step_name(self, step_name):
         """
         Sets the step_name of this DestinyDefinitionsDestinyProgressionStepDefinition.
-        Very rarely, Progressions will have localized text describing the Level of the progression.  This will be that localized text, if it exists.  Otherwise, the standard appears to be  to simply show the level numerically.
+        Very rarely, Progressions will have localized text describing the Level of the progression.This will be that localized text, if it exists.  Otherwise, the standard appears to beto simply show the level numerically.
 
         :param step_name: The step_name of this DestinyDefinitionsDestinyProgressionStepDefinition.
         :type: str
@@ -85,7 +85,7 @@ class DestinyDefinitionsDestinyProgressionStepDefinition(object):
     def progress_total(self):
         """
         Gets the progress_total of this DestinyDefinitionsDestinyProgressionStepDefinition.
-        The total amount of progression points/\"experience\" you will need to initially reach this step.  If this is the last step and the progression is repeating indefinitely (DestinyProgressionDefinition.repeatLastStep),  this will also be the progress needed to level it up further by repeating this step again.
+        The total amount of progression points/\"experience\" you will need to initially reach this step.If this is the last step and the progression is repeating indefinitely (DestinyProgressionDefinition.repeatLastStep),this will also be the progress needed to level it up further by repeating this step again.
 
         :return: The progress_total of this DestinyDefinitionsDestinyProgressionStepDefinition.
         :rtype: int
@@ -96,7 +96,7 @@ class DestinyDefinitionsDestinyProgressionStepDefinition(object):
     def progress_total(self, progress_total):
         """
         Sets the progress_total of this DestinyDefinitionsDestinyProgressionStepDefinition.
-        The total amount of progression points/\"experience\" you will need to initially reach this step.  If this is the last step and the progression is repeating indefinitely (DestinyProgressionDefinition.repeatLastStep),  this will also be the progress needed to level it up further by repeating this step again.
+        The total amount of progression points/\"experience\" you will need to initially reach this step.If this is the last step and the progression is repeating indefinitely (DestinyProgressionDefinition.repeatLastStep),this will also be the progress needed to level it up further by repeating this step again.
 
         :param progress_total: The progress_total of this DestinyDefinitionsDestinyProgressionStepDefinition.
         :type: int

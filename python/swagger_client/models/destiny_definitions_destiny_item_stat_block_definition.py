@@ -67,7 +67,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def stat_group_hash(self):
         """
         Gets the stat_group_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        If the item's stats are meant to be modified by a DestinyStatGroupDefinition, this will  be the identifier for that definition.    If you are using live data or precomputed stats data on the DestinyInventoryItemDefinition.stats.stats  property, you don't have to worry about statGroupHash and how it alters stats: the already altered  stats are provided to you.  But if you want to see how the sausage gets made, or perform computations  yourself, this is valuable information.
+        If the item's stats are meant to be modified by a DestinyStatGroupDefinition, this willbe the identifier for that definition.  If you are using live data or precomputed stats data on the DestinyInventoryItemDefinition.stats.statsproperty, you don't have to worry about statGroupHash and how it alters stats: the already alteredstats are provided to you.  But if you want to see how the sausage gets made, or perform computationsyourself, this is valuable information.
 
         :return: The stat_group_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :rtype: int
@@ -78,7 +78,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def stat_group_hash(self, stat_group_hash):
         """
         Sets the stat_group_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        If the item's stats are meant to be modified by a DestinyStatGroupDefinition, this will  be the identifier for that definition.    If you are using live data or precomputed stats data on the DestinyInventoryItemDefinition.stats.stats  property, you don't have to worry about statGroupHash and how it alters stats: the already altered  stats are provided to you.  But if you want to see how the sausage gets made, or perform computations  yourself, this is valuable information.
+        If the item's stats are meant to be modified by a DestinyStatGroupDefinition, this willbe the identifier for that definition.  If you are using live data or precomputed stats data on the DestinyInventoryItemDefinition.stats.statsproperty, you don't have to worry about statGroupHash and how it alters stats: the already alteredstats are provided to you.  But if you want to see how the sausage gets made, or perform computationsyourself, this is valuable information.
 
         :param stat_group_hash: The stat_group_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :type: int
@@ -90,7 +90,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def stats(self):
         """
         Gets the stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        If you are looking for precomputed values for the stats on a weapon, this is where they are stored.  Technically these are the \"Display\" stat values.  Please see DestinyStatsDefinition for what  Display Stat Values means, it's a very long story... but essentially these are the closest values  BNet can get to the item stats that you see in-game.     These stats are keyed by the DestinyStatDefinition's hash identifier for the stat  that's found on the item.
+        If you are looking for precomputed values for the stats on a weapon, this is where they are stored.Technically these are the \"Display\" stat values.  Please see DestinyStatsDefinition for whatDisplay Stat Values means, it's a very long story... but essentially these are the closest valuesBNet can get to the item stats that you see in-game.  These stats are keyed by the DestinyStatDefinition's hash identifier for the statthat's found on the item.
 
         :return: The stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :rtype: dict(str, DestinyDefinitionsDestinyInventoryItemStatDefinition)
@@ -101,7 +101,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def stats(self, stats):
         """
         Sets the stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        If you are looking for precomputed values for the stats on a weapon, this is where they are stored.  Technically these are the \"Display\" stat values.  Please see DestinyStatsDefinition for what  Display Stat Values means, it's a very long story... but essentially these are the closest values  BNet can get to the item stats that you see in-game.     These stats are keyed by the DestinyStatDefinition's hash identifier for the stat  that's found on the item.
+        If you are looking for precomputed values for the stats on a weapon, this is where they are stored.Technically these are the \"Display\" stat values.  Please see DestinyStatsDefinition for whatDisplay Stat Values means, it's a very long story... but essentially these are the closest valuesBNet can get to the item stats that you see in-game.  These stats are keyed by the DestinyStatDefinition's hash identifier for the statthat's found on the item.
 
         :param stats: The stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :type: dict(str, DestinyDefinitionsDestinyInventoryItemStatDefinition)
@@ -113,7 +113,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def has_displayable_stats(self):
         """
         Gets the has_displayable_stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        A quick and lazy way to determine whether any stat other than the \"primary\" stat is actually  visible on the item.  Items often have stats that we return in case people find them useful, but  they're not part of the \"Stat Group\" and thus we wouldn't display them in our UI.  If this is False,  then we're not going to display any of these stats other than the primary one.
+        A quick and lazy way to determine whether any stat other than the \"primary\" stat is actuallyvisible on the item.  Items often have stats that we return in case people find them useful, butthey're not part of the \"Stat Group\" and thus we wouldn't display them in our UI.  If this is False,then we're not going to display any of these stats other than the primary one.
 
         :return: The has_displayable_stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :rtype: bool
@@ -124,7 +124,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def has_displayable_stats(self, has_displayable_stats):
         """
         Sets the has_displayable_stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        A quick and lazy way to determine whether any stat other than the \"primary\" stat is actually  visible on the item.  Items often have stats that we return in case people find them useful, but  they're not part of the \"Stat Group\" and thus we wouldn't display them in our UI.  If this is False,  then we're not going to display any of these stats other than the primary one.
+        A quick and lazy way to determine whether any stat other than the \"primary\" stat is actuallyvisible on the item.  Items often have stats that we return in case people find them useful, butthey're not part of the \"Stat Group\" and thus we wouldn't display them in our UI.  If this is False,then we're not going to display any of these stats other than the primary one.
 
         :param has_displayable_stats: The has_displayable_stats of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :type: bool
@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def primary_base_stat_hash(self):
         """
         Gets the primary_base_stat_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        This stat is determined to be the \"primary\" stat, and can be looked up in the stats or any  other stat collection related to the item.    Use this hash to look up the stat's value using DestinyInventoryItemDefinition.stats.stats,  and the renderable data for the primary stat in the related DestinyStatDefinition.
+        This stat is determined to be the \"primary\" stat, and can be looked up in the stats or anyother stat collection related to the item.  Use this hash to look up the stat's value using DestinyInventoryItemDefinition.stats.stats,and the renderable data for the primary stat in the related DestinyStatDefinition.
 
         :return: The primary_base_stat_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :rtype: int
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyItemStatBlockDefinition(object):
     def primary_base_stat_hash(self, primary_base_stat_hash):
         """
         Sets the primary_base_stat_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
-        This stat is determined to be the \"primary\" stat, and can be looked up in the stats or any  other stat collection related to the item.    Use this hash to look up the stat's value using DestinyInventoryItemDefinition.stats.stats,  and the renderable data for the primary stat in the related DestinyStatDefinition.
+        This stat is determined to be the \"primary\" stat, and can be looked up in the stats or anyother stat collection related to the item.  Use this hash to look up the stat's value using DestinyInventoryItemDefinition.stats.stats,and the renderable data for the primary stat in the related DestinyStatDefinition.
 
         :param primary_base_stat_hash: The primary_base_stat_hash of this DestinyDefinitionsDestinyItemStatBlockDefinition.
         :type: int

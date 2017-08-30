@@ -1,6 +1,6 @@
 # swagger_client.UserApi
 
-All URIs are relative to *https://https://bungie.net/Platform*
+All URIs are relative to *https://bungie.net/Platform*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -121,7 +121,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = swagger_client.UserApi()
 membership_id = 789 # int | The membership ID of the target user.
-membership_type = 'membership_type_example' # str | Type of the supplied membership ID.
+membership_type = 56 # int | Type of the supplied membership ID.
 
 try: 
     api_response = api_instance.user_get_membership_data_by_id(membership_id, membership_type)
@@ -135,7 +135,7 @@ except ApiException as e:
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **membership_id** | **int**| The membership ID of the target user. | 
- **membership_type** | **str**| Type of the supplied membership ID. | 
+ **membership_type** | **int**| Type of the supplied membership ID. | 
 
 ### Return type
 
@@ -293,7 +293,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **user_search_users**
-> InlineResponse2002 user_search_users(search, q=q)
+> InlineResponse2002 user_search_users(q=q)
 
 
 
@@ -309,11 +309,10 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = swagger_client.UserApi()
-search = 'search_example' # str | The search string.
-q = 'q_example' # str |  (optional)
+q = 'q_example' # str | The search string. (optional)
 
 try: 
-    api_response = api_instance.user_search_users(search, q=q)
+    api_response = api_instance.user_search_users(q=q)
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling UserApi->user_search_users: %s\n" % e)
@@ -323,8 +322,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **search** | **str**| The search string. | 
- **q** | **str**|  | [optional] 
+ **q** | **str**| The search string. | [optional] 
 
 ### Return type
 

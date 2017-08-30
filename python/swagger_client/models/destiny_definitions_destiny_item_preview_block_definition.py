@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyItemPreviewBlockDefinition(object):
     def preview_vendor_hash(self):
         """
         Gets the preview_vendor_hash of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
-        If the preview data is derived from a fake \"Preview\" Vendor, this will  be the hash identifier for the DestinyVendorDefinition of that fake vendor.
+        If the preview data is derived from a fake \"Preview\" Vendor, this willbe the hash identifier for the DestinyVendorDefinition of that fake vendor.
 
         :return: The preview_vendor_hash of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyItemPreviewBlockDefinition(object):
     def preview_vendor_hash(self, preview_vendor_hash):
         """
         Sets the preview_vendor_hash of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
-        If the preview data is derived from a fake \"Preview\" Vendor, this will  be the hash identifier for the DestinyVendorDefinition of that fake vendor.
+        If the preview data is derived from a fake \"Preview\" Vendor, this willbe the hash identifier for the DestinyVendorDefinition of that fake vendor.
 
         :param preview_vendor_hash: The preview_vendor_hash of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
         :type: int
@@ -85,7 +85,7 @@ class DestinyDefinitionsDestinyItemPreviewBlockDefinition(object):
     def preview_action_string(self):
         """
         Gets the preview_action_string of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
-        If the preview has an associated action (like \"Open\"), this will be the localized  string for that action.
+        If the preview has an associated action (like \"Open\"), this will be the localizedstring for that action.
 
         :return: The preview_action_string of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
         :rtype: str
@@ -96,7 +96,7 @@ class DestinyDefinitionsDestinyItemPreviewBlockDefinition(object):
     def preview_action_string(self, preview_action_string):
         """
         Sets the preview_action_string of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
-        If the preview has an associated action (like \"Open\"), this will be the localized  string for that action.
+        If the preview has an associated action (like \"Open\"), this will be the localizedstring for that action.
 
         :param preview_action_string: The preview_action_string of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
         :type: str
@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyItemPreviewBlockDefinition(object):
     def derived_item_categories(self):
         """
         Gets the derived_item_categories of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
-        This is a list of the items being previewed, categorized in the same way as they are  in the preview UI.
+        This is a list of the items being previewed, categorized in the same way as they arein the preview UI.
 
         :return: The derived_item_categories of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
         :rtype: list[DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition]
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyItemPreviewBlockDefinition(object):
     def derived_item_categories(self, derived_item_categories):
         """
         Sets the derived_item_categories of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
-        This is a list of the items being previewed, categorized in the same way as they are  in the preview UI.
+        This is a list of the items being previewed, categorized in the same way as they arein the preview UI.
 
         :param derived_item_categories: The derived_item_categories of this DestinyDefinitionsDestinyItemPreviewBlockDefinition.
         :type: list[DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition]

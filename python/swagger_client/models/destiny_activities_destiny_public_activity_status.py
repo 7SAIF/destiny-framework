@@ -108,7 +108,7 @@ class DestinyActivitiesDestinyPublicActivityStatus(object):
     def reward_tooltip_items(self):
         """
         Gets the reward_tooltip_items of this DestinyActivitiesDestinyPublicActivityStatus.
-        If the activity itself provides any specific \"mock\" rewards, this will be the items and their quantity.    Why \"mock\", you ask?  Because these are the rewards as they are represented in the tooltip of the Activity.    These are often pointers to fake items that look good in a tooltip, but represent an abstract concept of   what you will get for a reward rather than the specific items you may obtain.
+        If the activity itself provides any specific \"mock\" rewards, this will be the items and their quantity.  Why \"mock\", you ask?  Because these are the rewards as they are represented in the tooltip of the Activity.  These are often pointers to fake items that look good in a tooltip, but represent an abstract concept of what you will get for a reward rather than the specific items you may obtain.
 
         :return: The reward_tooltip_items of this DestinyActivitiesDestinyPublicActivityStatus.
         :rtype: list[DestinyDestinyItemQuantity]
@@ -119,7 +119,7 @@ class DestinyActivitiesDestinyPublicActivityStatus(object):
     def reward_tooltip_items(self, reward_tooltip_items):
         """
         Sets the reward_tooltip_items of this DestinyActivitiesDestinyPublicActivityStatus.
-        If the activity itself provides any specific \"mock\" rewards, this will be the items and their quantity.    Why \"mock\", you ask?  Because these are the rewards as they are represented in the tooltip of the Activity.    These are often pointers to fake items that look good in a tooltip, but represent an abstract concept of   what you will get for a reward rather than the specific items you may obtain.
+        If the activity itself provides any specific \"mock\" rewards, this will be the items and their quantity.  Why \"mock\", you ask?  Because these are the rewards as they are represented in the tooltip of the Activity.  These are often pointers to fake items that look good in a tooltip, but represent an abstract concept of what you will get for a reward rather than the specific items you may obtain.
 
         :param reward_tooltip_items: The reward_tooltip_items of this DestinyActivitiesDestinyPublicActivityStatus.
         :type: list[DestinyDestinyItemQuantity]

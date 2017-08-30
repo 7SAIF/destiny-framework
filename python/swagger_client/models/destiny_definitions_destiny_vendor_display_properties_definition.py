@@ -124,7 +124,7 @@ class DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition(object):
     def requirements_display(self):
         """
         Gets the requirements_display of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
-        Vendors, in addition to expected display property data, may also show  some \"common requirements\" as statically defined definition data.  This might be when  a vendor accepts a single type of currency, or when the currency is unique to the vendor  and the designers wanted to show that currency when you interact with the vendor.
+        Vendors, in addition to expected display property data, may also showsome \"common requirements\" as statically defined definition data.  This might be whena vendor accepts a single type of currency, or when the currency is unique to the vendorand the designers wanted to show that currency when you interact with the vendor.
 
         :return: The requirements_display of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorRequirementDisplayEntryDefinition]
@@ -135,7 +135,7 @@ class DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition(object):
     def requirements_display(self, requirements_display):
         """
         Sets the requirements_display of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
-        Vendors, in addition to expected display property data, may also show  some \"common requirements\" as statically defined definition data.  This might be when  a vendor accepts a single type of currency, or when the currency is unique to the vendor  and the designers wanted to show that currency when you interact with the vendor.
+        Vendors, in addition to expected display property data, may also showsome \"common requirements\" as statically defined definition data.  This might be whena vendor accepts a single type of currency, or when the currency is unique to the vendorand the designers wanted to show that currency when you interact with the vendor.
 
         :param requirements_display: The requirements_display of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
         :type: list[DestinyDefinitionsDestinyVendorRequirementDisplayEntryDefinition]
@@ -189,7 +189,7 @@ class DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition(object):
     def icon(self):
         """
         Gets the icon of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
-        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.  For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.    But usually, it will be a small square image that you can use as... well, an icon.
+        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.  But usually, it will be a small square image that you can use as... well, an icon.
 
         :return: The icon of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
         :rtype: str
@@ -200,7 +200,7 @@ class DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition(object):
     def icon(self, icon):
         """
         Sets the icon of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
-        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.  For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.    But usually, it will be a small square image that you can use as... well, an icon.
+        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.  But usually, it will be a small square image that you can use as... well, an icon.
 
         :param icon: The icon of this DestinyDefinitionsDestinyVendorDisplayPropertiesDefinition.
         :type: str

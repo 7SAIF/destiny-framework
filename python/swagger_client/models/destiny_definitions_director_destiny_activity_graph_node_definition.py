@@ -85,7 +85,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition(object):
     def featuring_states(self):
         """
         Gets the featuring_states of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
-        The node may have various visual accents placed on it, or styles applied.  These are the list of possible styles  that the Node can have.  The game iterates through each, looking for the first one that passes a check of the required  game/character/account state in order to show that style, and then renders the node in that style.
+        The node may have various visual accents placed on it, or styles applied.  These are the list of possible stylesthat the Node can have.  The game iterates through each, looking for the first one that passes a check of the requiredgame/character/account state in order to show that style, and then renders the node in that style.
 
         :return: The featuring_states of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
         :rtype: list[DestinyDefinitionsDirectorDestinyActivityGraphNodeFeaturingStateDefinition]
@@ -96,7 +96,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition(object):
     def featuring_states(self, featuring_states):
         """
         Sets the featuring_states of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
-        The node may have various visual accents placed on it, or styles applied.  These are the list of possible styles  that the Node can have.  The game iterates through each, looking for the first one that passes a check of the required  game/character/account state in order to show that style, and then renders the node in that style.
+        The node may have various visual accents placed on it, or styles applied.  These are the list of possible stylesthat the Node can have.  The game iterates through each, looking for the first one that passes a check of the requiredgame/character/account state in order to show that style, and then renders the node in that style.
 
         :param featuring_states: The featuring_states of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
         :type: list[DestinyDefinitionsDirectorDestinyActivityGraphNodeFeaturingStateDefinition]
@@ -108,7 +108,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition(object):
     def activities(self):
         """
         Gets the activities of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
-        The node may have various possible activities that could be active for it, however only one may be active  at a time.  See the DestinyActivityGraphNodeActivityDefinition for details.
+        The node may have various possible activities that could be active for it, however only one may be activeat a time.  See the DestinyActivityGraphNodeActivityDefinition for details.
 
         :return: The activities of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
         :rtype: list[DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition]
@@ -119,7 +119,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition(object):
     def activities(self, activities):
         """
         Sets the activities of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
-        The node may have various possible activities that could be active for it, however only one may be active  at a time.  See the DestinyActivityGraphNodeActivityDefinition for details.
+        The node may have various possible activities that could be active for it, however only one may be activeat a time.  See the DestinyActivityGraphNodeActivityDefinition for details.
 
         :param activities: The activities of this DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition.
         :type: list[DestinyDefinitionsDirectorDestinyActivityGraphNodeActivityDefinition]

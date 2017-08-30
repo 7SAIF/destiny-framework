@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition(object):
     def suppress_newness(self):
         """
         Gets the suppress_newness of this DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition.
-        If this is true, don't show any of the glistening \"this is a new item\" UI elements, like we show on the inventory items  themselves in in-game UI.
+        If this is true, don't show any of the glistening \"this is a new item\" UI elements, like we show on the inventory itemsthemselves in in-game UI.
 
         :return: The suppress_newness of this DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition.
         :rtype: bool
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition(object):
     def suppress_newness(self, suppress_newness):
         """
         Sets the suppress_newness of this DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition.
-        If this is true, don't show any of the glistening \"this is a new item\" UI elements, like we show on the inventory items  themselves in in-game UI.
+        If this is true, don't show any of the glistening \"this is a new item\" UI elements, like we show on the inventory itemsthemselves in in-game UI.
 
         :param suppress_newness: The suppress_newness of this DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition.
         :type: bool

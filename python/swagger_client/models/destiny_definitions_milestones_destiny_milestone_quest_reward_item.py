@@ -72,7 +72,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem(object):
     def vendor_hash(self):
         """
         Gets the vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
-        The quest reward item *may* be associated with a vendor.  If so,  this is that vendor.  Use this hash to look up the DestinyVendorDefinition.
+        The quest reward item *may* be associated with a vendor.  If so,this is that vendor.  Use this hash to look up the DestinyVendorDefinition.
 
         :return: The vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
         :rtype: int
@@ -83,7 +83,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem(object):
     def vendor_hash(self, vendor_hash):
         """
         Sets the vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
-        The quest reward item *may* be associated with a vendor.  If so,  this is that vendor.  Use this hash to look up the DestinyVendorDefinition.
+        The quest reward item *may* be associated with a vendor.  If so,this is that vendor.  Use this hash to look up the DestinyVendorDefinition.
 
         :param vendor_hash: The vendor_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
         :type: int
@@ -95,7 +95,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem(object):
     def vendor_item_index(self):
         """
         Gets the vendor_item_index of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
-        The quest reward item *may* be associated with a vendor.  If so,  this is the index of the item being sold, which we can use at runtime  to find instanced item information for the reward item.
+        The quest reward item *may* be associated with a vendor.  If so,this is the index of the item being sold, which we can use at runtimeto find instanced item information for the reward item.
 
         :return: The vendor_item_index of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
         :rtype: int
@@ -106,7 +106,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem(object):
     def vendor_item_index(self, vendor_item_index):
         """
         Sets the vendor_item_index of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
-        The quest reward item *may* be associated with a vendor.  If so,  this is the index of the item being sold, which we can use at runtime  to find instanced item information for the reward item.
+        The quest reward item *may* be associated with a vendor.  If so,this is the index of the item being sold, which we can use at runtimeto find instanced item information for the reward item.
 
         :param vendor_item_index: The vendor_item_index of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
         :type: int
@@ -141,7 +141,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem(object):
     def item_instance_id(self):
         """
         Gets the item_instance_id of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
-        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.  Normally, this will be null.
+        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.Normally, this will be null.
 
         :return: The item_instance_id of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
         :rtype: int
@@ -152,7 +152,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem(object):
     def item_instance_id(self, item_instance_id):
         """
         Sets the item_instance_id of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
-        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.  Normally, this will be null.
+        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.Normally, this will be null.
 
         :param item_instance_id: The item_instance_id of this DestinyDefinitionsMilestonesDestinyMilestoneQuestRewardItem.
         :type: int

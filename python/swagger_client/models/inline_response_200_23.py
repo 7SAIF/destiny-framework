@@ -31,6 +31,7 @@ class InlineResponse20023(object):
                             and the value is json key in definition.
     """
     swagger_types = {
+        'response': 'dict(str, DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition)',
         'error_code': 'ExceptionsPlatformErrorCodes',
         'throttle_seconds': 'int',
         'error_status': 'str',
@@ -39,6 +40,7 @@ class InlineResponse20023(object):
     }
 
     attribute_map = {
+        'response': 'Response',
         'error_code': 'ErrorCode',
         'throttle_seconds': 'ThrottleSeconds',
         'error_status': 'ErrorStatus',
@@ -46,17 +48,20 @@ class InlineResponse20023(object):
         'message_data': 'MessageData'
     }
 
-    def __init__(self, error_code=None, throttle_seconds=None, error_status=None, message=None, message_data=None):
+    def __init__(self, response=None, error_code=None, throttle_seconds=None, error_status=None, message=None, message_data=None):
         """
         InlineResponse20023 - a model defined in Swagger
         """
 
+        self._response = None
         self._error_code = None
         self._throttle_seconds = None
         self._error_status = None
         self._message = None
         self._message_data = None
 
+        if response is not None:
+          self.response = response
         if error_code is not None:
           self.error_code = error_code
         if throttle_seconds is not None:
@@ -67,6 +72,27 @@ class InlineResponse20023(object):
           self.message = message
         if message_data is not None:
           self.message_data = message_data
+
+    @property
+    def response(self):
+        """
+        Gets the response of this InlineResponse20023.
+
+        :return: The response of this InlineResponse20023.
+        :rtype: dict(str, DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition)
+        """
+        return self._response
+
+    @response.setter
+    def response(self, response):
+        """
+        Sets the response of this InlineResponse20023.
+
+        :param response: The response of this InlineResponse20023.
+        :type: dict(str, DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition)
+        """
+
+        self._response = response
 
     @property
     def error_code(self):

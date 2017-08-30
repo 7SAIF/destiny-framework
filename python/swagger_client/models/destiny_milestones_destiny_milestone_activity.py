@@ -62,7 +62,7 @@ class DestinyMilestonesDestinyMilestoneActivity(object):
     def activity_hash(self):
         """
         Gets the activity_hash of this DestinyMilestonesDestinyMilestoneActivity.
-        The hash of an arbitrarily chosen variant of this activity.  We'll go ahead and  call that the \"canonical\" activity, because if you're using this value you should  only use it for properties that are common across the variants: things like the  name of the activity, it's location, etc...  Use this hash to look up the DestinyActivityDefinition of this activity for rendering data.
+        The hash of an arbitrarily chosen variant of this activity.  We'll go ahead andcall that the \"canonical\" activity, because if you're using this value you shouldonly use it for properties that are common across the variants: things like thename of the activity, it's location, etc...Use this hash to look up the DestinyActivityDefinition of this activity for rendering data.
 
         :return: The activity_hash of this DestinyMilestonesDestinyMilestoneActivity.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyMilestonesDestinyMilestoneActivity(object):
     def activity_hash(self, activity_hash):
         """
         Sets the activity_hash of this DestinyMilestonesDestinyMilestoneActivity.
-        The hash of an arbitrarily chosen variant of this activity.  We'll go ahead and  call that the \"canonical\" activity, because if you're using this value you should  only use it for properties that are common across the variants: things like the  name of the activity, it's location, etc...  Use this hash to look up the DestinyActivityDefinition of this activity for rendering data.
+        The hash of an arbitrarily chosen variant of this activity.  We'll go ahead andcall that the \"canonical\" activity, because if you're using this value you shouldonly use it for properties that are common across the variants: things like thename of the activity, it's location, etc...Use this hash to look up the DestinyActivityDefinition of this activity for rendering data.
 
         :param activity_hash: The activity_hash of this DestinyMilestonesDestinyMilestoneActivity.
         :type: int
@@ -85,7 +85,7 @@ class DestinyMilestonesDestinyMilestoneActivity(object):
     def modifier_hashes(self):
         """
         Gets the modifier_hashes of this DestinyMilestonesDestinyMilestoneActivity.
-        If the activity has modifiers, this will be the list of modifiers that all variants  have in common.  Perform lookups against  DestinyActivityModifierDefinition which defines the modifier being applied to get  at the modifier data.  Note that, in the DestiyActivityDefinition, you will see many more modifiers than this  being referred to: those are all *possible* modifiers for the activity, not the active ones.  Use only the active ones to match what's really live.
+        If the activity has modifiers, this will be the list of modifiers that all variantshave in common.  Perform lookups againstDestinyActivityModifierDefinition which defines the modifier being applied to getat the modifier data.Note that, in the DestiyActivityDefinition, you will see many more modifiers than thisbeing referred to: those are all *possible* modifiers for the activity, not the active ones.Use only the active ones to match what's really live.
 
         :return: The modifier_hashes of this DestinyMilestonesDestinyMilestoneActivity.
         :rtype: list[int]
@@ -96,7 +96,7 @@ class DestinyMilestonesDestinyMilestoneActivity(object):
     def modifier_hashes(self, modifier_hashes):
         """
         Sets the modifier_hashes of this DestinyMilestonesDestinyMilestoneActivity.
-        If the activity has modifiers, this will be the list of modifiers that all variants  have in common.  Perform lookups against  DestinyActivityModifierDefinition which defines the modifier being applied to get  at the modifier data.  Note that, in the DestiyActivityDefinition, you will see many more modifiers than this  being referred to: those are all *possible* modifiers for the activity, not the active ones.  Use only the active ones to match what's really live.
+        If the activity has modifiers, this will be the list of modifiers that all variantshave in common.  Perform lookups againstDestinyActivityModifierDefinition which defines the modifier being applied to getat the modifier data.Note that, in the DestiyActivityDefinition, you will see many more modifiers than thisbeing referred to: those are all *possible* modifiers for the activity, not the active ones.Use only the active ones to match what's really live.
 
         :param modifier_hashes: The modifier_hashes of this DestinyMilestonesDestinyMilestoneActivity.
         :type: list[int]
@@ -108,7 +108,7 @@ class DestinyMilestonesDestinyMilestoneActivity(object):
     def variants(self):
         """
         Gets the variants of this DestinyMilestonesDestinyMilestoneActivity.
-        If you want more than just name/location/etc... you're going to have to dig into  and show the variants of the conceptual activity.  These will differ in seemingly  arbitrary ways, like difficulty level and modifiers applied.  Show it in whatever  way tickles your fancy.
+        If you want more than just name/location/etc... you're going to have to dig intoand show the variants of the conceptual activity.  These will differ in seeminglyarbitrary ways, like difficulty level and modifiers applied.  Show it in whateverway tickles your fancy.
 
         :return: The variants of this DestinyMilestonesDestinyMilestoneActivity.
         :rtype: list[DestinyMilestonesDestinyMilestoneActivityVariant]
@@ -119,7 +119,7 @@ class DestinyMilestonesDestinyMilestoneActivity(object):
     def variants(self, variants):
         """
         Sets the variants of this DestinyMilestonesDestinyMilestoneActivity.
-        If you want more than just name/location/etc... you're going to have to dig into  and show the variants of the conceptual activity.  These will differ in seemingly  arbitrary ways, like difficulty level and modifiers applied.  Show it in whatever  way tickles your fancy.
+        If you want more than just name/location/etc... you're going to have to dig intoand show the variants of the conceptual activity.  These will differ in seeminglyarbitrary ways, like difficulty level and modifiers applied.  Show it in whateverway tickles your fancy.
 
         :param variants: The variants of this DestinyMilestonesDestinyMilestoneActivity.
         :type: list[DestinyMilestonesDestinyMilestoneActivityVariant]

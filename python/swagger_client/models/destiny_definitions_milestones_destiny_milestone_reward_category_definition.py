@@ -90,7 +90,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition(objec
     def category_identifier(self):
         """
         Gets the category_identifier of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
-        The string identifier for the category, if you want to use it for some end.  Guaranteed unique  within the specific component.
+        The string identifier for the category, if you want to use it for some end.  Guaranteed uniquewithin the specific component.
 
         :return: The category_identifier of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
         :rtype: str
@@ -101,7 +101,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition(objec
     def category_identifier(self, category_identifier):
         """
         Sets the category_identifier of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
-        The string identifier for the category, if you want to use it for some end.  Guaranteed unique  within the specific component.
+        The string identifier for the category, if you want to use it for some end.  Guaranteed uniquewithin the specific component.
 
         :param category_identifier: The category_identifier of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
         :type: str
@@ -113,7 +113,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition(objec
     def reward_entries(self):
         """
         Gets the reward_entries of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
-        If this milestone can provide rewards, this will define the sets  of rewards that can be earned, the conditions under which they can be acquired,  internal data that we'll use at runtime to determine whether you've  already earned or redeemed this set of rewards,  and the category that this reward should be placed under.
+        If this milestone can provide rewards, this will define the setsof rewards that can be earned, the conditions under which they can be acquired,internal data that we'll use at runtime to determine whether you'vealready earned or redeemed this set of rewards,and the category that this reward should be placed under.
 
         :return: The reward_entries of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
         :rtype: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition)
@@ -124,7 +124,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition(objec
     def reward_entries(self, reward_entries):
         """
         Sets the reward_entries of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
-        If this milestone can provide rewards, this will define the sets  of rewards that can be earned, the conditions under which they can be acquired,  internal data that we'll use at runtime to determine whether you've  already earned or redeemed this set of rewards,  and the category that this reward should be placed under.
+        If this milestone can provide rewards, this will define the setsof rewards that can be earned, the conditions under which they can be acquired,internal data that we'll use at runtime to determine whether you'vealready earned or redeemed this set of rewards,and the category that this reward should be placed under.
 
         :param reward_entries: The reward_entries of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
         :type: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneRewardEntryDefinition)
@@ -136,7 +136,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition(objec
     def order(self):
         """
         Gets the order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
-        If you want to use BNet's recommended order for rendering categories programmatically,  use this value and compare it to other categories to determine the order in which  they should be rendered.  I don't feel great about putting this here, I won't lie.
+        If you want to use BNet's recommended order for rendering categories programmatically,use this value and compare it to other categories to determine the order in whichthey should be rendered.  I don't feel great about putting this here, I won't lie.
 
         :return: The order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
         :rtype: int
@@ -147,7 +147,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition(objec
     def order(self, order):
         """
         Sets the order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
-        If you want to use BNet's recommended order for rendering categories programmatically,  use this value and compare it to other categories to determine the order in which  they should be rendered.  I don't feel great about putting this here, I won't lie.
+        If you want to use BNet's recommended order for rendering categories programmatically,use this value and compare it to other categories to determine the order in whichthey should be rendered.  I don't feel great about putting this here, I won't lie.
 
         :param order: The order of this DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition.
         :type: int

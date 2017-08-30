@@ -57,7 +57,7 @@ class DestinyMilestonesDestinyMilestoneRewardCategory(object):
     def reward_category_hash(self):
         """
         Gets the reward_category_hash of this DestinyMilestonesDestinyMilestoneRewardCategory.
-        Look up the relevant DestinyMilestoneDefinition, and then use rewardCategoryHash to look up the  category info in DestinyMilestoneDefinition.rewards.
+        Look up the relevant DestinyMilestoneDefinition, and then use rewardCategoryHash to look up thecategory info in DestinyMilestoneDefinition.rewards.
 
         :return: The reward_category_hash of this DestinyMilestonesDestinyMilestoneRewardCategory.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyMilestonesDestinyMilestoneRewardCategory(object):
     def reward_category_hash(self, reward_category_hash):
         """
         Sets the reward_category_hash of this DestinyMilestonesDestinyMilestoneRewardCategory.
-        Look up the relevant DestinyMilestoneDefinition, and then use rewardCategoryHash to look up the  category info in DestinyMilestoneDefinition.rewards.
+        Look up the relevant DestinyMilestoneDefinition, and then use rewardCategoryHash to look up thecategory info in DestinyMilestoneDefinition.rewards.
 
         :param reward_category_hash: The reward_category_hash of this DestinyMilestonesDestinyMilestoneRewardCategory.
         :type: int

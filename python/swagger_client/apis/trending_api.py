@@ -53,7 +53,7 @@ class TrendingApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :return: InlineResponse20034
+        :return: InlineResponse20036
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -77,7 +77,7 @@ class TrendingApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :return: InlineResponse20034
+        :return: InlineResponse20036
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -120,7 +120,7 @@ class TrendingApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20034',
+                                        response_type='InlineResponse20036',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -143,7 +143,7 @@ class TrendingApi(object):
             for asynchronous request. (optional)
         :param str category_id: The ID of the category for whom you want additional results. (required)
         :param int page_number: The page # of results to return. (required)
-        :return: InlineResponse20035
+        :return: InlineResponse20037
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -169,7 +169,7 @@ class TrendingApi(object):
             for asynchronous request. (optional)
         :param str category_id: The ID of the category for whom you want additional results. (required)
         :param int page_number: The page # of results to return. (required)
-        :return: InlineResponse20035
+        :return: InlineResponse20037
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -223,7 +223,7 @@ class TrendingApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20035',
+                                        response_type='InlineResponse20037',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -245,8 +245,8 @@ class TrendingApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param str identifier: The identifier for the entity to be returned. (required)
-        :param str trending_entry_type: The type of entity to be returned. (required)
-        :return: InlineResponse20036
+        :param int trending_entry_type: The type of entity to be returned. (required)
+        :return: InlineResponse20038
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -271,8 +271,8 @@ class TrendingApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param str identifier: The identifier for the entity to be returned. (required)
-        :param str trending_entry_type: The type of entity to be returned. (required)
-        :return: InlineResponse20036
+        :param int trending_entry_type: The type of entity to be returned. (required)
+        :return: InlineResponse20038
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -326,7 +326,7 @@ class TrendingApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20036',
+                                        response_type='InlineResponse20038',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),

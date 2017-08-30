@@ -72,7 +72,7 @@ class DestinyEntitiesItemsDestinyItemComponent(object):
     def item_hash(self):
         """
         Gets the item_hash of this DestinyEntitiesItemsDestinyItemComponent.
-        The identifier for the item's definition, which is where most of the useful static information for the item  can be found.
+        The identifier for the item's definition, which is where most of the useful static information for the itemcan be found.
 
         :return: The item_hash of this DestinyEntitiesItemsDestinyItemComponent.
         :rtype: int
@@ -83,7 +83,7 @@ class DestinyEntitiesItemsDestinyItemComponent(object):
     def item_hash(self, item_hash):
         """
         Sets the item_hash of this DestinyEntitiesItemsDestinyItemComponent.
-        The identifier for the item's definition, which is where most of the useful static information for the item  can be found.
+        The identifier for the item's definition, which is where most of the useful static information for the itemcan be found.
 
         :param item_hash: The item_hash of this DestinyEntitiesItemsDestinyItemComponent.
         :type: int
@@ -95,7 +95,7 @@ class DestinyEntitiesItemsDestinyItemComponent(object):
     def item_instance_id(self):
         """
         Gets the item_instance_id of this DestinyEntitiesItemsDestinyItemComponent.
-        If the item is instanced, it will have an instance ID.  Lack of an instance ID implies  that the item has no distinct local qualities aside from stack size.
+        If the item is instanced, it will have an instance ID.  Lack of an instance ID impliesthat the item has no distinct local qualities aside from stack size.
 
         :return: The item_instance_id of this DestinyEntitiesItemsDestinyItemComponent.
         :rtype: int
@@ -106,7 +106,7 @@ class DestinyEntitiesItemsDestinyItemComponent(object):
     def item_instance_id(self, item_instance_id):
         """
         Sets the item_instance_id of this DestinyEntitiesItemsDestinyItemComponent.
-        If the item is instanced, it will have an instance ID.  Lack of an instance ID implies  that the item has no distinct local qualities aside from stack size.
+        If the item is instanced, it will have an instance ID.  Lack of an instance ID impliesthat the item has no distinct local qualities aside from stack size.
 
         :param item_instance_id: The item_instance_id of this DestinyEntitiesItemsDestinyItemComponent.
         :type: int
@@ -118,7 +118,7 @@ class DestinyEntitiesItemsDestinyItemComponent(object):
     def quantity(self):
         """
         Gets the quantity of this DestinyEntitiesItemsDestinyItemComponent.
-        The quantity of the item in this stack.  Note that Instanced items cannot stack.  If an instanced item, this value will always be 1 (as the stack has exactly one item in it)
+        The quantity of the item in this stack.  Note that Instanced items cannot stack.If an instanced item, this value will always be 1 (as the stack has exactly one item in it)
 
         :return: The quantity of this DestinyEntitiesItemsDestinyItemComponent.
         :rtype: int
@@ -129,7 +129,7 @@ class DestinyEntitiesItemsDestinyItemComponent(object):
     def quantity(self, quantity):
         """
         Sets the quantity of this DestinyEntitiesItemsDestinyItemComponent.
-        The quantity of the item in this stack.  Note that Instanced items cannot stack.  If an instanced item, this value will always be 1 (as the stack has exactly one item in it)
+        The quantity of the item in this stack.  Note that Instanced items cannot stack.If an instanced item, this value will always be 1 (as the stack has exactly one item in it)
 
         :param quantity: The quantity of this DestinyEntitiesItemsDestinyItemComponent.
         :type: int

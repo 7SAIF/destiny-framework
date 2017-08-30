@@ -31,10 +31,10 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'replies': 'list[DestinyDefinitionsDestinyVendorInteractionDefinitionDestinyVendorInteractionReplyDefinition]',
+        'replies': 'list[DestinyDefinitionsDestinyVendorInteractionReplyDefinition]',
         'vendor_category_index': 'int',
         'questline_item_hash': 'int',
-        'sack_interaction_list': 'list[DestinyDefinitionsDestinyVendorInteractionDefinitionDestinyVendorInteractionSackEntryDefinition]',
+        'sack_interaction_list': 'list[DestinyDefinitionsDestinyVendorInteractionSackEntryDefinition]',
         'ui_interaction_type': 'int',
         'reward_block_label': 'str',
         'reward_vendor_category_index': 'int',
@@ -100,7 +100,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
         The potential replies that the user can make to the interaction.
 
         :return: The replies of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        :rtype: list[DestinyDefinitionsDestinyVendorInteractionDefinitionDestinyVendorInteractionReplyDefinition]
+        :rtype: list[DestinyDefinitionsDestinyVendorInteractionReplyDefinition]
         """
         return self._replies
 
@@ -111,7 +111,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
         The potential replies that the user can make to the interaction.
 
         :param replies: The replies of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        :type: list[DestinyDefinitionsDestinyVendorInteractionDefinitionDestinyVendorInteractionReplyDefinition]
+        :type: list[DestinyDefinitionsDestinyVendorInteractionReplyDefinition]
         """
 
         self._replies = replies
@@ -143,7 +143,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def questline_item_hash(self):
         """
         Gets the questline_item_hash of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If this interaction dialog is about a quest, this is the questline related to the interaction.  You can use this to show the quest overview, or even the character's status with the quest if  you use it to find the character's current Quest Step by checking their inventory against this questlineItemHash's  DestinyInventoryItemDefinition.setData.
+        If this interaction dialog is about a quest, this is the questline related to the interaction.You can use this to show the quest overview, or even the character's status with the quest ifyou use it to find the character's current Quest Step by checking their inventory against this questlineItemHash'sDestinyInventoryItemDefinition.setData.
 
         :return: The questline_item_hash of this DestinyDefinitionsDestinyVendorInteractionDefinition.
         :rtype: int
@@ -154,7 +154,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def questline_item_hash(self, questline_item_hash):
         """
         Sets the questline_item_hash of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If this interaction dialog is about a quest, this is the questline related to the interaction.  You can use this to show the quest overview, or even the character's status with the quest if  you use it to find the character's current Quest Step by checking their inventory against this questlineItemHash's  DestinyInventoryItemDefinition.setData.
+        If this interaction dialog is about a quest, this is the questline related to the interaction.You can use this to show the quest overview, or even the character's status with the quest ifyou use it to find the character's current Quest Step by checking their inventory against this questlineItemHash'sDestinyInventoryItemDefinition.setData.
 
         :param questline_item_hash: The questline_item_hash of this DestinyDefinitionsDestinyVendorInteractionDefinition.
         :type: int
@@ -166,10 +166,10 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def sack_interaction_list(self):
         """
         Gets the sack_interaction_list of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If this interaction is meant to show you sacks, this is the list of types of sacks to be shown.  If empty, the interaction is not meant to show sacks.
+        If this interaction is meant to show you sacks, this is the list of types of sacks to be shown.If empty, the interaction is not meant to show sacks.
 
         :return: The sack_interaction_list of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        :rtype: list[DestinyDefinitionsDestinyVendorInteractionDefinitionDestinyVendorInteractionSackEntryDefinition]
+        :rtype: list[DestinyDefinitionsDestinyVendorInteractionSackEntryDefinition]
         """
         return self._sack_interaction_list
 
@@ -177,10 +177,10 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def sack_interaction_list(self, sack_interaction_list):
         """
         Sets the sack_interaction_list of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If this interaction is meant to show you sacks, this is the list of types of sacks to be shown.  If empty, the interaction is not meant to show sacks.
+        If this interaction is meant to show you sacks, this is the list of types of sacks to be shown.If empty, the interaction is not meant to show sacks.
 
         :param sack_interaction_list: The sack_interaction_list of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        :type: list[DestinyDefinitionsDestinyVendorInteractionDefinitionDestinyVendorInteractionSackEntryDefinition]
+        :type: list[DestinyDefinitionsDestinyVendorInteractionSackEntryDefinition]
         """
 
         self._sack_interaction_list = sack_interaction_list
@@ -212,7 +212,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def reward_block_label(self):
         """
         Gets the reward_block_label of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If this interaction is displaying rewards, this is the text to use for the header of the  reward-displaying section of the interaction.
+        If this interaction is displaying rewards, this is the text to use for the header of thereward-displaying section of the interaction.
 
         :return: The reward_block_label of this DestinyDefinitionsDestinyVendorInteractionDefinition.
         :rtype: str
@@ -223,7 +223,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def reward_block_label(self, reward_block_label):
         """
         Sets the reward_block_label of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If this interaction is displaying rewards, this is the text to use for the header of the  reward-displaying section of the interaction.
+        If this interaction is displaying rewards, this is the text to use for the header of thereward-displaying section of the interaction.
 
         :param reward_block_label: The reward_block_label of this DestinyDefinitionsDestinyVendorInteractionDefinition.
         :type: str
@@ -235,7 +235,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def reward_vendor_category_index(self):
         """
         Gets the reward_vendor_category_index of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If the vendor's reward list is sourced from one of his categories, this is the index into  the category array of items to show.
+        If the vendor's reward list is sourced from one of his categories, this is the index intothe category array of items to show.
 
         :return: The reward_vendor_category_index of this DestinyDefinitionsDestinyVendorInteractionDefinition.
         :rtype: int
@@ -246,7 +246,7 @@ class DestinyDefinitionsDestinyVendorInteractionDefinition(object):
     def reward_vendor_category_index(self, reward_vendor_category_index):
         """
         Sets the reward_vendor_category_index of this DestinyDefinitionsDestinyVendorInteractionDefinition.
-        If the vendor's reward list is sourced from one of his categories, this is the index into  the category array of items to show.
+        If the vendor's reward list is sourced from one of his categories, this is the index intothe category array of items to show.
 
         :param reward_vendor_category_index: The reward_vendor_category_index of this DestinyDefinitionsDestinyVendorInteractionDefinition.
         :type: int

@@ -193,7 +193,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def secondary_icon(self):
         """
         Gets the secondary_icon of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        A secondary icon associated with the item.  Currently this is used in very context specific  applications, such as Emblem Nameplates.
+        A secondary icon associated with the item.  Currently this is used in very context specificapplications, such as Emblem Nameplates.
 
         :return: The secondary_icon of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -204,7 +204,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def secondary_icon(self, secondary_icon):
         """
         Sets the secondary_icon of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        A secondary icon associated with the item.  Currently this is used in very context specific  applications, such as Emblem Nameplates.
+        A secondary icon associated with the item.  Currently this is used in very context specificapplications, such as Emblem Nameplates.
 
         :param secondary_icon: The secondary_icon of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -216,7 +216,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def secondary_overlay(self):
         """
         Gets the secondary_overlay of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Pulled from the secondary icon, this is the \"secondary background\" of the secondary  icon.  Confusing?  Sure, that's why I call it \"overlay\" here: because as far as it's  been used thus far, it has been for an optional overlay image.  We'll see if that holds up,  but at least for now it explains what this image is a bit better.
+        Pulled from the secondary icon, this is the \"secondary background\" of the secondaryicon.  Confusing?  Sure, that's why I call it \"overlay\" here: because as far as it'sbeen used thus far, it has been for an optional overlay image.  We'll see if that holds up,but at least for now it explains what this image is a bit better.
 
         :return: The secondary_overlay of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -227,7 +227,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def secondary_overlay(self, secondary_overlay):
         """
         Sets the secondary_overlay of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Pulled from the secondary icon, this is the \"secondary background\" of the secondary  icon.  Confusing?  Sure, that's why I call it \"overlay\" here: because as far as it's  been used thus far, it has been for an optional overlay image.  We'll see if that holds up,  but at least for now it explains what this image is a bit better.
+        Pulled from the secondary icon, this is the \"secondary background\" of the secondaryicon.  Confusing?  Sure, that's why I call it \"overlay\" here: because as far as it'sbeen used thus far, it has been for an optional overlay image.  We'll see if that holds up,but at least for now it explains what this image is a bit better.
 
         :param secondary_overlay: The secondary_overlay of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -239,7 +239,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def secondary_special(self):
         """
         Gets the secondary_special of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Pulled from the Secondary Icon, this is the \"special\" background for the item.  For Emblems, this is the background image used on the Details view: but it need  not be limited to that for other types of items.
+        Pulled from the Secondary Icon, this is the \"special\" background for the item.For Emblems, this is the background image used on the Details view: but it neednot be limited to that for other types of items.
 
         :return: The secondary_special of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -250,7 +250,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def secondary_special(self, secondary_special):
         """
         Sets the secondary_special of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Pulled from the Secondary Icon, this is the \"special\" background for the item.  For Emblems, this is the background image used on the Details view: but it need  not be limited to that for other types of items.
+        Pulled from the Secondary Icon, this is the \"special\" background for the item.For Emblems, this is the background image used on the Details view: but it neednot be limited to that for other types of items.
 
         :param secondary_special: The secondary_special of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -262,7 +262,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def screenshot(self):
         """
         Gets the screenshot of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If we were able to acquire an in-game screenshot for the item, the path to that screenshot  will be returned here.  Note that not all items have screenshots: particularly not any non-equippable  items.
+        If we were able to acquire an in-game screenshot for the item, the path to that screenshotwill be returned here.  Note that not all items have screenshots: particularly not any non-equippableitems.
 
         :return: The screenshot of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -273,7 +273,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def screenshot(self, screenshot):
         """
         Sets the screenshot of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If we were able to acquire an in-game screenshot for the item, the path to that screenshot  will be returned here.  Note that not all items have screenshots: particularly not any non-equippable  items.
+        If we were able to acquire an in-game screenshot for the item, the path to that screenshotwill be returned here.  Note that not all items have screenshots: particularly not any non-equippableitems.
 
         :param screenshot: The screenshot of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -285,7 +285,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def item_type_display_name(self):
         """
         Gets the item_type_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        The localized title/name of the item's type.  This can be whatever the designers want, and has no guarantee  of consistency between items.
+        The localized title/name of the item's type.  This can be whatever the designers want, and has no guaranteeof consistency between items.
 
         :return: The item_type_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -296,7 +296,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def item_type_display_name(self, item_type_display_name):
         """
         Sets the item_type_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        The localized title/name of the item's type.  This can be whatever the designers want, and has no guarantee  of consistency between items.
+        The localized title/name of the item's type.  This can be whatever the designers want, and has no guaranteeof consistency between items.
 
         :param item_type_display_name: The item_type_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -308,7 +308,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def item_type_and_tier_display_name(self):
         """
         Gets the item_type_and_tier_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        It became a common enough pattern in our UI to show Item Type and Tier combined into a single localized  string that I'm just going to go ahead and start pre-creating these for items.
+        It became a common enough pattern in our UI to show Item Type and Tier combined into a single localizedstring that I'm just going to go ahead and start pre-creating these for items.
 
         :return: The item_type_and_tier_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -319,7 +319,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def item_type_and_tier_display_name(self, item_type_and_tier_display_name):
         """
         Sets the item_type_and_tier_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        It became a common enough pattern in our UI to show Item Type and Tier combined into a single localized  string that I'm just going to go ahead and start pre-creating these for items.
+        It became a common enough pattern in our UI to show Item Type and Tier combined into a single localizedstring that I'm just going to go ahead and start pre-creating these for items.
 
         :param item_type_and_tier_display_name: The item_type_and_tier_display_name of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -331,7 +331,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def display_source(self):
         """
         Gets the display_source of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        In theory, it is a localized string telling you about how you can find the item.  I really wish this was more consistent.  Many times, it has nothing.  Sometimes, it's instead a more narrative-forward  description of the item.  Which is cool, and I wish all properties had that data, but it should really be  its own property.
+        In theory, it is a localized string telling you about how you can find the item.I really wish this was more consistent.  Many times, it has nothing.  Sometimes, it's instead a more narrative-forwarddescription of the item.  Which is cool, and I wish all properties had that data, but it should really beits own property.
 
         :return: The display_source of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -342,7 +342,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def display_source(self, display_source):
         """
         Sets the display_source of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        In theory, it is a localized string telling you about how you can find the item.  I really wish this was more consistent.  Many times, it has nothing.  Sometimes, it's instead a more narrative-forward  description of the item.  Which is cool, and I wish all properties had that data, but it should really be  its own property.
+        In theory, it is a localized string telling you about how you can find the item.I really wish this was more consistent.  Many times, it has nothing.  Sometimes, it's instead a more narrative-forwarddescription of the item.  Which is cool, and I wish all properties had that data, but it should really beits own property.
 
         :param display_source: The display_source of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -354,7 +354,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def tooltip_style(self):
         """
         Gets the tooltip_style of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        An identifier that the game UI uses to determine what type of tooltip to show for the item.  These have no  corresponding definitions that BNet can link to: so it'll be up to you to interpret and display your UI differently  according to these styles (or ignore it).
+        An identifier that the game UI uses to determine what type of tooltip to show for the item.  These have nocorresponding definitions that BNet can link to: so it'll be up to you to interpret and display your UI differentlyaccording to these styles (or ignore it).
 
         :return: The tooltip_style of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: str
@@ -365,7 +365,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def tooltip_style(self, tooltip_style):
         """
         Sets the tooltip_style of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        An identifier that the game UI uses to determine what type of tooltip to show for the item.  These have no  corresponding definitions that BNet can link to: so it'll be up to you to interpret and display your UI differently  according to these styles (or ignore it).
+        An identifier that the game UI uses to determine what type of tooltip to show for the item.  These have nocorresponding definitions that BNet can link to: so it'll be up to you to interpret and display your UI differentlyaccording to these styles (or ignore it).
 
         :param tooltip_style: The tooltip_style of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: str
@@ -377,7 +377,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def investment_stats(self):
         """
         Gets the investment_stats of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If the item has stats, this block will be defined.  It has the \"raw\" investment stats for the item.  These investment stats don't take into account the ways that the items can spawn, nor do they take  into account any Stat Group transformations.  I have retained them for debugging purposes, but I  do not know how useful people will find them.
+        If the item has stats, this block will be defined.  It has the \"raw\" investment stats for the item.These investment stats don't take into account the ways that the items can spawn, nor do they takeinto account any Stat Group transformations.  I have retained them for debugging purposes, but Ido not know how useful people will find them.
 
         :return: The investment_stats of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: list[DestinyDefinitionsDestinyItemInvestmentStatDefinition]
@@ -388,7 +388,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def investment_stats(self, investment_stats):
         """
         Sets the investment_stats of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If the item has stats, this block will be defined.  It has the \"raw\" investment stats for the item.  These investment stats don't take into account the ways that the items can spawn, nor do they take  into account any Stat Group transformations.  I have retained them for debugging purposes, but I  do not know how useful people will find them.
+        If the item has stats, this block will be defined.  It has the \"raw\" investment stats for the item.These investment stats don't take into account the ways that the items can spawn, nor do they takeinto account any Stat Group transformations.  I have retained them for debugging purposes, but Ido not know how useful people will find them.
 
         :param investment_stats: The investment_stats of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: list[DestinyDefinitionsDestinyItemInvestmentStatDefinition]
@@ -400,7 +400,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def perks(self):
         """
         Gets the perks of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If the item has any *intrinsic* Perks (Perks that it will provide regardless of Sockets, Talent Grid,  and other transitory state), they will be defined here.
+        If the item has any *intrinsic* Perks (Perks that it will provide regardless of Sockets, Talent Grid,and other transitory state), they will be defined here.
 
         :return: The perks of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: list[DestinyDefinitionsDestinyItemPerkEntryDefinition]
@@ -411,7 +411,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def perks(self, perks):
         """
         Sets the perks of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If the item has any *intrinsic* Perks (Perks that it will provide regardless of Sockets, Talent Grid,  and other transitory state), they will be defined here.
+        If the item has any *intrinsic* Perks (Perks that it will provide regardless of Sockets, Talent Grid,and other transitory state), they will be defined here.
 
         :param perks: The perks of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: list[DestinyDefinitionsDestinyItemPerkEntryDefinition]
@@ -423,7 +423,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def lore_hash(self):
         """
         Gets the lore_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If the item has any related Lore (DestinyLoreDefinition), this will be the hash identifier you can use  to look up the lore definition.
+        If the item has any related Lore (DestinyLoreDefinition), this will be the hash identifier you can useto look up the lore definition.
 
         :return: The lore_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: int
@@ -434,7 +434,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def lore_hash(self, lore_hash):
         """
         Sets the lore_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If the item has any related Lore (DestinyLoreDefinition), this will be the hash identifier you can use  to look up the lore definition.
+        If the item has any related Lore (DestinyLoreDefinition), this will be the hash identifier you can useto look up the lore definition.
 
         :param lore_hash: The lore_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: int
@@ -446,7 +446,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def summary_item_hash(self):
         """
         Gets the summary_item_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        There are times when the game will show you a \"summary/vague\" version of an item - such as a description of its type  represented as a DestinyInventoryItemDefinition - rather than display the item itself.    This happens sometimes when summarizing possible rewards in a tooltip.  This is the item displayed instead, if  it exists.
+        There are times when the game will show you a \"summary/vague\" version of an item - such as a description of its typerepresented as a DestinyInventoryItemDefinition - rather than display the item itself.  This happens sometimes when summarizing possible rewards in a tooltip.  This is the item displayed instead, ifit exists.
 
         :return: The summary_item_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: int
@@ -457,7 +457,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def summary_item_hash(self, summary_item_hash):
         """
         Sets the summary_item_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        There are times when the game will show you a \"summary/vague\" version of an item - such as a description of its type  represented as a DestinyInventoryItemDefinition - rather than display the item itself.    This happens sometimes when summarizing possible rewards in a tooltip.  This is the item displayed instead, if  it exists.
+        There are times when the game will show you a \"summary/vague\" version of an item - such as a description of its typerepresented as a DestinyInventoryItemDefinition - rather than display the item itself.  This happens sometimes when summarizing possible rewards in a tooltip.  This is the item displayed instead, ifit exists.
 
         :param summary_item_hash: The summary_item_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: int
@@ -469,7 +469,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def animations(self):
         """
         Gets the animations of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If any animations were extracted from game content for this item, these will be the definitions  of those animations.
+        If any animations were extracted from game content for this item, these will be the definitionsof those animations.
 
         :return: The animations of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: list[DestinyDefinitionsAnimationsDestinyAnimationReference]
@@ -480,7 +480,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def animations(self, animations):
         """
         Sets the animations of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If any animations were extracted from game content for this item, these will be the definitions  of those animations.
+        If any animations were extracted from game content for this item, these will be the definitionsof those animations.
 
         :param animations: The animations of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: list[DestinyDefinitionsAnimationsDestinyAnimationReference]
@@ -538,7 +538,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def non_transferrable(self):
         """
         Gets the non_transferrable of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        The intrinsic transferability of an item.    I hate that this boolean is negative - but there's a reason.    Just because an item is intrinsically transferrable doesn't mean that it can be transferred,  and we don't want to imply that this is the only source of that transferability.
+        The intrinsic transferability of an item.  I hate that this boolean is negative - but there's a reason.  Just because an item is intrinsically transferrable doesn't mean that it can be transferred,and we don't want to imply that this is the only source of that transferability.
 
         :return: The non_transferrable of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: bool
@@ -549,7 +549,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def non_transferrable(self, non_transferrable):
         """
         Sets the non_transferrable of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        The intrinsic transferability of an item.    I hate that this boolean is negative - but there's a reason.    Just because an item is intrinsically transferrable doesn't mean that it can be transferred,  and we don't want to imply that this is the only source of that transferability.
+        The intrinsic transferability of an item.  I hate that this boolean is negative - but there's a reason.  Just because an item is intrinsically transferrable doesn't mean that it can be transferred,and we don't want to imply that this is the only source of that transferability.
 
         :param non_transferrable: The non_transferrable of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: bool
@@ -561,7 +561,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def item_category_hashes(self):
         """
         Gets the item_category_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        BNet attempts to make a more formal definition of item \"Categories\", as defined by   DestinyItemCategoryDefinition.  This is a list of all Categories that we were able to  algorithmically determine that this item is a member of.  (for instance, that it's a \"Weapon\",  that it's an \"Auto Rifle\", etc...)    The algorithm for these is, unfortunately, volatile.  If you believe you see a miscategorized  item, please let us know on the Bungie API forums.
+        BNet attempts to make a more formal definition of item \"Categories\", as defined by DestinyItemCategoryDefinition.  This is a list of all Categories that we were able toalgorithmically determine that this item is a member of.  (for instance, that it's a \"Weapon\",that it's an \"Auto Rifle\", etc...)  The algorithm for these is, unfortunately, volatile.  If you believe you see a miscategorizeditem, please let us know on the Bungie API forums.
 
         :return: The item_category_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: list[int]
@@ -572,7 +572,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def item_category_hashes(self, item_category_hashes):
         """
         Sets the item_category_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        BNet attempts to make a more formal definition of item \"Categories\", as defined by   DestinyItemCategoryDefinition.  This is a list of all Categories that we were able to  algorithmically determine that this item is a member of.  (for instance, that it's a \"Weapon\",  that it's an \"Auto Rifle\", etc...)    The algorithm for these is, unfortunately, volatile.  If you believe you see a miscategorized  item, please let us know on the Bungie API forums.
+        BNet attempts to make a more formal definition of item \"Categories\", as defined by DestinyItemCategoryDefinition.  This is a list of all Categories that we were able toalgorithmically determine that this item is a member of.  (for instance, that it's a \"Weapon\",that it's an \"Auto Rifle\", etc...)  The algorithm for these is, unfortunately, volatile.  If you believe you see a miscategorizeditem, please let us know on the Bungie API forums.
 
         :param item_category_hashes: The item_category_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: list[int]
@@ -584,7 +584,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def equippable(self):
         """
         Gets the equippable of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If true, then you will be allowed to equip the item if you pass its other requirements.    This being false means that you cannot equip the item under any circumstances.
+        If true, then you will be allowed to equip the item if you pass its other requirements.  This being false means that you cannot equip the item under any circumstances.
 
         :return: The equippable of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: bool
@@ -595,7 +595,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def equippable(self, equippable):
         """
         Sets the equippable of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If true, then you will be allowed to equip the item if you pass its other requirements.    This being false means that you cannot equip the item under any circumstances.
+        If true, then you will be allowed to equip the item if you pass its other requirements.  This being false means that you cannot equip the item under any circumstances.
 
         :param equippable: The equippable of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: bool
@@ -607,7 +607,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def damage_type_hashes(self):
         """
         Gets the damage_type_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Theoretically, an item can have many possible damage types.  In *practice*, this is not true,  but just in case weapons start being made that have multiple (for instance, an item where a socket  has reusable plugs for every possible damage type that you can choose from freely), this field  will return all of the possible damage types that are available to the weapon by default.
+        Theoretically, an item can have many possible damage types.  In *practice*, this is not true,but just in case weapons start being made that have multiple (for instance, an item where a sockethas reusable plugs for every possible damage type that you can choose from freely), this fieldwill return all of the possible damage types that are available to the weapon by default.
 
         :return: The damage_type_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: list[int]
@@ -618,7 +618,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def damage_type_hashes(self, damage_type_hashes):
         """
         Sets the damage_type_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Theoretically, an item can have many possible damage types.  In *practice*, this is not true,  but just in case weapons start being made that have multiple (for instance, an item where a socket  has reusable plugs for every possible damage type that you can choose from freely), this field  will return all of the possible damage types that are available to the weapon by default.
+        Theoretically, an item can have many possible damage types.  In *practice*, this is not true,but just in case weapons start being made that have multiple (for instance, an item where a sockethas reusable plugs for every possible damage type that you can choose from freely), this fieldwill return all of the possible damage types that are available to the weapon by default.
 
         :param damage_type_hashes: The damage_type_hashes of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: list[int]
@@ -630,7 +630,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def damage_types(self):
         """
         Gets the damage_types of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        This is the list of all damage types that we know ahead of time the item can take on.  Unfortunately, this does not preclude the possibility of something funky happening  to give the item a damage type that cannot be predicted beforehand: for example,  if some designer decides to create arbitrary non-reusable plugs that cause damage type  to change.    This damage type prediction will only use the following to determine potential damage types:    - Intrinsic perks    - Talent Node perks    - Known, reusable plugs for sockets
+        This is the list of all damage types that we know ahead of time the item can take on.Unfortunately, this does not preclude the possibility of something funky happeningto give the item a damage type that cannot be predicted beforehand: for example,if some designer decides to create arbitrary non-reusable plugs that cause damage typeto change.  This damage type prediction will only use the following to determine potential damage types:  - Intrinsic perks  - Talent Node perks  - Known, reusable plugs for sockets
 
         :return: The damage_types of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: list[DestinyDamageType]
@@ -641,7 +641,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def damage_types(self, damage_types):
         """
         Sets the damage_types of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        This is the list of all damage types that we know ahead of time the item can take on.  Unfortunately, this does not preclude the possibility of something funky happening  to give the item a damage type that cannot be predicted beforehand: for example,  if some designer decides to create arbitrary non-reusable plugs that cause damage type  to change.    This damage type prediction will only use the following to determine potential damage types:    - Intrinsic perks    - Talent Node perks    - Known, reusable plugs for sockets
+        This is the list of all damage types that we know ahead of time the item can take on.Unfortunately, this does not preclude the possibility of something funky happeningto give the item a damage type that cannot be predicted beforehand: for example,if some designer decides to create arbitrary non-reusable plugs that cause damage typeto change.  This damage type prediction will only use the following to determine potential damage types:  - Intrinsic perks  - Talent Node perks  - Known, reusable plugs for sockets
 
         :param damage_types: The damage_types of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: list[DestinyDamageType]
@@ -653,7 +653,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def default_damage_type_hash(self):
         """
         Gets the default_damage_type_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Similar to defaultDamageType, but represented as the hash identifier for a DestinyDamageTypeDefinition.    I will likely regret leaving in the enumeration versions of these properties, but for now they're  very convenient.
+        Similar to defaultDamageType, but represented as the hash identifier for a DestinyDamageTypeDefinition.  I will likely regret leaving in the enumeration versions of these properties, but for now they'revery convenient.
 
         :return: The default_damage_type_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: int
@@ -664,7 +664,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def default_damage_type_hash(self, default_damage_type_hash):
         """
         Sets the default_damage_type_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        Similar to defaultDamageType, but represented as the hash identifier for a DestinyDamageTypeDefinition.    I will likely regret leaving in the enumeration versions of these properties, but for now they're  very convenient.
+        Similar to defaultDamageType, but represented as the hash identifier for a DestinyDamageTypeDefinition.  I will likely regret leaving in the enumeration versions of these properties, but for now they'revery convenient.
 
         :param default_damage_type_hash: The default_damage_type_hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: int
@@ -676,7 +676,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: int
@@ -687,7 +687,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: int
@@ -722,7 +722,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :rtype: bool
@@ -733,7 +733,7 @@ class DestinyDefinitionsDestinyInventoryItemDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyInventoryItemDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyInventoryItemDefinition.
         :type: bool

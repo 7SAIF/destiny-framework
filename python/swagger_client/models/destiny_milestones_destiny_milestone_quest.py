@@ -57,7 +57,7 @@ class DestinyMilestonesDestinyMilestoneQuest(object):
     def quest_item_hash(self):
         """
         Gets the quest_item_hash of this DestinyMilestonesDestinyMilestoneQuest.
-        Quests are defined as Items in content.  As such, this is the hash identifier   of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the steps  in the quest, and display information for the quest (title, description, icon etc)  Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setData  property, and themselves are Items with their own renderable data.
+        Quests are defined as Items in content.  As such, this is the hash identifier of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the stepsin the quest, and display information for the quest (title, description, icon etc)Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setDataproperty, and themselves are Items with their own renderable data.
 
         :return: The quest_item_hash of this DestinyMilestonesDestinyMilestoneQuest.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyMilestonesDestinyMilestoneQuest(object):
     def quest_item_hash(self, quest_item_hash):
         """
         Sets the quest_item_hash of this DestinyMilestonesDestinyMilestoneQuest.
-        Quests are defined as Items in content.  As such, this is the hash identifier   of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the steps  in the quest, and display information for the quest (title, description, icon etc)  Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setData  property, and themselves are Items with their own renderable data.
+        Quests are defined as Items in content.  As such, this is the hash identifier of the DestinyInventoryItemDefinition that represents this quest.  It will have pointers to all of the stepsin the quest, and display information for the quest (title, description, icon etc)Individual steps will be referred to in the Quest item's DestinyInventoryItemDefinition.setDataproperty, and themselves are Items with their own renderable data.
 
         :param quest_item_hash: The quest_item_hash of this DestinyMilestonesDestinyMilestoneQuest.
         :type: int
@@ -80,7 +80,7 @@ class DestinyMilestonesDestinyMilestoneQuest(object):
     def challenges(self):
         """
         Gets the challenges of this DestinyMilestonesDestinyMilestoneQuest.
-        The activities referred to by this quest can have many associated challenges.  They are all contained here, with activityHashes so that you can associate them with  the specific activity variants in which they can be found.  In retrospect, I probably should have put these under the specific Activity Variants,  but it's too late to change it now.  Theoretically, a quest without Activities can still have Challenges, which is why  this is on a higher level than activity/variants, but it probably should have been  in both places.  That may come as a later revision.
+        The activities referred to by this quest can have many associated challenges.They are all contained here, with activityHashes so that you can associate them withthe specific activity variants in which they can be found.In retrospect, I probably should have put these under the specific Activity Variants,but it's too late to change it now.Theoretically, a quest without Activities can still have Challenges, which is whythis is on a higher level than activity/variants, but it probably should have beenin both places.  That may come as a later revision.
 
         :return: The challenges of this DestinyMilestonesDestinyMilestoneQuest.
         :rtype: list[DestinyChallengesDestinyChallengeStatus]
@@ -91,7 +91,7 @@ class DestinyMilestonesDestinyMilestoneQuest(object):
     def challenges(self, challenges):
         """
         Sets the challenges of this DestinyMilestonesDestinyMilestoneQuest.
-        The activities referred to by this quest can have many associated challenges.  They are all contained here, with activityHashes so that you can associate them with  the specific activity variants in which they can be found.  In retrospect, I probably should have put these under the specific Activity Variants,  but it's too late to change it now.  Theoretically, a quest without Activities can still have Challenges, which is why  this is on a higher level than activity/variants, but it probably should have been  in both places.  That may come as a later revision.
+        The activities referred to by this quest can have many associated challenges.They are all contained here, with activityHashes so that you can associate them withthe specific activity variants in which they can be found.In retrospect, I probably should have put these under the specific Activity Variants,but it's too late to change it now.Theoretically, a quest without Activities can still have Challenges, which is whythis is on a higher level than activity/variants, but it probably should have beenin both places.  That may come as a later revision.
 
         :param challenges: The challenges of this DestinyMilestonesDestinyMilestoneQuest.
         :type: list[DestinyChallengesDestinyChallengeStatus]

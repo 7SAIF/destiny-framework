@@ -31,7 +31,7 @@ class InlineResponse20032(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'response': 'SearchResultCommunityCommunityLiveStatus',
+        'response': 'DestinyMilestonesDestinyMilestoneContent',
         'error_code': 'ExceptionsPlatformErrorCodes',
         'throttle_seconds': 'int',
         'error_status': 'str',
@@ -79,7 +79,7 @@ class InlineResponse20032(object):
         Gets the response of this InlineResponse20032.
 
         :return: The response of this InlineResponse20032.
-        :rtype: SearchResultCommunityCommunityLiveStatus
+        :rtype: DestinyMilestonesDestinyMilestoneContent
         """
         return self._response
 
@@ -89,7 +89,7 @@ class InlineResponse20032(object):
         Sets the response of this InlineResponse20032.
 
         :param response: The response of this InlineResponse20032.
-        :type: SearchResultCommunityCommunityLiveStatus
+        :type: DestinyMilestonesDestinyMilestoneContent
         """
 
         self._response = response

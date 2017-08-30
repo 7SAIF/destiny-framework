@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def source(self):
         """
         Gets the source of this DestinyDefinitionsDestinyProgressionDefinition.
-        If there's a description of how to earn this progression in the local config, this will  be that localized description.
+        If there's a description of how to earn this progression in the local config, this willbe that localized description.
 
         :return: The source of this DestinyDefinitionsDestinyProgressionDefinition.
         :rtype: str
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def source(self, source):
         """
         Sets the source of this DestinyDefinitionsDestinyProgressionDefinition.
-        If there's a description of how to earn this progression in the local config, this will  be that localized description.
+        If there's a description of how to earn this progression in the local config, this willbe that localized description.
 
         :param source: The source of this DestinyDefinitionsDestinyProgressionDefinition.
         :type: str
@@ -159,7 +159,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def steps(self):
         """
         Gets the steps of this DestinyDefinitionsDestinyProgressionDefinition.
-        Progressions are divided into Steps, which roughly equate to \"Levels\" in the traditional  sense of a Progression.  Notably, the last step can be repeated indefinitely if repeatLastStep  is true, meaning that the calculation for your level is not as simple as comparing your current  progress to the max progress of the steps.      These and more calculations are done for you if  you grab live character progression data, such as in the DestinyCharacterProgressionComponent.
+        Progressions are divided into Steps, which roughly equate to \"Levels\" in the traditionalsense of a Progression.  Notably, the last step can be repeated indefinitely if repeatLastStepis true, meaning that the calculation for your level is not as simple as comparing your currentprogress to the max progress of the steps.    These and more calculations are done for you ifyou grab live character progression data, such as in the DestinyCharacterProgressionComponent.
 
         :return: The steps of this DestinyDefinitionsDestinyProgressionDefinition.
         :rtype: list[DestinyDefinitionsDestinyProgressionStepDefinition]
@@ -170,7 +170,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def steps(self, steps):
         """
         Sets the steps of this DestinyDefinitionsDestinyProgressionDefinition.
-        Progressions are divided into Steps, which roughly equate to \"Levels\" in the traditional  sense of a Progression.  Notably, the last step can be repeated indefinitely if repeatLastStep  is true, meaning that the calculation for your level is not as simple as comparing your current  progress to the max progress of the steps.      These and more calculations are done for you if  you grab live character progression data, such as in the DestinyCharacterProgressionComponent.
+        Progressions are divided into Steps, which roughly equate to \"Levels\" in the traditionalsense of a Progression.  Notably, the last step can be repeated indefinitely if repeatLastStepis true, meaning that the calculation for your level is not as simple as comparing your currentprogress to the max progress of the steps.    These and more calculations are done for you ifyou grab live character progression data, such as in the DestinyCharacterProgressionComponent.
 
         :param steps: The steps of this DestinyDefinitionsDestinyProgressionDefinition.
         :type: list[DestinyDefinitionsDestinyProgressionStepDefinition]
@@ -182,7 +182,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def visible(self):
         """
         Gets the visible of this DestinyDefinitionsDestinyProgressionDefinition.
-        If true, the Progression is something worth showing to users.    If false, BNet isn't going to show it.  But that doesn't mean you can't.  We're all friends here.
+        If true, the Progression is something worth showing to users.  If false, BNet isn't going to show it.  But that doesn't mean you can't.  We're all friends here.
 
         :return: The visible of this DestinyDefinitionsDestinyProgressionDefinition.
         :rtype: bool
@@ -193,7 +193,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def visible(self, visible):
         """
         Sets the visible of this DestinyDefinitionsDestinyProgressionDefinition.
-        If true, the Progression is something worth showing to users.    If false, BNet isn't going to show it.  But that doesn't mean you can't.  We're all friends here.
+        If true, the Progression is something worth showing to users.  If false, BNet isn't going to show it.  But that doesn't mean you can't.  We're all friends here.
 
         :param visible: The visible of this DestinyDefinitionsDestinyProgressionDefinition.
         :type: bool
@@ -205,7 +205,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def faction_hash(self):
         """
         Gets the faction_hash of this DestinyDefinitionsDestinyProgressionDefinition.
-        If the value exists, this is the hash identifier for the Faction that owns this Progression.    This is purely for convenience, if you're looking at a progression and want to know if and who  it's related to in terms of Faction Reputation.
+        If the value exists, this is the hash identifier for the Faction that owns this Progression.  This is purely for convenience, if you're looking at a progression and want to know if and whoit's related to in terms of Faction Reputation.
 
         :return: The faction_hash of this DestinyDefinitionsDestinyProgressionDefinition.
         :rtype: int
@@ -216,7 +216,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def faction_hash(self, faction_hash):
         """
         Sets the faction_hash of this DestinyDefinitionsDestinyProgressionDefinition.
-        If the value exists, this is the hash identifier for the Faction that owns this Progression.    This is purely for convenience, if you're looking at a progression and want to know if and who  it's related to in terms of Faction Reputation.
+        If the value exists, this is the hash identifier for the Faction that owns this Progression.  This is purely for convenience, if you're looking at a progression and want to know if and whoit's related to in terms of Faction Reputation.
 
         :param faction_hash: The faction_hash of this DestinyDefinitionsDestinyProgressionDefinition.
         :type: int
@@ -228,7 +228,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyProgressionDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyProgressionDefinition.
         :rtype: int
@@ -239,7 +239,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyProgressionDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyProgressionDefinition.
         :type: int
@@ -274,7 +274,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyProgressionDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyProgressionDefinition.
         :rtype: bool
@@ -285,7 +285,7 @@ class DestinyDefinitionsDestinyProgressionDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyProgressionDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyProgressionDefinition.
         :type: bool

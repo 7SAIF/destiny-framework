@@ -213,7 +213,7 @@ class GroupsV2GroupResponse(object):
     def current_user_member_map(self):
         """
         Gets the current_user_member_map of this GroupsV2GroupResponse.
-        This property will be populated if the authenticated user is a member of the group. Note that because of  account linking, a user can sometimes be part of a clan more than once.  As such, this returns the  highest member type available.
+        This property will be populated if the authenticated user is a member of the group. Note that because ofaccount linking, a user can sometimes be part of a clan more than once.  As such, this returns thehighest member type available.
 
         :return: The current_user_member_map of this GroupsV2GroupResponse.
         :rtype: dict(str, GroupsV2GroupMember)
@@ -224,7 +224,7 @@ class GroupsV2GroupResponse(object):
     def current_user_member_map(self, current_user_member_map):
         """
         Sets the current_user_member_map of this GroupsV2GroupResponse.
-        This property will be populated if the authenticated user is a member of the group. Note that because of  account linking, a user can sometimes be part of a clan more than once.  As such, this returns the  highest member type available.
+        This property will be populated if the authenticated user is a member of the group. Note that because ofaccount linking, a user can sometimes be part of a clan more than once.  As such, this returns thehighest member type available.
 
         :param current_user_member_map: The current_user_member_map of this GroupsV2GroupResponse.
         :type: dict(str, GroupsV2GroupMember)
@@ -236,7 +236,7 @@ class GroupsV2GroupResponse(object):
     def current_user_potential_member_map(self):
         """
         Gets the current_user_potential_member_map of this GroupsV2GroupResponse.
-        This property will be populated if the authenticated user is an applicant or has an outstanding invitation to join.  Note that because of account linking, a user can sometimes be part of a clan more than once.
+        This property will be populated if the authenticated user is an applicant or has an outstanding invitation to join.Note that because of account linking, a user can sometimes be part of a clan more than once.
 
         :return: The current_user_potential_member_map of this GroupsV2GroupResponse.
         :rtype: dict(str, GroupsV2GroupPotentialMember)
@@ -247,7 +247,7 @@ class GroupsV2GroupResponse(object):
     def current_user_potential_member_map(self, current_user_potential_member_map):
         """
         Sets the current_user_potential_member_map of this GroupsV2GroupResponse.
-        This property will be populated if the authenticated user is an applicant or has an outstanding invitation to join.  Note that because of account linking, a user can sometimes be part of a clan more than once.
+        This property will be populated if the authenticated user is an applicant or has an outstanding invitation to join.Note that because of account linking, a user can sometimes be part of a clan more than once.
 
         :param current_user_potential_member_map: The current_user_potential_member_map of this GroupsV2GroupResponse.
         :type: dict(str, GroupsV2GroupPotentialMember)

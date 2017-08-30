@@ -32,7 +32,7 @@ class TrendingTrendingCategory(object):
     """
     swagger_types = {
         'category_name': 'str',
-        'entries': 'SearchResultTrendingTrendingEntry',
+        'entries': 'SearchResultOfTrendingEntry',
         'category_id': 'str'
     }
 
@@ -85,7 +85,7 @@ class TrendingTrendingCategory(object):
         Gets the entries of this TrendingTrendingCategory.
 
         :return: The entries of this TrendingTrendingCategory.
-        :rtype: SearchResultTrendingTrendingEntry
+        :rtype: SearchResultOfTrendingEntry
         """
         return self._entries
 
@@ -95,7 +95,7 @@ class TrendingTrendingCategory(object):
         Sets the entries of this TrendingTrendingCategory.
 
         :param entries: The entries of this TrendingTrendingCategory.
-        :type: SearchResultTrendingTrendingEntry
+        :type: SearchResultOfTrendingEntry
         """
 
         self._entries = entries

@@ -137,7 +137,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def node_index(self):
         """
         Gets the node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        The index into the DestinyTalentGridDefinition's \"nodes\" property where this node  is located.  Used to uniquely identify the node within the Talent Grid.  Note that  this is content version dependent: make sure you have the latest version of content  before trying to use these properties.
+        The index into the DestinyTalentGridDefinition's \"nodes\" property where this nodeis located.  Used to uniquely identify the node within the Talent Grid.  Note thatthis is content version dependent: make sure you have the latest version of contentbefore trying to use these properties.
 
         :return: The node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: int
@@ -148,7 +148,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def node_index(self, node_index):
         """
         Sets the node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        The index into the DestinyTalentGridDefinition's \"nodes\" property where this node  is located.  Used to uniquely identify the node within the Talent Grid.  Note that  this is content version dependent: make sure you have the latest version of content  before trying to use these properties.
+        The index into the DestinyTalentGridDefinition's \"nodes\" property where this nodeis located.  Used to uniquely identify the node within the Talent Grid.  Note thatthis is content version dependent: make sure you have the latest version of contentbefore trying to use these properties.
 
         :param node_index: The node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: int
@@ -160,7 +160,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def node_hash(self):
         """
         Gets the node_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        The hash identifier for the node, which unfortunately is also content version dependent  but can be (and ideally, should be) used instead of the nodeIndex to uniquely identify the node.    The two exist side-by-side for backcompat reasons due to the Great Talent Node Restructuring  of Destiny 1, and I ran out of time to remove one of them and standardize on the other.  Sorry!
+        The hash identifier for the node, which unfortunately is also content version dependentbut can be (and ideally, should be) used instead of the nodeIndex to uniquely identify the node.  The two exist side-by-side for backcompat reasons due to the Great Talent Node Restructuringof Destiny 1, and I ran out of time to remove one of them and standardize on the other.  Sorry!
 
         :return: The node_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: int
@@ -171,7 +171,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def node_hash(self, node_hash):
         """
         Sets the node_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        The hash identifier for the node, which unfortunately is also content version dependent  but can be (and ideally, should be) used instead of the nodeIndex to uniquely identify the node.    The two exist side-by-side for backcompat reasons due to the Great Talent Node Restructuring  of Destiny 1, and I ran out of time to remove one of them and standardize on the other.  Sorry!
+        The hash identifier for the node, which unfortunately is also content version dependentbut can be (and ideally, should be) used instead of the nodeIndex to uniquely identify the node.  The two exist side-by-side for backcompat reasons due to the Great Talent Node Restructuringof Destiny 1, and I ran out of time to remove one of them and standardize on the other.  Sorry!
 
         :param node_hash: The node_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: int
@@ -229,7 +229,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def prerequisite_node_indexes(self):
         """
         Gets the prerequisite_node_indexes of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        Indexes into the DestinyTalentGridDefinition.nodes property for any nodes  that must be activated before this one is allowed to be activated.    I would have liked to change this to hashes for Destiny 2, but we have run out of time.
+        Indexes into the DestinyTalentGridDefinition.nodes property for any nodesthat must be activated before this one is allowed to be activated.  I would have liked to change this to hashes for Destiny 2, but we have run out of time.
 
         :return: The prerequisite_node_indexes of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: list[int]
@@ -240,7 +240,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def prerequisite_node_indexes(self, prerequisite_node_indexes):
         """
         Sets the prerequisite_node_indexes of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        Indexes into the DestinyTalentGridDefinition.nodes property for any nodes  that must be activated before this one is allowed to be activated.    I would have liked to change this to hashes for Destiny 2, but we have run out of time.
+        Indexes into the DestinyTalentGridDefinition.nodes property for any nodesthat must be activated before this one is allowed to be activated.  I would have liked to change this to hashes for Destiny 2, but we have run out of time.
 
         :param prerequisite_node_indexes: The prerequisite_node_indexes of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: list[int]
@@ -252,7 +252,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def binary_pair_node_index(self):
         """
         Gets the binary_pair_node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        At one point, Talent Nodes supported the idea of \"Binary Pairs\": nodes that overlapped each  other visually, and where activating one deactivated the other.  They ended up not being used,  mostly because Exclusive Sets are *almost* a superset of this concept, but the potential  for it to be used still exists in theory.    If this is ever used, this will be the index into  the DestinyTalentGridDefinition.nodes property for the node that is the binary pair match  to this node.  Activating one deactivates the other.
+        At one point, Talent Nodes supported the idea of \"Binary Pairs\": nodes that overlapped eachother visually, and where activating one deactivated the other.  They ended up not being used,mostly because Exclusive Sets are *almost* a superset of this concept, but the potentialfor it to be used still exists in theory.  If this is ever used, this will be the index intothe DestinyTalentGridDefinition.nodes property for the node that is the binary pair matchto this node.  Activating one deactivates the other.
 
         :return: The binary_pair_node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: int
@@ -263,7 +263,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def binary_pair_node_index(self, binary_pair_node_index):
         """
         Sets the binary_pair_node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        At one point, Talent Nodes supported the idea of \"Binary Pairs\": nodes that overlapped each  other visually, and where activating one deactivated the other.  They ended up not being used,  mostly because Exclusive Sets are *almost* a superset of this concept, but the potential  for it to be used still exists in theory.    If this is ever used, this will be the index into  the DestinyTalentGridDefinition.nodes property for the node that is the binary pair match  to this node.  Activating one deactivates the other.
+        At one point, Talent Nodes supported the idea of \"Binary Pairs\": nodes that overlapped eachother visually, and where activating one deactivated the other.  They ended up not being used,mostly because Exclusive Sets are *almost* a superset of this concept, but the potentialfor it to be used still exists in theory.  If this is ever used, this will be the index intothe DestinyTalentGridDefinition.nodes property for the node that is the binary pair matchto this node.  Activating one deactivates the other.
 
         :param binary_pair_node_index: The binary_pair_node_index of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: int
@@ -275,7 +275,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def auto_unlocks(self):
         """
         Gets the auto_unlocks of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If true, this node will automatically unlock when the Talent Grid's level reaches  the required level of the current step of this node.
+        If true, this node will automatically unlock when the Talent Grid's level reachesthe required level of the current step of this node.
 
         :return: The auto_unlocks of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: bool
@@ -286,7 +286,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def auto_unlocks(self, auto_unlocks):
         """
         Sets the auto_unlocks of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If true, this node will automatically unlock when the Talent Grid's level reaches  the required level of the current step of this node.
+        If true, this node will automatically unlock when the Talent Grid's level reachesthe required level of the current step of this node.
 
         :param auto_unlocks: The auto_unlocks of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: bool
@@ -298,7 +298,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def last_step_repeats(self):
         """
         Gets the last_step_repeats of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        At one point, Nodes were going to be able to be activated multiple times, changing  the current step and potentially piling on multiple effects from the previously  activated steps.  This property would indicate if the last step could be activated  multiple times.      This is not currently used, but it isn't out of the question that  this could end up being used again in a theoretical future.
+        At one point, Nodes were going to be able to be activated multiple times, changingthe current step and potentially piling on multiple effects from the previouslyactivated steps.  This property would indicate if the last step could be activatedmultiple times.    This is not currently used, but it isn't out of the question thatthis could end up being used again in a theoretical future.
 
         :return: The last_step_repeats of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: bool
@@ -309,7 +309,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def last_step_repeats(self, last_step_repeats):
         """
         Sets the last_step_repeats of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        At one point, Nodes were going to be able to be activated multiple times, changing  the current step and potentially piling on multiple effects from the previously  activated steps.  This property would indicate if the last step could be activated  multiple times.      This is not currently used, but it isn't out of the question that  this could end up being used again in a theoretical future.
+        At one point, Nodes were going to be able to be activated multiple times, changingthe current step and potentially piling on multiple effects from the previouslyactivated steps.  This property would indicate if the last step could be activatedmultiple times.    This is not currently used, but it isn't out of the question thatthis could end up being used again in a theoretical future.
 
         :param last_step_repeats: The last_step_repeats of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: bool
@@ -321,7 +321,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def is_random(self):
         """
         Gets the is_random of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If this is true, the node's step is determined randomly rather than  the first step being chosen.
+        If this is true, the node's step is determined randomly rather thanthe first step being chosen.
 
         :return: The is_random of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: bool
@@ -332,7 +332,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def is_random(self, is_random):
         """
         Sets the is_random of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If this is true, the node's step is determined randomly rather than  the first step being chosen.
+        If this is true, the node's step is determined randomly rather thanthe first step being chosen.
 
         :param is_random: The is_random of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: bool
@@ -344,7 +344,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def is_random_repurchasable(self):
         """
         Gets the is_random_repurchasable of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If this is true, the node can be \"re-rolled\" to acquire a different random current step.  This is not used, but still exists for a theoretical future of talent grids.
+        If this is true, the node can be \"re-rolled\" to acquire a different random current step.This is not used, but still exists for a theoretical future of talent grids.
 
         :return: The is_random_repurchasable of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: bool
@@ -355,7 +355,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def is_random_repurchasable(self, is_random_repurchasable):
         """
         Sets the is_random_repurchasable of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If this is true, the node can be \"re-rolled\" to acquire a different random current step.  This is not used, but still exists for a theoretical future of talent grids.
+        If this is true, the node can be \"re-rolled\" to acquire a different random current step.This is not used, but still exists for a theoretical future of talent grids.
 
         :param is_random_repurchasable: The is_random_repurchasable of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: bool
@@ -367,7 +367,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def steps(self):
         """
         Gets the steps of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        At this point, \"steps\" have been obfuscated into conceptual entities, aggregating   the underlying notions of \"properties\" and \"true steps\".    If you need to know a step as it truly exists - such as when recreating Node logic when processing  Vendor data - you'll have to use the \"realSteps\" property below.
+        At this point, \"steps\" have been obfuscated into conceptual entities, aggregating the underlying notions of \"properties\" and \"true steps\".  If you need to know a step as it truly exists - such as when recreating Node logic when processingVendor data - you'll have to use the \"realSteps\" property below.
 
         :return: The steps of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: list[DestinyDefinitionsDestinyNodeStepDefinition]
@@ -378,7 +378,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def steps(self, steps):
         """
         Sets the steps of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        At this point, \"steps\" have been obfuscated into conceptual entities, aggregating   the underlying notions of \"properties\" and \"true steps\".    If you need to know a step as it truly exists - such as when recreating Node logic when processing  Vendor data - you'll have to use the \"realSteps\" property below.
+        At this point, \"steps\" have been obfuscated into conceptual entities, aggregating the underlying notions of \"properties\" and \"true steps\".  If you need to know a step as it truly exists - such as when recreating Node logic when processingVendor data - you'll have to use the \"realSteps\" property below.
 
         :param steps: The steps of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: list[DestinyDefinitionsDestinyNodeStepDefinition]
@@ -390,7 +390,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def exclusive_with_node_hashes(self):
         """
         Gets the exclusive_with_node_hashes of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        The nodeHash values for nodes that are in an Exclusive Set with this node.    See DestinyTalentGridDefinition.exclusiveSets for more info about exclusive sets.    Again, note that these are nodeHashes and *not* nodeIndexes.
+        The nodeHash values for nodes that are in an Exclusive Set with this node.  See DestinyTalentGridDefinition.exclusiveSets for more info about exclusive sets.  Again, note that these are nodeHashes and *not* nodeIndexes.
 
         :return: The exclusive_with_node_hashes of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: list[int]
@@ -401,7 +401,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def exclusive_with_node_hashes(self, exclusive_with_node_hashes):
         """
         Sets the exclusive_with_node_hashes of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        The nodeHash values for nodes that are in an Exclusive Set with this node.    See DestinyTalentGridDefinition.exclusiveSets for more info about exclusive sets.    Again, note that these are nodeHashes and *not* nodeIndexes.
+        The nodeHash values for nodes that are in an Exclusive Set with this node.  See DestinyTalentGridDefinition.exclusiveSets for more info about exclusive sets.  Again, note that these are nodeHashes and *not* nodeIndexes.
 
         :param exclusive_with_node_hashes: The exclusive_with_node_hashes of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: list[int]
@@ -413,7 +413,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def random_start_progression_bar_at_progression(self):
         """
         Gets the random_start_progression_bar_at_progression of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If the node's step is randomly selected, this is the amount of the Talent Grid's progression experience  at which the progression bar for the node should be shown.
+        If the node's step is randomly selected, this is the amount of the Talent Grid's progression experienceat which the progression bar for the node should be shown.
 
         :return: The random_start_progression_bar_at_progression of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: int
@@ -424,7 +424,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def random_start_progression_bar_at_progression(self, random_start_progression_bar_at_progression):
         """
         Sets the random_start_progression_bar_at_progression of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        If the node's step is randomly selected, this is the amount of the Talent Grid's progression experience  at which the progression bar for the node should be shown.
+        If the node's step is randomly selected, this is the amount of the Talent Grid's progression experienceat which the progression bar for the node should be shown.
 
         :param random_start_progression_bar_at_progression: The random_start_progression_bar_at_progression of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: int
@@ -436,7 +436,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def layout_identifier(self):
         """
         Gets the layout_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        A string identifier for a custom visual layout to apply to this talent node.  Unfortunately,  we do not have any data for rendering these custom layouts.  It will be up to you to interpret  these strings and change your UI if you want to have custom UI matching these layouts.
+        A string identifier for a custom visual layout to apply to this talent node.  Unfortunately,we do not have any data for rendering these custom layouts.  It will be up to you to interpretthese strings and change your UI if you want to have custom UI matching these layouts.
 
         :return: The layout_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: str
@@ -447,7 +447,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def layout_identifier(self, layout_identifier):
         """
         Sets the layout_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        A string identifier for a custom visual layout to apply to this talent node.  Unfortunately,  we do not have any data for rendering these custom layouts.  It will be up to you to interpret  these strings and change your UI if you want to have custom UI matching these layouts.
+        A string identifier for a custom visual layout to apply to this talent node.  Unfortunately,we do not have any data for rendering these custom layouts.  It will be up to you to interpretthese strings and change your UI if you want to have custom UI matching these layouts.
 
         :param layout_identifier: The layout_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: str
@@ -459,7 +459,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def group_hash(self):
         """
         Gets the group_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        As of Destiny 2, nodes can exist as part of \"Exclusive Groups\".  These differ from exclusive sets in that,  within the group, many nodes can be activated.  But the act of activating any node in the group will cause \"opposing\" nodes  (nodes in groups that are not allowed to be activated at the same time as this group) to deactivate.    See DestinyTalentExclusiveGroup for more information on the details.  This is an identifier for this node's group,  if it is part of one.
+        As of Destiny 2, nodes can exist as part of \"Exclusive Groups\".  These differ from exclusive sets in that,within the group, many nodes can be activated.  But the act of activating any node in the group will cause \"opposing\" nodes(nodes in groups that are not allowed to be activated at the same time as this group) to deactivate.  See DestinyTalentExclusiveGroup for more information on the details.  This is an identifier for this node's group,if it is part of one.
 
         :return: The group_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: int
@@ -470,7 +470,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def group_hash(self, group_hash):
         """
         Sets the group_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        As of Destiny 2, nodes can exist as part of \"Exclusive Groups\".  These differ from exclusive sets in that,  within the group, many nodes can be activated.  But the act of activating any node in the group will cause \"opposing\" nodes  (nodes in groups that are not allowed to be activated at the same time as this group) to deactivate.    See DestinyTalentExclusiveGroup for more information on the details.  This is an identifier for this node's group,  if it is part of one.
+        As of Destiny 2, nodes can exist as part of \"Exclusive Groups\".  These differ from exclusive sets in that,within the group, many nodes can be activated.  But the act of activating any node in the group will cause \"opposing\" nodes(nodes in groups that are not allowed to be activated at the same time as this group) to deactivate.  See DestinyTalentExclusiveGroup for more information on the details.  This is an identifier for this node's group,if it is part of one.
 
         :param group_hash: The group_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: int
@@ -482,7 +482,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def lore_hash(self):
         """
         Gets the lore_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        Talent nodes can be associated with a piece of Lore, generally rendered in a tooltip.  This is the hash identifier  of the lore element to show, if there is one to be show.
+        Talent nodes can be associated with a piece of Lore, generally rendered in a tooltip.  This is the hash identifierof the lore element to show, if there is one to be show.
 
         :return: The lore_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: int
@@ -493,7 +493,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def lore_hash(self, lore_hash):
         """
         Sets the lore_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        Talent nodes can be associated with a piece of Lore, generally rendered in a tooltip.  This is the hash identifier  of the lore element to show, if there is one to be show.
+        Talent nodes can be associated with a piece of Lore, generally rendered in a tooltip.  This is the hash identifierof the lore element to show, if there is one to be show.
 
         :param lore_hash: The lore_hash of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: int
@@ -505,7 +505,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def node_style_identifier(self):
         """
         Gets the node_style_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        Comes from the talent grid node style: this identifier should be used to determine  how to render the node in the UI.
+        Comes from the talent grid node style: this identifier should be used to determinehow to render the node in the UI.
 
         :return: The node_style_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :rtype: str
@@ -516,7 +516,7 @@ class DestinyDefinitionsDestinyTalentNodeDefinition(object):
     def node_style_identifier(self, node_style_identifier):
         """
         Sets the node_style_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
-        Comes from the talent grid node style: this identifier should be used to determine  how to render the node in the UI.
+        Comes from the talent grid node style: this identifier should be used to determinehow to render the node in the UI.
 
         :param node_style_identifier: The node_style_identifier of this DestinyDefinitionsDestinyTalentNodeDefinition.
         :type: str

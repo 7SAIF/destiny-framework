@@ -100,7 +100,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def is_displayable(self):
         """
         Gets the is_displayable of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        If true, you can actually show the perk in the UI.  Otherwise, it doesn't  have useful player-facing information.
+        If true, you can actually show the perk in the UI.  Otherwise, it doesn'thave useful player-facing information.
 
         :return: The is_displayable of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :rtype: bool
@@ -111,7 +111,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def is_displayable(self, is_displayable):
         """
         Sets the is_displayable of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        If true, you can actually show the perk in the UI.  Otherwise, it doesn't  have useful player-facing information.
+        If true, you can actually show the perk in the UI.  Otherwise, it doesn'thave useful player-facing information.
 
         :param is_displayable: The is_displayable of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :type: bool
@@ -123,7 +123,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def damage_type_hash(self):
         """
         Gets the damage_type_hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        The hash identifier for looking up the DestinyDamageTypeDefinition, if this perk has a damage type.    This is preferred over using the damageType enumeration value, which has been left purely because it is  occasionally convenient.
+        The hash identifier for looking up the DestinyDamageTypeDefinition, if this perk has a damage type.  This is preferred over using the damageType enumeration value, which has been left purely because it isoccasionally convenient.
 
         :return: The damage_type_hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :rtype: int
@@ -134,7 +134,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def damage_type_hash(self, damage_type_hash):
         """
         Sets the damage_type_hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        The hash identifier for looking up the DestinyDamageTypeDefinition, if this perk has a damage type.    This is preferred over using the damageType enumeration value, which has been left purely because it is  occasionally convenient.
+        The hash identifier for looking up the DestinyDamageTypeDefinition, if this perk has a damage type.  This is preferred over using the damageType enumeration value, which has been left purely because it isoccasionally convenient.
 
         :param damage_type_hash: The damage_type_hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :type: int
@@ -146,7 +146,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :rtype: int
@@ -157,7 +157,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :type: int
@@ -192,7 +192,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :rtype: bool
@@ -203,7 +203,7 @@ class DestinyDefinitionsDestinySandboxPerkDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinySandboxPerkDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinySandboxPerkDefinition.
         :type: bool

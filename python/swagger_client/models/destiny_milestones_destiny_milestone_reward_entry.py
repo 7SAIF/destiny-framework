@@ -62,7 +62,7 @@ class DestinyMilestonesDestinyMilestoneRewardEntry(object):
     def reward_entry_hash(self):
         """
         Gets the reward_entry_hash of this DestinyMilestonesDestinyMilestoneRewardEntry.
-        The identifier for the reward entry in question.  It is important to look up the related  DestinyMilestoneRewardEntryDefinition to get the static details about the reward, which  you can do by looking up the milestone's DestinyMilestoneDefinition and examining the  DestinyMilestoneDefinition.rewards[rewardCategoryHash].rewardEntries[rewardEntryHash] data.
+        The identifier for the reward entry in question.  It is important to look up the relatedDestinyMilestoneRewardEntryDefinition to get the static details about the reward, whichyou can do by looking up the milestone's DestinyMilestoneDefinition and examining theDestinyMilestoneDefinition.rewards[rewardCategoryHash].rewardEntries[rewardEntryHash] data.
 
         :return: The reward_entry_hash of this DestinyMilestonesDestinyMilestoneRewardEntry.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyMilestonesDestinyMilestoneRewardEntry(object):
     def reward_entry_hash(self, reward_entry_hash):
         """
         Sets the reward_entry_hash of this DestinyMilestonesDestinyMilestoneRewardEntry.
-        The identifier for the reward entry in question.  It is important to look up the related  DestinyMilestoneRewardEntryDefinition to get the static details about the reward, which  you can do by looking up the milestone's DestinyMilestoneDefinition and examining the  DestinyMilestoneDefinition.rewards[rewardCategoryHash].rewardEntries[rewardEntryHash] data.
+        The identifier for the reward entry in question.  It is important to look up the relatedDestinyMilestoneRewardEntryDefinition to get the static details about the reward, whichyou can do by looking up the milestone's DestinyMilestoneDefinition and examining theDestinyMilestoneDefinition.rewards[rewardCategoryHash].rewardEntries[rewardEntryHash] data.
 
         :param reward_entry_hash: The reward_entry_hash of this DestinyMilestonesDestinyMilestoneRewardEntry.
         :type: int
@@ -108,7 +108,7 @@ class DestinyMilestonesDestinyMilestoneRewardEntry(object):
     def redeemed(self):
         """
         Gets the redeemed of this DestinyMilestonesDestinyMilestoneRewardEntry.
-        If TRUE, the player has redeemed/picked up/obtained this reward.  Feel free to alias this to \"gotTheShinyBauble\" in your own codebase.
+        If TRUE, the player has redeemed/picked up/obtained this reward.Feel free to alias this to \"gotTheShinyBauble\" in your own codebase.
 
         :return: The redeemed of this DestinyMilestonesDestinyMilestoneRewardEntry.
         :rtype: bool
@@ -119,7 +119,7 @@ class DestinyMilestonesDestinyMilestoneRewardEntry(object):
     def redeemed(self, redeemed):
         """
         Sets the redeemed of this DestinyMilestonesDestinyMilestoneRewardEntry.
-        If TRUE, the player has redeemed/picked up/obtained this reward.  Feel free to alias this to \"gotTheShinyBauble\" in your own codebase.
+        If TRUE, the player has redeemed/picked up/obtained this reward.Feel free to alias this to \"gotTheShinyBauble\" in your own codebase.
 
         :param redeemed: The redeemed of this DestinyMilestonesDestinyMilestoneRewardEntry.
         :type: bool

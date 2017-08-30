@@ -95,7 +95,7 @@ class DestinyDefinitionsDestinyEquippingBlockDefinition(object):
     def unique_label(self):
         """
         Gets the unique_label of this DestinyDefinitionsDestinyEquippingBlockDefinition.
-        If defined, this is the label used to check if the item has other items of  matching types already equipped.      For instance, when you aren't allowed to  equip more than one Exotic Weapon, that's because all exotic weapons have  identical uniqueLabels and the game checks the to-be-equipped item's uniqueLabel  vs. all other already equipped items (other than the item in the slot that's  about to be occupied).
+        If defined, this is the label used to check if the item has other items ofmatching types already equipped.    For instance, when you aren't allowed toequip more than one Exotic Weapon, that's because all exotic weapons haveidentical uniqueLabels and the game checks the to-be-equipped item's uniqueLabelvs. all other already equipped items (other than the item in the slot that'sabout to be occupied).
 
         :return: The unique_label of this DestinyDefinitionsDestinyEquippingBlockDefinition.
         :rtype: str
@@ -106,7 +106,7 @@ class DestinyDefinitionsDestinyEquippingBlockDefinition(object):
     def unique_label(self, unique_label):
         """
         Sets the unique_label of this DestinyDefinitionsDestinyEquippingBlockDefinition.
-        If defined, this is the label used to check if the item has other items of  matching types already equipped.      For instance, when you aren't allowed to  equip more than one Exotic Weapon, that's because all exotic weapons have  identical uniqueLabels and the game checks the to-be-equipped item's uniqueLabel  vs. all other already equipped items (other than the item in the slot that's  about to be occupied).
+        If defined, this is the label used to check if the item has other items ofmatching types already equipped.    For instance, when you aren't allowed toequip more than one Exotic Weapon, that's because all exotic weapons haveidentical uniqueLabels and the game checks the to-be-equipped item's uniqueLabelvs. all other already equipped items (other than the item in the slot that'sabout to be occupied).
 
         :param unique_label: The unique_label of this DestinyDefinitionsDestinyEquippingBlockDefinition.
         :type: str
@@ -141,7 +141,7 @@ class DestinyDefinitionsDestinyEquippingBlockDefinition(object):
     def equipment_slot_type_hash(self):
         """
         Gets the equipment_slot_type_hash of this DestinyDefinitionsDestinyEquippingBlockDefinition.
-        An equipped item *must* be equipped in an Equipment Slot.  This is the hash identifier  of the DestinyEquipmentSlotDefinition into which it must be equipped.
+        An equipped item *must* be equipped in an Equipment Slot.  This is the hash identifierof the DestinyEquipmentSlotDefinition into which it must be equipped.
 
         :return: The equipment_slot_type_hash of this DestinyDefinitionsDestinyEquippingBlockDefinition.
         :rtype: int
@@ -152,7 +152,7 @@ class DestinyDefinitionsDestinyEquippingBlockDefinition(object):
     def equipment_slot_type_hash(self, equipment_slot_type_hash):
         """
         Sets the equipment_slot_type_hash of this DestinyDefinitionsDestinyEquippingBlockDefinition.
-        An equipped item *must* be equipped in an Equipment Slot.  This is the hash identifier  of the DestinyEquipmentSlotDefinition into which it must be equipped.
+        An equipped item *must* be equipped in an Equipment Slot.  This is the hash identifierof the DestinyEquipmentSlotDefinition into which it must be equipped.
 
         :param equipment_slot_type_hash: The equipment_slot_type_hash of this DestinyDefinitionsDestinyEquippingBlockDefinition.
         :type: int
@@ -164,7 +164,7 @@ class DestinyDefinitionsDestinyEquippingBlockDefinition(object):
     def display_strings(self):
         """
         Gets the display_strings of this DestinyDefinitionsDestinyEquippingBlockDefinition.
-        These are strings that represent the possible Game/Account/Character state failure conditions  that can occur when trying to equip the item.  They match up one-to-one with requiredUnlockExpressions.
+        These are strings that represent the possible Game/Account/Character state failure conditionsthat can occur when trying to equip the item.  They match up one-to-one with requiredUnlockExpressions.
 
         :return: The display_strings of this DestinyDefinitionsDestinyEquippingBlockDefinition.
         :rtype: list[str]
@@ -175,7 +175,7 @@ class DestinyDefinitionsDestinyEquippingBlockDefinition(object):
     def display_strings(self, display_strings):
         """
         Sets the display_strings of this DestinyDefinitionsDestinyEquippingBlockDefinition.
-        These are strings that represent the possible Game/Account/Character state failure conditions  that can occur when trying to equip the item.  They match up one-to-one with requiredUnlockExpressions.
+        These are strings that represent the possible Game/Account/Character state failure conditionsthat can occur when trying to equip the item.  They match up one-to-one with requiredUnlockExpressions.
 
         :param display_strings: The display_strings of this DestinyDefinitionsDestinyEquippingBlockDefinition.
         :type: list[str]

@@ -52,7 +52,7 @@ class DestinyComponentsKiosksDestinyKiosksComponent(object):
     def kiosk_items(self):
         """
         Gets the kiosk_items of this DestinyComponentsKiosksDestinyKiosksComponent.
-        A dictionary keyed by the Kiosk Vendor's hash identifier (use it to look up the DestinyVendorDefinition  for the relevant kiosk vendor), and whose value is a list of all the items that the user can \"see\" in  the Kiosk, and any other interesting metadata.
+        A dictionary keyed by the Kiosk Vendor's hash identifier (use it to look up the DestinyVendorDefinitionfor the relevant kiosk vendor), and whose value is a list of all the items that the user can \"see\" inthe Kiosk, and any other interesting metadata.
 
         :return: The kiosk_items of this DestinyComponentsKiosksDestinyKiosksComponent.
         :rtype: dict(str, list[DestinyComponentsKiosksDestinyKioskItem])
@@ -63,7 +63,7 @@ class DestinyComponentsKiosksDestinyKiosksComponent(object):
     def kiosk_items(self, kiosk_items):
         """
         Sets the kiosk_items of this DestinyComponentsKiosksDestinyKiosksComponent.
-        A dictionary keyed by the Kiosk Vendor's hash identifier (use it to look up the DestinyVendorDefinition  for the relevant kiosk vendor), and whose value is a list of all the items that the user can \"see\" in  the Kiosk, and any other interesting metadata.
+        A dictionary keyed by the Kiosk Vendor's hash identifier (use it to look up the DestinyVendorDefinitionfor the relevant kiosk vendor), and whose value is a list of all the items that the user can \"see\" inthe Kiosk, and any other interesting metadata.
 
         :param kiosk_items: The kiosk_items of this DestinyComponentsKiosksDestinyKiosksComponent.
         :type: dict(str, list[DestinyComponentsKiosksDestinyKioskItem])

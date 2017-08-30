@@ -62,7 +62,7 @@ class DestinyComponentsKiosksDestinyKioskItem(object):
     def index(self):
         """
         Gets the index of this DestinyComponentsKiosksDestinyKioskItem.
-        The index of the item in the related DestinyVendorDefintion's itemList property, representing  the sale.
+        The index of the item in the related DestinyVendorDefintion's itemList property, representingthe sale.
 
         :return: The index of this DestinyComponentsKiosksDestinyKioskItem.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyComponentsKiosksDestinyKioskItem(object):
     def index(self, index):
         """
         Sets the index of this DestinyComponentsKiosksDestinyKioskItem.
-        The index of the item in the related DestinyVendorDefintion's itemList property, representing  the sale.
+        The index of the item in the related DestinyVendorDefintion's itemList property, representingthe sale.
 
         :param index: The index of this DestinyComponentsKiosksDestinyKioskItem.
         :type: int
@@ -85,7 +85,7 @@ class DestinyComponentsKiosksDestinyKioskItem(object):
     def can_acquire(self):
         """
         Gets the can_acquire of this DestinyComponentsKiosksDestinyKioskItem.
-        If true, the user can not only see the item, but they can acquire it.  It is possible that a user  can see a kiosk item and not be able to acquire it.
+        If true, the user can not only see the item, but they can acquire it.  It is possible that a usercan see a kiosk item and not be able to acquire it.
 
         :return: The can_acquire of this DestinyComponentsKiosksDestinyKioskItem.
         :rtype: bool
@@ -96,7 +96,7 @@ class DestinyComponentsKiosksDestinyKioskItem(object):
     def can_acquire(self, can_acquire):
         """
         Sets the can_acquire of this DestinyComponentsKiosksDestinyKioskItem.
-        If true, the user can not only see the item, but they can acquire it.  It is possible that a user  can see a kiosk item and not be able to acquire it.
+        If true, the user can not only see the item, but they can acquire it.  It is possible that a usercan see a kiosk item and not be able to acquire it.
 
         :param can_acquire: The can_acquire of this DestinyComponentsKiosksDestinyKioskItem.
         :type: bool

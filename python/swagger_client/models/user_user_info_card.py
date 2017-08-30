@@ -136,7 +136,7 @@ class UserUserInfoCard(object):
     def display_name(self):
         """
         Gets the display_name of this UserUserInfoCard.
-        Display Name the player has chosen for themselves. Thie display name is optional when  the data type is used as input to a platform API.
+        Display Name the player has chosen for themselves. Thie display name is optional whenthe data type is used as input to a platform API.
 
         :return: The display_name of this UserUserInfoCard.
         :rtype: str
@@ -147,7 +147,7 @@ class UserUserInfoCard(object):
     def display_name(self, display_name):
         """
         Sets the display_name of this UserUserInfoCard.
-        Display Name the player has chosen for themselves. Thie display name is optional when  the data type is used as input to a platform API.
+        Display Name the player has chosen for themselves. Thie display name is optional whenthe data type is used as input to a platform API.
 
         :param display_name: The display_name of this UserUserInfoCard.
         :type: str

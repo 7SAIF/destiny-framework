@@ -113,7 +113,7 @@ class DestinyHistoricalStatsDestinyHistoricalStatsActivity(object):
     def activity_type_hash_override(self):
         """
         Gets the activity_type_hash_override of this DestinyHistoricalStatsDestinyHistoricalStatsActivity.
-        Hash ID that can be looked up in the DestinyActivityTypeTable. Prefer this value over the   type used by the activity if it is specified.
+        Hash ID that can be looked up in the DestinyActivityTypeTable. Prefer this value over the type used by the activity if it is specified.
 
         :return: The activity_type_hash_override of this DestinyHistoricalStatsDestinyHistoricalStatsActivity.
         :rtype: int
@@ -124,7 +124,7 @@ class DestinyHistoricalStatsDestinyHistoricalStatsActivity(object):
     def activity_type_hash_override(self, activity_type_hash_override):
         """
         Sets the activity_type_hash_override of this DestinyHistoricalStatsDestinyHistoricalStatsActivity.
-        Hash ID that can be looked up in the DestinyActivityTypeTable. Prefer this value over the   type used by the activity if it is specified.
+        Hash ID that can be looked up in the DestinyActivityTypeTable. Prefer this value over the type used by the activity if it is specified.
 
         :param activity_type_hash_override: The activity_type_hash_override of this DestinyHistoricalStatsDestinyHistoricalStatsActivity.
         :type: int

@@ -57,7 +57,7 @@ class UserUserMembershipData(object):
     def destiny_memberships(self):
         """
         Gets the destiny_memberships of this UserUserMembershipData.
-        this allows you to see destiny memberships that are visible and linked to this account   (regardless of whether or not they have characters on the world server)
+        this allows you to see destiny memberships that are visible and linked to this account (regardless of whether or not they have characters on the world server)
 
         :return: The destiny_memberships of this UserUserMembershipData.
         :rtype: list[UserUserInfoCard]
@@ -68,7 +68,7 @@ class UserUserMembershipData(object):
     def destiny_memberships(self, destiny_memberships):
         """
         Sets the destiny_memberships of this UserUserMembershipData.
-        this allows you to see destiny memberships that are visible and linked to this account   (regardless of whether or not they have characters on the world server)
+        this allows you to see destiny memberships that are visible and linked to this account (regardless of whether or not they have characters on the world server)
 
         :param destiny_memberships: The destiny_memberships of this UserUserMembershipData.
         :type: list[UserUserInfoCard]

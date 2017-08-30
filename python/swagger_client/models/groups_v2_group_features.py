@@ -34,6 +34,7 @@ class GroupsV2GroupFeatures(object):
         'maximum_members': 'int',
         'maximum_memberships_of_group_type': 'int',
         'capabilities': 'GroupsV2Capabilities',
+        'membership_types': 'list[BungieMembershipType]',
         'invite_permission_override': 'bool',
         'update_culture_permission_override': 'bool',
         'update_banner_permission_override': 'bool'
@@ -43,12 +44,13 @@ class GroupsV2GroupFeatures(object):
         'maximum_members': 'maximumMembers',
         'maximum_memberships_of_group_type': 'maximumMembershipsOfGroupType',
         'capabilities': 'capabilities',
+        'membership_types': 'membershipTypes',
         'invite_permission_override': 'invitePermissionOverride',
         'update_culture_permission_override': 'updateCulturePermissionOverride',
         'update_banner_permission_override': 'updateBannerPermissionOverride'
     }
 
-    def __init__(self, maximum_members=None, maximum_memberships_of_group_type=None, capabilities=None, invite_permission_override=None, update_culture_permission_override=None, update_banner_permission_override=None):
+    def __init__(self, maximum_members=None, maximum_memberships_of_group_type=None, capabilities=None, membership_types=None, invite_permission_override=None, update_culture_permission_override=None, update_banner_permission_override=None):
         """
         GroupsV2GroupFeatures - a model defined in Swagger
         """
@@ -56,6 +58,7 @@ class GroupsV2GroupFeatures(object):
         self._maximum_members = None
         self._maximum_memberships_of_group_type = None
         self._capabilities = None
+        self._membership_types = None
         self._invite_permission_override = None
         self._update_culture_permission_override = None
         self._update_banner_permission_override = None
@@ -66,6 +69,8 @@ class GroupsV2GroupFeatures(object):
           self.maximum_memberships_of_group_type = maximum_memberships_of_group_type
         if capabilities is not None:
           self.capabilities = capabilities
+        if membership_types is not None:
+          self.membership_types = membership_types
         if invite_permission_override is not None:
           self.invite_permission_override = invite_permission_override
         if update_culture_permission_override is not None:
@@ -98,7 +103,7 @@ class GroupsV2GroupFeatures(object):
     def maximum_memberships_of_group_type(self):
         """
         Gets the maximum_memberships_of_group_type of this GroupsV2GroupFeatures.
-        Maximum number of groups of this type a typical membership may join. For example,  a user may join about 50 General groups with their Bungie.net account.  They may  join one clan per Destiny membership.
+        Maximum number of groups of this type a typical membership may join. For example,a user may join about 50 General groups with their Bungie.net account.  They mayjoin one clan per Destiny membership.
 
         :return: The maximum_memberships_of_group_type of this GroupsV2GroupFeatures.
         :rtype: int
@@ -109,7 +114,7 @@ class GroupsV2GroupFeatures(object):
     def maximum_memberships_of_group_type(self, maximum_memberships_of_group_type):
         """
         Sets the maximum_memberships_of_group_type of this GroupsV2GroupFeatures.
-        Maximum number of groups of this type a typical membership may join. For example,  a user may join about 50 General groups with their Bungie.net account.  They may  join one clan per Destiny membership.
+        Maximum number of groups of this type a typical membership may join. For example,a user may join about 50 General groups with their Bungie.net account.  They mayjoin one clan per Destiny membership.
 
         :param maximum_memberships_of_group_type: The maximum_memberships_of_group_type of this GroupsV2GroupFeatures.
         :type: int
@@ -139,10 +144,31 @@ class GroupsV2GroupFeatures(object):
         self._capabilities = capabilities
 
     @property
+    def membership_types(self):
+        """
+        Gets the membership_types of this GroupsV2GroupFeatures.
+
+        :return: The membership_types of this GroupsV2GroupFeatures.
+        :rtype: list[BungieMembershipType]
+        """
+        return self._membership_types
+
+    @membership_types.setter
+    def membership_types(self, membership_types):
+        """
+        Sets the membership_types of this GroupsV2GroupFeatures.
+
+        :param membership_types: The membership_types of this GroupsV2GroupFeatures.
+        :type: list[BungieMembershipType]
+        """
+
+        self._membership_types = membership_types
+
+    @property
     def invite_permission_override(self):
         """
         Gets the invite_permission_override of this GroupsV2GroupFeatures.
-        Minimum Member Level allowed to invite new members to group    Always Allowed: Founder, Acting Founder    True means admins have this power, false means they don't    Default is false for clans, true for groups.
+        Minimum Member Level allowed to invite new members to group  Always Allowed: Founder, Acting Founder  True means admins have this power, false means they don't  Default is false for clans, true for groups.
 
         :return: The invite_permission_override of this GroupsV2GroupFeatures.
         :rtype: bool
@@ -153,7 +179,7 @@ class GroupsV2GroupFeatures(object):
     def invite_permission_override(self, invite_permission_override):
         """
         Sets the invite_permission_override of this GroupsV2GroupFeatures.
-        Minimum Member Level allowed to invite new members to group    Always Allowed: Founder, Acting Founder    True means admins have this power, false means they don't    Default is false for clans, true for groups.
+        Minimum Member Level allowed to invite new members to group  Always Allowed: Founder, Acting Founder  True means admins have this power, false means they don't  Default is false for clans, true for groups.
 
         :param invite_permission_override: The invite_permission_override of this GroupsV2GroupFeatures.
         :type: bool
@@ -165,7 +191,7 @@ class GroupsV2GroupFeatures(object):
     def update_culture_permission_override(self):
         """
         Gets the update_culture_permission_override of this GroupsV2GroupFeatures.
-        Minimum Member Level allowed to update group culture    Always Allowed: Founder, Acting Founder    True means admins have this power, false means they don't    Default is false for clans, true for groups.
+        Minimum Member Level allowed to update group culture  Always Allowed: Founder, Acting Founder  True means admins have this power, false means they don't  Default is false for clans, true for groups.
 
         :return: The update_culture_permission_override of this GroupsV2GroupFeatures.
         :rtype: bool
@@ -176,7 +202,7 @@ class GroupsV2GroupFeatures(object):
     def update_culture_permission_override(self, update_culture_permission_override):
         """
         Sets the update_culture_permission_override of this GroupsV2GroupFeatures.
-        Minimum Member Level allowed to update group culture    Always Allowed: Founder, Acting Founder    True means admins have this power, false means they don't    Default is false for clans, true for groups.
+        Minimum Member Level allowed to update group culture  Always Allowed: Founder, Acting Founder  True means admins have this power, false means they don't  Default is false for clans, true for groups.
 
         :param update_culture_permission_override: The update_culture_permission_override of this GroupsV2GroupFeatures.
         :type: bool
@@ -188,7 +214,7 @@ class GroupsV2GroupFeatures(object):
     def update_banner_permission_override(self):
         """
         Gets the update_banner_permission_override of this GroupsV2GroupFeatures.
-        Minimum Member Level allowed to update banner    Always Allowed: Founder, Acting Founder    True means admins have this power, false means they don't    Default is false for clans, true for groups.
+        Minimum Member Level allowed to update banner  Always Allowed: Founder, Acting Founder  True means admins have this power, false means they don't  Default is false for clans, true for groups.
 
         :return: The update_banner_permission_override of this GroupsV2GroupFeatures.
         :rtype: bool
@@ -199,7 +225,7 @@ class GroupsV2GroupFeatures(object):
     def update_banner_permission_override(self, update_banner_permission_override):
         """
         Sets the update_banner_permission_override of this GroupsV2GroupFeatures.
-        Minimum Member Level allowed to update banner    Always Allowed: Founder, Acting Founder    True means admins have this power, false means they don't    Default is false for clans, true for groups.
+        Minimum Member Level allowed to update banner  Always Allowed: Founder, Acting Founder  True means admins have this power, false means they don't  Default is false for clans, true for groups.
 
         :param update_banner_permission_override: The update_banner_permission_override of this GroupsV2GroupFeatures.
         :type: bool

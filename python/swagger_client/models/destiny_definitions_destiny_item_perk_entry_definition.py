@@ -57,7 +57,7 @@ class DestinyDefinitionsDestinyItemPerkEntryDefinition(object):
     def requirement_display_string(self):
         """
         Gets the requirement_display_string of this DestinyDefinitionsDestinyItemPerkEntryDefinition.
-        If this perk is not active, this is the string to show for why  it's not providing its benefits.
+        If this perk is not active, this is the string to show for whyit's not providing its benefits.
 
         :return: The requirement_display_string of this DestinyDefinitionsDestinyItemPerkEntryDefinition.
         :rtype: str
@@ -68,7 +68,7 @@ class DestinyDefinitionsDestinyItemPerkEntryDefinition(object):
     def requirement_display_string(self, requirement_display_string):
         """
         Sets the requirement_display_string of this DestinyDefinitionsDestinyItemPerkEntryDefinition.
-        If this perk is not active, this is the string to show for why  it's not providing its benefits.
+        If this perk is not active, this is the string to show for whyit's not providing its benefits.
 
         :param requirement_display_string: The requirement_display_string of this DestinyDefinitionsDestinyItemPerkEntryDefinition.
         :type: str

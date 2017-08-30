@@ -117,7 +117,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def vendor_item_index(self):
         """
         Gets the vendor_item_index of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The index into the DestinyVendorDefinition.saleList.  This is what we use to refer to items  being sold throughout live and definition data.
+        The index into the DestinyVendorDefinition.saleList.  This is what we use to refer to itemsbeing sold throughout live and definition data.
 
         :return: The vendor_item_index of this DestinyDefinitionsDestinyVendorItemDefinition.
         :rtype: int
@@ -128,7 +128,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def vendor_item_index(self, vendor_item_index):
         """
         Sets the vendor_item_index of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The index into the DestinyVendorDefinition.saleList.  This is what we use to refer to items  being sold throughout live and definition data.
+        The index into the DestinyVendorDefinition.saleList.  This is what we use to refer to itemsbeing sold throughout live and definition data.
 
         :param vendor_item_index: The vendor_item_index of this DestinyDefinitionsDestinyVendorItemDefinition.
         :type: int
@@ -140,7 +140,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def item_hash(self):
         """
         Gets the item_hash of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The hash identifier of the item being sold (DestinyInventoryItemDefinition).    Note that a vendor can sell the same item in multiple ways, so don't assume that itemHash is  a unique identifier for this entity.
+        The hash identifier of the item being sold (DestinyInventoryItemDefinition).  Note that a vendor can sell the same item in multiple ways, so don't assume that itemHash isa unique identifier for this entity.
 
         :return: The item_hash of this DestinyDefinitionsDestinyVendorItemDefinition.
         :rtype: int
@@ -151,7 +151,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def item_hash(self, item_hash):
         """
         Sets the item_hash of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The hash identifier of the item being sold (DestinyInventoryItemDefinition).    Note that a vendor can sell the same item in multiple ways, so don't assume that itemHash is  a unique identifier for this entity.
+        The hash identifier of the item being sold (DestinyInventoryItemDefinition).  Note that a vendor can sell the same item in multiple ways, so don't assume that itemHash isa unique identifier for this entity.
 
         :param item_hash: The item_hash of this DestinyDefinitionsDestinyVendorItemDefinition.
         :type: int
@@ -186,7 +186,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def failure_indexes(self):
         """
         Gets the failure_indexes of this DestinyDefinitionsDestinyVendorItemDefinition.
-        An list of indexes into the DestinyVendorDefinition.failureStrings array, indicating  the possible failure strings that can be relevant for this item.
+        An list of indexes into the DestinyVendorDefinition.failureStrings array, indicatingthe possible failure strings that can be relevant for this item.
 
         :return: The failure_indexes of this DestinyDefinitionsDestinyVendorItemDefinition.
         :rtype: list[int]
@@ -197,7 +197,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def failure_indexes(self, failure_indexes):
         """
         Sets the failure_indexes of this DestinyDefinitionsDestinyVendorItemDefinition.
-        An list of indexes into the DestinyVendorDefinition.failureStrings array, indicating  the possible failure strings that can be relevant for this item.
+        An list of indexes into the DestinyVendorDefinition.failureStrings array, indicatingthe possible failure strings that can be relevant for this item.
 
         :param failure_indexes: The failure_indexes of this DestinyDefinitionsDestinyVendorItemDefinition.
         :type: list[int]
@@ -209,7 +209,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def currencies(self):
         """
         Gets the currencies of this DestinyDefinitionsDestinyVendorItemDefinition.
-        This is a pre-compiled aggregation of item value and priceOverrideList, so that we have one place  to check for what the purchaser must pay for the item.  Use this instead of trying to piece together  the price separately.
+        This is a pre-compiled aggregation of item value and priceOverrideList, so that we have one placeto check for what the purchaser must pay for the item.  Use this instead of trying to piece togetherthe price separately.
 
         :return: The currencies of this DestinyDefinitionsDestinyVendorItemDefinition.
         :rtype: list[DestinyDestinyItemQuantity]
@@ -220,7 +220,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def currencies(self, currencies):
         """
         Sets the currencies of this DestinyDefinitionsDestinyVendorItemDefinition.
-        This is a pre-compiled aggregation of item value and priceOverrideList, so that we have one place  to check for what the purchaser must pay for the item.  Use this instead of trying to piece together  the price separately.
+        This is a pre-compiled aggregation of item value and priceOverrideList, so that we have one placeto check for what the purchaser must pay for the item.  Use this instead of trying to piece togetherthe price separately.
 
         :param currencies: The currencies of this DestinyDefinitionsDestinyVendorItemDefinition.
         :type: list[DestinyDestinyItemQuantity]
@@ -255,7 +255,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def creation_levels(self):
         """
         Gets the creation_levels of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The Default level at which the item will spawn.  Almost always driven by an adjusto these days.  Ideally should be singular.  It's a long story how this ended up as a list, but there is always either  going to be 0:1 of these entities.
+        The Default level at which the item will spawn.  Almost always driven by an adjusto these days.Ideally should be singular.  It's a long story how this ended up as a list, but there is always eithergoing to be 0:1 of these entities.
 
         :return: The creation_levels of this DestinyDefinitionsDestinyVendorItemDefinition.
         :rtype: list[DestinyDefinitionsDestinyItemCreationEntryLevelDefinition]
@@ -266,7 +266,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def creation_levels(self, creation_levels):
         """
         Sets the creation_levels of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The Default level at which the item will spawn.  Almost always driven by an adjusto these days.  Ideally should be singular.  It's a long story how this ended up as a list, but there is always either  going to be 0:1 of these entities.
+        The Default level at which the item will spawn.  Almost always driven by an adjusto these days.Ideally should be singular.  It's a long story how this ended up as a list, but there is always eithergoing to be 0:1 of these entities.
 
         :param creation_levels: The creation_levels of this DestinyDefinitionsDestinyVendorItemDefinition.
         :type: list[DestinyDefinitionsDestinyItemCreationEntryLevelDefinition]
@@ -278,7 +278,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def display_category_index(self):
         """
         Gets the display_category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
-        This is an index specifically into the display category, as opposed to the server-side Categories  (which do not need to match or pair with each other in any way: server side categories are really just  structures for common validation.  Display Category will let us more easily categorize items visually)
+        This is an index specifically into the display category, as opposed to the server-side Categories(which do not need to match or pair with each other in any way: server side categories are really juststructures for common validation.  Display Category will let us more easily categorize items visually)
 
         :return: The display_category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
         :rtype: int
@@ -289,7 +289,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def display_category_index(self, display_category_index):
         """
         Sets the display_category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
-        This is an index specifically into the display category, as opposed to the server-side Categories  (which do not need to match or pair with each other in any way: server side categories are really just  structures for common validation.  Display Category will let us more easily categorize items visually)
+        This is an index specifically into the display category, as opposed to the server-side Categories(which do not need to match or pair with each other in any way: server side categories are really juststructures for common validation.  Display Category will let us more easily categorize items visually)
 
         :param display_category_index: The display_category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
         :type: int
@@ -301,7 +301,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def category_index(self):
         """
         Gets the category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The index into the DestinyVendorDefinition.categories array, so you can find the category associated with  this item.
+        The index into the DestinyVendorDefinition.categories array, so you can find the category associated withthis item.
 
         :return: The category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
         :rtype: int
@@ -312,7 +312,7 @@ class DestinyDefinitionsDestinyVendorItemDefinition(object):
     def category_index(self, category_index):
         """
         Sets the category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
-        The index into the DestinyVendorDefinition.categories array, so you can find the category associated with  this item.
+        The index into the DestinyVendorDefinition.categories array, so you can find the category associated withthis item.
 
         :param category_index: The category_index of this DestinyDefinitionsDestinyVendorItemDefinition.
         :type: int

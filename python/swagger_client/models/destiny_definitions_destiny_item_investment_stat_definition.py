@@ -80,7 +80,7 @@ class DestinyDefinitionsDestinyItemInvestmentStatDefinition(object):
     def value(self):
         """
         Gets the value of this DestinyDefinitionsDestinyItemInvestmentStatDefinition.
-        The raw \"Investment\" value for the stat, before transformations are performed  to turn this raw stat into stats that are displayed in the game UI.
+        The raw \"Investment\" value for the stat, before transformations are performedto turn this raw stat into stats that are displayed in the game UI.
 
         :return: The value of this DestinyDefinitionsDestinyItemInvestmentStatDefinition.
         :rtype: int
@@ -91,7 +91,7 @@ class DestinyDefinitionsDestinyItemInvestmentStatDefinition(object):
     def value(self, value):
         """
         Sets the value of this DestinyDefinitionsDestinyItemInvestmentStatDefinition.
-        The raw \"Investment\" value for the stat, before transformations are performed  to turn this raw stat into stats that are displayed in the game UI.
+        The raw \"Investment\" value for the stat, before transformations are performedto turn this raw stat into stats that are displayed in the game UI.
 
         :param value: The value of this DestinyDefinitionsDestinyItemInvestmentStatDefinition.
         :type: int

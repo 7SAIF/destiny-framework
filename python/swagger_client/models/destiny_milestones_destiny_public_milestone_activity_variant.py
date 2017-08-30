@@ -52,7 +52,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivityVariant(object):
     def activity_hash(self):
         """
         Gets the activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivityVariant.
-        The hash identifier of this activity variant.  Examine the activity's definition in the Manifest database  to determine what makes it a distinct variant.  Usually it will be difficulty level or whether or not it is a  guided game variant of the activity, but theoretically it could be distinguished in any arbitrary way.
+        The hash identifier of this activity variant.  Examine the activity's definition in the Manifest databaseto determine what makes it a distinct variant.  Usually it will be difficulty level or whether or not it is aguided game variant of the activity, but theoretically it could be distinguished in any arbitrary way.
 
         :return: The activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivityVariant.
         :rtype: int
@@ -63,7 +63,7 @@ class DestinyMilestonesDestinyPublicMilestoneActivityVariant(object):
     def activity_hash(self, activity_hash):
         """
         Sets the activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivityVariant.
-        The hash identifier of this activity variant.  Examine the activity's definition in the Manifest database  to determine what makes it a distinct variant.  Usually it will be difficulty level or whether or not it is a  guided game variant of the activity, but theoretically it could be distinguished in any arbitrary way.
+        The hash identifier of this activity variant.  Examine the activity's definition in the Manifest databaseto determine what makes it a distinct variant.  Usually it will be difficulty level or whether or not it is aguided game variant of the activity, but theoretically it could be distinguished in any arbitrary way.
 
         :param activity_hash: The activity_hash of this DestinyMilestonesDestinyPublicMilestoneActivityVariant.
         :type: int

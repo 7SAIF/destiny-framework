@@ -45,7 +45,7 @@ class Configuration(object):
         Constructor
         """
         # Default Base url
-        self.host = "https://https://bungie.net/Platform"
+        self.host = "https://bungie.net/Platform"
         # Default api client
         self.api_client = None
         # Temp file folder for downloading files

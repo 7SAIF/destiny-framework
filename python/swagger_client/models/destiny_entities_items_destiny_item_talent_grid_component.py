@@ -62,7 +62,7 @@ class DestinyEntitiesItemsDestinyItemTalentGridComponent(object):
     def talent_grid_hash(self):
         """
         Gets the talent_grid_hash of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
-        Most items don't have useful talent grids anymore, but Builds in particular still do.    You can use this hash to lookup the DestinyTalentGridDefinition attached to this item,  which will be crucial for understanding the node values on the item.
+        Most items don't have useful talent grids anymore, but Builds in particular still do.  You can use this hash to lookup the DestinyTalentGridDefinition attached to this item,which will be crucial for understanding the node values on the item.
 
         :return: The talent_grid_hash of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyEntitiesItemsDestinyItemTalentGridComponent(object):
     def talent_grid_hash(self, talent_grid_hash):
         """
         Sets the talent_grid_hash of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
-        Most items don't have useful talent grids anymore, but Builds in particular still do.    You can use this hash to lookup the DestinyTalentGridDefinition attached to this item,  which will be crucial for understanding the node values on the item.
+        Most items don't have useful talent grids anymore, but Builds in particular still do.  You can use this hash to lookup the DestinyTalentGridDefinition attached to this item,which will be crucial for understanding the node values on the item.
 
         :param talent_grid_hash: The talent_grid_hash of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
         :type: int
@@ -85,7 +85,7 @@ class DestinyEntitiesItemsDestinyItemTalentGridComponent(object):
     def nodes(self):
         """
         Gets the nodes of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
-        Detailed information about the individual nodes in the talent grid.    A node represents a single visual \"pip\" in the talent grid or Build detail view,  though each node may have multiple \"steps\" which indicate the actual bonuses  and visual representation of that node.
+        Detailed information about the individual nodes in the talent grid.  A node represents a single visual \"pip\" in the talent grid or Build detail view,though each node may have multiple \"steps\" which indicate the actual bonusesand visual representation of that node.
 
         :return: The nodes of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
         :rtype: list[DestinyDestinyTalentNode]
@@ -96,7 +96,7 @@ class DestinyEntitiesItemsDestinyItemTalentGridComponent(object):
     def nodes(self, nodes):
         """
         Sets the nodes of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
-        Detailed information about the individual nodes in the talent grid.    A node represents a single visual \"pip\" in the talent grid or Build detail view,  though each node may have multiple \"steps\" which indicate the actual bonuses  and visual representation of that node.
+        Detailed information about the individual nodes in the talent grid.  A node represents a single visual \"pip\" in the talent grid or Build detail view,though each node may have multiple \"steps\" which indicate the actual bonusesand visual representation of that node.
 
         :param nodes: The nodes of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
         :type: list[DestinyDestinyTalentNode]
@@ -108,7 +108,7 @@ class DestinyEntitiesItemsDestinyItemTalentGridComponent(object):
     def is_grid_complete(self):
         """
         Gets the is_grid_complete of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
-        Indicates whether the talent grid on this item is completed, and thus whether it should have a gold border around it.    Only will be true if the item actually *has* a talent grid, and only then if it is completed (i.e. every exclusive set  has an activated node, and every non-exclusive set node has been activated)
+        Indicates whether the talent grid on this item is completed, and thus whether it should have a gold border around it.  Only will be true if the item actually *has* a talent grid, and only then if it is completed (i.e. every exclusive sethas an activated node, and every non-exclusive set node has been activated)
 
         :return: The is_grid_complete of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
         :rtype: bool
@@ -119,7 +119,7 @@ class DestinyEntitiesItemsDestinyItemTalentGridComponent(object):
     def is_grid_complete(self, is_grid_complete):
         """
         Sets the is_grid_complete of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
-        Indicates whether the talent grid on this item is completed, and thus whether it should have a gold border around it.    Only will be true if the item actually *has* a talent grid, and only then if it is completed (i.e. every exclusive set  has an activated node, and every non-exclusive set node has been activated)
+        Indicates whether the talent grid on this item is completed, and thus whether it should have a gold border around it.  Only will be true if the item actually *has* a talent grid, and only then if it is completed (i.e. every exclusive sethas an activated node, and every non-exclusive set node has been activated)
 
         :param is_grid_complete: The is_grid_complete of this DestinyEntitiesItemsDestinyItemTalentGridComponent.
         :type: bool

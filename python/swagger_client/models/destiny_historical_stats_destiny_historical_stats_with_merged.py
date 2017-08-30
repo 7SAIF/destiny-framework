@@ -31,22 +31,48 @@ class DestinyHistoricalStatsDestinyHistoricalStatsWithMerged(object):
                             and the value is json key in definition.
     """
     swagger_types = {
+        'results': 'dict(str, DestinyHistoricalStatsDestinyHistoricalStatsByPeriod)',
         'merged': 'DestinyHistoricalStatsDestinyHistoricalStatsByPeriod'
     }
 
     attribute_map = {
+        'results': 'results',
         'merged': 'merged'
     }
 
-    def __init__(self, merged=None):
+    def __init__(self, results=None, merged=None):
         """
         DestinyHistoricalStatsDestinyHistoricalStatsWithMerged - a model defined in Swagger
         """
 
+        self._results = None
         self._merged = None
 
+        if results is not None:
+          self.results = results
         if merged is not None:
           self.merged = merged
+
+    @property
+    def results(self):
+        """
+        Gets the results of this DestinyHistoricalStatsDestinyHistoricalStatsWithMerged.
+
+        :return: The results of this DestinyHistoricalStatsDestinyHistoricalStatsWithMerged.
+        :rtype: dict(str, DestinyHistoricalStatsDestinyHistoricalStatsByPeriod)
+        """
+        return self._results
+
+    @results.setter
+    def results(self, results):
+        """
+        Sets the results of this DestinyHistoricalStatsDestinyHistoricalStatsWithMerged.
+
+        :param results: The results of this DestinyHistoricalStatsDestinyHistoricalStatsWithMerged.
+        :type: dict(str, DestinyHistoricalStatsDestinyHistoricalStatsByPeriod)
+        """
+
+        self._results = results
 
     @property
     def merged(self):

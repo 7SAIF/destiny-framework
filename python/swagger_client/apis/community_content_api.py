@@ -53,9 +53,9 @@ class CommunityContentApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str media_filter: The type of media to get (required)
+        :param int media_filter: The type of media to get (required)
         :param int page: Zero based page (required)
-        :param str sort: The sort mode. (required)
+        :param int sort: The sort mode. (required)
         :return: InlineResponse2006
                  If the method is called asynchronously,
                  returns the request thread.
@@ -80,9 +80,9 @@ class CommunityContentApi(object):
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str media_filter: The type of media to get (required)
+        :param int media_filter: The type of media to get (required)
         :param int page: Zero based page (required)
-        :param str sort: The sort mode. (required)
+        :param int sort: The sort mode. (required)
         :return: InlineResponse2006
                  If the method is called asynchronously,
                  returns the request thread.
@@ -164,11 +164,11 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
         :param int mode_hash: The hash of the Activity Mode for which streams should be retrieved.  Don't pass it in or pass 0 to not filter by mode.
         :param str stream_locale: The locale for streams you'd like to see.  Don't pass this to fall back on your BNet locale.  Pass 'ALL' to not filter by locale.
-        :return: InlineResponse20032
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -193,11 +193,11 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
         :param int mode_hash: The hash of the Activity Mode for which streams should be retrieved.  Don't pass it in or pass 0 to not filter by mode.
         :param str stream_locale: The locale for streams you'd like to see.  Don't pass this to fall back on your BNet locale.  Pass 'ALL' to not filter by locale.
-        :return: InlineResponse20032
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -260,7 +260,7 @@ class CommunityContentApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20032',
+                                        response_type='InlineResponse20034',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -282,9 +282,9 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
-        :return: InlineResponse20032
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -309,9 +309,9 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
-        :return: InlineResponse20032
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -370,7 +370,7 @@ class CommunityContentApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20032',
+                                        response_type='InlineResponse20034',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -392,9 +392,9 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
-        :return: InlineResponse20032
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -419,9 +419,9 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
-        :return: InlineResponse20032
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -480,7 +480,7 @@ class CommunityContentApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20032',
+                                        response_type='InlineResponse20034',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -502,10 +502,10 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
         :param str stream_locale: The locale for streams you'd like to see.  Don't pass this to fall back on your BNet locale.  Pass 'ALL' to not filter by locale.
-        :return: InlineResponse20032
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -530,10 +530,10 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int page: Zero based page. (required)
-        :param str partnership_type: The type of partnership for which the status should be returned. (required)
-        :param str sort: The sort mode. (required)
+        :param int partnership_type: The type of partnership for which the status should be returned. (required)
+        :param int sort: The sort mode. (required)
         :param str stream_locale: The locale for streams you'd like to see.  Don't pass this to fall back on your BNet locale.  Pass 'ALL' to not filter by locale.
-        :return: InlineResponse20032
+        :return: InlineResponse20034
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -594,7 +594,7 @@ class CommunityContentApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20032',
+                                        response_type='InlineResponse20034',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -616,9 +616,9 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int membership_id: The membershipId related to that type. (required)
-        :param str membership_type: The type of account for which info will be extracted. (required)
-        :param str partnership_type: The type of partnership for which info will be extracted. (required)
-        :return: InlineResponse20033
+        :param int membership_type: The type of account for which info will be extracted. (required)
+        :param int partnership_type: The type of partnership for which info will be extracted. (required)
+        :return: InlineResponse20035
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -643,9 +643,9 @@ class CommunityContentApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int membership_id: The membershipId related to that type. (required)
-        :param str membership_type: The type of account for which info will be extracted. (required)
-        :param str partnership_type: The type of partnership for which info will be extracted. (required)
-        :return: InlineResponse20033
+        :param int membership_type: The type of account for which info will be extracted. (required)
+        :param int partnership_type: The type of partnership for which info will be extracted. (required)
+        :return: InlineResponse20035
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -704,7 +704,7 @@ class CommunityContentApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20033',
+                                        response_type='InlineResponse20035',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),

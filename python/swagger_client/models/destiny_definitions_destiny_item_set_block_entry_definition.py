@@ -57,7 +57,7 @@ class DestinyDefinitionsDestinyItemSetBlockEntryDefinition(object):
     def tracking_value(self):
         """
         Gets the tracking_value of this DestinyDefinitionsDestinyItemSetBlockEntryDefinition.
-        Used for tracking which step a user reached.  These values will be populated in the user's  internal state, which we expose externally as a more usable DestinyQuestStatus object.  If this item has been obtained, this value will be set in trackingUnlockValueHash.
+        Used for tracking which step a user reached.  These values will be populated in the user'sinternal state, which we expose externally as a more usable DestinyQuestStatus object.If this item has been obtained, this value will be set in trackingUnlockValueHash.
 
         :return: The tracking_value of this DestinyDefinitionsDestinyItemSetBlockEntryDefinition.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsDestinyItemSetBlockEntryDefinition(object):
     def tracking_value(self, tracking_value):
         """
         Sets the tracking_value of this DestinyDefinitionsDestinyItemSetBlockEntryDefinition.
-        Used for tracking which step a user reached.  These values will be populated in the user's  internal state, which we expose externally as a more usable DestinyQuestStatus object.  If this item has been obtained, this value will be set in trackingUnlockValueHash.
+        Used for tracking which step a user reached.  These values will be populated in the user'sinternal state, which we expose externally as a more usable DestinyQuestStatus object.If this item has been obtained, this value will be set in trackingUnlockValueHash.
 
         :param tracking_value: The tracking_value of this DestinyDefinitionsDestinyItemSetBlockEntryDefinition.
         :type: int

@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def default_freeroam_activity_hash(self):
         """
         Gets the default_freeroam_activity_hash of this DestinyDefinitionsDestinyDestinationDefinition.
-        If this Destination has a default Free-Roam activity, this is the hash for that Activity.  Use it to look up the DestinyActivityDefintion.
+        If this Destination has a default Free-Roam activity, this is the hash for that Activity.Use it to look up the DestinyActivityDefintion.
 
         :return: The default_freeroam_activity_hash of this DestinyDefinitionsDestinyDestinationDefinition.
         :rtype: int
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def default_freeroam_activity_hash(self, default_freeroam_activity_hash):
         """
         Sets the default_freeroam_activity_hash of this DestinyDefinitionsDestinyDestinationDefinition.
-        If this Destination has a default Free-Roam activity, this is the hash for that Activity.  Use it to look up the DestinyActivityDefintion.
+        If this Destination has a default Free-Roam activity, this is the hash for that Activity.Use it to look up the DestinyActivityDefintion.
 
         :param default_freeroam_activity_hash: The default_freeroam_activity_hash of this DestinyDefinitionsDestinyDestinationDefinition.
         :type: int
@@ -159,7 +159,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def activity_graph_entries(self):
         """
         Gets the activity_graph_entries of this DestinyDefinitionsDestinyDestinationDefinition.
-        If the Destination has default Activity Graphs (i.e. \"Map\") that should be shown  in the director, this is the list of those Graphs.  At most, only one should be active  at any given time for a Destination: these would represent, for example, different  variants on a Map if the Destination is changing on a macro level based on game state.
+        If the Destination has default Activity Graphs (i.e. \"Map\") that should be shownin the director, this is the list of those Graphs.  At most, only one should be activeat any given time for a Destination: these would represent, for example, differentvariants on a Map if the Destination is changing on a macro level based on game state.
 
         :return: The activity_graph_entries of this DestinyDefinitionsDestinyDestinationDefinition.
         :rtype: list[DestinyDefinitionsDestinyActivityGraphListEntryDefinition]
@@ -170,7 +170,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def activity_graph_entries(self, activity_graph_entries):
         """
         Sets the activity_graph_entries of this DestinyDefinitionsDestinyDestinationDefinition.
-        If the Destination has default Activity Graphs (i.e. \"Map\") that should be shown  in the director, this is the list of those Graphs.  At most, only one should be active  at any given time for a Destination: these would represent, for example, different  variants on a Map if the Destination is changing on a macro level based on game state.
+        If the Destination has default Activity Graphs (i.e. \"Map\") that should be shownin the director, this is the list of those Graphs.  At most, only one should be activeat any given time for a Destination: these would represent, for example, differentvariants on a Map if the Destination is changing on a macro level based on game state.
 
         :param activity_graph_entries: The activity_graph_entries of this DestinyDefinitionsDestinyDestinationDefinition.
         :type: list[DestinyDefinitionsDestinyActivityGraphListEntryDefinition]
@@ -182,7 +182,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def bubble_settings(self):
         """
         Gets the bubble_settings of this DestinyDefinitionsDestinyDestinationDefinition.
-        A Destination may have many \"Bubbles\" zones with human readable properties.    We don't get as much info as I'd like about them - I'd love to return info like   where on the map they are located - but at least this gives you the name of those bubbles.  bubbleSettings and bubbles both have the identical number of entries, and you should  match up their indexes to provide matching bubble and bubbleSettings data.
+        A Destination may have many \"Bubbles\" zones with human readable properties.  We don't get as much info as I'd like about them - I'd love to return info like where on the map they are located - but at least this gives you the name of those bubbles.bubbleSettings and bubbles both have the identical number of entries, and you shouldmatch up their indexes to provide matching bubble and bubbleSettings data.
 
         :return: The bubble_settings of this DestinyDefinitionsDestinyDestinationDefinition.
         :rtype: list[DestinyDefinitionsDestinyDestinationBubbleSettingDefinition]
@@ -193,7 +193,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def bubble_settings(self, bubble_settings):
         """
         Sets the bubble_settings of this DestinyDefinitionsDestinyDestinationDefinition.
-        A Destination may have many \"Bubbles\" zones with human readable properties.    We don't get as much info as I'd like about them - I'd love to return info like   where on the map they are located - but at least this gives you the name of those bubbles.  bubbleSettings and bubbles both have the identical number of entries, and you should  match up their indexes to provide matching bubble and bubbleSettings data.
+        A Destination may have many \"Bubbles\" zones with human readable properties.  We don't get as much info as I'd like about them - I'd love to return info like where on the map they are located - but at least this gives you the name of those bubbles.bubbleSettings and bubbles both have the identical number of entries, and you shouldmatch up their indexes to provide matching bubble and bubbleSettings data.
 
         :param bubble_settings: The bubble_settings of this DestinyDefinitionsDestinyDestinationDefinition.
         :type: list[DestinyDefinitionsDestinyDestinationBubbleSettingDefinition]
@@ -205,7 +205,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def bubbles(self):
         """
         Gets the bubbles of this DestinyDefinitionsDestinyDestinationDefinition.
-        This provides the unique identifiers for every bubble in the destination  (only guaranteed unique within the destination), and any intrinsic properties of the bubble.    bubbleSettings and bubbles both have the identical number of entries, and you should  match up their indexes to provide matching bubble and bubbleSettings data.
+        This provides the unique identifiers for every bubble in the destination(only guaranteed unique within the destination), and any intrinsic properties of the bubble.  bubbleSettings and bubbles both have the identical number of entries, and you shouldmatch up their indexes to provide matching bubble and bubbleSettings data.
 
         :return: The bubbles of this DestinyDefinitionsDestinyDestinationDefinition.
         :rtype: list[DestinyDefinitionsDestinyBubbleDefinition]
@@ -216,7 +216,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def bubbles(self, bubbles):
         """
         Sets the bubbles of this DestinyDefinitionsDestinyDestinationDefinition.
-        This provides the unique identifiers for every bubble in the destination  (only guaranteed unique within the destination), and any intrinsic properties of the bubble.    bubbleSettings and bubbles both have the identical number of entries, and you should  match up their indexes to provide matching bubble and bubbleSettings data.
+        This provides the unique identifiers for every bubble in the destination(only guaranteed unique within the destination), and any intrinsic properties of the bubble.  bubbleSettings and bubbles both have the identical number of entries, and you shouldmatch up their indexes to provide matching bubble and bubbleSettings data.
 
         :param bubbles: The bubbles of this DestinyDefinitionsDestinyDestinationDefinition.
         :type: list[DestinyDefinitionsDestinyBubbleDefinition]
@@ -228,7 +228,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyDestinationDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyDestinationDefinition.
         :rtype: int
@@ -239,7 +239,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyDestinationDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyDestinationDefinition.
         :type: int
@@ -274,7 +274,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyDestinationDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyDestinationDefinition.
         :rtype: bool
@@ -285,7 +285,7 @@ class DestinyDefinitionsDestinyDestinationDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyDestinationDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyDestinationDefinition.
         :type: bool

@@ -62,7 +62,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition(object):
     def quest_item_hash(self):
         """
         Gets the quest_item_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
-        The item representing this Milestone quest.  Use this hash to look up the DestinyInventoryItemDefinition  for the quest to find its steps and human readable data.
+        The item representing this Milestone quest.  Use this hash to look up the DestinyInventoryItemDefinitionfor the quest to find its steps and human readable data.
 
         :return: The quest_item_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition(object):
     def quest_item_hash(self, quest_item_hash):
         """
         Sets the quest_item_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
-        The item representing this Milestone quest.  Use this hash to look up the DestinyInventoryItemDefinition  for the quest to find its steps and human readable data.
+        The item representing this Milestone quest.  Use this hash to look up the DestinyInventoryItemDefinitionfor the quest to find its steps and human readable data.
 
         :param quest_item_hash: The quest_item_hash of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
         :type: int
@@ -85,7 +85,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition(object):
     def override_image(self):
         """
         Gets the override_image of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
-        If populated, this image can be shown instead of the generic milestone's image when this quest is live,  or it can be used to show a background image for the quest itself that differs from that of the Activity  or the Milestone.
+        If populated, this image can be shown instead of the generic milestone's image when this quest is live,or it can be used to show a background image for the quest itself that differs from that of the Activityor the Milestone.
 
         :return: The override_image of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
         :rtype: str
@@ -96,7 +96,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition(object):
     def override_image(self, override_image):
         """
         Sets the override_image of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
-        If populated, this image can be shown instead of the generic milestone's image when this quest is live,  or it can be used to show a background image for the quest itself that differs from that of the Activity  or the Milestone.
+        If populated, this image can be shown instead of the generic milestone's image when this quest is live,or it can be used to show a background image for the quest itself that differs from that of the Activityor the Milestone.
 
         :param override_image: The override_image of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
         :type: str
@@ -108,7 +108,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition(object):
     def activities(self):
         """
         Gets the activities of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
-        The full set of all possible \"conceptual activities\" that are related to this Milestone.  Tiers or alternative modes of play within these conceptual activities will be defined as sub-entities.  Keyed by the Conceptual Activity Hash.  Use the key to look up DestinyActivityDefinition.
+        The full set of all possible \"conceptual activities\" that are related to this Milestone.Tiers or alternative modes of play within these conceptual activities will be defined as sub-entities.Keyed by the Conceptual Activity Hash.  Use the key to look up DestinyActivityDefinition.
 
         :return: The activities of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
         :rtype: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition)
@@ -119,7 +119,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition(object):
     def activities(self, activities):
         """
         Sets the activities of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
-        The full set of all possible \"conceptual activities\" that are related to this Milestone.  Tiers or alternative modes of play within these conceptual activities will be defined as sub-entities.  Keyed by the Conceptual Activity Hash.  Use the key to look up DestinyActivityDefinition.
+        The full set of all possible \"conceptual activities\" that are related to this Milestone.Tiers or alternative modes of play within these conceptual activities will be defined as sub-entities.Keyed by the Conceptual Activity Hash.  Use the key to look up DestinyActivityDefinition.
 
         :param activities: The activities of this DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition.
         :type: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition)

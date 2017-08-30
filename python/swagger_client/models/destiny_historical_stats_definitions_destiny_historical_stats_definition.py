@@ -32,6 +32,8 @@ class DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition(object):
     """
     swagger_types = {
         'stat_id': 'str',
+        'period_types': 'list[DestinyHistoricalStatsDefinitionsPeriodType]',
+        'modes': 'list[DestinyHistoricalStatsDefinitionsDestinyActivityModeType]',
         'stat_name': 'str',
         'stat_description': 'str',
         'icon_image': 'str',
@@ -43,6 +45,8 @@ class DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition(object):
 
     attribute_map = {
         'stat_id': 'statId',
+        'period_types': 'periodTypes',
+        'modes': 'modes',
         'stat_name': 'statName',
         'stat_description': 'statDescription',
         'icon_image': 'iconImage',
@@ -52,12 +56,14 @@ class DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition(object):
         'medal_tier_hash': 'medalTierHash'
     }
 
-    def __init__(self, stat_id=None, stat_name=None, stat_description=None, icon_image=None, merge_method=None, unit_label=None, weight=None, medal_tier_hash=None):
+    def __init__(self, stat_id=None, period_types=None, modes=None, stat_name=None, stat_description=None, icon_image=None, merge_method=None, unit_label=None, weight=None, medal_tier_hash=None):
         """
         DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition - a model defined in Swagger
         """
 
         self._stat_id = None
+        self._period_types = None
+        self._modes = None
         self._stat_name = None
         self._stat_description = None
         self._icon_image = None
@@ -68,6 +74,10 @@ class DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition(object):
 
         if stat_id is not None:
           self.stat_id = stat_id
+        if period_types is not None:
+          self.period_types = period_types
+        if modes is not None:
+          self.modes = modes
         if stat_name is not None:
           self.stat_name = stat_name
         if stat_description is not None:
@@ -105,6 +115,52 @@ class DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition(object):
         """
 
         self._stat_id = stat_id
+
+    @property
+    def period_types(self):
+        """
+        Gets the period_types of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        Time periods the statistic covers
+
+        :return: The period_types of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        :rtype: list[DestinyHistoricalStatsDefinitionsPeriodType]
+        """
+        return self._period_types
+
+    @period_types.setter
+    def period_types(self, period_types):
+        """
+        Sets the period_types of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        Time periods the statistic covers
+
+        :param period_types: The period_types of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        :type: list[DestinyHistoricalStatsDefinitionsPeriodType]
+        """
+
+        self._period_types = period_types
+
+    @property
+    def modes(self):
+        """
+        Gets the modes of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        Game modes where this statistic can be reported.
+
+        :return: The modes of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        :rtype: list[DestinyHistoricalStatsDefinitionsDestinyActivityModeType]
+        """
+        return self._modes
+
+    @modes.setter
+    def modes(self, modes):
+        """
+        Sets the modes of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        Game modes where this statistic can be reported.
+
+        :param modes: The modes of this DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.
+        :type: list[DestinyHistoricalStatsDefinitionsDestinyActivityModeType]
+        """
+
+        self._modes = modes
 
     @property
     def stat_name(self):

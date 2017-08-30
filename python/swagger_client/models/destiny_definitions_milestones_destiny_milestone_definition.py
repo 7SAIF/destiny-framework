@@ -184,7 +184,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def friendly_name(self):
         """
         Gets the friendly_name of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If the milestone has a friendly identifier for association with other features - such as Recruiting - that  identifier can be found here.  This is \"friendly\" in that it looks better in a URL than whatever  the identifier for the Milestone actually is.
+        If the milestone has a friendly identifier for association with other features - such as Recruiting - thatidentifier can be found here.  This is \"friendly\" in that it looks better in a URL than whateverthe identifier for the Milestone actually is.
 
         :return: The friendly_name of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: str
@@ -195,7 +195,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def friendly_name(self, friendly_name):
         """
         Sets the friendly_name of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If the milestone has a friendly identifier for association with other features - such as Recruiting - that  identifier can be found here.  This is \"friendly\" in that it looks better in a URL than whatever  the identifier for the Milestone actually is.
+        If the milestone has a friendly identifier for association with other features - such as Recruiting - thatidentifier can be found here.  This is \"friendly\" in that it looks better in a URL than whateverthe identifier for the Milestone actually is.
 
         :param friendly_name: The friendly_name of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: str
@@ -207,7 +207,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def show_in_explorer(self):
         """
         Gets the show_in_explorer of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If TRUE, this entry should be returned in the list of milestones for the \"Explore Destiny\"  (i.e. new BNet homepage) features of Bungie.net (as long as the underlying event is active)
+        If TRUE, this entry should be returned in the list of milestones for the \"Explore Destiny\"(i.e. new BNet homepage) features of Bungie.net (as long as the underlying event is active)
 
         :return: The show_in_explorer of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: bool
@@ -218,7 +218,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def show_in_explorer(self, show_in_explorer):
         """
         Sets the show_in_explorer of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If TRUE, this entry should be returned in the list of milestones for the \"Explore Destiny\"  (i.e. new BNet homepage) features of Bungie.net (as long as the underlying event is active)
+        If TRUE, this entry should be returned in the list of milestones for the \"Explore Destiny\"(i.e. new BNet homepage) features of Bungie.net (as long as the underlying event is active)
 
         :param show_in_explorer: The show_in_explorer of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: bool
@@ -230,7 +230,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def has_predictable_dates(self):
         """
         Gets the has_predictable_dates of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        A shortcut for clients - and the server - to understand whether we can predict the start and end dates  for this event.  In practice, there are multiple ways that an event could have predictable date ranges, but not all  events will be able to be predicted via any mechanism (for instance, events that are manually triggered on and off)
+        A shortcut for clients - and the server - to understand whether we can predict the start and end datesfor this event.  In practice, there are multiple ways that an event could have predictable date ranges, but not allevents will be able to be predicted via any mechanism (for instance, events that are manually triggered on and off)
 
         :return: The has_predictable_dates of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: bool
@@ -241,7 +241,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def has_predictable_dates(self, has_predictable_dates):
         """
         Sets the has_predictable_dates of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        A shortcut for clients - and the server - to understand whether we can predict the start and end dates  for this event.  In practice, there are multiple ways that an event could have predictable date ranges, but not all  events will be able to be predicted via any mechanism (for instance, events that are manually triggered on and off)
+        A shortcut for clients - and the server - to understand whether we can predict the start and end datesfor this event.  In practice, there are multiple ways that an event could have predictable date ranges, but not allevents will be able to be predicted via any mechanism (for instance, events that are manually triggered on and off)
 
         :param has_predictable_dates: The has_predictable_dates of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: bool
@@ -253,7 +253,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def quests(self):
         """
         Gets the quests of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        The full set of possible Quests that give the overview of the Milestone event/activity in question.  Only one of these can be active at a time for a given Conceptual Milestone, but many of them may be  \"available\" for the user to choose from. (for instance, with Milestones you can choose from the three  available Quests, but only one can be active at a time)  Keyed by the quest item.
+        The full set of possible Quests that give the overview of the Milestone event/activity in question.Only one of these can be active at a time for a given Conceptual Milestone, but many of them may be\"available\" for the user to choose from. (for instance, with Milestones you can choose from the threeavailable Quests, but only one can be active at a time)Keyed by the quest item.
 
         :return: The quests of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition)
@@ -264,7 +264,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def quests(self, quests):
         """
         Sets the quests of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        The full set of possible Quests that give the overview of the Milestone event/activity in question.  Only one of these can be active at a time for a given Conceptual Milestone, but many of them may be  \"available\" for the user to choose from. (for instance, with Milestones you can choose from the three  available Quests, but only one can be active at a time)  Keyed by the quest item.
+        The full set of possible Quests that give the overview of the Milestone event/activity in question.Only one of these can be active at a time for a given Conceptual Milestone, but many of them may be\"available\" for the user to choose from. (for instance, with Milestones you can choose from the threeavailable Quests, but only one can be active at a time)Keyed by the quest item.
 
         :param quests: The quests of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneQuestDefinition)
@@ -276,7 +276,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def rewards(self):
         """
         Gets the rewards of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If this milestone can provide rewards, this will define the categories  into which the individual reward entries are placed.
+        If this milestone can provide rewards, this will define the categoriesinto which the individual reward entries are placed.
 
         :return: The rewards of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition)
@@ -287,7 +287,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def rewards(self, rewards):
         """
         Sets the rewards of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If this milestone can provide rewards, this will define the categories  into which the individual reward entries are placed.
+        If this milestone can provide rewards, this will define the categoriesinto which the individual reward entries are placed.
 
         :param rewards: The rewards of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneRewardCategoryDefinition)
@@ -299,7 +299,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def vendors(self):
         """
         Gets the vendors of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        Sometimes, milestones will have rewards provided by Vendors.  This definition gives the information needed  to understand which vendors are relevant, the order in which they should be returned if order matters,  and the conditions under which the Vendor is relevant to the user.
+        Sometimes, milestones will have rewards provided by Vendors.  This definition gives the information neededto understand which vendors are relevant, the order in which they should be returned if order matters,and the conditions under which the Vendor is relevant to the user.
 
         :return: The vendors of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: list[DestinyDefinitionsMilestonesDestinyMilestoneVendorDefinition]
@@ -310,7 +310,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def vendors(self, vendors):
         """
         Sets the vendors of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        Sometimes, milestones will have rewards provided by Vendors.  This definition gives the information needed  to understand which vendors are relevant, the order in which they should be returned if order matters,  and the conditions under which the Vendor is relevant to the user.
+        Sometimes, milestones will have rewards provided by Vendors.  This definition gives the information neededto understand which vendors are relevant, the order in which they should be returned if order matters,and the conditions under which the Vendor is relevant to the user.
 
         :param vendors: The vendors of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: list[DestinyDefinitionsMilestonesDestinyMilestoneVendorDefinition]
@@ -322,7 +322,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def values(self):
         """
         Gets the values of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        Sometimes, milestones will have arbitrary values associated with them that are of interest to us  or to third party developers.  This is the collection of those values' definitions, keyed by the identifier  of the value and providing useful definition information such as localizable names and descriptions for the value.
+        Sometimes, milestones will have arbitrary values associated with them that are of interest to usor to third party developers.  This is the collection of those values' definitions, keyed by the identifierof the value and providing useful definition information such as localizable names and descriptions for the value.
 
         :return: The values of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneValueDefinition)
@@ -333,7 +333,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def values(self, values):
         """
         Sets the values of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        Sometimes, milestones will have arbitrary values associated with them that are of interest to us  or to third party developers.  This is the collection of those values' definitions, keyed by the identifier  of the value and providing useful definition information such as localizable names and descriptions for the value.
+        Sometimes, milestones will have arbitrary values associated with them that are of interest to usor to third party developers.  This is the collection of those values' definitions, keyed by the identifierof the value and providing useful definition information such as localizable names and descriptions for the value.
 
         :param values: The values of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneValueDefinition)
@@ -345,7 +345,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def is_in_game_milestone(self):
         """
         Gets the is_in_game_milestone of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        Some milestones are explicit objectives that you can see and interact with in the game.  Some milestones are more conceptual, built by BNet to help advise you on activities and events  that happen in-game but that aren't explicitly shown in game as Milestones.  If this is TRUE, you can see this as a milestone in the game.  If this is FALSE, it's an event or activity you can participate in, but you won't see it as  a Milestone in the game's UI.
+        Some milestones are explicit objectives that you can see and interact with in the game.Some milestones are more conceptual, built by BNet to help advise you on activities and eventsthat happen in-game but that aren't explicitly shown in game as Milestones.If this is TRUE, you can see this as a milestone in the game.If this is FALSE, it's an event or activity you can participate in, but you won't see it asa Milestone in the game's UI.
 
         :return: The is_in_game_milestone of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: bool
@@ -356,7 +356,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def is_in_game_milestone(self, is_in_game_milestone):
         """
         Sets the is_in_game_milestone of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        Some milestones are explicit objectives that you can see and interact with in the game.  Some milestones are more conceptual, built by BNet to help advise you on activities and events  that happen in-game but that aren't explicitly shown in game as Milestones.  If this is TRUE, you can see this as a milestone in the game.  If this is FALSE, it's an event or activity you can participate in, but you won't see it as  a Milestone in the game's UI.
+        Some milestones are explicit objectives that you can see and interact with in the game.Some milestones are more conceptual, built by BNet to help advise you on activities and eventsthat happen in-game but that aren't explicitly shown in game as Milestones.If this is TRUE, you can see this as a milestone in the game.If this is FALSE, it's an event or activity you can participate in, but you won't see it asa Milestone in the game's UI.
 
         :param is_in_game_milestone: The is_in_game_milestone of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: bool
@@ -368,7 +368,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: int
@@ -379,7 +379,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: int
@@ -414,7 +414,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :rtype: bool
@@ -425,7 +425,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsMilestonesDestinyMilestoneDefinition.
         :type: bool

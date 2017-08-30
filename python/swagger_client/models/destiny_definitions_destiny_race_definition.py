@@ -93,7 +93,7 @@ class DestinyDefinitionsDestinyRaceDefinition(object):
     def gendered_race_names(self):
         """
         Gets the gendered_race_names of this DestinyDefinitionsDestinyRaceDefinition.
-        A localized string referring to the singular form of the Race's name when referred to in gendered form.  Keyed by the DestinyGender.
+        A localized string referring to the singular form of the Race's name when referred to in gendered form.Keyed by the DestinyGender.
 
         :return: The gendered_race_names of this DestinyDefinitionsDestinyRaceDefinition.
         :rtype: dict(str, str)
@@ -104,7 +104,7 @@ class DestinyDefinitionsDestinyRaceDefinition(object):
     def gendered_race_names(self, gendered_race_names):
         """
         Sets the gendered_race_names of this DestinyDefinitionsDestinyRaceDefinition.
-        A localized string referring to the singular form of the Race's name when referred to in gendered form.  Keyed by the DestinyGender.
+        A localized string referring to the singular form of the Race's name when referred to in gendered form.Keyed by the DestinyGender.
 
         :param gendered_race_names: The gendered_race_names of this DestinyDefinitionsDestinyRaceDefinition.
         :type: dict(str, str)
@@ -116,7 +116,7 @@ class DestinyDefinitionsDestinyRaceDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyRaceDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyRaceDefinition.
         :rtype: int
@@ -127,7 +127,7 @@ class DestinyDefinitionsDestinyRaceDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyRaceDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyRaceDefinition.
         :type: int
@@ -162,7 +162,7 @@ class DestinyDefinitionsDestinyRaceDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyRaceDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyRaceDefinition.
         :rtype: bool
@@ -173,7 +173,7 @@ class DestinyDefinitionsDestinyRaceDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyRaceDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyRaceDefinition.
         :type: bool

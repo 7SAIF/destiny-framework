@@ -77,7 +77,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def vendor_item_index(self):
         """
         Gets the vendor_item_index of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        The index into the DestinyVendorDefinition.itemList property.  Note that this means Vendor data  *is* Content Version dependent: make sure you have the latest content before you use Vendor data,  or these indexes may mismatch.      Most systems avoid this problem, but Vendors is one area where we  are unable to reasonably avoid content dependency at the moment.
+        The index into the DestinyVendorDefinition.itemList property.  Note that this means Vendor data*is* Content Version dependent: make sure you have the latest content before you use Vendor data,or these indexes may mismatch.    Most systems avoid this problem, but Vendors is one area where weare unable to reasonably avoid content dependency at the moment.
 
         :return: The vendor_item_index of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :rtype: int
@@ -88,7 +88,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def vendor_item_index(self, vendor_item_index):
         """
         Sets the vendor_item_index of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        The index into the DestinyVendorDefinition.itemList property.  Note that this means Vendor data  *is* Content Version dependent: make sure you have the latest content before you use Vendor data,  or these indexes may mismatch.      Most systems avoid this problem, but Vendors is one area where we  are unable to reasonably avoid content dependency at the moment.
+        The index into the DestinyVendorDefinition.itemList property.  Note that this means Vendor data*is* Content Version dependent: make sure you have the latest content before you use Vendor data,or these indexes may mismatch.    Most systems avoid this problem, but Vendors is one area where weare unable to reasonably avoid content dependency at the moment.
 
         :param vendor_item_index: The vendor_item_index of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :type: int
@@ -100,7 +100,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def item_hash(self):
         """
         Gets the item_hash of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        The hash of the item being sold, as a quick shortcut for looking up the DestinyInventoryItemDefinition  of the sale item.
+        The hash of the item being sold, as a quick shortcut for looking up the DestinyInventoryItemDefinitionof the sale item.
 
         :return: The item_hash of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :rtype: int
@@ -111,7 +111,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def item_hash(self, item_hash):
         """
         Sets the item_hash of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        The hash of the item being sold, as a quick shortcut for looking up the DestinyInventoryItemDefinition  of the sale item.
+        The hash of the item being sold, as a quick shortcut for looking up the DestinyInventoryItemDefinitionof the sale item.
 
         :param item_hash: The item_hash of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :type: int
@@ -146,7 +146,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def required_unlocks(self):
         """
         Gets the required_unlocks of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        If you can't buy the item due to a complex character state, these will be hashes for  DestinyUnlockDefinitions that you can check to see messages regarding the failure (if the unlocks  have human readable information: it is not guaranteed that Unlocks will have human readable strings, and  your application will have to handle that)    Prefer using failureIndexes instead.  These are provided for informational purposes, but have largely  been supplanted by failureIndexes.
+        If you can't buy the item due to a complex character state, these will be hashes forDestinyUnlockDefinitions that you can check to see messages regarding the failure (if the unlockshave human readable information: it is not guaranteed that Unlocks will have human readable strings, andyour application will have to handle that)  Prefer using failureIndexes instead.  These are provided for informational purposes, but have largelybeen supplanted by failureIndexes.
 
         :return: The required_unlocks of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :rtype: list[int]
@@ -157,7 +157,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def required_unlocks(self, required_unlocks):
         """
         Sets the required_unlocks of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        If you can't buy the item due to a complex character state, these will be hashes for  DestinyUnlockDefinitions that you can check to see messages regarding the failure (if the unlocks  have human readable information: it is not guaranteed that Unlocks will have human readable strings, and  your application will have to handle that)    Prefer using failureIndexes instead.  These are provided for informational purposes, but have largely  been supplanted by failureIndexes.
+        If you can't buy the item due to a complex character state, these will be hashes forDestinyUnlockDefinitions that you can check to see messages regarding the failure (if the unlockshave human readable information: it is not guaranteed that Unlocks will have human readable strings, andyour application will have to handle that)  Prefer using failureIndexes instead.  These are provided for informational purposes, but have largelybeen supplanted by failureIndexes.
 
         :param required_unlocks: The required_unlocks of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :type: list[int]
@@ -169,7 +169,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def unlock_statuses(self):
         """
         Gets the unlock_statuses of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        If any complex unlock states are checked in determining purchasability, these will  be returned here along with the status of the unlock check.    Prefer using failureIndexes instead.  These are provided for informational purposes, but have largely  been supplanted by failureIndexes.
+        If any complex unlock states are checked in determining purchasability, these willbe returned here along with the status of the unlock check.  Prefer using failureIndexes instead.  These are provided for informational purposes, but have largelybeen supplanted by failureIndexes.
 
         :return: The unlock_statuses of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :rtype: list[DestinyDestinyUnlockStatus]
@@ -180,7 +180,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def unlock_statuses(self, unlock_statuses):
         """
         Sets the unlock_statuses of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        If any complex unlock states are checked in determining purchasability, these will  be returned here along with the status of the unlock check.    Prefer using failureIndexes instead.  These are provided for informational purposes, but have largely  been supplanted by failureIndexes.
+        If any complex unlock states are checked in determining purchasability, these willbe returned here along with the status of the unlock check.  Prefer using failureIndexes instead.  These are provided for informational purposes, but have largelybeen supplanted by failureIndexes.
 
         :param unlock_statuses: The unlock_statuses of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :type: list[DestinyDestinyUnlockStatus]
@@ -192,7 +192,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def failure_indexes(self):
         """
         Gets the failure_indexes of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        Indexes in to the \"failureStrings\" lookup table in DestinyVendorDefinition for the given Vendor.  Gives some more reliable failure information for why you can't purchase an item.    It is preferred to use these over requiredUnlocks and unlockStatuses: the latter are provided  mostly in case someone can do something interesting with it that I didn't anticipate.
+        Indexes in to the \"failureStrings\" lookup table in DestinyVendorDefinition for the given Vendor.Gives some more reliable failure information for why you can't purchase an item.  It is preferred to use these over requiredUnlocks and unlockStatuses: the latter are providedmostly in case someone can do something interesting with it that I didn't anticipate.
 
         :return: The failure_indexes of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :rtype: list[int]
@@ -203,7 +203,7 @@ class DestinyEntitiesVendorsDestinyVendorSaleItemComponent(object):
     def failure_indexes(self, failure_indexes):
         """
         Sets the failure_indexes of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
-        Indexes in to the \"failureStrings\" lookup table in DestinyVendorDefinition for the given Vendor.  Gives some more reliable failure information for why you can't purchase an item.    It is preferred to use these over requiredUnlocks and unlockStatuses: the latter are provided  mostly in case someone can do something interesting with it that I didn't anticipate.
+        Indexes in to the \"failureStrings\" lookup table in DestinyVendorDefinition for the given Vendor.Gives some more reliable failure information for why you can't purchase an item.  It is preferred to use these over requiredUnlocks and unlockStatuses: the latter are providedmostly in case someone can do something interesting with it that I didn't anticipate.
 
         :param failure_indexes: The failure_indexes of this DestinyEntitiesVendorsDestinyVendorSaleItemComponent.
         :type: list[int]

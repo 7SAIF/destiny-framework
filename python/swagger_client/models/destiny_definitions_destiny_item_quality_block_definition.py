@@ -72,7 +72,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def item_levels(self):
         """
         Gets the item_levels of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        The \"base\" defined level of an item.  This is a list because, in theory,  each Expansion could define its own base level for an item.    In practice, not only was that never done in Destiny 1, but now this  isn't even populated at all.  When it's not populated, the level at which  it spawns has to be inferred by Reward information, of which BNet receives an imperfect  view and will only be reliable on instanced data as a result.
+        The \"base\" defined level of an item.  This is a list because, in theory,each Expansion could define its own base level for an item.  In practice, not only was that never done in Destiny 1, but now thisisn't even populated at all.  When it's not populated, the level at whichit spawns has to be inferred by Reward information, of which BNet receives an imperfectview and will only be reliable on instanced data as a result.
 
         :return: The item_levels of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :rtype: list[int]
@@ -83,7 +83,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def item_levels(self, item_levels):
         """
         Sets the item_levels of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        The \"base\" defined level of an item.  This is a list because, in theory,  each Expansion could define its own base level for an item.    In practice, not only was that never done in Destiny 1, but now this  isn't even populated at all.  When it's not populated, the level at which  it spawns has to be inferred by Reward information, of which BNet receives an imperfect  view and will only be reliable on instanced data as a result.
+        The \"base\" defined level of an item.  This is a list because, in theory,each Expansion could define its own base level for an item.  In practice, not only was that never done in Destiny 1, but now thisisn't even populated at all.  When it's not populated, the level at whichit spawns has to be inferred by Reward information, of which BNet receives an imperfectview and will only be reliable on instanced data as a result.
 
         :param item_levels: The item_levels of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :type: list[int]
@@ -95,7 +95,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def quality_level(self):
         """
         Gets the quality_level of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        qualityLevel is used in combination with the item's level to calculate stats like  Attack and Defense.  It plays a role in that calculation, but not nearly as large as  itemLevel does.
+        qualityLevel is used in combination with the item's level to calculate stats likeAttack and Defense.  It plays a role in that calculation, but not nearly as large asitemLevel does.
 
         :return: The quality_level of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :rtype: int
@@ -106,7 +106,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def quality_level(self, quality_level):
         """
         Sets the quality_level of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        qualityLevel is used in combination with the item's level to calculate stats like  Attack and Defense.  It plays a role in that calculation, but not nearly as large as  itemLevel does.
+        qualityLevel is used in combination with the item's level to calculate stats likeAttack and Defense.  It plays a role in that calculation, but not nearly as large asitemLevel does.
 
         :param quality_level: The quality_level of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :type: int
@@ -118,7 +118,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def infusion_category_name(self):
         """
         Gets the infusion_category_name of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        The string identifier for this item's \"infusability\", if any.      Items that match the same infusionCategoryName are allowed to infuse with each other.
+        The string identifier for this item's \"infusability\", if any.    Items that match the same infusionCategoryName are allowed to infuse with each other.
 
         :return: The infusion_category_name of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :rtype: str
@@ -129,7 +129,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def infusion_category_name(self, infusion_category_name):
         """
         Sets the infusion_category_name of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        The string identifier for this item's \"infusability\", if any.      Items that match the same infusionCategoryName are allowed to infuse with each other.
+        The string identifier for this item's \"infusability\", if any.    Items that match the same infusionCategoryName are allowed to infuse with each other.
 
         :param infusion_category_name: The infusion_category_name of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :type: str
@@ -164,7 +164,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def progression_level_requirement_hash(self):
         """
         Gets the progression_level_requirement_hash of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        An item can refer to pre-set level requirements.  They are defined in DestinyProgressionLevelRequirementDefinition,  and you can use this hash to find the appropriate definition.
+        An item can refer to pre-set level requirements.  They are defined in DestinyProgressionLevelRequirementDefinition,and you can use this hash to find the appropriate definition.
 
         :return: The progression_level_requirement_hash of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :rtype: int
@@ -175,7 +175,7 @@ class DestinyDefinitionsDestinyItemQualityBlockDefinition(object):
     def progression_level_requirement_hash(self, progression_level_requirement_hash):
         """
         Sets the progression_level_requirement_hash of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
-        An item can refer to pre-set level requirements.  They are defined in DestinyProgressionLevelRequirementDefinition,  and you can use this hash to find the appropriate definition.
+        An item can refer to pre-set level requirements.  They are defined in DestinyProgressionLevelRequirementDefinition,and you can use this hash to find the appropriate definition.
 
         :param progression_level_requirement_hash: The progression_level_requirement_hash of this DestinyDefinitionsDestinyItemQualityBlockDefinition.
         :type: int

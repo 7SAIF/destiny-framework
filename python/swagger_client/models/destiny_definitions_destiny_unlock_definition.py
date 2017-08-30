@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyUnlockDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyUnlockDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyUnlockDefinition.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyUnlockDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyUnlockDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyUnlockDefinition.
         :type: int
@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyUnlockDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyUnlockDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyUnlockDefinition.
         :rtype: bool
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyUnlockDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyUnlockDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyUnlockDefinition.
         :type: bool

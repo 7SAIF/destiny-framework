@@ -67,7 +67,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def stat_hash(self):
         """
         Gets the stat_hash of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        The hash identifier for the stat being transformed into a Display stat.    Use it to look up the DestinyStatDefinition, or key into a DestinyInventoryItemDefinition's  stats property.
+        The hash identifier for the stat being transformed into a Display stat.  Use it to look up the DestinyStatDefinition, or key into a DestinyInventoryItemDefinition'sstats property.
 
         :return: The stat_hash of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :rtype: int
@@ -78,7 +78,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def stat_hash(self, stat_hash):
         """
         Sets the stat_hash of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        The hash identifier for the stat being transformed into a Display stat.    Use it to look up the DestinyStatDefinition, or key into a DestinyInventoryItemDefinition's  stats property.
+        The hash identifier for the stat being transformed into a Display stat.  Use it to look up the DestinyStatDefinition, or key into a DestinyInventoryItemDefinition'sstats property.
 
         :param stat_hash: The stat_hash of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :type: int
@@ -90,7 +90,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def maximum_value(self):
         """
         Gets the maximum_value of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        Regardless of the output of interpolation, this is the maximum possible value  that the stat can be.  It should also be used as the upper bound  for displaying the stat as a progress bar (the minimum always being 0)
+        Regardless of the output of interpolation, this is the maximum possible valuethat the stat can be.  It should also be used as the upper boundfor displaying the stat as a progress bar (the minimum always being 0)
 
         :return: The maximum_value of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :rtype: int
@@ -101,7 +101,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def maximum_value(self, maximum_value):
         """
         Sets the maximum_value of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        Regardless of the output of interpolation, this is the maximum possible value  that the stat can be.  It should also be used as the upper bound  for displaying the stat as a progress bar (the minimum always being 0)
+        Regardless of the output of interpolation, this is the maximum possible valuethat the stat can be.  It should also be used as the upper boundfor displaying the stat as a progress bar (the minimum always being 0)
 
         :param maximum_value: The maximum_value of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :type: int
@@ -113,7 +113,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def display_as_numeric(self):
         """
         Gets the display_as_numeric of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        If this is true, the stat should be displayed as a number.  Otherwise, display it as  a progress bar.  Or, you know, do whatever you want.  There's no displayAsNumeric  police.
+        If this is true, the stat should be displayed as a number.  Otherwise, display it asa progress bar.  Or, you know, do whatever you want.  There's no displayAsNumericpolice.
 
         :return: The display_as_numeric of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :rtype: bool
@@ -124,7 +124,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def display_as_numeric(self, display_as_numeric):
         """
         Sets the display_as_numeric of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        If this is true, the stat should be displayed as a number.  Otherwise, display it as  a progress bar.  Or, you know, do whatever you want.  There's no displayAsNumeric  police.
+        If this is true, the stat should be displayed as a number.  Otherwise, display it asa progress bar.  Or, you know, do whatever you want.  There's no displayAsNumericpolice.
 
         :param display_as_numeric: The display_as_numeric of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :type: bool
@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def display_interpolation(self):
         """
         Gets the display_interpolation of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        The interpolation table representing how the Investment Stat is transformed into  a Display Stat.      See DestinyStatDefinition for a description of the stages of  stat transformation.
+        The interpolation table representing how the Investment Stat is transformed intoa Display Stat.    See DestinyStatDefinition for a description of the stages ofstat transformation.
 
         :return: The display_interpolation of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :rtype: list[InterpolationInterpolationPoint]
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyStatDisplayDefinition(object):
     def display_interpolation(self, display_interpolation):
         """
         Sets the display_interpolation of this DestinyDefinitionsDestinyStatDisplayDefinition.
-        The interpolation table representing how the Investment Stat is transformed into  a Display Stat.      See DestinyStatDefinition for a description of the stages of  stat transformation.
+        The interpolation table representing how the Investment Stat is transformed intoa Display Stat.    See DestinyStatDefinition for a description of the stages ofstat transformation.
 
         :param display_interpolation: The display_interpolation of this DestinyDefinitionsDestinyStatDisplayDefinition.
         :type: list[InterpolationInterpolationPoint]

@@ -57,7 +57,7 @@ class DestinyDefinitionsDestinyItemSocketCategoryDefinition(object):
     def socket_category_hash(self):
         """
         Gets the socket_category_hash of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
-        The hash for the Socket Category: a quick way to go get the header display information for the category.  Use it to look up DestinyItemSocketCategoryDefinition info.
+        The hash for the Socket Category: a quick way to go get the header display information for the category.Use it to look up DestinyItemSocketCategoryDefinition info.
 
         :return: The socket_category_hash of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsDestinyItemSocketCategoryDefinition(object):
     def socket_category_hash(self, socket_category_hash):
         """
         Sets the socket_category_hash of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
-        The hash for the Socket Category: a quick way to go get the header display information for the category.  Use it to look up DestinyItemSocketCategoryDefinition info.
+        The hash for the Socket Category: a quick way to go get the header display information for the category.Use it to look up DestinyItemSocketCategoryDefinition info.
 
         :param socket_category_hash: The socket_category_hash of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
         :type: int
@@ -80,7 +80,7 @@ class DestinyDefinitionsDestinyItemSocketCategoryDefinition(object):
     def socket_indexes(self):
         """
         Gets the socket_indexes of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
-        Use these indexes to look up the sockets in the \"sockets.socketEntries\" property on the item definition.  These are the indexes under the category, in game-rendered order.
+        Use these indexes to look up the sockets in the \"sockets.socketEntries\" property on the item definition.These are the indexes under the category, in game-rendered order.
 
         :return: The socket_indexes of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
         :rtype: list[int]
@@ -91,7 +91,7 @@ class DestinyDefinitionsDestinyItemSocketCategoryDefinition(object):
     def socket_indexes(self, socket_indexes):
         """
         Sets the socket_indexes of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
-        Use these indexes to look up the sockets in the \"sockets.socketEntries\" property on the item definition.  These are the indexes under the category, in game-rendered order.
+        Use these indexes to look up the sockets in the \"sockets.socketEntries\" property on the item definition.These are the indexes under the category, in game-rendered order.
 
         :param socket_indexes: The socket_indexes of this DestinyDefinitionsDestinyItemSocketCategoryDefinition.
         :type: list[int]

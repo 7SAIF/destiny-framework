@@ -77,7 +77,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemDefinition(object):
     def item_hash(self):
         """
         Gets the item_hash of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
-        The hash for the DestinyInventoryItemDefinition of this derived item, if there is one.  Sometimes we are given this information as a manual override, in which case there won't be  an actual DestinyInventoryItemDefinition for what we display, but you can still show the strings  from this object itself.
+        The hash for the DestinyInventoryItemDefinition of this derived item, if there is one.Sometimes we are given this information as a manual override, in which case there won't bean actual DestinyInventoryItemDefinition for what we display, but you can still show the stringsfrom this object itself.
 
         :return: The item_hash of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
         :rtype: int
@@ -88,7 +88,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemDefinition(object):
     def item_hash(self, item_hash):
         """
         Sets the item_hash of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
-        The hash for the DestinyInventoryItemDefinition of this derived item, if there is one.  Sometimes we are given this information as a manual override, in which case there won't be  an actual DestinyInventoryItemDefinition for what we display, but you can still show the strings  from this object itself.
+        The hash for the DestinyInventoryItemDefinition of this derived item, if there is one.Sometimes we are given this information as a manual override, in which case there won't bean actual DestinyInventoryItemDefinition for what we display, but you can still show the stringsfrom this object itself.
 
         :param item_hash: The item_hash of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
         :type: int
@@ -192,7 +192,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemDefinition(object):
     def vendor_item_index(self):
         """
         Gets the vendor_item_index of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
-        If the item was derived from a \"Preview Vendor\", this will be an index into  the DestinyVendorDefinition's itemList property.  Otherwise, -1.
+        If the item was derived from a \"Preview Vendor\", this will be an index intothe DestinyVendorDefinition's itemList property.  Otherwise, -1.
 
         :return: The vendor_item_index of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
         :rtype: int
@@ -203,7 +203,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemDefinition(object):
     def vendor_item_index(self, vendor_item_index):
         """
         Sets the vendor_item_index of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
-        If the item was derived from a \"Preview Vendor\", this will be an index into  the DestinyVendorDefinition's itemList property.  Otherwise, -1.
+        If the item was derived from a \"Preview Vendor\", this will be an index intothe DestinyVendorDefinition's itemList property.  Otherwise, -1.
 
         :param vendor_item_index: The vendor_item_index of this DestinyDefinitionsItemsDestinyDerivedItemDefinition.
         :type: int

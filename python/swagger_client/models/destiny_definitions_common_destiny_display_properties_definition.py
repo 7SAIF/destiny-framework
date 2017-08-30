@@ -109,7 +109,7 @@ class DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition(object):
     def icon(self):
         """
         Gets the icon of this DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition.
-        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.  For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.    But usually, it will be a small square image that you can use as... well, an icon.
+        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.  But usually, it will be a small square image that you can use as... well, an icon.
 
         :return: The icon of this DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition.
         :rtype: str
@@ -120,7 +120,7 @@ class DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition(object):
     def icon(self, icon):
         """
         Sets the icon of this DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition.
-        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.  For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.    But usually, it will be a small square image that you can use as... well, an icon.
+        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.  But usually, it will be a small square image that you can use as... well, an icon.
 
         :param icon: The icon of this DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition.
         :type: str

@@ -113,7 +113,7 @@ class DestinyEntitiesVendorsDestinyVendorComponent(object):
     def enabled(self):
         """
         Gets the enabled of this DestinyEntitiesVendorsDestinyVendorComponent.
-        If True, the Vendor is currently accessible.      If False, they may not actually be visible in the world at the moment.
+        If True, the Vendor is currently accessible.    If False, they may not actually be visible in the world at the moment.
 
         :return: The enabled of this DestinyEntitiesVendorsDestinyVendorComponent.
         :rtype: bool
@@ -124,7 +124,7 @@ class DestinyEntitiesVendorsDestinyVendorComponent(object):
     def enabled(self, enabled):
         """
         Sets the enabled of this DestinyEntitiesVendorsDestinyVendorComponent.
-        If True, the Vendor is currently accessible.      If False, they may not actually be visible in the world at the moment.
+        If True, the Vendor is currently accessible.    If False, they may not actually be visible in the world at the moment.
 
         :param enabled: The enabled of this DestinyEntitiesVendorsDestinyVendorComponent.
         :type: bool
@@ -136,7 +136,7 @@ class DestinyEntitiesVendorsDestinyVendorComponent(object):
     def can_purchase(self):
         """
         Gets the can_purchase of this DestinyEntitiesVendorsDestinyVendorComponent.
-        If True, you can purchase from the Vendor.    Theoretically, Vendors can be restricted from selling items.  In practice, none do that (yet?).
+        If True, you can purchase from the Vendor.  Theoretically, Vendors can be restricted from selling items.  In practice, none do that (yet?).
 
         :return: The can_purchase of this DestinyEntitiesVendorsDestinyVendorComponent.
         :rtype: bool
@@ -147,7 +147,7 @@ class DestinyEntitiesVendorsDestinyVendorComponent(object):
     def can_purchase(self, can_purchase):
         """
         Sets the can_purchase of this DestinyEntitiesVendorsDestinyVendorComponent.
-        If True, you can purchase from the Vendor.    Theoretically, Vendors can be restricted from selling items.  In practice, none do that (yet?).
+        If True, you can purchase from the Vendor.  Theoretically, Vendors can be restricted from selling items.  In practice, none do that (yet?).
 
         :param can_purchase: The can_purchase of this DestinyEntitiesVendorsDestinyVendorComponent.
         :type: bool

@@ -136,7 +136,7 @@ class DestinyMilestonesDestinyMilestoneContent(object):
     def item_categories(self):
         """
         Gets the item_categories of this DestinyMilestonesDestinyMilestoneContent.
-        If DPS has defined items related to this Milestone, they can categorize those items in the Firehose.  That data will then be returned as item categories here.
+        If DPS has defined items related to this Milestone, they can categorize those items in the Firehose.That data will then be returned as item categories here.
 
         :return: The item_categories of this DestinyMilestonesDestinyMilestoneContent.
         :rtype: list[DestinyMilestonesDestinyMilestoneContentItemCategory]
@@ -147,7 +147,7 @@ class DestinyMilestonesDestinyMilestoneContent(object):
     def item_categories(self, item_categories):
         """
         Sets the item_categories of this DestinyMilestonesDestinyMilestoneContent.
-        If DPS has defined items related to this Milestone, they can categorize those items in the Firehose.  That data will then be returned as item categories here.
+        If DPS has defined items related to this Milestone, they can categorize those items in the Firehose.That data will then be returned as item categories here.
 
         :param item_categories: The item_categories of this DestinyMilestonesDestinyMilestoneContent.
         :type: list[DestinyMilestonesDestinyMilestoneContentItemCategory]

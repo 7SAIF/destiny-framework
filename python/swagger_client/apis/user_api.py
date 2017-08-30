@@ -238,7 +238,7 @@ class UserApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int membership_id: The membership ID of the target user. (required)
-        :param str membership_type: Type of the supplied membership ID. (required)
+        :param int membership_type: Type of the supplied membership ID. (required)
         :return: InlineResponse2004
                  If the method is called asynchronously,
                  returns the request thread.
@@ -264,7 +264,7 @@ class UserApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int membership_id: The membership ID of the target user. (required)
-        :param str membership_type: Type of the supplied membership ID. (required)
+        :param int membership_type: Type of the supplied membership ID. (required)
         :return: InlineResponse2004
                  If the method is called asynchronously,
                  returns the request thread.
@@ -607,7 +607,7 @@ class UserApi(object):
                                         _request_timeout=params.get('_request_timeout'),
                                         collection_formats=collection_formats)
 
-    def user_search_users(self, search, **kwargs):
+    def user_search_users(self, **kwargs):
         """
         Returns a list of possible users based on the search string
         This method makes a synchronous HTTP request by default. To make an
@@ -616,24 +616,23 @@ class UserApi(object):
         >>> def callback_function(response):
         >>>     pprint(response)
         >>>
-        >>> thread = api.user_search_users(search, callback=callback_function)
+        >>> thread = api.user_search_users(callback=callback_function)
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str search: The search string. (required)
-        :param str q: 
+        :param str q: The search string.
         :return: InlineResponse2002
                  If the method is called asynchronously,
                  returns the request thread.
         """
         kwargs['_return_http_data_only'] = True
         if kwargs.get('callback'):
-            return self.user_search_users_with_http_info(search, **kwargs)
+            return self.user_search_users_with_http_info(**kwargs)
         else:
-            (data) = self.user_search_users_with_http_info(search, **kwargs)
+            (data) = self.user_search_users_with_http_info(**kwargs)
             return data
 
-    def user_search_users_with_http_info(self, search, **kwargs):
+    def user_search_users_with_http_info(self, **kwargs):
         """
         Returns a list of possible users based on the search string
         This method makes a synchronous HTTP request by default. To make an
@@ -642,18 +641,17 @@ class UserApi(object):
         >>> def callback_function(response):
         >>>     pprint(response)
         >>>
-        >>> thread = api.user_search_users_with_http_info(search, callback=callback_function)
+        >>> thread = api.user_search_users_with_http_info(callback=callback_function)
 
         :param callback function: The callback function
             for asynchronous request. (optional)
-        :param str search: The search string. (required)
-        :param str q: 
+        :param str q: The search string.
         :return: InlineResponse2002
                  If the method is called asynchronously,
                  returns the request thread.
         """
 
-        all_params = ['search', 'q']
+        all_params = ['q']
         all_params.append('callback')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -668,16 +666,11 @@ class UserApi(object):
                 )
             params[key] = val
         del params['kwargs']
-        # verify the required parameter 'search' is set
-        if ('search' not in params) or (params['search'] is None):
-            raise ValueError("Missing the required parameter `search` when calling `user_search_users`")
 
 
         collection_formats = {}
 
         path_params = {}
-        if 'search' in params:
-            path_params['search'] = params['search']
 
         query_params = []
         if 'q' in params:

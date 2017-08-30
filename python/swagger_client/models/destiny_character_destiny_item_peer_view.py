@@ -57,7 +57,7 @@ class DestinyCharacterDestinyItemPeerView(object):
     def item_hash(self):
         """
         Gets the item_hash of this DestinyCharacterDestinyItemPeerView.
-        The hash identifier of the item in question.  Use it to look up the DestinyInventoryItemDefinition of the item  for static rendering data.
+        The hash identifier of the item in question.  Use it to look up the DestinyInventoryItemDefinition of the itemfor static rendering data.
 
         :return: The item_hash of this DestinyCharacterDestinyItemPeerView.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyCharacterDestinyItemPeerView(object):
     def item_hash(self, item_hash):
         """
         Sets the item_hash of this DestinyCharacterDestinyItemPeerView.
-        The hash identifier of the item in question.  Use it to look up the DestinyInventoryItemDefinition of the item  for static rendering data.
+        The hash identifier of the item in question.  Use it to look up the DestinyInventoryItemDefinition of the itemfor static rendering data.
 
         :param item_hash: The item_hash of this DestinyCharacterDestinyItemPeerView.
         :type: int

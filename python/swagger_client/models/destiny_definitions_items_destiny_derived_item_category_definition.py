@@ -57,7 +57,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition(object):
     def category_description(self):
         """
         Gets the category_description of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
-        The localized string for the category title.  This will be something describing  the items you can get as a group, or your likelihood/the quantity you'll get.
+        The localized string for the category title.  This will be something describingthe items you can get as a group, or your likelihood/the quantity you'll get.
 
         :return: The category_description of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
         :rtype: str
@@ -68,7 +68,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition(object):
     def category_description(self, category_description):
         """
         Sets the category_description of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
-        The localized string for the category title.  This will be something describing  the items you can get as a group, or your likelihood/the quantity you'll get.
+        The localized string for the category title.  This will be something describingthe items you can get as a group, or your likelihood/the quantity you'll get.
 
         :param category_description: The category_description of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
         :type: str
@@ -80,7 +80,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition(object):
     def items(self):
         """
         Gets the items of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
-        This is the list of all of the items for this category and the basic properties we'll  know about them.
+        This is the list of all of the items for this category and the basic properties we'llknow about them.
 
         :return: The items of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
         :rtype: list[DestinyDefinitionsItemsDestinyDerivedItemDefinition]
@@ -91,7 +91,7 @@ class DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition(object):
     def items(self, items):
         """
         Sets the items of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
-        This is the list of all of the items for this category and the basic properties we'll  know about them.
+        This is the list of all of the items for this category and the basic properties we'llknow about them.
 
         :param items: The items of this DestinyDefinitionsItemsDestinyDerivedItemCategoryDefinition.
         :type: list[DestinyDefinitionsItemsDestinyDerivedItemDefinition]

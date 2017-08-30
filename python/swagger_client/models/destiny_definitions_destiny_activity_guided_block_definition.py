@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyActivityGuidedBlockDefinition(object):
     def guided_disband_count(self):
         """
         Gets the guided_disband_count of this DestinyDefinitionsDestinyActivityGuidedBlockDefinition.
-        If -1, the guided group cannot be disbanded.  Otherwise, take the total # of players in the activity  and subtract this number: that is the total # of votes needed for the guided group to disband.
+        If -1, the guided group cannot be disbanded.  Otherwise, take the total # of players in the activityand subtract this number: that is the total # of votes needed for the guided group to disband.
 
         :return: The guided_disband_count of this DestinyDefinitionsDestinyActivityGuidedBlockDefinition.
         :rtype: int
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyActivityGuidedBlockDefinition(object):
     def guided_disband_count(self, guided_disband_count):
         """
         Sets the guided_disband_count of this DestinyDefinitionsDestinyActivityGuidedBlockDefinition.
-        If -1, the guided group cannot be disbanded.  Otherwise, take the total # of players in the activity  and subtract this number: that is the total # of votes needed for the guided group to disband.
+        If -1, the guided group cannot be disbanded.  Otherwise, take the total # of players in the activityand subtract this number: that is the total # of votes needed for the guided group to disband.
 
         :param guided_disband_count: The guided_disband_count of this DestinyDefinitionsDestinyActivityGuidedBlockDefinition.
         :type: int

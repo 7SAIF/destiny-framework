@@ -186,7 +186,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def overlay_screen_name(self):
         """
         Gets the overlay_screen_name of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If the action has an overlay screen associated with it, this is the name of that screen.  Unfortunately, we cannot return the screen's data itself.
+        If the action has an overlay screen associated with it, this is the name of that screen.Unfortunately, we cannot return the screen's data itself.
 
         :return: The overlay_screen_name of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :rtype: str
@@ -197,7 +197,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def overlay_screen_name(self, overlay_screen_name):
         """
         Sets the overlay_screen_name of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If the action has an overlay screen associated with it, this is the name of that screen.  Unfortunately, we cannot return the screen's data itself.
+        If the action has an overlay screen associated with it, this is the name of that screen.Unfortunately, we cannot return the screen's data itself.
 
         :param overlay_screen_name: The overlay_screen_name of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :type: str
@@ -255,7 +255,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def required_items(self):
         """
         Gets the required_items of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If the action requires other items to exist or be destroyed, this is  the list of those items and requirements.
+        If the action requires other items to exist or be destroyed, this isthe list of those items and requirements.
 
         :return: The required_items of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :rtype: list[DestinyDefinitionsDestinyItemActionRequiredItemDefinition]
@@ -266,7 +266,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def required_items(self, required_items):
         """
         Sets the required_items of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If the action requires other items to exist or be destroyed, this is  the list of those items and requirements.
+        If the action requires other items to exist or be destroyed, this isthe list of those items and requirements.
 
         :param required_items: The required_items of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :type: list[DestinyDefinitionsDestinyItemActionRequiredItemDefinition]
@@ -278,7 +278,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def progression_rewards(self):
         """
         Gets the progression_rewards of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If performing this action earns you Progression, this is the list of progressions and values granted  for those progressions by performing this action.
+        If performing this action earns you Progression, this is the list of progressions and values grantedfor those progressions by performing this action.
 
         :return: The progression_rewards of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :rtype: list[DestinyDefinitionsDestinyProgressionRewardDefinition]
@@ -289,7 +289,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def progression_rewards(self, progression_rewards):
         """
         Sets the progression_rewards of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If performing this action earns you Progression, this is the list of progressions and values granted  for those progressions by performing this action.
+        If performing this action earns you Progression, this is the list of progressions and values grantedfor those progressions by performing this action.
 
         :param progression_rewards: The progression_rewards of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :type: list[DestinyDefinitionsDestinyProgressionRewardDefinition]
@@ -324,7 +324,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def required_location(self):
         """
         Gets the required_location of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        Theoretically, an item could have a localized string for a hint about the location in which  the action should be performed.  In practice, no items yet have this property.
+        Theoretically, an item could have a localized string for a hint about the location in whichthe action should be performed.  In practice, no items yet have this property.
 
         :return: The required_location of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :rtype: str
@@ -335,7 +335,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def required_location(self, required_location):
         """
         Sets the required_location of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        Theoretically, an item could have a localized string for a hint about the location in which  the action should be performed.  In practice, no items yet have this property.
+        Theoretically, an item could have a localized string for a hint about the location in whichthe action should be performed.  In practice, no items yet have this property.
 
         :param required_location: The required_location of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :type: str
@@ -347,7 +347,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def required_cooldown_hash(self):
         """
         Gets the required_cooldown_hash of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        The identifier hash for the Cooldown associated with this action.  We have not pulled this data yet  for you to have more data to use for cooldowns.
+        The identifier hash for the Cooldown associated with this action.  We have not pulled this data yetfor you to have more data to use for cooldowns.
 
         :return: The required_cooldown_hash of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :rtype: int
@@ -358,7 +358,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def required_cooldown_hash(self, required_cooldown_hash):
         """
         Sets the required_cooldown_hash of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        The identifier hash for the Cooldown associated with this action.  We have not pulled this data yet  for you to have more data to use for cooldowns.
+        The identifier hash for the Cooldown associated with this action.  We have not pulled this data yetfor you to have more data to use for cooldowns.
 
         :param required_cooldown_hash: The required_cooldown_hash of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :type: int
@@ -416,7 +416,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def use_on_acquire(self):
         """
         Gets the use_on_acquire of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If true, this action will be performed as soon as you earn this item.  Some rewards work this way, providing you a single item to pick up from  a reward-granting vendor in-game and then immediately consuming itself  to provide you multiple items.
+        If true, this action will be performed as soon as you earn this item.Some rewards work this way, providing you a single item to pick up froma reward-granting vendor in-game and then immediately consuming itselfto provide you multiple items.
 
         :return: The use_on_acquire of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :rtype: bool
@@ -427,7 +427,7 @@ class DestinyDefinitionsDestinyItemActionBlockDefinition(object):
     def use_on_acquire(self, use_on_acquire):
         """
         Sets the use_on_acquire of this DestinyDefinitionsDestinyItemActionBlockDefinition.
-        If true, this action will be performed as soon as you earn this item.  Some rewards work this way, providing you a single item to pick up from  a reward-granting vendor in-game and then immediately consuming itself  to provide you multiple items.
+        If true, this action will be performed as soon as you earn this item.Some rewards work this way, providing you a single item to pick up froma reward-granting vendor in-game and then immediately consuming itselfto provide you multiple items.
 
         :param use_on_acquire: The use_on_acquire of this DestinyDefinitionsDestinyItemActionBlockDefinition.
         :type: bool

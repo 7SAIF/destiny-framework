@@ -1,6 +1,6 @@
 # swagger_client.ForumApi
 
-All URIs are relative to *https://https://bungie.net/Platform*
+All URIs are relative to *https://bungie.net/Platform*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -87,10 +87,10 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = swagger_client.ForumApi()
-category_filter = 'category_filter_example' # str | The category filter.
+category_filter = 56 # int | The category filter.
 page = 56 # int | Zero base page
-quick_date = 'quick_date_example' # str | The date filter.
-sort = 'sort_example' # str | The sort mode.
+quick_date = 56 # int | The date filter.
+sort = 56 # int | The sort mode.
 locales = 'locales_example' # str | Comma seperated list of locales posts must match to return in the result list. Default 'en' (optional)
 
 try: 
@@ -104,10 +104,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **category_filter** | **str**| The category filter. | 
+ **category_filter** | **int**| The category filter. | 
  **page** | **int**| Zero base page | 
- **quick_date** | **str**| The date filter. | 
- **sort** | **str**| The sort mode. | 
+ **quick_date** | **int**| The date filter. | 
+ **sort** | **int**| The sort mode. | 
  **locales** | **str**| Comma seperated list of locales posts must match to return in the result list. Default &#39;en&#39; | [optional] 
 
 ### Return type
@@ -340,7 +340,7 @@ page_size = 56 # int |
 parent_post_id = 56 # int | 
 reply_size = 56 # int | 
 root_thread_mode = true # bool | 
-sort_mode = 'sort_mode_example' # str | 
+sort_mode = 56 # int | 
 showbanned = 'showbanned_example' # str | If this value is not null or empty, banned posts are requested to be returned (optional)
 
 try: 
@@ -360,7 +360,7 @@ Name | Type | Description  | Notes
  **parent_post_id** | **int**|  | 
  **reply_size** | **int**|  | 
  **root_thread_mode** | **bool**|  | 
- **sort_mode** | **str**|  | 
+ **sort_mode** | **int**|  | 
  **showbanned** | **str**| If this value is not null or empty, banned posts are requested to be returned | [optional] 
 
 ### Return type
@@ -400,7 +400,7 @@ page = 56 # int |
 page_size = 56 # int | 
 reply_size = 56 # int | 
 root_thread_mode = true # bool | 
-sort_mode = 'sort_mode_example' # str | 
+sort_mode = 56 # int | 
 showbanned = 'showbanned_example' # str | If this value is not null or empty, banned posts are requested to be returned (optional)
 
 try: 
@@ -419,7 +419,7 @@ Name | Type | Description  | Notes
  **page_size** | **int**|  | 
  **reply_size** | **int**|  | 
  **root_thread_mode** | **bool**|  | 
- **sort_mode** | **str**|  | 
+ **sort_mode** | **int**|  | 
  **showbanned** | **str**| If this value is not null or empty, banned posts are requested to be returned | [optional] 
 
 ### Return type
@@ -544,12 +544,12 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = swagger_client.ForumApi()
-category_filter = 'category_filter_example' # str | A category filter
+category_filter = 56 # int | A category filter
 group = 789 # int | The group, if any.
 page = 56 # int | Zero paged page number
 page_size = 56 # int | Unused
-quick_date = 'quick_date_example' # str | A date filter.
-sort = 'sort_example' # str | The sort mode.
+quick_date = 56 # int | A date filter.
+sort = 56 # int | The sort mode.
 locales = 'locales_example' # str | Comma seperated list of locales posts must match to return in the result list. Default 'en' (optional)
 tagstring = 'tagstring_example' # str | The tags to search, if any. (optional)
 
@@ -564,12 +564,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **category_filter** | **str**| A category filter | 
+ **category_filter** | **int**| A category filter | 
  **group** | **int**| The group, if any. | 
  **page** | **int**| Zero paged page number | 
  **page_size** | **int**| Unused | 
- **quick_date** | **str**| A date filter. | 
- **sort** | **str**| The sort mode. | 
+ **quick_date** | **int**| A date filter. | 
+ **sort** | **int**| The sort mode. | 
  **locales** | **str**| Comma seperated list of locales posts must match to return in the result list. Default &#39;en&#39; | [optional] 
  **tagstring** | **str**| The tags to search, if any. | [optional] 
 

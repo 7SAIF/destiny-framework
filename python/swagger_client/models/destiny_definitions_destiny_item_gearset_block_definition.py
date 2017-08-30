@@ -80,7 +80,7 @@ class DestinyDefinitionsDestinyItemGearsetBlockDefinition(object):
     def item_list(self):
         """
         Gets the item_list of this DestinyDefinitionsDestinyItemGearsetBlockDefinition.
-        The list of hashes for items in the gearset.  Use them to look up DestinyInventoryItemDefinition entries for  the items in the set.
+        The list of hashes for items in the gearset.  Use them to look up DestinyInventoryItemDefinition entries forthe items in the set.
 
         :return: The item_list of this DestinyDefinitionsDestinyItemGearsetBlockDefinition.
         :rtype: list[int]
@@ -91,7 +91,7 @@ class DestinyDefinitionsDestinyItemGearsetBlockDefinition(object):
     def item_list(self, item_list):
         """
         Sets the item_list of this DestinyDefinitionsDestinyItemGearsetBlockDefinition.
-        The list of hashes for items in the gearset.  Use them to look up DestinyInventoryItemDefinition entries for  the items in the set.
+        The list of hashes for items in the gearset.  Use them to look up DestinyInventoryItemDefinition entries forthe items in the set.
 
         :param item_list: The item_list of this DestinyDefinitionsDestinyItemGearsetBlockDefinition.
         :type: list[int]

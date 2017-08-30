@@ -113,7 +113,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def bucket_order(self):
         """
         Gets the bucket_order of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        Use this property to provide a quick-and-dirty recommended ordering for buckets in the UI.  Most UIs will likely want to forsake this for something more custom and manual.
+        Use this property to provide a quick-and-dirty recommended ordering for buckets in the UI.Most UIs will likely want to forsake this for something more custom and manual.
 
         :return: The bucket_order of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :rtype: int
@@ -124,7 +124,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def bucket_order(self, bucket_order):
         """
         Sets the bucket_order of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        Use this property to provide a quick-and-dirty recommended ordering for buckets in the UI.  Most UIs will likely want to forsake this for something more custom and manual.
+        Use this property to provide a quick-and-dirty recommended ordering for buckets in the UI.Most UIs will likely want to forsake this for something more custom and manual.
 
         :param bucket_order: The bucket_order of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :type: int
@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def item_count(self):
         """
         Gets the item_count of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        The maximum # of item \"slots\" in a bucket.  A slot is a given combination of item + quantity.    For instance, a Weapon will always take up a single slot, and always have a quantity of 1.  But a material could take up only a single slot with hundreds of quantity.
+        The maximum # of item \"slots\" in a bucket.  A slot is a given combination of item + quantity.  For instance, a Weapon will always take up a single slot, and always have a quantity of 1.But a material could take up only a single slot with hundreds of quantity.
 
         :return: The item_count of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :rtype: int
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def item_count(self, item_count):
         """
         Sets the item_count of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        The maximum # of item \"slots\" in a bucket.  A slot is a given combination of item + quantity.    For instance, a Weapon will always take up a single slot, and always have a quantity of 1.  But a material could take up only a single slot with hundreds of quantity.
+        The maximum # of item \"slots\" in a bucket.  A slot is a given combination of item + quantity.  For instance, a Weapon will always take up a single slot, and always have a quantity of 1.But a material could take up only a single slot with hundreds of quantity.
 
         :param item_count: The item_count of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :type: int
@@ -159,7 +159,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def has_transfer_destination(self):
         """
         Gets the has_transfer_destination of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        If TRUE, there is at least one Vendor that can transfer items to/from this bucket.  See the DestinyVendorDefinition's  acceptedItems property for more information on how transferring works.
+        If TRUE, there is at least one Vendor that can transfer items to/from this bucket.  See the DestinyVendorDefinition'sacceptedItems property for more information on how transferring works.
 
         :return: The has_transfer_destination of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :rtype: bool
@@ -170,7 +170,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def has_transfer_destination(self, has_transfer_destination):
         """
         Sets the has_transfer_destination of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        If TRUE, there is at least one Vendor that can transfer items to/from this bucket.  See the DestinyVendorDefinition's  acceptedItems property for more information on how transferring works.
+        If TRUE, there is at least one Vendor that can transfer items to/from this bucket.  See the DestinyVendorDefinition'sacceptedItems property for more information on how transferring works.
 
         :param has_transfer_destination: The has_transfer_destination of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :type: bool
@@ -182,7 +182,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def enabled(self):
         """
         Gets the enabled of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        If True, this bucket is enabled.  Disabled buckets may include buckets that were included for test purposes, or  that were going to be used but then were abandoned but never removed from content *cough*.
+        If True, this bucket is enabled.  Disabled buckets may include buckets that were included for test purposes, orthat were going to be used but then were abandoned but never removed from content *cough*.
 
         :return: The enabled of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :rtype: bool
@@ -193,7 +193,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def enabled(self, enabled):
         """
         Sets the enabled of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        If True, this bucket is enabled.  Disabled buckets may include buckets that were included for test purposes, or  that were going to be used but then were abandoned but never removed from content *cough*.
+        If True, this bucket is enabled.  Disabled buckets may include buckets that were included for test purposes, orthat were going to be used but then were abandoned but never removed from content *cough*.
 
         :param enabled: The enabled of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :type: bool
@@ -205,7 +205,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def fifo(self):
         """
         Gets the fifo of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        if a FIFO bucket fills up, it will delete the oldest item from said bucket when a new item tries to be added  to it.  If this is FALSE, the bucket will not allow new items to be placed in it until room is made by the user  manually deleting items from it.  You can see an example of this with the Postmaster's bucket.
+        if a FIFO bucket fills up, it will delete the oldest item from said bucket when a new item tries to be addedto it.  If this is FALSE, the bucket will not allow new items to be placed in it until room is made by the usermanually deleting items from it.  You can see an example of this with the Postmaster's bucket.
 
         :return: The fifo of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :rtype: bool
@@ -216,7 +216,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def fifo(self, fifo):
         """
         Sets the fifo of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        if a FIFO bucket fills up, it will delete the oldest item from said bucket when a new item tries to be added  to it.  If this is FALSE, the bucket will not allow new items to be placed in it until room is made by the user  manually deleting items from it.  You can see an example of this with the Postmaster's bucket.
+        if a FIFO bucket fills up, it will delete the oldest item from said bucket when a new item tries to be addedto it.  If this is FALSE, the bucket will not allow new items to be placed in it until room is made by the usermanually deleting items from it.  You can see an example of this with the Postmaster's bucket.
 
         :param fifo: The fifo of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :type: bool
@@ -228,7 +228,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :rtype: int
@@ -239,7 +239,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :type: int
@@ -274,7 +274,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :rtype: bool
@@ -285,7 +285,7 @@ class DestinyDefinitionsDestinyInventoryBucketDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyInventoryBucketDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyInventoryBucketDefinition.
         :type: bool

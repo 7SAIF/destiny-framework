@@ -67,7 +67,7 @@ class DestinyPerksDestinyPerkReference(object):
     def perk_hash(self):
         """
         Gets the perk_hash of this DestinyPerksDestinyPerkReference.
-        The hash identifier for the perk, which can be used to look up DestinySandboxPerkDefinition if it exists.  Be warned, perks frequently do not have user-viewable information.  You should examine whether you actually  found a name/description in the perk's definition before you show it to the user.
+        The hash identifier for the perk, which can be used to look up DestinySandboxPerkDefinition if it exists.Be warned, perks frequently do not have user-viewable information.  You should examine whether you actuallyfound a name/description in the perk's definition before you show it to the user.
 
         :return: The perk_hash of this DestinyPerksDestinyPerkReference.
         :rtype: int
@@ -78,7 +78,7 @@ class DestinyPerksDestinyPerkReference(object):
     def perk_hash(self, perk_hash):
         """
         Sets the perk_hash of this DestinyPerksDestinyPerkReference.
-        The hash identifier for the perk, which can be used to look up DestinySandboxPerkDefinition if it exists.  Be warned, perks frequently do not have user-viewable information.  You should examine whether you actually  found a name/description in the perk's definition before you show it to the user.
+        The hash identifier for the perk, which can be used to look up DestinySandboxPerkDefinition if it exists.Be warned, perks frequently do not have user-viewable information.  You should examine whether you actuallyfound a name/description in the perk's definition before you show it to the user.
 
         :param perk_hash: The perk_hash of this DestinyPerksDestinyPerkReference.
         :type: int
@@ -113,7 +113,7 @@ class DestinyPerksDestinyPerkReference(object):
     def is_active(self):
         """
         Gets the is_active of this DestinyPerksDestinyPerkReference.
-        Whether this perk is currently active.  (We may return perks that you have not actually activated yet:  these represent perks that you should show in the item's tooltip, but that the user has not yet  activated.)
+        Whether this perk is currently active.  (We may return perks that you have not actually activated yet:these represent perks that you should show in the item's tooltip, but that the user has not yetactivated.)
 
         :return: The is_active of this DestinyPerksDestinyPerkReference.
         :rtype: bool
@@ -124,7 +124,7 @@ class DestinyPerksDestinyPerkReference(object):
     def is_active(self, is_active):
         """
         Sets the is_active of this DestinyPerksDestinyPerkReference.
-        Whether this perk is currently active.  (We may return perks that you have not actually activated yet:  these represent perks that you should show in the item's tooltip, but that the user has not yet  activated.)
+        Whether this perk is currently active.  (We may return perks that you have not actually activated yet:these represent perks that you should show in the item's tooltip, but that the user has not yetactivated.)
 
         :param is_active: The is_active of this DestinyPerksDestinyPerkReference.
         :type: bool
@@ -136,7 +136,7 @@ class DestinyPerksDestinyPerkReference(object):
     def visible(self):
         """
         Gets the visible of this DestinyPerksDestinyPerkReference.
-        Some perks provide benefits, but aren't visible in the UI.  This value will let you know if this is  perk should be shown in your UI.
+        Some perks provide benefits, but aren't visible in the UI.  This value will let you know if this isperk should be shown in your UI.
 
         :return: The visible of this DestinyPerksDestinyPerkReference.
         :rtype: bool
@@ -147,7 +147,7 @@ class DestinyPerksDestinyPerkReference(object):
     def visible(self, visible):
         """
         Sets the visible of this DestinyPerksDestinyPerkReference.
-        Some perks provide benefits, but aren't visible in the UI.  This value will let you know if this is  perk should be shown in your UI.
+        Some perks provide benefits, but aren't visible in the UI.  This value will let you know if this isperk should be shown in your UI.
 
         :param visible: The visible of this DestinyPerksDestinyPerkReference.
         :type: bool

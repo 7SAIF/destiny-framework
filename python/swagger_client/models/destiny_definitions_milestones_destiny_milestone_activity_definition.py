@@ -57,7 +57,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition(object):
     def conceptual_activity_hash(self):
         """
         Gets the conceptual_activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
-        The \"Conceptual\" activity hash.  Basically, we picked the lowest level activity  and are treating it as the canonical definition of the activity for rendering purposes.    If you care about the specific difficulty modes and variations, use the activities under  \"Variants\".
+        The \"Conceptual\" activity hash.  Basically, we picked the lowest level activityand are treating it as the canonical definition of the activity for rendering purposes.  If you care about the specific difficulty modes and variations, use the activities under\"Variants\".
 
         :return: The conceptual_activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition(object):
     def conceptual_activity_hash(self, conceptual_activity_hash):
         """
         Sets the conceptual_activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
-        The \"Conceptual\" activity hash.  Basically, we picked the lowest level activity  and are treating it as the canonical definition of the activity for rendering purposes.    If you care about the specific difficulty modes and variations, use the activities under  \"Variants\".
+        The \"Conceptual\" activity hash.  Basically, we picked the lowest level activityand are treating it as the canonical definition of the activity for rendering purposes.  If you care about the specific difficulty modes and variations, use the activities under\"Variants\".
 
         :param conceptual_activity_hash: The conceptual_activity_hash of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
         :type: int
@@ -80,7 +80,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition(object):
     def variants(self):
         """
         Gets the variants of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
-        A milestone-referenced activity can have many variants, such as Tiers or alternative modes of play.    Even if there is only a single variant, the details for these are represented within as a variant definition.    It is assumed that, if this DestinyMilestoneActivityDefinition is active, then all variants should be active.    If a Milestone could ever split the variants' active status conditionally, they should all have their own   DestinyMilestoneActivityDefinition instead!  The potential duplication will be worth it for the obviousness of processing  and use.
+        A milestone-referenced activity can have many variants, such as Tiers or alternative modes of play.  Even if there is only a single variant, the details for these are represented within as a variant definition.  It is assumed that, if this DestinyMilestoneActivityDefinition is active, then all variants should be active.  If a Milestone could ever split the variants' active status conditionally, they should all have their own DestinyMilestoneActivityDefinition instead!  The potential duplication will be worth it for the obviousness of processingand use.
 
         :return: The variants of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
         :rtype: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition)
@@ -91,7 +91,7 @@ class DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition(object):
     def variants(self, variants):
         """
         Sets the variants of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
-        A milestone-referenced activity can have many variants, such as Tiers or alternative modes of play.    Even if there is only a single variant, the details for these are represented within as a variant definition.    It is assumed that, if this DestinyMilestoneActivityDefinition is active, then all variants should be active.    If a Milestone could ever split the variants' active status conditionally, they should all have their own   DestinyMilestoneActivityDefinition instead!  The potential duplication will be worth it for the obviousness of processing  and use.
+        A milestone-referenced activity can have many variants, such as Tiers or alternative modes of play.  Even if there is only a single variant, the details for these are represented within as a variant definition.  It is assumed that, if this DestinyMilestoneActivityDefinition is active, then all variants should be active.  If a Milestone could ever split the variants' active status conditionally, they should all have their own DestinyMilestoneActivityDefinition instead!  The potential duplication will be worth it for the obviousness of processingand use.
 
         :param variants: The variants of this DestinyDefinitionsMilestonesDestinyMilestoneActivityDefinition.
         :type: dict(str, DestinyDefinitionsMilestonesDestinyMilestoneActivityVariantDefinition)

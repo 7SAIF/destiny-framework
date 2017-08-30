@@ -184,7 +184,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_graph_node_hash(self):
         """
         Gets the activity_graph_node_hash of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        The Activity Graph Node being pointed to by this location.  (Remember that  Activity Graph Node hashes are only unique within an Activity Graph: so use the combination  to find the node being spoken of)
+        The Activity Graph Node being pointed to by this location.  (Remember thatActivity Graph Node hashes are only unique within an Activity Graph: so use the combinationto find the node being spoken of)
 
         :return: The activity_graph_node_hash of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :rtype: int
@@ -195,7 +195,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_graph_node_hash(self, activity_graph_node_hash):
         """
         Sets the activity_graph_node_hash of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        The Activity Graph Node being pointed to by this location.  (Remember that  Activity Graph Node hashes are only unique within an Activity Graph: so use the combination  to find the node being spoken of)
+        The Activity Graph Node being pointed to by this location.  (Remember thatActivity Graph Node hashes are only unique within an Activity Graph: so use the combinationto find the node being spoken of)
 
         :param activity_graph_node_hash: The activity_graph_node_hash of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :type: int
@@ -207,7 +207,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_bubble_name(self):
         """
         Gets the activity_bubble_name of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        The Activity Bubble within the Destination.  Look this up in the DestinyDestinationDefinition's  bubbles and bubbleSettings properties.
+        The Activity Bubble within the Destination.  Look this up in the DestinyDestinationDefinition'sbubbles and bubbleSettings properties.
 
         :return: The activity_bubble_name of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :rtype: int
@@ -218,7 +218,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_bubble_name(self, activity_bubble_name):
         """
         Sets the activity_bubble_name of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        The Activity Bubble within the Destination.  Look this up in the DestinyDestinationDefinition's  bubbles and bubbleSettings properties.
+        The Activity Bubble within the Destination.  Look this up in the DestinyDestinationDefinition'sbubbles and bubbleSettings properties.
 
         :param activity_bubble_name: The activity_bubble_name of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :type: int
@@ -230,7 +230,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_path_bundle(self):
         """
         Gets the activity_path_bundle of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        If we had map information, this would tell us something cool about the path this location wants  you to take.  I wish we had map information.
+        If we had map information, this would tell us something cool about the path this location wantsyou to take.  I wish we had map information.
 
         :return: The activity_path_bundle of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :rtype: int
@@ -241,7 +241,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_path_bundle(self, activity_path_bundle):
         """
         Sets the activity_path_bundle of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        If we had map information, this would tell us something cool about the path this location wants  you to take.  I wish we had map information.
+        If we had map information, this would tell us something cool about the path this location wantsyou to take.  I wish we had map information.
 
         :param activity_path_bundle: The activity_path_bundle of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :type: int
@@ -253,7 +253,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_path_destination(self):
         """
         Gets the activity_path_destination of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        If we had map information, this would tell us about path information related to destination  on the map.  Sad.  Maybe you can do something cool with it.  Go to town man.
+        If we had map information, this would tell us about path information related to destinationon the map.  Sad.  Maybe you can do something cool with it.  Go to town man.
 
         :return: The activity_path_destination of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :rtype: int
@@ -264,7 +264,7 @@ class DestinyDefinitionsDestinyLocationReleaseDefinition(object):
     def activity_path_destination(self, activity_path_destination):
         """
         Sets the activity_path_destination of this DestinyDefinitionsDestinyLocationReleaseDefinition.
-        If we had map information, this would tell us about path information related to destination  on the map.  Sad.  Maybe you can do something cool with it.  Go to town man.
+        If we had map information, this would tell us about path information related to destinationon the map.  Sad.  Maybe you can do something cool with it.  Go to town man.
 
         :param activity_path_destination: The activity_path_destination of this DestinyDefinitionsDestinyLocationReleaseDefinition.
         :type: int

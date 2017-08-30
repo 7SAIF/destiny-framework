@@ -31,7 +31,7 @@ class InlineResponse20036(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'response': 'TrendingTrendingDetail',
+        'response': 'TrendingTrendingCategories',
         'error_code': 'ExceptionsPlatformErrorCodes',
         'throttle_seconds': 'int',
         'error_status': 'str',
@@ -79,7 +79,7 @@ class InlineResponse20036(object):
         Gets the response of this InlineResponse20036.
 
         :return: The response of this InlineResponse20036.
-        :rtype: TrendingTrendingDetail
+        :rtype: TrendingTrendingCategories
         """
         return self._response
 
@@ -89,7 +89,7 @@ class InlineResponse20036(object):
         Sets the response of this InlineResponse20036.
 
         :param response: The response of this InlineResponse20036.
-        :type: TrendingTrendingDetail
+        :type: TrendingTrendingCategories
         """
 
         self._response = response

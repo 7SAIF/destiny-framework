@@ -80,7 +80,7 @@ class DestinyDestinyTalentNodeStatBlock(object):
     def next_step_stats(self):
         """
         Gets the next_step_stats of this DestinyDestinyTalentNodeStatBlock.
-        This is a holdover from the old days of Destiny 1, when a node could be activated multiple times, conferring  multiple steps worth of benefits: you would use this property to show what activating the \"next\" step on the node  would provide vs. what the current step is providing.  While Nodes are currently not being used this way, the underlying system for this functionality still exists.  I hesitate to remove this property while the ability for designers to make such a talent grid still exists.  Whether you want to show it is up to you.
+        This is a holdover from the old days of Destiny 1, when a node could be activated multiple times, conferringmultiple steps worth of benefits: you would use this property to show what activating the \"next\" step on the nodewould provide vs. what the current step is providing.While Nodes are currently not being used this way, the underlying system for this functionality still exists.I hesitate to remove this property while the ability for designers to make such a talent grid still exists.Whether you want to show it is up to you.
 
         :return: The next_step_stats of this DestinyDestinyTalentNodeStatBlock.
         :rtype: list[DestinyDestinyStat]
@@ -91,7 +91,7 @@ class DestinyDestinyTalentNodeStatBlock(object):
     def next_step_stats(self, next_step_stats):
         """
         Sets the next_step_stats of this DestinyDestinyTalentNodeStatBlock.
-        This is a holdover from the old days of Destiny 1, when a node could be activated multiple times, conferring  multiple steps worth of benefits: you would use this property to show what activating the \"next\" step on the node  would provide vs. what the current step is providing.  While Nodes are currently not being used this way, the underlying system for this functionality still exists.  I hesitate to remove this property while the ability for designers to make such a talent grid still exists.  Whether you want to show it is up to you.
+        This is a holdover from the old days of Destiny 1, when a node could be activated multiple times, conferringmultiple steps worth of benefits: you would use this property to show what activating the \"next\" step on the nodewould provide vs. what the current step is providing.While Nodes are currently not being used this way, the underlying system for this functionality still exists.I hesitate to remove this property while the ability for designers to make such a talent grid still exists.Whether you want to show it is up to you.
 
         :param next_step_stats: The next_step_stats of this DestinyDestinyTalentNodeStatBlock.
         :type: list[DestinyDestinyStat]

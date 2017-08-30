@@ -42,7 +42,7 @@ class PreviewApi(object):
 
     def destiny2_activate_talent_node(self, **kwargs):
         """
-        Activate a Talent Node, which may result in swapping or payment of activation cost.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not yet active, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
+        Activate a Talent Node.  Chill out, everyone: we haven't decided yet whether this will be able to activate nodes with costs, but if we do it will require special scope permission for an application attempting to do so.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not actually implemented yet, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
         to be invoked when receiving the response.
@@ -66,7 +66,7 @@ class PreviewApi(object):
 
     def destiny2_activate_talent_node_with_http_info(self, **kwargs):
         """
-        Activate a Talent Node, which may result in swapping or payment of activation cost.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not yet active, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
+        Activate a Talent Node.  Chill out, everyone: we haven't decided yet whether this will be able to activate nodes with costs, but if we do it will require special scope permission for an application attempting to do so.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not actually implemented yet, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
         to be invoked when receiving the response.
@@ -143,11 +143,11 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The id of the character to retrieve. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int count: Number of rows to return
-        :param str mode: A filter for the activity mode to be returned. None returns all activities. See the documentation for DestinyActivityModeType for valid values, and pass in string representation.
+        :param int mode: A filter for the activity mode to be returned. None returns all activities. See the documentation for DestinyActivityModeType for valid values, and pass in string representation.
         :param int page: Page number to return, starting with 0.
-        :return: InlineResponse20027
+        :return: InlineResponse20029
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -173,11 +173,11 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The id of the character to retrieve. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int count: Number of rows to return
-        :param str mode: A filter for the activity mode to be returned. None returns all activities. See the documentation for DestinyActivityModeType for valid values, and pass in string representation.
+        :param int mode: A filter for the activity mode to be returned. None returns all activities. See the documentation for DestinyActivityModeType for valid values, and pass in string representation.
         :param int page: Page number to return, starting with 0.
-        :return: InlineResponse20027
+        :return: InlineResponse20029
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -242,7 +242,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20027',
+                                        response_type='InlineResponse20029',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -250,7 +250,7 @@ class PreviewApi(object):
                                         _request_timeout=params.get('_request_timeout'),
                                         collection_formats=collection_formats)
 
-    def destiny2_get_clan_aggregate_stats(self, group_id, modes, **kwargs):
+    def destiny2_get_clan_aggregate_stats(self, group_id, **kwargs):
         """
         Gets aggregated stats for a clan using the same categories as the clan leaderboards.  PREVIEW: This endpoint is still in beta, and may experience rough edges.  The schema is in final form, but there may be bugs that prevent desirable operation.
         This method makes a synchronous HTTP request by default. To make an
@@ -259,24 +259,24 @@ class PreviewApi(object):
         >>> def callback_function(response):
         >>>     pprint(response)
         >>>
-        >>> thread = api.destiny2_get_clan_aggregate_stats(group_id, modes, callback=callback_function)
+        >>> thread = api.destiny2_get_clan_aggregate_stats(group_id, callback=callback_function)
 
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int group_id: Group ID of the clan whose leaderboards you wish to fetch. (required)
-        :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited. (required)
-        :return: InlineResponse20024
+        :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
+        :return: InlineResponse20025
                  If the method is called asynchronously,
                  returns the request thread.
         """
         kwargs['_return_http_data_only'] = True
         if kwargs.get('callback'):
-            return self.destiny2_get_clan_aggregate_stats_with_http_info(group_id, modes, **kwargs)
+            return self.destiny2_get_clan_aggregate_stats_with_http_info(group_id, **kwargs)
         else:
-            (data) = self.destiny2_get_clan_aggregate_stats_with_http_info(group_id, modes, **kwargs)
+            (data) = self.destiny2_get_clan_aggregate_stats_with_http_info(group_id, **kwargs)
             return data
 
-    def destiny2_get_clan_aggregate_stats_with_http_info(self, group_id, modes, **kwargs):
+    def destiny2_get_clan_aggregate_stats_with_http_info(self, group_id, **kwargs):
         """
         Gets aggregated stats for a clan using the same categories as the clan leaderboards.  PREVIEW: This endpoint is still in beta, and may experience rough edges.  The schema is in final form, but there may be bugs that prevent desirable operation.
         This method makes a synchronous HTTP request by default. To make an
@@ -285,13 +285,13 @@ class PreviewApi(object):
         >>> def callback_function(response):
         >>>     pprint(response)
         >>>
-        >>> thread = api.destiny2_get_clan_aggregate_stats_with_http_info(group_id, modes, callback=callback_function)
+        >>> thread = api.destiny2_get_clan_aggregate_stats_with_http_info(group_id, callback=callback_function)
 
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int group_id: Group ID of the clan whose leaderboards you wish to fetch. (required)
-        :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited. (required)
-        :return: InlineResponse20024
+        :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
+        :return: InlineResponse20025
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -314,9 +314,6 @@ class PreviewApi(object):
         # verify the required parameter 'group_id' is set
         if ('group_id' not in params) or (params['group_id'] is None):
             raise ValueError("Missing the required parameter `group_id` when calling `destiny2_get_clan_aggregate_stats`")
-        # verify the required parameter 'modes' is set
-        if ('modes' not in params) or (params['modes'] is None):
-            raise ValueError("Missing the required parameter `modes` when calling `destiny2_get_clan_aggregate_stats`")
 
 
         collection_formats = {}
@@ -324,10 +321,10 @@ class PreviewApi(object):
         path_params = {}
         if 'group_id' in params:
             path_params['groupId'] = params['group_id']
-        if 'modes' in params:
-            path_params['modes'] = params['modes']
 
         query_params = []
+        if 'modes' in params:
+            query_params.append(('modes', params['modes']))
 
         header_params = {}
 
@@ -345,7 +342,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20024',
+                                        response_type='InlineResponse20025',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -370,7 +367,7 @@ class PreviewApi(object):
         :param int maxtop: Maximum number of top players to return. Use a large number to get entire leaderboard.
         :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
         :param str statid: ID of stat to return rather than returning all Leaderboard stats.
-        :return: InlineResponse20023
+        :return: InlineResponse20024
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -398,7 +395,7 @@ class PreviewApi(object):
         :param int maxtop: Maximum number of top players to return. Use a large number to get entire leaderboard.
         :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
         :param str statid: ID of stat to return rather than returning all Leaderboard stats.
-        :return: InlineResponse20023
+        :return: InlineResponse20024
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -453,7 +450,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20023',
+                                        response_type='InlineResponse20024',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -476,8 +473,8 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The specific character whose activities should be returned. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :return: InlineResponse20029
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :return: InlineResponse20031
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -503,8 +500,8 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The specific character whose activities should be returned. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :return: InlineResponse20029
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :return: InlineResponse20031
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -563,7 +560,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20029',
+                                        response_type='InlineResponse20031',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -586,13 +583,13 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The id of the character to retrieve. You can omit this character ID or set it to 0 to get aggregate stats across all characters. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param datetime dayend: Last day to return when daily stats are requested.  Use the format YYYY-MM-DD.
         :param datetime daystart: First day to return when daily stats are requested. Use the format YYYY-MM-DD
-        :param list[str] groups: Group of stats to include, otherwise only general stats are returned. Comma separated list is allowed. Values: General, Weapons, Medals
-        :param list[str] modes: Game modes to return. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
-        :param str period_type: Indicates a specific period type to return. Optional. May be: Daily, AllTime, or Activity
-        :return: InlineResponse20023
+        :param list[DestinyHistoricalStatsDefinitionsDestinyStatsGroupType] groups: Group of stats to include, otherwise only general stats are returned. Comma separated list is allowed. Values: General, Weapons, Medals
+        :param list[DestinyHistoricalStatsDefinitionsDestinyActivityModeType] modes: Game modes to return. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
+        :param int period_type: Indicates a specific period type to return. Optional. May be: Daily, AllTime, or Activity
+        :return: InlineResponse20027
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -618,13 +615,13 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The id of the character to retrieve. You can omit this character ID or set it to 0 to get aggregate stats across all characters. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param datetime dayend: Last day to return when daily stats are requested.  Use the format YYYY-MM-DD.
         :param datetime daystart: First day to return when daily stats are requested. Use the format YYYY-MM-DD
-        :param list[str] groups: Group of stats to include, otherwise only general stats are returned. Comma separated list is allowed. Values: General, Weapons, Medals
-        :param list[str] modes: Game modes to return. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
-        :param str period_type: Indicates a specific period type to return. Optional. May be: Daily, AllTime, or Activity
-        :return: InlineResponse20023
+        :param list[DestinyHistoricalStatsDefinitionsDestinyStatsGroupType] groups: Group of stats to include, otherwise only general stats are returned. Comma separated list is allowed. Values: General, Weapons, Medals
+        :param list[DestinyHistoricalStatsDefinitionsDestinyActivityModeType] modes: Game modes to return. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
+        :param int period_type: Indicates a specific period type to return. Optional. May be: Daily, AllTime, or Activity
+        :return: InlineResponse20027
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -695,7 +692,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20023',
+                                        response_type='InlineResponse20027',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -717,9 +714,9 @@ class PreviewApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :param list[str] groups: Groups of stats to include, otherwise only general stats are returned.  Comma separated list is allowed. Values: General, Weapons, Medals.
-        :return: InlineResponse20026
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :param list[DestinyHistoricalStatsDefinitionsDestinyStatsGroupType] groups: Groups of stats to include, otherwise only general stats are returned.  Comma separated list is allowed. Values: General, Weapons, Medals.
+        :return: InlineResponse20028
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -744,9 +741,9 @@ class PreviewApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :param list[str] groups: Groups of stats to include, otherwise only general stats are returned.  Comma separated list is allowed. Values: General, Weapons, Medals.
-        :return: InlineResponse20026
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :param list[DestinyHistoricalStatsDefinitionsDestinyStatsGroupType] groups: Groups of stats to include, otherwise only general stats are returned.  Comma separated list is allowed. Values: General, Weapons, Medals.
+        :return: InlineResponse20028
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -803,7 +800,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20026',
+                                        response_type='InlineResponse20028',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -825,11 +822,11 @@ class PreviewApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int maxtop: Maximum number of top players to return. Use a large number to get entire leaderboard.
         :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
         :param str statid: ID of stat to return rather than returning all Leaderboard stats.
-        :return: InlineResponse20023
+        :return: InlineResponse20024
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -854,11 +851,11 @@ class PreviewApi(object):
         :param callback function: The callback function
             for asynchronous request. (optional)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int maxtop: Maximum number of top players to return. Use a large number to get entire leaderboard.
         :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
         :param str statid: ID of stat to return rather than returning all Leaderboard stats.
-        :return: InlineResponse20023
+        :return: InlineResponse20024
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -918,7 +915,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20023',
+                                        response_type='InlineResponse20024',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -941,11 +938,11 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The specific character to build the leaderboard around for the provided Destiny Membership. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int maxtop: Maximum number of top players to return. Use a large number to get entire leaderboard.
         :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
         :param str statid: ID of stat to return rather than returning all Leaderboard stats.
-        :return: InlineResponse20023
+        :return: InlineResponse20024
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -971,11 +968,11 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The specific character to build the leaderboard around for the provided Destiny Membership. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int maxtop: Maximum number of top players to return. Use a large number to get entire leaderboard.
         :param str modes: List of game modes for which to get leaderboards. See the documentation for DestinyActivityModeType for valid values, and pass in string representation, comma delimited.
         :param str statid: ID of stat to return rather than returning all Leaderboard stats.
-        :return: InlineResponse20023
+        :return: InlineResponse20024
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -1040,7 +1037,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20023',
+                                        response_type='InlineResponse20024',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -1063,8 +1060,8 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The id of the character to retrieve. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :return: InlineResponse20028
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :return: InlineResponse20030
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -1090,8 +1087,8 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The id of the character to retrieve. (required)
         :param int destiny_membership_id: The Destiny membershipId of the user to retrieve. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :return: InlineResponse20028
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :return: InlineResponse20030
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -1150,7 +1147,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20028',
+                                        response_type='InlineResponse20030',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),
@@ -1173,9 +1170,9 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The Destiny Character ID of the character for whom we're getting vendor info. (required)
         :param int destiny_membership_id: Destiny membership ID of another user. You may be denied. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int vendor_hash: The Hash identifier of the Vendor to be returned. (required)
-        :param str components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
+        :param list[DestinyDestinyComponentType] components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
         :return: InlineResponse20019
                  If the method is called asynchronously,
                  returns the request thread.
@@ -1202,9 +1199,9 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The Destiny Character ID of the character for whom we're getting vendor info. (required)
         :param int destiny_membership_id: Destiny membership ID of another user. You may be denied. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
+        :param int membership_type: A valid non-BungieNet membership type. (required)
         :param int vendor_hash: The Hash identifier of the Vendor to be returned. (required)
-        :param str components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
+        :param list[DestinyDestinyComponentType] components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
         :return: InlineResponse20019
                  If the method is called asynchronously,
                  returns the request thread.
@@ -1254,6 +1251,7 @@ class PreviewApi(object):
         query_params = []
         if 'components' in params:
             query_params.append(('components', params['components']))
+            collection_formats['components'] = 'csv'
 
         header_params = {}
 
@@ -1294,8 +1292,8 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The Destiny Character ID of the character for whom we're getting vendor info. (required)
         :param int destiny_membership_id: Destiny membership ID of another user. You may be denied. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :param str components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :param list[DestinyDestinyComponentType] components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
         :return: InlineResponse20018
                  If the method is called asynchronously,
                  returns the request thread.
@@ -1322,8 +1320,8 @@ class PreviewApi(object):
             for asynchronous request. (optional)
         :param int character_id: The Destiny Character ID of the character for whom we're getting vendor info. (required)
         :param int destiny_membership_id: Destiny membership ID of another user. You may be denied. (required)
-        :param str membership_type: A valid non-BungieNet membership type. (required)
-        :param str components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
+        :param int membership_type: A valid non-BungieNet membership type. (required)
+        :param list[DestinyDestinyComponentType] components: A comma separated list of components to return (as strings or numeric values).  See the DestinyComponentType enum for valid components to request.  You must request at least one component to receive results.
         :return: InlineResponse20018
                  If the method is called asynchronously,
                  returns the request thread.
@@ -1368,6 +1366,7 @@ class PreviewApi(object):
         query_params = []
         if 'components' in params:
             query_params.append(('components', params['components']))
+            collection_formats['components'] = 'csv'
 
         header_params = {}
 
@@ -1395,7 +1394,7 @@ class PreviewApi(object):
 
     def destiny2_insert_socket_plug(self, **kwargs):
         """
-        Insert a plug into a socketed item.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not yet active, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
+        Insert a plug into a socketed item.  I know how it sounds, but I assure you it's much more G-rated than you might be guessing.  We haven't decided yet whether this will be able to insert plugs that have side effects, but if we do it will require special scope permission for an application attempting to do so.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not yet active, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
         to be invoked when receiving the response.
@@ -1419,7 +1418,7 @@ class PreviewApi(object):
 
     def destiny2_insert_socket_plug_with_http_info(self, **kwargs):
         """
-        Insert a plug into a socketed item.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not yet active, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
+        Insert a plug into a socketed item.  I know how it sounds, but I assure you it's much more G-rated than you might be guessing.  We haven't decided yet whether this will be able to insert plugs that have side effects, but if we do it will require special scope permission for an application attempting to do so.  You must have a valid Destiny Account, and either be in a social space, in orbit, or offline.  PREVIEW: This service is not yet active, but we are returning the planned schema of the endpoint for review, comment, and preparation for its eventual implementation.
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
         to be invoked when receiving the response.
@@ -1497,7 +1496,7 @@ class PreviewApi(object):
         :param str search_term: The string to use when searching for Destiny entities. (required)
         :param str type: The type of entity for whom you would like results.  These correspond to the entity's definition contract name.  For instance, if you are looking for items, this property should be 'DestinyInventoryItemDefinition'.  PREVIEW: This endpoint is still in beta, and may experience rough edges.  The schema is tentatively in final form, but there may be bugs that prevent desirable operation. (required)
         :param int page: Page number to return, starting with 0.
-        :return: InlineResponse20025
+        :return: InlineResponse20026
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -1524,7 +1523,7 @@ class PreviewApi(object):
         :param str search_term: The string to use when searching for Destiny entities. (required)
         :param str type: The type of entity for whom you would like results.  These correspond to the entity's definition contract name.  For instance, if you are looking for items, this property should be 'DestinyInventoryItemDefinition'.  PREVIEW: This endpoint is still in beta, and may experience rough edges.  The schema is tentatively in final form, but there may be bugs that prevent desirable operation. (required)
         :param int page: Page number to return, starting with 0.
-        :return: InlineResponse20025
+        :return: InlineResponse20026
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -1580,7 +1579,7 @@ class PreviewApi(object):
                                         body=body_params,
                                         post_params=form_params,
                                         files=local_var_files,
-                                        response_type='InlineResponse20025',
+                                        response_type='InlineResponse20026',
                                         auth_settings=auth_settings,
                                         callback=params.get('callback'),
                                         _return_http_data_only=params.get('_return_http_data_only'),

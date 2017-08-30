@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyTalentNodeCategory(object):
     def identifier(self):
         """
         Gets the identifier of this DestinyDefinitionsDestinyTalentNodeCategory.
-        Mostly just for debug purposes, but if you find it useful you can have it.  This is BNet's manually created identifier for this category.
+        Mostly just for debug purposes, but if you find it useful you can have it.This is BNet's manually created identifier for this category.
 
         :return: The identifier of this DestinyDefinitionsDestinyTalentNodeCategory.
         :rtype: str
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyTalentNodeCategory(object):
     def identifier(self, identifier):
         """
         Sets the identifier of this DestinyDefinitionsDestinyTalentNodeCategory.
-        Mostly just for debug purposes, but if you find it useful you can have it.  This is BNet's manually created identifier for this category.
+        Mostly just for debug purposes, but if you find it useful you can have it.This is BNet's manually created identifier for this category.
 
         :param identifier: The identifier of this DestinyDefinitionsDestinyTalentNodeCategory.
         :type: str
@@ -85,7 +85,7 @@ class DestinyDefinitionsDestinyTalentNodeCategory(object):
     def is_lore_driven(self):
         """
         Gets the is_lore_driven of this DestinyDefinitionsDestinyTalentNodeCategory.
-        If true, we found the localized content in a related DestinyLoreDefinition  instead of local BNet localization files.  This is mostly for ease of my own future investigations.
+        If true, we found the localized content in a related DestinyLoreDefinitioninstead of local BNet localization files.  This is mostly for ease of my own future investigations.
 
         :return: The is_lore_driven of this DestinyDefinitionsDestinyTalentNodeCategory.
         :rtype: bool
@@ -96,7 +96,7 @@ class DestinyDefinitionsDestinyTalentNodeCategory(object):
     def is_lore_driven(self, is_lore_driven):
         """
         Sets the is_lore_driven of this DestinyDefinitionsDestinyTalentNodeCategory.
-        If true, we found the localized content in a related DestinyLoreDefinition  instead of local BNet localization files.  This is mostly for ease of my own future investigations.
+        If true, we found the localized content in a related DestinyLoreDefinitioninstead of local BNet localization files.  This is mostly for ease of my own future investigations.
 
         :param is_lore_driven: The is_lore_driven of this DestinyDefinitionsDestinyTalentNodeCategory.
         :type: bool
@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyTalentNodeCategory(object):
     def node_hashes(self):
         """
         Gets the node_hashes of this DestinyDefinitionsDestinyTalentNodeCategory.
-        The set of all hash identifiers for Talent Nodes (DestinyTalentNodeDefinition)  in this Talent Grid that are part of this Category.
+        The set of all hash identifiers for Talent Nodes (DestinyTalentNodeDefinition)in this Talent Grid that are part of this Category.
 
         :return: The node_hashes of this DestinyDefinitionsDestinyTalentNodeCategory.
         :rtype: list[int]
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyTalentNodeCategory(object):
     def node_hashes(self, node_hashes):
         """
         Sets the node_hashes of this DestinyDefinitionsDestinyTalentNodeCategory.
-        The set of all hash identifiers for Talent Nodes (DestinyTalentNodeDefinition)  in this Talent Grid that are part of this Category.
+        The set of all hash identifiers for Talent Nodes (DestinyTalentNodeDefinition)in this Talent Grid that are part of this Category.
 
         :param node_hashes: The node_hashes of this DestinyDefinitionsDestinyTalentNodeCategory.
         :type: list[int]

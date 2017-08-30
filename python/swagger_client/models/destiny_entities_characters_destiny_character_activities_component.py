@@ -118,7 +118,7 @@ class DestinyEntitiesCharactersDestinyCharacterActivitiesComponent(object):
     def current_activity_hash(self):
         """
         Gets the current_activity_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
-        If the user is in an activity, this will be the hash of the Activity being played.  Note that you must combine this info with currentActivityModeHash to get a real picture of what  the user is doing right now.  For instance, PVP \"Activities\" are just maps: it's the ActivityMode  that determines what type of PVP game they're playing.
+        If the user is in an activity, this will be the hash of the Activity being played.Note that you must combine this info with currentActivityModeHash to get a real picture of whatthe user is doing right now.  For instance, PVP \"Activities\" are just maps: it's the ActivityModethat determines what type of PVP game they're playing.
 
         :return: The current_activity_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
         :rtype: int
@@ -129,7 +129,7 @@ class DestinyEntitiesCharactersDestinyCharacterActivitiesComponent(object):
     def current_activity_hash(self, current_activity_hash):
         """
         Sets the current_activity_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
-        If the user is in an activity, this will be the hash of the Activity being played.  Note that you must combine this info with currentActivityModeHash to get a real picture of what  the user is doing right now.  For instance, PVP \"Activities\" are just maps: it's the ActivityMode  that determines what type of PVP game they're playing.
+        If the user is in an activity, this will be the hash of the Activity being played.Note that you must combine this info with currentActivityModeHash to get a real picture of whatthe user is doing right now.  For instance, PVP \"Activities\" are just maps: it's the ActivityModethat determines what type of PVP game they're playing.
 
         :param current_activity_hash: The current_activity_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
         :type: int
@@ -141,7 +141,7 @@ class DestinyEntitiesCharactersDestinyCharacterActivitiesComponent(object):
     def current_activity_mode_hash(self):
         """
         Gets the current_activity_mode_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
-        If the user is in an activity, this will be the hash of the activity mode being played.  Combine with currentActivityHash to give a person a full picture of what they're doing right now.
+        If the user is in an activity, this will be the hash of the activity mode being played.Combine with currentActivityHash to give a person a full picture of what they're doing right now.
 
         :return: The current_activity_mode_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
         :rtype: int
@@ -152,7 +152,7 @@ class DestinyEntitiesCharactersDestinyCharacterActivitiesComponent(object):
     def current_activity_mode_hash(self, current_activity_mode_hash):
         """
         Sets the current_activity_mode_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
-        If the user is in an activity, this will be the hash of the activity mode being played.  Combine with currentActivityHash to give a person a full picture of what they're doing right now.
+        If the user is in an activity, this will be the hash of the activity mode being played.Combine with currentActivityHash to give a person a full picture of what they're doing right now.
 
         :param current_activity_mode_hash: The current_activity_mode_hash of this DestinyEntitiesCharactersDestinyCharacterActivitiesComponent.
         :type: int

@@ -52,7 +52,7 @@ class DestinyEntitiesInventoryDestinyInventoryComponent(object):
     def items(self):
         """
         Gets the items of this DestinyEntitiesInventoryDestinyInventoryComponent.
-        The items in this inventory.  If you care to bucket them, use the item's bucketHash property to group  them.
+        The items in this inventory.  If you care to bucket them, use the item's bucketHash property to groupthem.
 
         :return: The items of this DestinyEntitiesInventoryDestinyInventoryComponent.
         :rtype: list[DestinyEntitiesItemsDestinyItemComponent]
@@ -63,7 +63,7 @@ class DestinyEntitiesInventoryDestinyInventoryComponent(object):
     def items(self, items):
         """
         Sets the items of this DestinyEntitiesInventoryDestinyInventoryComponent.
-        The items in this inventory.  If you care to bucket them, use the item's bucketHash property to group  them.
+        The items in this inventory.  If you care to bucket them, use the item's bucketHash property to groupthem.
 
         :param items: The items of this DestinyEntitiesInventoryDestinyInventoryComponent.
         :type: list[DestinyEntitiesItemsDestinyItemComponent]

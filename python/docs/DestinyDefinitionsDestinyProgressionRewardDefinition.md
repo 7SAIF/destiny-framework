@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**progression_mapping_hash** | **int** | The hash identifier of the DestinyProgressionMappingDefinition that contains the progressions  for which experience should be applied. | [optional] 
+**progression_mapping_hash** | **int** | The hash identifier of the DestinyProgressionMappingDefinition that contains the progressionsfor which experience should be applied. | [optional] 
 **amount** | **int** | The amount of experience to give to each of the mapped progressions. | [optional] 
 **apply_throttles** | **bool** | If true, the game&#39;s internal mechanisms to throttle progression should be applied. | [optional] 
 

@@ -223,7 +223,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def buy_string(self):
         """
         Gets the buy_string of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor has a custom localized string describing the \"buy\" action, that is  returned here.
+        If the vendor has a custom localized string describing the \"buy\" action, that isreturned here.
 
         :return: The buy_string of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: str
@@ -234,7 +234,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def buy_string(self, buy_string):
         """
         Sets the buy_string of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor has a custom localized string describing the \"buy\" action, that is  returned here.
+        If the vendor has a custom localized string describing the \"buy\" action, that isreturned here.
 
         :param buy_string: The buy_string of this DestinyDefinitionsDestinyVendorDefinition.
         :type: str
@@ -246,7 +246,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def sell_string(self):
         """
         Gets the sell_string of this DestinyDefinitionsDestinyVendorDefinition.
-        Ditto for selling.  Not that you can sell items to a vendor anymore.  Will it come back?  Who knows.  The string's still there.
+        Ditto for selling.  Not that you can sell items to a vendor anymore.  Will it come back?Who knows.  The string's still there.
 
         :return: The sell_string of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: str
@@ -257,7 +257,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def sell_string(self, sell_string):
         """
         Sets the sell_string of this DestinyDefinitionsDestinyVendorDefinition.
-        Ditto for selling.  Not that you can sell items to a vendor anymore.  Will it come back?  Who knows.  The string's still there.
+        Ditto for selling.  Not that you can sell items to a vendor anymore.  Will it come back?Who knows.  The string's still there.
 
         :param sell_string: The sell_string of this DestinyDefinitionsDestinyVendorDefinition.
         :type: str
@@ -269,7 +269,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def display_item_hash(self):
         """
         Gets the display_item_hash of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor has an item that should be displayed as the \"featured\" item, this is  the hash identifier for that DestinyVendorItemDefinition.    Apparently this is usually a related currency, like a reputation token.  But it need not be restricted to that.
+        If the vendor has an item that should be displayed as the \"featured\" item, this isthe hash identifier for that DestinyVendorItemDefinition.  Apparently this is usually a related currency, like a reputation token.  But it need not be restricted to that.
 
         :return: The display_item_hash of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: int
@@ -280,7 +280,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def display_item_hash(self, display_item_hash):
         """
         Sets the display_item_hash of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor has an item that should be displayed as the \"featured\" item, this is  the hash identifier for that DestinyVendorItemDefinition.    Apparently this is usually a related currency, like a reputation token.  But it need not be restricted to that.
+        If the vendor has an item that should be displayed as the \"featured\" item, this isthe hash identifier for that DestinyVendorItemDefinition.  Apparently this is usually a related currency, like a reputation token.  But it need not be restricted to that.
 
         :param display_item_hash: The display_item_hash of this DestinyDefinitionsDestinyVendorDefinition.
         :type: int
@@ -338,7 +338,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def faction_hash(self):
         """
         Gets the faction_hash of this DestinyDefinitionsDestinyVendorDefinition.
-        If the Vendor has a faction, this hash will be valid and point to a DestinyFactionDefinition.    The game UI and BNet often mine the faction definition for additional elements and details to place  on the screen, such as the faction's Progression status (aka \"Reputation\").
+        If the Vendor has a faction, this hash will be valid and point to a DestinyFactionDefinition.  The game UI and BNet often mine the faction definition for additional elements and details to placeon the screen, such as the faction's Progression status (aka \"Reputation\").
 
         :return: The faction_hash of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: int
@@ -349,7 +349,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def faction_hash(self, faction_hash):
         """
         Sets the faction_hash of this DestinyDefinitionsDestinyVendorDefinition.
-        If the Vendor has a faction, this hash will be valid and point to a DestinyFactionDefinition.    The game UI and BNet often mine the faction definition for additional elements and details to place  on the screen, such as the faction's Progression status (aka \"Reputation\").
+        If the Vendor has a faction, this hash will be valid and point to a DestinyFactionDefinition.  The game UI and BNet often mine the faction definition for additional elements and details to placeon the screen, such as the faction's Progression status (aka \"Reputation\").
 
         :param faction_hash: The faction_hash of this DestinyDefinitionsDestinyVendorDefinition.
         :type: int
@@ -361,7 +361,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def reset_interval_minutes(self):
         """
         Gets the reset_interval_minutes of this DestinyDefinitionsDestinyVendorDefinition.
-        A number used for calculating the frequency of a vendor's inventory resetting/refreshing.    Don't worry about calculating this - we do it on the server side and send you the next refresh  date with the live data.
+        A number used for calculating the frequency of a vendor's inventory resetting/refreshing.  Don't worry about calculating this - we do it on the server side and send you the next refreshdate with the live data.
 
         :return: The reset_interval_minutes of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: int
@@ -372,7 +372,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def reset_interval_minutes(self, reset_interval_minutes):
         """
         Sets the reset_interval_minutes of this DestinyDefinitionsDestinyVendorDefinition.
-        A number used for calculating the frequency of a vendor's inventory resetting/refreshing.    Don't worry about calculating this - we do it on the server side and send you the next refresh  date with the live data.
+        A number used for calculating the frequency of a vendor's inventory resetting/refreshing.  Don't worry about calculating this - we do it on the server side and send you the next refreshdate with the live data.
 
         :param reset_interval_minutes: The reset_interval_minutes of this DestinyDefinitionsDestinyVendorDefinition.
         :type: int
@@ -407,7 +407,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def failure_strings(self):
         """
         Gets the failure_strings of this DestinyDefinitionsDestinyVendorDefinition.
-        If an item can't be purchased from the vendor, there may be many \"custom\"/game state specific reasons why not.    This is a list of localized strings with messages for those custom failures.  The live BNet data will return a  failureIndexes property for items that can't be purchased: using those values to index into this array,  you can show the user the appropriate failure message for the item that can't be bought.
+        If an item can't be purchased from the vendor, there may be many \"custom\"/game state specific reasons why not.  This is a list of localized strings with messages for those custom failures.  The live BNet data will return afailureIndexes property for items that can't be purchased: using those values to index into this array,you can show the user the appropriate failure message for the item that can't be bought.
 
         :return: The failure_strings of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[str]
@@ -418,7 +418,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def failure_strings(self, failure_strings):
         """
         Sets the failure_strings of this DestinyDefinitionsDestinyVendorDefinition.
-        If an item can't be purchased from the vendor, there may be many \"custom\"/game state specific reasons why not.    This is a list of localized strings with messages for those custom failures.  The live BNet data will return a  failureIndexes property for items that can't be purchased: using those values to index into this array,  you can show the user the appropriate failure message for the item that can't be bought.
+        If an item can't be purchased from the vendor, there may be many \"custom\"/game state specific reasons why not.  This is a list of localized strings with messages for those custom failures.  The live BNet data will return afailureIndexes property for items that can't be purchased: using those values to index into this array,you can show the user the appropriate failure message for the item that can't be bought.
 
         :param failure_strings: The failure_strings of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[str]
@@ -430,7 +430,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def unlock_ranges(self):
         """
         Gets the unlock_ranges of this DestinyDefinitionsDestinyVendorDefinition.
-        If we were able to predict the dates when this Vendor will be visible/available, this will be the list  of those date ranges.  Sadly, we're not able to predict this very frequently, so this will often be useless data.
+        If we were able to predict the dates when this Vendor will be visible/available, this will be the listof those date ranges.  Sadly, we're not able to predict this very frequently, so this will often be useless data.
 
         :return: The unlock_ranges of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DatesDateRange]
@@ -441,7 +441,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def unlock_ranges(self, unlock_ranges):
         """
         Sets the unlock_ranges of this DestinyDefinitionsDestinyVendorDefinition.
-        If we were able to predict the dates when this Vendor will be visible/available, this will be the list  of those date ranges.  Sadly, we're not able to predict this very frequently, so this will often be useless data.
+        If we were able to predict the dates when this Vendor will be visible/available, this will be the listof those date ranges.  Sadly, we're not able to predict this very frequently, so this will often be useless data.
 
         :param unlock_ranges: The unlock_ranges of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DatesDateRange]
@@ -453,7 +453,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def vendor_identifier(self):
         """
         Gets the vendor_identifier of this DestinyDefinitionsDestinyVendorDefinition.
-        The internal identifier for the Vendor.  A holdover from the old days of Vendors, but we don't have  time to refactor it away.
+        The internal identifier for the Vendor.  A holdover from the old days of Vendors, but we don't havetime to refactor it away.
 
         :return: The vendor_identifier of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: str
@@ -464,7 +464,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def vendor_identifier(self, vendor_identifier):
         """
         Sets the vendor_identifier of this DestinyDefinitionsDestinyVendorDefinition.
-        The internal identifier for the Vendor.  A holdover from the old days of Vendors, but we don't have  time to refactor it away.
+        The internal identifier for the Vendor.  A holdover from the old days of Vendors, but we don't havetime to refactor it away.
 
         :param vendor_identifier: The vendor_identifier of this DestinyDefinitionsDestinyVendorDefinition.
         :type: str
@@ -522,7 +522,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def enabled(self):
         """
         Gets the enabled of this DestinyDefinitionsDestinyVendorDefinition.
-        If a vendor is not enabled, we won't even save the vendor's definition, and we won't return any items or info about them.  It's as if they don't exist.
+        If a vendor is not enabled, we won't even save the vendor's definition, and we won't return any items or info about them.It's as if they don't exist.
 
         :return: The enabled of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: bool
@@ -533,7 +533,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def enabled(self, enabled):
         """
         Sets the enabled of this DestinyDefinitionsDestinyVendorDefinition.
-        If a vendor is not enabled, we won't even save the vendor's definition, and we won't return any items or info about them.  It's as if they don't exist.
+        If a vendor is not enabled, we won't even save the vendor's definition, and we won't return any items or info about them.It's as if they don't exist.
 
         :param enabled: The enabled of this DestinyDefinitionsDestinyVendorDefinition.
         :type: bool
@@ -545,7 +545,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def visible(self):
         """
         Gets the visible of this DestinyDefinitionsDestinyVendorDefinition.
-        If a vendor is not visible, we still have and will give vendor definition info, but we won't use them  for things like Advisors or UI.
+        If a vendor is not visible, we still have and will give vendor definition info, but we won't use themfor things like Advisors or UI.
 
         :return: The visible of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: bool
@@ -556,7 +556,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def visible(self, visible):
         """
         Sets the visible of this DestinyDefinitionsDestinyVendorDefinition.
-        If a vendor is not visible, we still have and will give vendor definition info, but we won't use them  for things like Advisors or UI.
+        If a vendor is not visible, we still have and will give vendor definition info, but we won't use themfor things like Advisors or UI.
 
         :param visible: The visible of this DestinyDefinitionsDestinyVendorDefinition.
         :type: bool
@@ -637,7 +637,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def actions(self):
         """
         Gets the actions of this DestinyDefinitionsDestinyVendorDefinition.
-        Describes \"actions\" that can be performed on a vendor.  Currently, none of these exist.  But theoretically  a Vendor could let you interact with it by performing actions.  We'll see what these end up looking  like if they ever get used.
+        Describes \"actions\" that can be performed on a vendor.  Currently, none of these exist.  But theoreticallya Vendor could let you interact with it by performing actions.  We'll see what these end up lookinglike if they ever get used.
 
         :return: The actions of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorActionDefinition]
@@ -648,7 +648,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def actions(self, actions):
         """
         Sets the actions of this DestinyDefinitionsDestinyVendorDefinition.
-        Describes \"actions\" that can be performed on a vendor.  Currently, none of these exist.  But theoretically  a Vendor could let you interact with it by performing actions.  We'll see what these end up looking  like if they ever get used.
+        Describes \"actions\" that can be performed on a vendor.  Currently, none of these exist.  But theoreticallya Vendor could let you interact with it by performing actions.  We'll see what these end up lookinglike if they ever get used.
 
         :param actions: The actions of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyVendorActionDefinition]
@@ -660,7 +660,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def categories(self):
         """
         Gets the categories of this DestinyDefinitionsDestinyVendorDefinition.
-        These are the headers for sections of items that the vendor is selling.  When you see items organized by category in the header, it is these categories  that it is showing.    Well, technically not *exactly* these.  On BNet, it doesn't make sense to have categories  be \"paged\" as we do in Destiny, so we run some heuristics to attempt to aggregate pages of  categories together.      These are the categories post-concatenation, if the vendor had concatenation  applied.  If you want the pre-aggregated category data, use originalCategories.
+        These are the headers for sections of items that the vendor is selling.When you see items organized by category in the header, it is these categoriesthat it is showing.  Well, technically not *exactly* these.  On BNet, it doesn't make sense to have categoriesbe \"paged\" as we do in Destiny, so we run some heuristics to attempt to aggregate pages ofcategories together.    These are the categories post-concatenation, if the vendor had concatenationapplied.  If you want the pre-aggregated category data, use originalCategories.
 
         :return: The categories of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorCategoryEntryDefinition]
@@ -671,7 +671,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def categories(self, categories):
         """
         Sets the categories of this DestinyDefinitionsDestinyVendorDefinition.
-        These are the headers for sections of items that the vendor is selling.  When you see items organized by category in the header, it is these categories  that it is showing.    Well, technically not *exactly* these.  On BNet, it doesn't make sense to have categories  be \"paged\" as we do in Destiny, so we run some heuristics to attempt to aggregate pages of  categories together.      These are the categories post-concatenation, if the vendor had concatenation  applied.  If you want the pre-aggregated category data, use originalCategories.
+        These are the headers for sections of items that the vendor is selling.When you see items organized by category in the header, it is these categoriesthat it is showing.  Well, technically not *exactly* these.  On BNet, it doesn't make sense to have categoriesbe \"paged\" as we do in Destiny, so we run some heuristics to attempt to aggregate pages ofcategories together.    These are the categories post-concatenation, if the vendor had concatenationapplied.  If you want the pre-aggregated category data, use originalCategories.
 
         :param categories: The categories of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyVendorCategoryEntryDefinition]
@@ -706,7 +706,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def display_categories(self):
         """
         Gets the display_categories of this DestinyDefinitionsDestinyVendorDefinition.
-        Display Categories are different from \"categories\" in that these are specifically for visual grouping  and display of categories in Vendor UI.      The \"categories\" structure is for validation of the contained  items, and can be categorized entirely separately from \"Display Categories\", there need be and often will be  no meaningful relationship between the two.
+        Display Categories are different from \"categories\" in that these are specifically for visual groupingand display of categories in Vendor UI.    The \"categories\" structure is for validation of the containeditems, and can be categorized entirely separately from \"Display Categories\", there need be and often will beno meaningful relationship between the two.
 
         :return: The display_categories of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyDisplayCategoryDefinition]
@@ -717,7 +717,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def display_categories(self, display_categories):
         """
         Sets the display_categories of this DestinyDefinitionsDestinyVendorDefinition.
-        Display Categories are different from \"categories\" in that these are specifically for visual grouping  and display of categories in Vendor UI.      The \"categories\" structure is for validation of the contained  items, and can be categorized entirely separately from \"Display Categories\", there need be and often will be  no meaningful relationship between the two.
+        Display Categories are different from \"categories\" in that these are specifically for visual groupingand display of categories in Vendor UI.    The \"categories\" structure is for validation of the containeditems, and can be categorized entirely separately from \"Display Categories\", there need be and often will beno meaningful relationship between the two.
 
         :param display_categories: The display_categories of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyDisplayCategoryDefinition]
@@ -729,7 +729,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def interactions(self):
         """
         Gets the interactions of this DestinyDefinitionsDestinyVendorDefinition.
-        In addition to selling items, vendors can have \"interactions\": UI where you \"talk\" with the vendor  and they offer you a reward, some item, or merely acknowledge via dialog that you did something cool.
+        In addition to selling items, vendors can have \"interactions\": UI where you \"talk\" with the vendorand they offer you a reward, some item, or merely acknowledge via dialog that you did something cool.
 
         :return: The interactions of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorInteractionDefinition]
@@ -740,7 +740,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def interactions(self, interactions):
         """
         Sets the interactions of this DestinyDefinitionsDestinyVendorDefinition.
-        In addition to selling items, vendors can have \"interactions\": UI where you \"talk\" with the vendor  and they offer you a reward, some item, or merely acknowledge via dialog that you did something cool.
+        In addition to selling items, vendors can have \"interactions\": UI where you \"talk\" with the vendorand they offer you a reward, some item, or merely acknowledge via dialog that you did something cool.
 
         :param interactions: The interactions of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyVendorInteractionDefinition]
@@ -752,7 +752,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def inventory_flyouts(self):
         """
         Gets the inventory_flyouts of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor shows you items from your own inventory - such as the Vault vendor does -  this data describes the UI around showing those inventory buckets and which ones get shown.
+        If the vendor shows you items from your own inventory - such as the Vault vendor does -this data describes the UI around showing those inventory buckets and which ones get shown.
 
         :return: The inventory_flyouts of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition]
@@ -763,7 +763,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def inventory_flyouts(self, inventory_flyouts):
         """
         Sets the inventory_flyouts of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor shows you items from your own inventory - such as the Vault vendor does -  this data describes the UI around showing those inventory buckets and which ones get shown.
+        If the vendor shows you items from your own inventory - such as the Vault vendor does -this data describes the UI around showing those inventory buckets and which ones get shown.
 
         :param inventory_flyouts: The inventory_flyouts of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyVendorInventoryFlyoutDefinition]
@@ -775,7 +775,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def item_list(self):
         """
         Gets the item_list of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor sells items (or merely has a list of items to show like the \"Sack\" vendors do),  this is the list of those items that the vendor can sell.  From this list, only a subset will be  available from the vendor at any given time, selected randomly and reset on the vendor's refresh interval.    Note that a vendor can sell the same item multiple ways: for instance, nothing stops a vendor from selling  you some specific weapon but using two different currencies, or the same weapon at multiple \"item levels\".
+        If the vendor sells items (or merely has a list of items to show like the \"Sack\" vendors do),this is the list of those items that the vendor can sell.  From this list, only a subset will beavailable from the vendor at any given time, selected randomly and reset on the vendor's refresh interval.  Note that a vendor can sell the same item multiple ways: for instance, nothing stops a vendor from sellingyou some specific weapon but using two different currencies, or the same weapon at multiple \"item levels\".
 
         :return: The item_list of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorItemDefinition]
@@ -786,7 +786,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def item_list(self, item_list):
         """
         Sets the item_list of this DestinyDefinitionsDestinyVendorDefinition.
-        If the vendor sells items (or merely has a list of items to show like the \"Sack\" vendors do),  this is the list of those items that the vendor can sell.  From this list, only a subset will be  available from the vendor at any given time, selected randomly and reset on the vendor's refresh interval.    Note that a vendor can sell the same item multiple ways: for instance, nothing stops a vendor from selling  you some specific weapon but using two different currencies, or the same weapon at multiple \"item levels\".
+        If the vendor sells items (or merely has a list of items to show like the \"Sack\" vendors do),this is the list of those items that the vendor can sell.  From this list, only a subset will beavailable from the vendor at any given time, selected randomly and reset on the vendor's refresh interval.  Note that a vendor can sell the same item multiple ways: for instance, nothing stops a vendor from sellingyou some specific weapon but using two different currencies, or the same weapon at multiple \"item levels\".
 
         :param item_list: The item_list of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyVendorItemDefinition]
@@ -798,7 +798,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def services(self):
         """
         Gets the services of this DestinyDefinitionsDestinyVendorDefinition.
-        BNet doesn't use this data yet, but it appears to be an optional list of flavor text  about services that the Vendor can provide.
+        BNet doesn't use this data yet, but it appears to be an optional list of flavor textabout services that the Vendor can provide.
 
         :return: The services of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorServiceDefinition]
@@ -809,7 +809,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def services(self, services):
         """
         Sets the services of this DestinyDefinitionsDestinyVendorDefinition.
-        BNet doesn't use this data yet, but it appears to be an optional list of flavor text  about services that the Vendor can provide.
+        BNet doesn't use this data yet, but it appears to be an optional list of flavor textabout services that the Vendor can provide.
 
         :param services: The services of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyVendorServiceDefinition]
@@ -821,7 +821,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def accepted_items(self):
         """
         Gets the accepted_items of this DestinyDefinitionsDestinyVendorDefinition.
-        If the Vendor is actually a vehicle for the transferring of items (like the Vault and Postmaster  vendors), this defines the list of source->destination buckets for transferring.
+        If the Vendor is actually a vehicle for the transferring of items (like the Vault and Postmastervendors), this defines the list of source->destination buckets for transferring.
 
         :return: The accepted_items of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: list[DestinyDefinitionsDestinyVendorAcceptedItemDefinition]
@@ -832,7 +832,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def accepted_items(self, accepted_items):
         """
         Sets the accepted_items of this DestinyDefinitionsDestinyVendorDefinition.
-        If the Vendor is actually a vehicle for the transferring of items (like the Vault and Postmaster  vendors), this defines the list of source->destination buckets for transferring.
+        If the Vendor is actually a vehicle for the transferring of items (like the Vault and Postmastervendors), this defines the list of source->destination buckets for transferring.
 
         :param accepted_items: The accepted_items of this DestinyDefinitionsDestinyVendorDefinition.
         :type: list[DestinyDefinitionsDestinyVendorAcceptedItemDefinition]
@@ -844,7 +844,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyVendorDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: int
@@ -855,7 +855,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyVendorDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyVendorDefinition.
         :type: int
@@ -890,7 +890,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyVendorDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyVendorDefinition.
         :rtype: bool
@@ -901,7 +901,7 @@ class DestinyDefinitionsDestinyVendorDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyVendorDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyVendorDefinition.
         :type: bool

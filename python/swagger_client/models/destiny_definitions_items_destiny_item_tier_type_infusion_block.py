@@ -57,7 +57,7 @@ class DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock(object):
     def base_quality_transfer_ratio(self):
         """
         Gets the base_quality_transfer_ratio of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
-        The default portion of quality that will transfer from the infuser to the infusee item.  (InfuserQuality - InfuseeQuality) * baseQualityTransferRatio = base quality transferred.
+        The default portion of quality that will transfer from the infuser to the infusee item.(InfuserQuality - InfuseeQuality) * baseQualityTransferRatio = base quality transferred.
 
         :return: The base_quality_transfer_ratio of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
         :rtype: float
@@ -68,7 +68,7 @@ class DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock(object):
     def base_quality_transfer_ratio(self, base_quality_transfer_ratio):
         """
         Sets the base_quality_transfer_ratio of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
-        The default portion of quality that will transfer from the infuser to the infusee item.  (InfuserQuality - InfuseeQuality) * baseQualityTransferRatio = base quality transferred.
+        The default portion of quality that will transfer from the infuser to the infusee item.(InfuserQuality - InfuseeQuality) * baseQualityTransferRatio = base quality transferred.
 
         :param base_quality_transfer_ratio: The base_quality_transfer_ratio of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
         :type: float
@@ -80,7 +80,7 @@ class DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock(object):
     def minimum_quality_increment(self):
         """
         Gets the minimum_quality_increment of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
-        As long as InfuserQuality > InfuseeQuality, the amount of quality bestowed is guaranteed  to be at least this value, even if the transferRatio would dictate that it should be less.  The total amount of quality that ends up in the Infusee cannot exceed the Infuser's quality however  (for instance, if you infuse a 300 item with a 301 item and the minimum quality increment  is 10, the infused item will not end up with 310 quality)
+        As long as InfuserQuality > InfuseeQuality, the amount of quality bestowed is guaranteedto be at least this value, even if the transferRatio would dictate that it should be less.The total amount of quality that ends up in the Infusee cannot exceed the Infuser's quality however(for instance, if you infuse a 300 item with a 301 item and the minimum quality incrementis 10, the infused item will not end up with 310 quality)
 
         :return: The minimum_quality_increment of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
         :rtype: int
@@ -91,7 +91,7 @@ class DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock(object):
     def minimum_quality_increment(self, minimum_quality_increment):
         """
         Sets the minimum_quality_increment of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
-        As long as InfuserQuality > InfuseeQuality, the amount of quality bestowed is guaranteed  to be at least this value, even if the transferRatio would dictate that it should be less.  The total amount of quality that ends up in the Infusee cannot exceed the Infuser's quality however  (for instance, if you infuse a 300 item with a 301 item and the minimum quality increment  is 10, the infused item will not end up with 310 quality)
+        As long as InfuserQuality > InfuseeQuality, the amount of quality bestowed is guaranteedto be at least this value, even if the transferRatio would dictate that it should be less.The total amount of quality that ends up in the Infusee cannot exceed the Infuser's quality however(for instance, if you infuse a 300 item with a 301 item and the minimum quality incrementis 10, the infused item will not end up with 310 quality)
 
         :param minimum_quality_increment: The minimum_quality_increment of this DestinyDefinitionsItemsDestinyItemTierTypeInfusionBlock.
         :type: int

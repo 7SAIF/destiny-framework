@@ -85,7 +85,7 @@ class DestinyDestinyItemQuantity(object):
     def item_instance_id(self):
         """
         Gets the item_instance_id of this DestinyDestinyItemQuantity.
-        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.  Normally, this will be null.
+        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.Normally, this will be null.
 
         :return: The item_instance_id of this DestinyDestinyItemQuantity.
         :rtype: int
@@ -96,7 +96,7 @@ class DestinyDestinyItemQuantity(object):
     def item_instance_id(self, item_instance_id):
         """
         Sets the item_instance_id of this DestinyDestinyItemQuantity.
-        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.  Normally, this will be null.
+        If this quantity is referring to a specific instance of an item, this will have the item's instance ID.Normally, this will be null.
 
         :param item_instance_id: The item_instance_id of this DestinyDestinyItemQuantity.
         :type: int

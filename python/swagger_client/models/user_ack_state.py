@@ -80,7 +80,7 @@ class UserAckState(object):
     def ack_id(self):
         """
         Gets the ack_id of this UserAckState.
-        Identifier to use when acknowledging the related item.  [category]:[entityId]:[targetId]
+        Identifier to use when acknowledging the related item.[category]:[entityId]:[targetId]
 
         :return: The ack_id of this UserAckState.
         :rtype: str
@@ -91,7 +91,7 @@ class UserAckState(object):
     def ack_id(self, ack_id):
         """
         Sets the ack_id of this UserAckState.
-        Identifier to use when acknowledging the related item.  [category]:[entityId]:[targetId]
+        Identifier to use when acknowledging the related item.[category]:[entityId]:[targetId]
 
         :param ack_id: The ack_id of this UserAckState.
         :type: str

@@ -80,7 +80,7 @@ class DestinyEntitiesVendorsDestinyVendorCategory(object):
     def item_indexes(self):
         """
         Gets the item_indexes of this DestinyEntitiesVendorsDestinyVendorCategory.
-        An ordered list of indexes into items being sold in this category (DestinyVendorDefinition.itemList)  which will contain more information about the items being sold themselves.  Can also be used to index into  DestinyVendorSaleItemComponent data, if you asked for that data to be returned.
+        An ordered list of indexes into items being sold in this category (DestinyVendorDefinition.itemList)which will contain more information about the items being sold themselves.  Can also be used to index intoDestinyVendorSaleItemComponent data, if you asked for that data to be returned.
 
         :return: The item_indexes of this DestinyEntitiesVendorsDestinyVendorCategory.
         :rtype: list[int]
@@ -91,7 +91,7 @@ class DestinyEntitiesVendorsDestinyVendorCategory(object):
     def item_indexes(self, item_indexes):
         """
         Sets the item_indexes of this DestinyEntitiesVendorsDestinyVendorCategory.
-        An ordered list of indexes into items being sold in this category (DestinyVendorDefinition.itemList)  which will contain more information about the items being sold themselves.  Can also be used to index into  DestinyVendorSaleItemComponent data, if you asked for that data to be returned.
+        An ordered list of indexes into items being sold in this category (DestinyVendorDefinition.itemList)which will contain more information about the items being sold themselves.  Can also be used to index intoDestinyVendorSaleItemComponent data, if you asked for that data to be returned.
 
         :param item_indexes: The item_indexes of this DestinyEntitiesVendorsDestinyVendorCategory.
         :type: list[int]

@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyProgressionRewardDefinition(object):
     def progression_mapping_hash(self):
         """
         Gets the progression_mapping_hash of this DestinyDefinitionsDestinyProgressionRewardDefinition.
-        The hash identifier of the DestinyProgressionMappingDefinition that contains the progressions  for which experience should be applied.
+        The hash identifier of the DestinyProgressionMappingDefinition that contains the progressionsfor which experience should be applied.
 
         :return: The progression_mapping_hash of this DestinyDefinitionsDestinyProgressionRewardDefinition.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyProgressionRewardDefinition(object):
     def progression_mapping_hash(self, progression_mapping_hash):
         """
         Sets the progression_mapping_hash of this DestinyDefinitionsDestinyProgressionRewardDefinition.
-        The hash identifier of the DestinyProgressionMappingDefinition that contains the progressions  for which experience should be applied.
+        The hash identifier of the DestinyProgressionMappingDefinition that contains the progressionsfor which experience should be applied.
 
         :param progression_mapping_hash: The progression_mapping_hash of this DestinyDefinitionsDestinyProgressionRewardDefinition.
         :type: int

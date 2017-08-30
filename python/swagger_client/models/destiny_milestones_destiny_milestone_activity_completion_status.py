@@ -80,7 +80,7 @@ class DestinyMilestonesDestinyMilestoneActivityCompletionStatus(object):
     def phases(self):
         """
         Gets the phases of this DestinyMilestonesDestinyMilestoneActivityCompletionStatus.
-        If the Activity has discrete \"phases\" that we can track, that info will be here.  Otherwise,  this value will be NULL.  Note that this is a list and not a dictionary: the order implies the ascending order of phases  or progression in this activity.
+        If the Activity has discrete \"phases\" that we can track, that info will be here.  Otherwise,this value will be NULL.Note that this is a list and not a dictionary: the order implies the ascending order of phasesor progression in this activity.
 
         :return: The phases of this DestinyMilestonesDestinyMilestoneActivityCompletionStatus.
         :rtype: list[DestinyMilestonesDestinyMilestoneActivityPhase]
@@ -91,7 +91,7 @@ class DestinyMilestonesDestinyMilestoneActivityCompletionStatus(object):
     def phases(self, phases):
         """
         Sets the phases of this DestinyMilestonesDestinyMilestoneActivityCompletionStatus.
-        If the Activity has discrete \"phases\" that we can track, that info will be here.  Otherwise,  this value will be NULL.  Note that this is a list and not a dictionary: the order implies the ascending order of phases  or progression in this activity.
+        If the Activity has discrete \"phases\" that we can track, that info will be here.  Otherwise,this value will be NULL.Note that this is a list and not a dictionary: the order implies the ascending order of phasesor progression in this activity.
 
         :param phases: The phases of this DestinyMilestonesDestinyMilestoneActivityCompletionStatus.
         :type: list[DestinyMilestonesDestinyMilestoneActivityPhase]

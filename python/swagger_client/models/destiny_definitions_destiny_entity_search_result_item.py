@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyEntitySearchResultItem(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyEntitySearchResultItem.
-        The hash identifier of the entity.  You will use this to look up the DestinyDefinition  relevant for the entity found.
+        The hash identifier of the entity.  You will use this to look up the DestinyDefinitionrelevant for the entity found.
 
         :return: The hash of this DestinyDefinitionsDestinyEntitySearchResultItem.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyEntitySearchResultItem(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyEntitySearchResultItem.
-        The hash identifier of the entity.  You will use this to look up the DestinyDefinition  relevant for the entity found.
+        The hash identifier of the entity.  You will use this to look up the DestinyDefinitionrelevant for the entity found.
 
         :param hash: The hash of this DestinyDefinitionsDestinyEntitySearchResultItem.
         :type: int
@@ -85,7 +85,7 @@ class DestinyDefinitionsDestinyEntitySearchResultItem(object):
     def entity_type(self):
         """
         Gets the entity_type of this DestinyDefinitionsDestinyEntitySearchResultItem.
-        The type of entity, returned as a string matching the DestinyDefinition's contract class name.  You'll have to have your own mapping from class names to actually looking up those definitions  in the manifest databases.
+        The type of entity, returned as a string matching the DestinyDefinition's contract class name.You'll have to have your own mapping from class names to actually looking up those definitionsin the manifest databases.
 
         :return: The entity_type of this DestinyDefinitionsDestinyEntitySearchResultItem.
         :rtype: str
@@ -96,7 +96,7 @@ class DestinyDefinitionsDestinyEntitySearchResultItem(object):
     def entity_type(self, entity_type):
         """
         Sets the entity_type of this DestinyDefinitionsDestinyEntitySearchResultItem.
-        The type of entity, returned as a string matching the DestinyDefinition's contract class name.  You'll have to have your own mapping from class names to actually looking up those definitions  in the manifest databases.
+        The type of entity, returned as a string matching the DestinyDefinition's contract class name.You'll have to have your own mapping from class names to actually looking up those definitionsin the manifest databases.
 
         :param entity_type: The entity_type of this DestinyDefinitionsDestinyEntitySearchResultItem.
         :type: str
@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyEntitySearchResultItem(object):
     def weight(self):
         """
         Gets the weight of this DestinyDefinitionsDestinyEntitySearchResultItem.
-        The ranking value for sorting that we calculated using our relevance formula.  This  will hopefully get better with time and iteration.
+        The ranking value for sorting that we calculated using our relevance formula.  Thiswill hopefully get better with time and iteration.
 
         :return: The weight of this DestinyDefinitionsDestinyEntitySearchResultItem.
         :rtype: float
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyEntitySearchResultItem(object):
     def weight(self, weight):
         """
         Sets the weight of this DestinyDefinitionsDestinyEntitySearchResultItem.
-        The ranking value for sorting that we calculated using our relevance formula.  This  will hopefully get better with time and iteration.
+        The ranking value for sorting that we calculated using our relevance formula.  Thiswill hopefully get better with time and iteration.
 
         :param weight: The weight of this DestinyDefinitionsDestinyEntitySearchResultItem.
         :type: float

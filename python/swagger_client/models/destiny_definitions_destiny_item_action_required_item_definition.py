@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyItemActionRequiredItemDefinition(object):
     def delete_on_action(self):
         """
         Gets the delete_on_action of this DestinyDefinitionsDestinyItemActionRequiredItemDefinition.
-        If true, the item/quantity will be deleted from your inventory when the action is performed.  Otherwise,  you'll retain these required items after the action is complete.
+        If true, the item/quantity will be deleted from your inventory when the action is performed.  Otherwise,you'll retain these required items after the action is complete.
 
         :return: The delete_on_action of this DestinyDefinitionsDestinyItemActionRequiredItemDefinition.
         :rtype: bool
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyItemActionRequiredItemDefinition(object):
     def delete_on_action(self, delete_on_action):
         """
         Sets the delete_on_action of this DestinyDefinitionsDestinyItemActionRequiredItemDefinition.
-        If true, the item/quantity will be deleted from your inventory when the action is performed.  Otherwise,  you'll retain these required items after the action is complete.
+        If true, the item/quantity will be deleted from your inventory when the action is performed.  Otherwise,you'll retain these required items after the action is complete.
 
         :param delete_on_action: The delete_on_action of this DestinyDefinitionsDestinyItemActionRequiredItemDefinition.
         :type: bool

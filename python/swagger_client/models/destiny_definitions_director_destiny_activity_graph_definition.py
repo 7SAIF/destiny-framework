@@ -92,7 +92,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def nodes(self):
         """
         Gets the nodes of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        These represent the visual \"nodes\" on the map's view.  These are the activities you  can click on in the map.
+        These represent the visual \"nodes\" on the map's view.  These are the activities youcan click on in the map.
 
         :return: The nodes of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :rtype: list[DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition]
@@ -103,7 +103,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def nodes(self, nodes):
         """
         Sets the nodes of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        These represent the visual \"nodes\" on the map's view.  These are the activities you  can click on in the map.
+        These represent the visual \"nodes\" on the map's view.  These are the activities youcan click on in the map.
 
         :param nodes: The nodes of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :type: list[DestinyDefinitionsDirectorDestinyActivityGraphNodeDefinition]
@@ -161,7 +161,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def display_objectives(self):
         """
         Gets the display_objectives of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        Objectives can display on maps, and this is supposedly metadata for that.  I have not had the time to  analyze the details of what is useful within however: we could be missing important data to make this work.  Expect this property to be expanded on later if possible.
+        Objectives can display on maps, and this is supposedly metadata for that.  I have not had the time toanalyze the details of what is useful within however: we could be missing important data to make this work.Expect this property to be expanded on later if possible.
 
         :return: The display_objectives of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :rtype: list[DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition]
@@ -172,7 +172,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def display_objectives(self, display_objectives):
         """
         Sets the display_objectives of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        Objectives can display on maps, and this is supposedly metadata for that.  I have not had the time to  analyze the details of what is useful within however: we could be missing important data to make this work.  Expect this property to be expanded on later if possible.
+        Objectives can display on maps, and this is supposedly metadata for that.  I have not had the time toanalyze the details of what is useful within however: we could be missing important data to make this work.Expect this property to be expanded on later if possible.
 
         :param display_objectives: The display_objectives of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :type: list[DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition]
@@ -184,7 +184,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def display_progressions(self):
         """
         Gets the display_progressions of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        Progressions can also display on maps, but similarly to displayObjectives we appear to lack some required  information and context right now.  We will have to look into it later and add more data if possible.
+        Progressions can also display on maps, but similarly to displayObjectives we appear to lack some requiredinformation and context right now.  We will have to look into it later and add more data if possible.
 
         :return: The display_progressions of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :rtype: list[DestinyDefinitionsDirectorDestinyActivityGraphDisplayProgressionDefinition]
@@ -195,7 +195,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def display_progressions(self, display_progressions):
         """
         Sets the display_progressions of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        Progressions can also display on maps, but similarly to displayObjectives we appear to lack some required  information and context right now.  We will have to look into it later and add more data if possible.
+        Progressions can also display on maps, but similarly to displayObjectives we appear to lack some requiredinformation and context right now.  We will have to look into it later and add more data if possible.
 
         :param display_progressions: The display_progressions of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :type: list[DestinyDefinitionsDirectorDestinyActivityGraphDisplayProgressionDefinition]
@@ -230,7 +230,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :rtype: int
@@ -241,7 +241,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :type: int
@@ -276,7 +276,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :rtype: bool
@@ -287,7 +287,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDirectorDestinyActivityGraphDefinition.
         :type: bool

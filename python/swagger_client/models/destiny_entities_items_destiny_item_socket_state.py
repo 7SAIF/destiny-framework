@@ -67,7 +67,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def plug_hash(self):
         """
         Gets the plug_hash of this DestinyEntitiesItemsDestinyItemSocketState.
-        The currently active plug, if any.    Note that, because all plugs are statically defined, its effect on stats and perks can be  statically determined using the plug item's definition.  The stats and perks can be taken at face  value on the plug item as the stats and perks it will provide to the user/item.
+        The currently active plug, if any.  Note that, because all plugs are statically defined, its effect on stats and perks can bestatically determined using the plug item's definition.  The stats and perks can be taken at facevalue on the plug item as the stats and perks it will provide to the user/item.
 
         :return: The plug_hash of this DestinyEntitiesItemsDestinyItemSocketState.
         :rtype: int
@@ -78,7 +78,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def plug_hash(self, plug_hash):
         """
         Sets the plug_hash of this DestinyEntitiesItemsDestinyItemSocketState.
-        The currently active plug, if any.    Note that, because all plugs are statically defined, its effect on stats and perks can be  statically determined using the plug item's definition.  The stats and perks can be taken at face  value on the plug item as the stats and perks it will provide to the user/item.
+        The currently active plug, if any.  Note that, because all plugs are statically defined, its effect on stats and perks can bestatically determined using the plug item's definition.  The stats and perks can be taken at facevalue on the plug item as the stats and perks it will provide to the user/item.
 
         :param plug_hash: The plug_hash of this DestinyEntitiesItemsDestinyItemSocketState.
         :type: int
@@ -90,7 +90,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def is_enabled(self):
         """
         Gets the is_enabled of this DestinyEntitiesItemsDestinyItemSocketState.
-        Even if a plug is inserted, it doesn't mean it's enabled.    This flag indicates whether the plug is active and providing its benefits.
+        Even if a plug is inserted, it doesn't mean it's enabled.  This flag indicates whether the plug is active and providing its benefits.
 
         :return: The is_enabled of this DestinyEntitiesItemsDestinyItemSocketState.
         :rtype: bool
@@ -101,7 +101,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def is_enabled(self, is_enabled):
         """
         Sets the is_enabled of this DestinyEntitiesItemsDestinyItemSocketState.
-        Even if a plug is inserted, it doesn't mean it's enabled.    This flag indicates whether the plug is active and providing its benefits.
+        Even if a plug is inserted, it doesn't mean it's enabled.  This flag indicates whether the plug is active and providing its benefits.
 
         :param is_enabled: The is_enabled of this DestinyEntitiesItemsDestinyItemSocketState.
         :type: bool
@@ -113,7 +113,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def enable_fail_indexes(self):
         """
         Gets the enable_fail_indexes of this DestinyEntitiesItemsDestinyItemSocketState.
-        If a plug is inserted but not enabled, this will be populated with indexes into the plug item definition's plug.enabledRules  property, so that you can show the reasons why it is not enabled.
+        If a plug is inserted but not enabled, this will be populated with indexes into the plug item definition's plug.enabledRulesproperty, so that you can show the reasons why it is not enabled.
 
         :return: The enable_fail_indexes of this DestinyEntitiesItemsDestinyItemSocketState.
         :rtype: list[int]
@@ -124,7 +124,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def enable_fail_indexes(self, enable_fail_indexes):
         """
         Sets the enable_fail_indexes of this DestinyEntitiesItemsDestinyItemSocketState.
-        If a plug is inserted but not enabled, this will be populated with indexes into the plug item definition's plug.enabledRules  property, so that you can show the reasons why it is not enabled.
+        If a plug is inserted but not enabled, this will be populated with indexes into the plug item definition's plug.enabledRulesproperty, so that you can show the reasons why it is not enabled.
 
         :param enable_fail_indexes: The enable_fail_indexes of this DestinyEntitiesItemsDestinyItemSocketState.
         :type: list[int]
@@ -136,7 +136,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def reusable_plug_hashes(self):
         """
         Gets the reusable_plug_hashes of this DestinyEntitiesItemsDestinyItemSocketState.
-        If the item supports reusable plugs, this is the list of plug item hashes that are currently  allowed to be used for this socket.  (sometimes restrictions may cause reusable plugs defined   on the item definition to not be valid, so you should trust the instanced reusablePlugHashes list  rather than the definition's list)    A Reusable Plug is a plug that you can *always* insert into this socket, regardless of whether or not  you have the plug in your inventory.  In practice, a socket will *either* have reusable plugs *or*  it will allow for plugs in your inventory to be inserted.  See DestinyInventoryItemDefinition.socket  for more info.
+        If the item supports reusable plugs, this is the list of plug item hashes that are currentlyallowed to be used for this socket.  (sometimes restrictions may cause reusable plugs defined on the item definition to not be valid, so you should trust the instanced reusablePlugHashes listrather than the definition's list)  A Reusable Plug is a plug that you can *always* insert into this socket, regardless of whether or notyou have the plug in your inventory.  In practice, a socket will *either* have reusable plugs *or*it will allow for plugs in your inventory to be inserted.  See DestinyInventoryItemDefinition.socketfor more info.
 
         :return: The reusable_plug_hashes of this DestinyEntitiesItemsDestinyItemSocketState.
         :rtype: list[int]
@@ -147,7 +147,7 @@ class DestinyEntitiesItemsDestinyItemSocketState(object):
     def reusable_plug_hashes(self, reusable_plug_hashes):
         """
         Sets the reusable_plug_hashes of this DestinyEntitiesItemsDestinyItemSocketState.
-        If the item supports reusable plugs, this is the list of plug item hashes that are currently  allowed to be used for this socket.  (sometimes restrictions may cause reusable plugs defined   on the item definition to not be valid, so you should trust the instanced reusablePlugHashes list  rather than the definition's list)    A Reusable Plug is a plug that you can *always* insert into this socket, regardless of whether or not  you have the plug in your inventory.  In practice, a socket will *either* have reusable plugs *or*  it will allow for plugs in your inventory to be inserted.  See DestinyInventoryItemDefinition.socket  for more info.
+        If the item supports reusable plugs, this is the list of plug item hashes that are currentlyallowed to be used for this socket.  (sometimes restrictions may cause reusable plugs defined on the item definition to not be valid, so you should trust the instanced reusablePlugHashes listrather than the definition's list)  A Reusable Plug is a plug that you can *always* insert into this socket, regardless of whether or notyou have the plug in your inventory.  In practice, a socket will *either* have reusable plugs *or*it will allow for plugs in your inventory to be inserted.  See DestinyInventoryItemDefinition.socketfor more info.
 
         :param reusable_plug_hashes: The reusable_plug_hashes of this DestinyEntitiesItemsDestinyItemSocketState.
         :type: list[int]

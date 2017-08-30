@@ -174,7 +174,7 @@ class DestinyEntitiesItemsDestinyItemInstanceComponent(object):
     def can_equip(self):
         """
         Gets the can_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
-        If this is an equippable item, you can check it here.  There are permanent as well as transitory reasons  why an item might not be able to be equipped: check cannotEquipReason for details.
+        If this is an equippable item, you can check it here.  There are permanent as well as transitory reasonswhy an item might not be able to be equipped: check cannotEquipReason for details.
 
         :return: The can_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
         :rtype: bool
@@ -185,7 +185,7 @@ class DestinyEntitiesItemsDestinyItemInstanceComponent(object):
     def can_equip(self, can_equip):
         """
         Sets the can_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
-        If this is an equippable item, you can check it here.  There are permanent as well as transitory reasons  why an item might not be able to be equipped: check cannotEquipReason for details.
+        If this is an equippable item, you can check it here.  There are permanent as well as transitory reasonswhy an item might not be able to be equipped: check cannotEquipReason for details.
 
         :param can_equip: The can_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
         :type: bool
@@ -220,7 +220,7 @@ class DestinyEntitiesItemsDestinyItemInstanceComponent(object):
     def unlock_hashes_required_to_equip(self):
         """
         Gets the unlock_hashes_required_to_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
-        Sometimes, there are limitations to equipping that are represented by character-level flags called \"unlocks\".    This is a list of flags that they need in order to equip the item that the character has not met.  Use these to look up the descriptions to show in your UI by looking up the relevant DestinyUnlockDefinitions for the hashes.
+        Sometimes, there are limitations to equipping that are represented by character-level flags called \"unlocks\".  This is a list of flags that they need in order to equip the item that the character has not met.Use these to look up the descriptions to show in your UI by looking up the relevant DestinyUnlockDefinitions for the hashes.
 
         :return: The unlock_hashes_required_to_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
         :rtype: list[int]
@@ -231,7 +231,7 @@ class DestinyEntitiesItemsDestinyItemInstanceComponent(object):
     def unlock_hashes_required_to_equip(self, unlock_hashes_required_to_equip):
         """
         Sets the unlock_hashes_required_to_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
-        Sometimes, there are limitations to equipping that are represented by character-level flags called \"unlocks\".    This is a list of flags that they need in order to equip the item that the character has not met.  Use these to look up the descriptions to show in your UI by looking up the relevant DestinyUnlockDefinitions for the hashes.
+        Sometimes, there are limitations to equipping that are represented by character-level flags called \"unlocks\".  This is a list of flags that they need in order to equip the item that the character has not met.Use these to look up the descriptions to show in your UI by looking up the relevant DestinyUnlockDefinitions for the hashes.
 
         :param unlock_hashes_required_to_equip: The unlock_hashes_required_to_equip of this DestinyEntitiesItemsDestinyItemInstanceComponent.
         :type: list[int]

@@ -57,7 +57,7 @@ class DestinyDefinitionsDestinyVendorAcceptedItemDefinition(object):
     def accepted_inventory_bucket_hash(self):
         """
         Gets the accepted_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
-        The \"source\" bucket for a transfer.  When a user wants to transfer an item, the appropriate DestinyVendorDefinition's  acceptedItems property is evaluated, looking for an entry where acceptedInventoryBucketHash matches  the bucket that the item being transferred is currently located.  If it exists, the item will be  transferred into whatever bucket is defined by destinationInventoryBucketHash.
+        The \"source\" bucket for a transfer.  When a user wants to transfer an item, the appropriate DestinyVendorDefinition'sacceptedItems property is evaluated, looking for an entry where acceptedInventoryBucketHash matchesthe bucket that the item being transferred is currently located.  If it exists, the item will betransferred into whatever bucket is defined by destinationInventoryBucketHash.
 
         :return: The accepted_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsDestinyVendorAcceptedItemDefinition(object):
     def accepted_inventory_bucket_hash(self, accepted_inventory_bucket_hash):
         """
         Sets the accepted_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
-        The \"source\" bucket for a transfer.  When a user wants to transfer an item, the appropriate DestinyVendorDefinition's  acceptedItems property is evaluated, looking for an entry where acceptedInventoryBucketHash matches  the bucket that the item being transferred is currently located.  If it exists, the item will be  transferred into whatever bucket is defined by destinationInventoryBucketHash.
+        The \"source\" bucket for a transfer.  When a user wants to transfer an item, the appropriate DestinyVendorDefinition'sacceptedItems property is evaluated, looking for an entry where acceptedInventoryBucketHash matchesthe bucket that the item being transferred is currently located.  If it exists, the item will betransferred into whatever bucket is defined by destinationInventoryBucketHash.
 
         :param accepted_inventory_bucket_hash: The accepted_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
         :type: int
@@ -80,7 +80,7 @@ class DestinyDefinitionsDestinyVendorAcceptedItemDefinition(object):
     def destination_inventory_bucket_hash(self):
         """
         Gets the destination_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
-        This is the bucket where the item being transferred will be put, given that it was being  transferred *from* the bucket defined in acceptedInventoryBucketHash.
+        This is the bucket where the item being transferred will be put, given that it was beingtransferred *from* the bucket defined in acceptedInventoryBucketHash.
 
         :return: The destination_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
         :rtype: int
@@ -91,7 +91,7 @@ class DestinyDefinitionsDestinyVendorAcceptedItemDefinition(object):
     def destination_inventory_bucket_hash(self, destination_inventory_bucket_hash):
         """
         Sets the destination_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
-        This is the bucket where the item being transferred will be put, given that it was being  transferred *from* the bucket defined in acceptedInventoryBucketHash.
+        This is the bucket where the item being transferred will be put, given that it was beingtransferred *from* the bucket defined in acceptedInventoryBucketHash.
 
         :param destination_inventory_bucket_hash: The destination_inventory_bucket_hash of this DestinyDefinitionsDestinyVendorAcceptedItemDefinition.
         :type: int

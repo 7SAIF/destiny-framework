@@ -52,7 +52,7 @@ class DestinyDefinitionsDestinyActivityGraphListEntryDefinition(object):
     def activity_graph_hash(self):
         """
         Gets the activity_graph_hash of this DestinyDefinitionsDestinyActivityGraphListEntryDefinition.
-        The hash identifier of the DestinyActivityGraphDefinition that should be shown when opening  the director.
+        The hash identifier of the DestinyActivityGraphDefinition that should be shown when openingthe director.
 
         :return: The activity_graph_hash of this DestinyDefinitionsDestinyActivityGraphListEntryDefinition.
         :rtype: int
@@ -63,7 +63,7 @@ class DestinyDefinitionsDestinyActivityGraphListEntryDefinition(object):
     def activity_graph_hash(self, activity_graph_hash):
         """
         Sets the activity_graph_hash of this DestinyDefinitionsDestinyActivityGraphListEntryDefinition.
-        The hash identifier of the DestinyActivityGraphDefinition that should be shown when opening  the director.
+        The hash identifier of the DestinyActivityGraphDefinition that should be shown when openingthe director.
 
         :param activity_graph_hash: The activity_graph_hash of this DestinyDefinitionsDestinyActivityGraphListEntryDefinition.
         :type: int

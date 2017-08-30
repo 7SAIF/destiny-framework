@@ -52,7 +52,7 @@ class DestinyMilestonesDestinyMilestoneActivityVariant(object):
     def activity_hash(self):
         """
         Gets the activity_hash of this DestinyMilestonesDestinyMilestoneActivityVariant.
-        The hash for the specific variant of the activity related to this milestone.  You can pull more detailed static info from the DestinyActivityDefinition, such as difficulty level.
+        The hash for the specific variant of the activity related to this milestone.You can pull more detailed static info from the DestinyActivityDefinition, such as difficulty level.
 
         :return: The activity_hash of this DestinyMilestonesDestinyMilestoneActivityVariant.
         :rtype: int
@@ -63,7 +63,7 @@ class DestinyMilestonesDestinyMilestoneActivityVariant(object):
     def activity_hash(self, activity_hash):
         """
         Sets the activity_hash of this DestinyMilestonesDestinyMilestoneActivityVariant.
-        The hash for the specific variant of the activity related to this milestone.  You can pull more detailed static info from the DestinyActivityDefinition, such as difficulty level.
+        The hash for the specific variant of the activity related to this milestone.You can pull more detailed static info from the DestinyActivityDefinition, such as difficulty level.
 
         :param activity_hash: The activity_hash of this DestinyMilestonesDestinyMilestoneActivityVariant.
         :type: int

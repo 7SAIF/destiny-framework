@@ -52,7 +52,7 @@ class DestinyDestinyEquipItemResult(object):
     def item_instance_id(self):
         """
         Gets the item_instance_id of this DestinyDestinyEquipItemResult.
-        The instance ID of the item in question (all items that can be equipped must, but definition,  be Instanced and thus have an Instance ID that you can use to refer to them)
+        The instance ID of the item in question (all items that can be equipped must, but definition,be Instanced and thus have an Instance ID that you can use to refer to them)
 
         :return: The item_instance_id of this DestinyDestinyEquipItemResult.
         :rtype: int
@@ -63,7 +63,7 @@ class DestinyDestinyEquipItemResult(object):
     def item_instance_id(self, item_instance_id):
         """
         Sets the item_instance_id of this DestinyDestinyEquipItemResult.
-        The instance ID of the item in question (all items that can be equipped must, but definition,  be Instanced and thus have an Instance ID that you can use to refer to them)
+        The instance ID of the item in question (all items that can be equipped must, but definition,be Instanced and thus have an Instance ID that you can use to refer to them)
 
         :param item_instance_id: The item_instance_id of this DestinyDestinyEquipItemResult.
         :type: int

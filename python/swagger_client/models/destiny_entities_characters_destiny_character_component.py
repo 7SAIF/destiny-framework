@@ -214,7 +214,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def minutes_played_total(self):
         """
         Gets the minutes_played_total of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        If this value is 525,600, then they played Destiny for a year.  Or they're a very dedicated Rent fan.  Note that this includes idle time, not just time spent actually in activities shooting things.
+        If this value is 525,600, then they played Destiny for a year.  Or they're a very dedicated Rent fan.Note that this includes idle time, not just time spent actually in activities shooting things.
 
         :return: The minutes_played_total of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :rtype: int
@@ -225,7 +225,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def minutes_played_total(self, minutes_played_total):
         """
         Sets the minutes_played_total of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        If this value is 525,600, then they played Destiny for a year.  Or they're a very dedicated Rent fan.  Note that this includes idle time, not just time spent actually in activities shooting things.
+        If this value is 525,600, then they played Destiny for a year.  Or they're a very dedicated Rent fan.Note that this includes idle time, not just time spent actually in activities shooting things.
 
         :param minutes_played_total: The minutes_played_total of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :type: int
@@ -237,7 +237,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def light(self):
         """
         Gets the light of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        The user's calculated \"Light Level\".  Light level is an indicator of your power that mostly matters in  the end game, once you've reached the maximum character level: it's a level that's dependent on the average  Attack/Defense power of your items.
+        The user's calculated \"Light Level\".  Light level is an indicator of your power that mostly matters inthe end game, once you've reached the maximum character level: it's a level that's dependent on the averageAttack/Defense power of your items.
 
         :return: The light of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :rtype: int
@@ -248,7 +248,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def light(self, light):
         """
         Sets the light of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        The user's calculated \"Light Level\".  Light level is an indicator of your power that mostly matters in  the end game, once you've reached the maximum character level: it's a level that's dependent on the average  Attack/Defense power of your items.
+        The user's calculated \"Light Level\".  Light level is an indicator of your power that mostly matters inthe end game, once you've reached the maximum character level: it's a level that's dependent on the averageAttack/Defense power of your items.
 
         :param light: The light of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :type: int
@@ -260,7 +260,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def stats(self):
         """
         Gets the stats of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        Your character's stats, such as Agility, Resilience, etc... *not* historical stats.    You'll have to call a different endpoint for those.
+        Your character's stats, such as Agility, Resilience, etc... *not* historical stats.  You'll have to call a different endpoint for those.
 
         :return: The stats of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :rtype: dict(str, int)
@@ -271,7 +271,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def stats(self, stats):
         """
         Sets the stats of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        Your character's stats, such as Agility, Resilience, etc... *not* historical stats.    You'll have to call a different endpoint for those.
+        Your character's stats, such as Agility, Resilience, etc... *not* historical stats.  You'll have to call a different endpoint for those.
 
         :param stats: The stats of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :type: dict(str, int)
@@ -352,7 +352,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def emblem_path(self):
         """
         Gets the emblem_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        A shortcut path to the user's currently equipped emblem image.  If you're just showing summary  info for a user, this is more convenient than examining their equipped emblem and looking up the definition.
+        A shortcut path to the user's currently equipped emblem image.  If you're just showing summaryinfo for a user, this is more convenient than examining their equipped emblem and looking up the definition.
 
         :return: The emblem_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :rtype: str
@@ -363,7 +363,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def emblem_path(self, emblem_path):
         """
         Sets the emblem_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        A shortcut path to the user's currently equipped emblem image.  If you're just showing summary  info for a user, this is more convenient than examining their equipped emblem and looking up the definition.
+        A shortcut path to the user's currently equipped emblem image.  If you're just showing summaryinfo for a user, this is more convenient than examining their equipped emblem and looking up the definition.
 
         :param emblem_path: The emblem_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :type: str
@@ -375,7 +375,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def emblem_background_path(self):
         """
         Gets the emblem_background_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        A shortcut path to the user's currently equipped emblem background image.  If you're just showing summary  info for a user, this is more convenient than examining their equipped emblem and looking up the definition.
+        A shortcut path to the user's currently equipped emblem background image.  If you're just showing summaryinfo for a user, this is more convenient than examining their equipped emblem and looking up the definition.
 
         :return: The emblem_background_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :rtype: str
@@ -386,7 +386,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def emblem_background_path(self, emblem_background_path):
         """
         Sets the emblem_background_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        A shortcut path to the user's currently equipped emblem background image.  If you're just showing summary  info for a user, this is more convenient than examining their equipped emblem and looking up the definition.
+        A shortcut path to the user's currently equipped emblem background image.  If you're just showing summaryinfo for a user, this is more convenient than examining their equipped emblem and looking up the definition.
 
         :param emblem_background_path: The emblem_background_path of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :type: str
@@ -444,7 +444,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def percent_to_next_level(self):
         """
         Gets the percent_to_next_level of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        A number between 0 and 100, indicating the whole and fractional % remaining to get to  the next character level.
+        A number between 0 and 100, indicating the whole and fractional % remaining to get tothe next character level.
 
         :return: The percent_to_next_level of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :rtype: float
@@ -455,7 +455,7 @@ class DestinyEntitiesCharactersDestinyCharacterComponent(object):
     def percent_to_next_level(self, percent_to_next_level):
         """
         Sets the percent_to_next_level of this DestinyEntitiesCharactersDestinyCharacterComponent.
-        A number between 0 and 100, indicating the whole and fractional % remaining to get to  the next character level.
+        A number between 0 and 100, indicating the whole and fractional % remaining to get tothe next character level.
 
         :param percent_to_next_level: The percent_to_next_level of this DestinyEntitiesCharactersDestinyCharacterComponent.
         :type: float

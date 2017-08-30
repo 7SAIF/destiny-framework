@@ -87,7 +87,7 @@ class DestinyDestinyTalentNode(object):
     def node_index(self):
         """
         Gets the node_index of this DestinyDestinyTalentNode.
-        The index of the Talent Node being referred to (an index into DestinyTalentGridDefinition.nodes[]).  CONTENT VERSION DEPENDENT.
+        The index of the Talent Node being referred to (an index into DestinyTalentGridDefinition.nodes[]).CONTENT VERSION DEPENDENT.
 
         :return: The node_index of this DestinyDestinyTalentNode.
         :rtype: int
@@ -98,7 +98,7 @@ class DestinyDestinyTalentNode(object):
     def node_index(self, node_index):
         """
         Sets the node_index of this DestinyDestinyTalentNode.
-        The index of the Talent Node being referred to (an index into DestinyTalentGridDefinition.nodes[]).  CONTENT VERSION DEPENDENT.
+        The index of the Talent Node being referred to (an index into DestinyTalentGridDefinition.nodes[]).CONTENT VERSION DEPENDENT.
 
         :param node_index: The node_index of this DestinyDestinyTalentNode.
         :type: int
@@ -110,7 +110,7 @@ class DestinyDestinyTalentNode(object):
     def node_hash(self):
         """
         Gets the node_hash of this DestinyDestinyTalentNode.
-        The hash of the Talent Node being referred to (in DestinyTalentGridDefinition.nodes).  Deceptively CONTENT VERSION DEPENDENT.  We have no guarantee of the hash's immutability between content versions.
+        The hash of the Talent Node being referred to (in DestinyTalentGridDefinition.nodes).Deceptively CONTENT VERSION DEPENDENT.  We have no guarantee of the hash's immutability between content versions.
 
         :return: The node_hash of this DestinyDestinyTalentNode.
         :rtype: int
@@ -121,7 +121,7 @@ class DestinyDestinyTalentNode(object):
     def node_hash(self, node_hash):
         """
         Sets the node_hash of this DestinyDestinyTalentNode.
-        The hash of the Talent Node being referred to (in DestinyTalentGridDefinition.nodes).  Deceptively CONTENT VERSION DEPENDENT.  We have no guarantee of the hash's immutability between content versions.
+        The hash of the Talent Node being referred to (in DestinyTalentGridDefinition.nodes).Deceptively CONTENT VERSION DEPENDENT.  We have no guarantee of the hash's immutability between content versions.
 
         :param node_hash: The node_hash of this DestinyDestinyTalentNode.
         :type: int
@@ -156,7 +156,7 @@ class DestinyDestinyTalentNode(object):
     def step_index(self):
         """
         Gets the step_index of this DestinyDestinyTalentNode.
-        The currently relevant Step for the node.  It is this step that has rendering data for the node  and the benefits that are provided if the node is activated.  (the actual rules for benefits provided  are extremely complicated in theory, but with how Talent Grids are being used in Destiny 2 you don't have to worry  about a lot of those old Destiny 1 rules.)  This is an index into:  DestinyTalentGridDefinition.nodes[nodeIndex].steps[stepIndex]
+        The currently relevant Step for the node.  It is this step that has rendering data for the nodeand the benefits that are provided if the node is activated.  (the actual rules for benefits providedare extremely complicated in theory, but with how Talent Grids are being used in Destiny 2 you don't have to worryabout a lot of those old Destiny 1 rules.)  This is an index into:DestinyTalentGridDefinition.nodes[nodeIndex].steps[stepIndex]
 
         :return: The step_index of this DestinyDestinyTalentNode.
         :rtype: int
@@ -167,7 +167,7 @@ class DestinyDestinyTalentNode(object):
     def step_index(self, step_index):
         """
         Sets the step_index of this DestinyDestinyTalentNode.
-        The currently relevant Step for the node.  It is this step that has rendering data for the node  and the benefits that are provided if the node is activated.  (the actual rules for benefits provided  are extremely complicated in theory, but with how Talent Grids are being used in Destiny 2 you don't have to worry  about a lot of those old Destiny 1 rules.)  This is an index into:  DestinyTalentGridDefinition.nodes[nodeIndex].steps[stepIndex]
+        The currently relevant Step for the node.  It is this step that has rendering data for the nodeand the benefits that are provided if the node is activated.  (the actual rules for benefits providedare extremely complicated in theory, but with how Talent Grids are being used in Destiny 2 you don't have to worryabout a lot of those old Destiny 1 rules.)  This is an index into:DestinyTalentGridDefinition.nodes[nodeIndex].steps[stepIndex]
 
         :param step_index: The step_index of this DestinyDestinyTalentNode.
         :type: int
@@ -202,7 +202,7 @@ class DestinyDestinyTalentNode(object):
     def activation_grid_level(self):
         """
         Gets the activation_grid_level of this DestinyDestinyTalentNode.
-        The progression level required on the Talent Grid in order to be able to activate this talent node.  Talent Grids have their own Progression - similar to Character Level, but in this case it is experience  related to the item itself.
+        The progression level required on the Talent Grid in order to be able to activate this talent node.Talent Grids have their own Progression - similar to Character Level, but in this case it is experiencerelated to the item itself.
 
         :return: The activation_grid_level of this DestinyDestinyTalentNode.
         :rtype: int
@@ -213,7 +213,7 @@ class DestinyDestinyTalentNode(object):
     def activation_grid_level(self, activation_grid_level):
         """
         Sets the activation_grid_level of this DestinyDestinyTalentNode.
-        The progression level required on the Talent Grid in order to be able to activate this talent node.  Talent Grids have their own Progression - similar to Character Level, but in this case it is experience  related to the item itself.
+        The progression level required on the Talent Grid in order to be able to activate this talent node.Talent Grids have their own Progression - similar to Character Level, but in this case it is experiencerelated to the item itself.
 
         :param activation_grid_level: The activation_grid_level of this DestinyDestinyTalentNode.
         :type: int
@@ -225,7 +225,7 @@ class DestinyDestinyTalentNode(object):
     def progress_percent(self):
         """
         Gets the progress_percent of this DestinyDestinyTalentNode.
-        If you want to show a progress bar or circle for how close this talent node is to being activate-able, this  is the percentage to show.  It follows the node's underlying rules about when the progress bar should first  show up, and when it should be filled.
+        If you want to show a progress bar or circle for how close this talent node is to being activate-able, thisis the percentage to show.  It follows the node's underlying rules about when the progress bar should firstshow up, and when it should be filled.
 
         :return: The progress_percent of this DestinyDestinyTalentNode.
         :rtype: float
@@ -236,7 +236,7 @@ class DestinyDestinyTalentNode(object):
     def progress_percent(self, progress_percent):
         """
         Sets the progress_percent of this DestinyDestinyTalentNode.
-        If you want to show a progress bar or circle for how close this talent node is to being activate-able, this  is the percentage to show.  It follows the node's underlying rules about when the progress bar should first  show up, and when it should be filled.
+        If you want to show a progress bar or circle for how close this talent node is to being activate-able, thisis the percentage to show.  It follows the node's underlying rules about when the progress bar should firstshow up, and when it should be filled.
 
         :param progress_percent: The progress_percent of this DestinyDestinyTalentNode.
         :type: float
@@ -248,7 +248,7 @@ class DestinyDestinyTalentNode(object):
     def hidden(self):
         """
         Gets the hidden of this DestinyDestinyTalentNode.
-        Whether or not the talent node is actually visible in the game's UI.  Whether you want to show it in your own  UI is up to you!  I'm not gonna tell you who to sock it to.
+        Whether or not the talent node is actually visible in the game's UI.  Whether you want to show it in your ownUI is up to you!  I'm not gonna tell you who to sock it to.
 
         :return: The hidden of this DestinyDestinyTalentNode.
         :rtype: bool
@@ -259,7 +259,7 @@ class DestinyDestinyTalentNode(object):
     def hidden(self, hidden):
         """
         Sets the hidden of this DestinyDestinyTalentNode.
-        Whether or not the talent node is actually visible in the game's UI.  Whether you want to show it in your own  UI is up to you!  I'm not gonna tell you who to sock it to.
+        Whether or not the talent node is actually visible in the game's UI.  Whether you want to show it in your ownUI is up to you!  I'm not gonna tell you who to sock it to.
 
         :param hidden: The hidden of this DestinyDestinyTalentNode.
         :type: bool

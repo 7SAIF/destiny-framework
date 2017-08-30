@@ -52,7 +52,7 @@ class DestinyEntitiesCharactersDestinyCharacterRenderComponent(object):
     def custom_dyes(self):
         """
         Gets the custom_dyes of this DestinyEntitiesCharactersDestinyCharacterRenderComponent.
-        Custom dyes, calculated by iterating over the character's equipped items.  Useful for pre-fetching all of the dye data needed from our server.
+        Custom dyes, calculated by iterating over the character's equipped items.Useful for pre-fetching all of the dye data needed from our server.
 
         :return: The custom_dyes of this DestinyEntitiesCharactersDestinyCharacterRenderComponent.
         :rtype: list[DestinyDyeReference]
@@ -63,7 +63,7 @@ class DestinyEntitiesCharactersDestinyCharacterRenderComponent(object):
     def custom_dyes(self, custom_dyes):
         """
         Sets the custom_dyes of this DestinyEntitiesCharactersDestinyCharacterRenderComponent.
-        Custom dyes, calculated by iterating over the character's equipped items.  Useful for pre-fetching all of the dye data needed from our server.
+        Custom dyes, calculated by iterating over the character's equipped items.Useful for pre-fetching all of the dye data needed from our server.
 
         :param custom_dyes: The custom_dyes of this DestinyEntitiesCharactersDestinyCharacterRenderComponent.
         :type: list[DestinyDyeReference]

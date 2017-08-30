@@ -90,7 +90,7 @@ class DestinyDefinitionsDestinyItemTalentGridBlockDefinition(object):
     def item_detail_string(self):
         """
         Gets the item_detail_string of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
-        This is meant to be a subtitle for looking at the talent grid.  In practice, somewhat frustratingly, this always merely says the localized word  for \"Details\".  Great.  Maybe it'll have more if talent grids ever get used  for more than builds and subclasses again.
+        This is meant to be a subtitle for looking at the talent grid.In practice, somewhat frustratingly, this always merely says the localized wordfor \"Details\".  Great.  Maybe it'll have more if talent grids ever get usedfor more than builds and subclasses again.
 
         :return: The item_detail_string of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
         :rtype: str
@@ -101,7 +101,7 @@ class DestinyDefinitionsDestinyItemTalentGridBlockDefinition(object):
     def item_detail_string(self, item_detail_string):
         """
         Sets the item_detail_string of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
-        This is meant to be a subtitle for looking at the talent grid.  In practice, somewhat frustratingly, this always merely says the localized word  for \"Details\".  Great.  Maybe it'll have more if talent grids ever get used  for more than builds and subclasses again.
+        This is meant to be a subtitle for looking at the talent grid.In practice, somewhat frustratingly, this always merely says the localized wordfor \"Details\".  Great.  Maybe it'll have more if talent grids ever get usedfor more than builds and subclasses again.
 
         :param item_detail_string: The item_detail_string of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
         :type: str
@@ -113,7 +113,7 @@ class DestinyDefinitionsDestinyItemTalentGridBlockDefinition(object):
     def build_name(self):
         """
         Gets the build_name of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
-        A shortcut string identifier for the \"build\" in question, if this talent grid  has an associated build.  Doesn't map to anything we can expose at the moment.
+        A shortcut string identifier for the \"build\" in question, if this talent gridhas an associated build.  Doesn't map to anything we can expose at the moment.
 
         :return: The build_name of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
         :rtype: str
@@ -124,7 +124,7 @@ class DestinyDefinitionsDestinyItemTalentGridBlockDefinition(object):
     def build_name(self, build_name):
         """
         Sets the build_name of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
-        A shortcut string identifier for the \"build\" in question, if this talent grid  has an associated build.  Doesn't map to anything we can expose at the moment.
+        A shortcut string identifier for the \"build\" in question, if this talent gridhas an associated build.  Doesn't map to anything we can expose at the moment.
 
         :param build_name: The build_name of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
         :type: str
@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyItemTalentGridBlockDefinition(object):
     def hud_icon(self):
         """
         Gets the hud_icon of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
-        If the talent grid has a special icon that's shown in the game UI (like builds, funny that),  this is the identifier for that icon.  Sadly, we don't actually get that icon right now.  I'll be looking to replace this  with a path to the actual icon itself.
+        If the talent grid has a special icon that's shown in the game UI (like builds, funny that),this is the identifier for that icon.Sadly, we don't actually get that icon right now.  I'll be looking to replace thiswith a path to the actual icon itself.
 
         :return: The hud_icon of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
         :rtype: str
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyItemTalentGridBlockDefinition(object):
     def hud_icon(self, hud_icon):
         """
         Sets the hud_icon of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
-        If the talent grid has a special icon that's shown in the game UI (like builds, funny that),  this is the identifier for that icon.  Sadly, we don't actually get that icon right now.  I'll be looking to replace this  with a path to the actual icon itself.
+        If the talent grid has a special icon that's shown in the game UI (like builds, funny that),this is the identifier for that icon.Sadly, we don't actually get that icon right now.  I'll be looking to replace thiswith a path to the actual icon itself.
 
         :param hud_icon: The hud_icon of this DestinyDefinitionsDestinyItemTalentGridBlockDefinition.
         :type: str

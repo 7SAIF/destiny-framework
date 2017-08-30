@@ -93,7 +93,7 @@ class DestinyDefinitionsDestinyStatDefinition(object):
     def has_computed_block(self):
         """
         Gets the has_computed_block of this DestinyDefinitionsDestinyStatDefinition.
-        True if the stat is computed rather than being delivered as a raw value on items.    For instance, the Light stat in Destiny 1 was a computed stat.
+        True if the stat is computed rather than being delivered as a raw value on items.  For instance, the Light stat in Destiny 1 was a computed stat.
 
         :return: The has_computed_block of this DestinyDefinitionsDestinyStatDefinition.
         :rtype: bool
@@ -104,7 +104,7 @@ class DestinyDefinitionsDestinyStatDefinition(object):
     def has_computed_block(self, has_computed_block):
         """
         Sets the has_computed_block of this DestinyDefinitionsDestinyStatDefinition.
-        True if the stat is computed rather than being delivered as a raw value on items.    For instance, the Light stat in Destiny 1 was a computed stat.
+        True if the stat is computed rather than being delivered as a raw value on items.  For instance, the Light stat in Destiny 1 was a computed stat.
 
         :param has_computed_block: The has_computed_block of this DestinyDefinitionsDestinyStatDefinition.
         :type: bool
@@ -116,7 +116,7 @@ class DestinyDefinitionsDestinyStatDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyStatDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyStatDefinition.
         :rtype: int
@@ -127,7 +127,7 @@ class DestinyDefinitionsDestinyStatDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyStatDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyStatDefinition.
         :type: int
@@ -162,7 +162,7 @@ class DestinyDefinitionsDestinyStatDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyStatDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyStatDefinition.
         :rtype: bool
@@ -173,7 +173,7 @@ class DestinyDefinitionsDestinyStatDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyStatDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyStatDefinition.
         :type: bool

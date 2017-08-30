@@ -57,7 +57,7 @@ class DestinyHistoricalStatsDestinyLeaderboardResults(object):
     def focus_membership_id(self):
         """
         Gets the focus_membership_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
-        Indicate the membership ID of the account that is the focal point of  the provided leaderboards.
+        Indicate the membership ID of the account that is the focal point ofthe provided leaderboards.
 
         :return: The focus_membership_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyHistoricalStatsDestinyLeaderboardResults(object):
     def focus_membership_id(self, focus_membership_id):
         """
         Sets the focus_membership_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
-        Indicate the membership ID of the account that is the focal point of  the provided leaderboards.
+        Indicate the membership ID of the account that is the focal point ofthe provided leaderboards.
 
         :param focus_membership_id: The focus_membership_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
         :type: int
@@ -80,7 +80,7 @@ class DestinyHistoricalStatsDestinyLeaderboardResults(object):
     def focus_character_id(self):
         """
         Gets the focus_character_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
-        Indicate the character ID of the character that is the focal point of  the provided leaderboards. May be null, in which case any character  from the focus membership can appear in the provided leaderboards.
+        Indicate the character ID of the character that is the focal point ofthe provided leaderboards. May be null, in which case any characterfrom the focus membership can appear in the provided leaderboards.
 
         :return: The focus_character_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
         :rtype: int
@@ -91,7 +91,7 @@ class DestinyHistoricalStatsDestinyLeaderboardResults(object):
     def focus_character_id(self, focus_character_id):
         """
         Sets the focus_character_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
-        Indicate the character ID of the character that is the focal point of  the provided leaderboards. May be null, in which case any character  from the focus membership can appear in the provided leaderboards.
+        Indicate the character ID of the character that is the focal point ofthe provided leaderboards. May be null, in which case any characterfrom the focus membership can appear in the provided leaderboards.
 
         :param focus_character_id: The focus_character_id of this DestinyHistoricalStatsDestinyLeaderboardResults.
         :type: int

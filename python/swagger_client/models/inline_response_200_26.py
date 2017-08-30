@@ -31,7 +31,7 @@ class InlineResponse20026(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'response': 'DestinyHistoricalStatsDestinyHistoricalStatsAccountResult',
+        'response': 'DestinyDefinitionsDestinyEntitySearchResult',
         'error_code': 'ExceptionsPlatformErrorCodes',
         'throttle_seconds': 'int',
         'error_status': 'str',
@@ -79,7 +79,7 @@ class InlineResponse20026(object):
         Gets the response of this InlineResponse20026.
 
         :return: The response of this InlineResponse20026.
-        :rtype: DestinyHistoricalStatsDestinyHistoricalStatsAccountResult
+        :rtype: DestinyDefinitionsDestinyEntitySearchResult
         """
         return self._response
 
@@ -89,7 +89,7 @@ class InlineResponse20026(object):
         Sets the response of this InlineResponse20026.
 
         :param response: The response of this InlineResponse20026.
-        :type: DestinyHistoricalStatsDestinyHistoricalStatsAccountResult
+        :type: DestinyDefinitionsDestinyEntitySearchResult
         """
 
         self._response = response

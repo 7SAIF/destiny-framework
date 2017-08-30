@@ -72,7 +72,7 @@ class DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition(object):
     def display_units_name(self):
         """
         Gets the display_units_name of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
-        When progressions show your \"experience\" gained, that bar has units (i.e. \"Experience\",  \"Bad Dudes Snuffed Out\", whatever).  This is the localized string for that unit of measurement.
+        When progressions show your \"experience\" gained, that bar has units (i.e. \"Experience\",\"Bad Dudes Snuffed Out\", whatever).  This is the localized string for that unit of measurement.
 
         :return: The display_units_name of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
         :rtype: str
@@ -83,7 +83,7 @@ class DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition(object):
     def display_units_name(self, display_units_name):
         """
         Sets the display_units_name of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
-        When progressions show your \"experience\" gained, that bar has units (i.e. \"Experience\",  \"Bad Dudes Snuffed Out\", whatever).  This is the localized string for that unit of measurement.
+        When progressions show your \"experience\" gained, that bar has units (i.e. \"Experience\",\"Bad Dudes Snuffed Out\", whatever).  This is the localized string for that unit of measurement.
 
         :param display_units_name: The display_units_name of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
         :type: str
@@ -137,7 +137,7 @@ class DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition(object):
     def icon(self):
         """
         Gets the icon of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
-        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.  For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.    But usually, it will be a small square image that you can use as... well, an icon.
+        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.  But usually, it will be a small square image that you can use as... well, an icon.
 
         :return: The icon of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
         :rtype: str
@@ -148,7 +148,7 @@ class DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition(object):
     def icon(self, icon):
         """
         Sets the icon of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
-        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.  For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.    But usually, it will be a small square image that you can use as... well, an icon.
+        Note that \"icon\" is sometimes misleading, and should be interpreted in the context of the entity.For instance, in Destiny 1 the DestinyRecordBookDefinition's icon was a big picture of a book.  But usually, it will be a small square image that you can use as... well, an icon.
 
         :param icon: The icon of this DestinyDefinitionsDestinyProgressionDisplayPropertiesDefinition.
         :type: str

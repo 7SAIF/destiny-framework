@@ -92,7 +92,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def completion_value(self):
         """
         Gets the completion_value of this DestinyDefinitionsDestinyObjectiveDefinition.
-        The value that the unlock value defined in unlockValueHash must reach in order for  the objective to be considered Completed.  Used in calculating progress and completion status.
+        The value that the unlock value defined in unlockValueHash must reach in order forthe objective to be considered Completed.  Used in calculating progress and completion status.
 
         :return: The completion_value of this DestinyDefinitionsDestinyObjectiveDefinition.
         :rtype: int
@@ -103,7 +103,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def completion_value(self, completion_value):
         """
         Sets the completion_value of this DestinyDefinitionsDestinyObjectiveDefinition.
-        The value that the unlock value defined in unlockValueHash must reach in order for  the objective to be considered Completed.  Used in calculating progress and completion status.
+        The value that the unlock value defined in unlockValueHash must reach in order forthe objective to be considered Completed.  Used in calculating progress and completion status.
 
         :param completion_value: The completion_value of this DestinyDefinitionsDestinyObjectiveDefinition.
         :type: int
@@ -115,7 +115,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def location_hash(self):
         """
         Gets the location_hash of this DestinyDefinitionsDestinyObjectiveDefinition.
-        OPTIONAL: a hash identifier for the location at which this objective must be accomplished,  if there is a location defined.  Look up the DestinyLocationDefinition for this hash for that  additional location info.
+        OPTIONAL: a hash identifier for the location at which this objective must be accomplished,if there is a location defined.  Look up the DestinyLocationDefinition for this hash for thatadditional location info.
 
         :return: The location_hash of this DestinyDefinitionsDestinyObjectiveDefinition.
         :rtype: int
@@ -126,7 +126,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def location_hash(self, location_hash):
         """
         Sets the location_hash of this DestinyDefinitionsDestinyObjectiveDefinition.
-        OPTIONAL: a hash identifier for the location at which this objective must be accomplished,  if there is a location defined.  Look up the DestinyLocationDefinition for this hash for that  additional location info.
+        OPTIONAL: a hash identifier for the location at which this objective must be accomplished,if there is a location defined.  Look up the DestinyLocationDefinition for this hash for thatadditional location info.
 
         :param location_hash: The location_hash of this DestinyDefinitionsDestinyObjectiveDefinition.
         :type: int
@@ -161,7 +161,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def allow_value_change_when_completed(self):
         """
         Gets the allow_value_change_when_completed of this DestinyDefinitionsDestinyObjectiveDefinition.
-        If true, you can effectively \"un-complete\" this objective if you lose progress after  crossing the completion threshold.      If False, once you complete the task it will remain  completed forever by locking the value.
+        If true, you can effectively \"un-complete\" this objective if you lose progress aftercrossing the completion threshold.    If False, once you complete the task it will remaincompleted forever by locking the value.
 
         :return: The allow_value_change_when_completed of this DestinyDefinitionsDestinyObjectiveDefinition.
         :rtype: bool
@@ -172,7 +172,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def allow_value_change_when_completed(self, allow_value_change_when_completed):
         """
         Sets the allow_value_change_when_completed of this DestinyDefinitionsDestinyObjectiveDefinition.
-        If true, you can effectively \"un-complete\" this objective if you lose progress after  crossing the completion threshold.      If False, once you complete the task it will remain  completed forever by locking the value.
+        If true, you can effectively \"un-complete\" this objective if you lose progress aftercrossing the completion threshold.    If False, once you complete the task it will remaincompleted forever by locking the value.
 
         :param allow_value_change_when_completed: The allow_value_change_when_completed of this DestinyDefinitionsDestinyObjectiveDefinition.
         :type: bool
@@ -184,7 +184,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def is_counting_downward(self):
         """
         Gets the is_counting_downward of this DestinyDefinitionsDestinyObjectiveDefinition.
-        If true, completion means having an unlock value less than or equal to the completionValue.    If False, completion means having an unlock value greater than or equal to the completionValue.
+        If true, completion means having an unlock value less than or equal to the completionValue.  If False, completion means having an unlock value greater than or equal to the completionValue.
 
         :return: The is_counting_downward of this DestinyDefinitionsDestinyObjectiveDefinition.
         :rtype: bool
@@ -195,7 +195,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def is_counting_downward(self, is_counting_downward):
         """
         Sets the is_counting_downward of this DestinyDefinitionsDestinyObjectiveDefinition.
-        If true, completion means having an unlock value less than or equal to the completionValue.    If False, completion means having an unlock value greater than or equal to the completionValue.
+        If true, completion means having an unlock value less than or equal to the completionValue.  If False, completion means having an unlock value greater than or equal to the completionValue.
 
         :param is_counting_downward: The is_counting_downward of this DestinyDefinitionsDestinyObjectiveDefinition.
         :type: bool
@@ -230,7 +230,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyObjectiveDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyObjectiveDefinition.
         :rtype: int
@@ -241,7 +241,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyObjectiveDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyObjectiveDefinition.
         :type: int
@@ -276,7 +276,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyObjectiveDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyObjectiveDefinition.
         :rtype: bool
@@ -287,7 +287,7 @@ class DestinyDefinitionsDestinyObjectiveDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyObjectiveDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyObjectiveDefinition.
         :type: bool

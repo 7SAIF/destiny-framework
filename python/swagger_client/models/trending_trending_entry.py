@@ -151,7 +151,7 @@ class TrendingTrendingEntry(object):
     def identifier(self):
         """
         Gets the identifier of this TrendingTrendingEntry.
-        We don't know whether the identifier will be a string, a uint, or a long... so we're going to cast it all to a string.  But either way, we need any trending item created to have a single unique identifier for its type.
+        We don't know whether the identifier will be a string, a uint, or a long... so we're going to cast it all to a string.But either way, we need any trending item created to have a single unique identifier for its type.
 
         :return: The identifier of this TrendingTrendingEntry.
         :rtype: str
@@ -162,7 +162,7 @@ class TrendingTrendingEntry(object):
     def identifier(self, identifier):
         """
         Sets the identifier of this TrendingTrendingEntry.
-        We don't know whether the identifier will be a string, a uint, or a long... so we're going to cast it all to a string.  But either way, we need any trending item created to have a single unique identifier for its type.
+        We don't know whether the identifier will be a string, a uint, or a long... so we're going to cast it all to a string.But either way, we need any trending item created to have a single unique identifier for its type.
 
         :param identifier: The identifier of this TrendingTrendingEntry.
         :type: str
@@ -304,7 +304,7 @@ class TrendingTrendingEntry(object):
     def webm_video(self):
         """
         Gets the webm_video of this TrendingTrendingEntry.
-        If this is populated, the entry has a related WebM video to show.  I am 100% certain I am going to regret putting this directly on TrendingEntry,  but it will work so yolo
+        If this is populated, the entry has a related WebM video to show.I am 100% certain I am going to regret putting this directly on TrendingEntry,but it will work so yolo
 
         :return: The webm_video of this TrendingTrendingEntry.
         :rtype: str
@@ -315,7 +315,7 @@ class TrendingTrendingEntry(object):
     def webm_video(self, webm_video):
         """
         Sets the webm_video of this TrendingTrendingEntry.
-        If this is populated, the entry has a related WebM video to show.  I am 100% certain I am going to regret putting this directly on TrendingEntry,  but it will work so yolo
+        If this is populated, the entry has a related WebM video to show.I am 100% certain I am going to regret putting this directly on TrendingEntry,but it will work so yolo
 
         :param webm_video: The webm_video of this TrendingTrendingEntry.
         :type: str
@@ -327,7 +327,7 @@ class TrendingTrendingEntry(object):
     def mp4_video(self):
         """
         Gets the mp4_video of this TrendingTrendingEntry.
-        If this is populated, the entry has a related MP4 video to show.  I am 100% certain I am going to regret putting this directly on TrendingEntry,  but it will work so yolo
+        If this is populated, the entry has a related MP4 video to show.I am 100% certain I am going to regret putting this directly on TrendingEntry,but it will work so yolo
 
         :return: The mp4_video of this TrendingTrendingEntry.
         :rtype: str
@@ -338,7 +338,7 @@ class TrendingTrendingEntry(object):
     def mp4_video(self, mp4_video):
         """
         Sets the mp4_video of this TrendingTrendingEntry.
-        If this is populated, the entry has a related MP4 video to show.  I am 100% certain I am going to regret putting this directly on TrendingEntry,  but it will work so yolo
+        If this is populated, the entry has a related MP4 video to show.I am 100% certain I am going to regret putting this directly on TrendingEntry,but it will work so yolo
 
         :param mp4_video: The mp4_video of this TrendingTrendingEntry.
         :type: str
@@ -350,7 +350,7 @@ class TrendingTrendingEntry(object):
     def feature_image(self):
         """
         Gets the feature_image of this TrendingTrendingEntry.
-        If isFeatured, this image will be populated with whatever the featured image is.  Note that this will likely be a very large image, so don't use it all the time.
+        If isFeatured, this image will be populated with whatever the featured image is.Note that this will likely be a very large image, so don't use it all the time.
 
         :return: The feature_image of this TrendingTrendingEntry.
         :rtype: str
@@ -361,7 +361,7 @@ class TrendingTrendingEntry(object):
     def feature_image(self, feature_image):
         """
         Sets the feature_image of this TrendingTrendingEntry.
-        If isFeatured, this image will be populated with whatever the featured image is.  Note that this will likely be a very large image, so don't use it all the time.
+        If isFeatured, this image will be populated with whatever the featured image is.Note that this will likely be a very large image, so don't use it all the time.
 
         :param feature_image: The feature_image of this TrendingTrendingEntry.
         :type: str

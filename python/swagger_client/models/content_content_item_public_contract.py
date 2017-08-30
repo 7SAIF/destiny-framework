@@ -353,7 +353,7 @@ class ContentContentItemPublicContract(object):
     def properties(self):
         """
         Gets the properties of this ContentContentItemPublicContract.
-        Firehose content is really a collection of metadata and \"properties\", which are  the potentially-but-not-strictly localizable data that comprises the meat of  whatever content is being shown.    As Cole Porter would have crooned, \"Anything Goes\" with Firehose properties.  They are most often strings, but they can theoretically be anything.  They are JSON  encoded, and could be JSON structures, simple strings, numbers etc...  The Content Type  of the item (cType) will describe the properties, and thus how they ought to be deserialized.
+        Firehose content is really a collection of metadata and \"properties\", which arethe potentially-but-not-strictly localizable data that comprises the meat ofwhatever content is being shown.  As Cole Porter would have crooned, \"Anything Goes\" with Firehose properties.They are most often strings, but they can theoretically be anything.  They are JSONencoded, and could be JSON structures, simple strings, numbers etc...  The Content Typeof the item (cType) will describe the properties, and thus how they ought to be deserialized.
 
         :return: The properties of this ContentContentItemPublicContract.
         :rtype: dict(str, object)
@@ -364,7 +364,7 @@ class ContentContentItemPublicContract(object):
     def properties(self, properties):
         """
         Sets the properties of this ContentContentItemPublicContract.
-        Firehose content is really a collection of metadata and \"properties\", which are  the potentially-but-not-strictly localizable data that comprises the meat of  whatever content is being shown.    As Cole Porter would have crooned, \"Anything Goes\" with Firehose properties.  They are most often strings, but they can theoretically be anything.  They are JSON  encoded, and could be JSON structures, simple strings, numbers etc...  The Content Type  of the item (cType) will describe the properties, and thus how they ought to be deserialized.
+        Firehose content is really a collection of metadata and \"properties\", which arethe potentially-but-not-strictly localizable data that comprises the meat ofwhatever content is being shown.  As Cole Porter would have crooned, \"Anything Goes\" with Firehose properties.They are most often strings, but they can theoretically be anything.  They are JSONencoded, and could be JSON structures, simple strings, numbers etc...  The Content Typeof the item (cType) will describe the properties, and thus how they ought to be deserialized.
 
         :param properties: The properties of this ContentContentItemPublicContract.
         :type: dict(str, object)

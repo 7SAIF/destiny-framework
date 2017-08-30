@@ -52,7 +52,7 @@ class DestinyDefinitionsDestinyEntitySearchResult(object):
     def suggested_words(self):
         """
         Gets the suggested_words of this DestinyDefinitionsDestinyEntitySearchResult.
-        A list of suggested words that might make for better search results,  based on the text searched for.
+        A list of suggested words that might make for better search results,based on the text searched for.
 
         :return: The suggested_words of this DestinyDefinitionsDestinyEntitySearchResult.
         :rtype: list[str]
@@ -63,7 +63,7 @@ class DestinyDefinitionsDestinyEntitySearchResult(object):
     def suggested_words(self, suggested_words):
         """
         Sets the suggested_words of this DestinyDefinitionsDestinyEntitySearchResult.
-        A list of suggested words that might make for better search results,  based on the text searched for.
+        A list of suggested words that might make for better search results,based on the text searched for.
 
         :param suggested_words: The suggested_words of this DestinyDefinitionsDestinyEntitySearchResult.
         :type: list[str]

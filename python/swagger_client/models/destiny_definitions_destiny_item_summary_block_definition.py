@@ -52,7 +52,7 @@ class DestinyDefinitionsDestinyItemSummaryBlockDefinition(object):
     def sort_priority(self):
         """
         Gets the sort_priority of this DestinyDefinitionsDestinyItemSummaryBlockDefinition.
-        Apparently when rendering an item in a reward, this should be used as a sort priority.  We're not doing it presently.
+        Apparently when rendering an item in a reward, this should be used as a sort priority.We're not doing it presently.
 
         :return: The sort_priority of this DestinyDefinitionsDestinyItemSummaryBlockDefinition.
         :rtype: int
@@ -63,7 +63,7 @@ class DestinyDefinitionsDestinyItemSummaryBlockDefinition(object):
     def sort_priority(self, sort_priority):
         """
         Sets the sort_priority of this DestinyDefinitionsDestinyItemSummaryBlockDefinition.
-        Apparently when rendering an item in a reward, this should be used as a sort priority.  We're not doing it presently.
+        Apparently when rendering an item in a reward, this should be used as a sort priority.We're not doing it presently.
 
         :param sort_priority: The sort_priority of this DestinyDefinitionsDestinyItemSummaryBlockDefinition.
         :type: int

@@ -92,7 +92,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def quest_hash(self):
         """
         Gets the quest_hash of this DestinyQuestsDestinyQuestStatus.
-        The hash identifier for the Quest Item.  (Note: Quests are defined as Items, and thus you would  use this to look up the quest's DestinyInventoryItemDefinition).  For information on all steps in the quest, you can then examine its DestinyInventoryItemDefinition.setData  property for Quest Steps (which are *also* items).  You can use the Item Definition to display human readable data about the overall quest.
+        The hash identifier for the Quest Item.  (Note: Quests are defined as Items, and thus you woulduse this to look up the quest's DestinyInventoryItemDefinition).For information on all steps in the quest, you can then examine its DestinyInventoryItemDefinition.setDataproperty for Quest Steps (which are *also* items).You can use the Item Definition to display human readable data about the overall quest.
 
         :return: The quest_hash of this DestinyQuestsDestinyQuestStatus.
         :rtype: int
@@ -103,7 +103,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def quest_hash(self, quest_hash):
         """
         Sets the quest_hash of this DestinyQuestsDestinyQuestStatus.
-        The hash identifier for the Quest Item.  (Note: Quests are defined as Items, and thus you would  use this to look up the quest's DestinyInventoryItemDefinition).  For information on all steps in the quest, you can then examine its DestinyInventoryItemDefinition.setData  property for Quest Steps (which are *also* items).  You can use the Item Definition to display human readable data about the overall quest.
+        The hash identifier for the Quest Item.  (Note: Quests are defined as Items, and thus you woulduse this to look up the quest's DestinyInventoryItemDefinition).For information on all steps in the quest, you can then examine its DestinyInventoryItemDefinition.setDataproperty for Quest Steps (which are *also* items).You can use the Item Definition to display human readable data about the overall quest.
 
         :param quest_hash: The quest_hash of this DestinyQuestsDestinyQuestStatus.
         :type: int
@@ -115,7 +115,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def step_hash(self):
         """
         Gets the step_hash of this DestinyQuestsDestinyQuestStatus.
-        The hash identifier of the current Quest Step, which is also a DestinyInventoryItemDefinition.  You can use  this to get human readable data about the current step and what to do in that step.
+        The hash identifier of the current Quest Step, which is also a DestinyInventoryItemDefinition.  You can usethis to get human readable data about the current step and what to do in that step.
 
         :return: The step_hash of this DestinyQuestsDestinyQuestStatus.
         :rtype: int
@@ -126,7 +126,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def step_hash(self, step_hash):
         """
         Sets the step_hash of this DestinyQuestsDestinyQuestStatus.
-        The hash identifier of the current Quest Step, which is also a DestinyInventoryItemDefinition.  You can use  this to get human readable data about the current step and what to do in that step.
+        The hash identifier of the current Quest Step, which is also a DestinyInventoryItemDefinition.  You can usethis to get human readable data about the current step and what to do in that step.
 
         :param step_hash: The step_hash of this DestinyQuestsDestinyQuestStatus.
         :type: int
@@ -138,7 +138,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def step_objectives(self):
         """
         Gets the step_objectives of this DestinyQuestsDestinyQuestStatus.
-        A step can have multiple objectives.  This will give you the progress for each objective in the current step,  in the order in which they are rendered in-game.
+        A step can have multiple objectives.  This will give you the progress for each objective in the current step,in the order in which they are rendered in-game.
 
         :return: The step_objectives of this DestinyQuestsDestinyQuestStatus.
         :rtype: list[DestinyQuestsDestinyObjectiveProgress]
@@ -149,7 +149,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def step_objectives(self, step_objectives):
         """
         Sets the step_objectives of this DestinyQuestsDestinyQuestStatus.
-        A step can have multiple objectives.  This will give you the progress for each objective in the current step,  in the order in which they are rendered in-game.
+        A step can have multiple objectives.  This will give you the progress for each objective in the current step,in the order in which they are rendered in-game.
 
         :param step_objectives: The step_objectives of this DestinyQuestsDestinyQuestStatus.
         :type: list[DestinyQuestsDestinyObjectiveProgress]
@@ -184,7 +184,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def item_instance_id(self):
         """
         Gets the item_instance_id of this DestinyQuestsDestinyQuestStatus.
-        The current Quest Step will be an instanced item in the player's inventory.  If you care about that,  this is the instance ID of that item.
+        The current Quest Step will be an instanced item in the player's inventory.  If you care about that,this is the instance ID of that item.
 
         :return: The item_instance_id of this DestinyQuestsDestinyQuestStatus.
         :rtype: int
@@ -195,7 +195,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def item_instance_id(self, item_instance_id):
         """
         Sets the item_instance_id of this DestinyQuestsDestinyQuestStatus.
-        The current Quest Step will be an instanced item in the player's inventory.  If you care about that,  this is the instance ID of that item.
+        The current Quest Step will be an instanced item in the player's inventory.  If you care about that,this is the instance ID of that item.
 
         :param item_instance_id: The item_instance_id of this DestinyQuestsDestinyQuestStatus.
         :type: int
@@ -207,7 +207,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def completed(self):
         """
         Gets the completed of this DestinyQuestsDestinyQuestStatus.
-        Whether or not the whole quest has been completed, regardless of whether or not  you have redeemed the rewards for the quest.
+        Whether or not the whole quest has been completed, regardless of whether or notyou have redeemed the rewards for the quest.
 
         :return: The completed of this DestinyQuestsDestinyQuestStatus.
         :rtype: bool
@@ -218,7 +218,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def completed(self, completed):
         """
         Sets the completed of this DestinyQuestsDestinyQuestStatus.
-        Whether or not the whole quest has been completed, regardless of whether or not  you have redeemed the rewards for the quest.
+        Whether or not the whole quest has been completed, regardless of whether or notyou have redeemed the rewards for the quest.
 
         :param completed: The completed of this DestinyQuestsDestinyQuestStatus.
         :type: bool
@@ -276,7 +276,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def vendor_hash(self):
         """
         Gets the vendor_hash of this DestinyQuestsDestinyQuestStatus.
-        If the quest has a related Vendor that you should talk to in order to initiate the quest/earn   rewards/continue the quest, this will be the hash identifier of that Vendor.  Look it up its DestinyVendorDefinition.
+        If the quest has a related Vendor that you should talk to in order to initiate the quest/earn rewards/continue the quest, this will be the hash identifier of that Vendor.  Look it up its DestinyVendorDefinition.
 
         :return: The vendor_hash of this DestinyQuestsDestinyQuestStatus.
         :rtype: int
@@ -287,7 +287,7 @@ class DestinyQuestsDestinyQuestStatus(object):
     def vendor_hash(self, vendor_hash):
         """
         Sets the vendor_hash of this DestinyQuestsDestinyQuestStatus.
-        If the quest has a related Vendor that you should talk to in order to initiate the quest/earn   rewards/continue the quest, this will be the hash identifier of that Vendor.  Look it up its DestinyVendorDefinition.
+        If the quest has a related Vendor that you should talk to in order to initiate the quest/earn rewards/continue the quest, this will be the hash identifier of that Vendor.  Look it up its DestinyVendorDefinition.
 
         :param vendor_hash: The vendor_hash of this DestinyQuestsDestinyQuestStatus.
         :type: int

@@ -90,7 +90,7 @@ class DestinyDefinitionsDestinyMaterialRequirementSetDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
         :rtype: int
@@ -101,7 +101,7 @@ class DestinyDefinitionsDestinyMaterialRequirementSetDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
         :type: int
@@ -136,7 +136,7 @@ class DestinyDefinitionsDestinyMaterialRequirementSetDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
         :rtype: bool
@@ -147,7 +147,7 @@ class DestinyDefinitionsDestinyMaterialRequirementSetDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyMaterialRequirementSetDefinition.
         :type: bool

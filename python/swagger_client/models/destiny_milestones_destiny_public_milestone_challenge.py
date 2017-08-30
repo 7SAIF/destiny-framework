@@ -57,7 +57,7 @@ class DestinyMilestonesDestinyPublicMilestoneChallenge(object):
     def objective_hash(self):
         """
         Gets the objective_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
-        The objective for the Challenge, which should have human-readable data about what  needs to be done to accomplish the objective.  Use this hash to look up the DestinyObjectiveDefinition.
+        The objective for the Challenge, which should have human-readable data about whatneeds to be done to accomplish the objective.  Use this hash to look up the DestinyObjectiveDefinition.
 
         :return: The objective_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyMilestonesDestinyPublicMilestoneChallenge(object):
     def objective_hash(self, objective_hash):
         """
         Sets the objective_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
-        The objective for the Challenge, which should have human-readable data about what  needs to be done to accomplish the objective.  Use this hash to look up the DestinyObjectiveDefinition.
+        The objective for the Challenge, which should have human-readable data about whatneeds to be done to accomplish the objective.  Use this hash to look up the DestinyObjectiveDefinition.
 
         :param objective_hash: The objective_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
         :type: int
@@ -80,7 +80,7 @@ class DestinyMilestonesDestinyPublicMilestoneChallenge(object):
     def activity_hash(self):
         """
         Gets the activity_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
-        IF the Objective is related to a specific Activity, this will be that activity's hash.  Use it to look up the DestinyActivityDefinition for additional data to show.
+        IF the Objective is related to a specific Activity, this will be that activity's hash.Use it to look up the DestinyActivityDefinition for additional data to show.
 
         :return: The activity_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
         :rtype: int
@@ -91,7 +91,7 @@ class DestinyMilestonesDestinyPublicMilestoneChallenge(object):
     def activity_hash(self, activity_hash):
         """
         Sets the activity_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
-        IF the Objective is related to a specific Activity, this will be that activity's hash.  Use it to look up the DestinyActivityDefinition for additional data to show.
+        IF the Objective is related to a specific Activity, this will be that activity's hash.Use it to look up the DestinyActivityDefinition for additional data to show.
 
         :param activity_hash: The activity_hash of this DestinyMilestonesDestinyPublicMilestoneChallenge.
         :type: int

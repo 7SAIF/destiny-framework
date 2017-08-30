@@ -57,7 +57,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition(o
     def id(self):
         """
         Gets the id of this DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition.
-        $NOTE $amola 2017-01-19 This field is apparently something that CUI uses to manually wire up objectives  to display info.  I am unsure how it works.
+        $NOTE $amola 2017-01-19 This field is apparently something that CUI uses to manually wire up objectivesto display info.  I am unsure how it works.
 
         :return: The id of this DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition(o
     def id(self, id):
         """
         Sets the id of this DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition.
-        $NOTE $amola 2017-01-19 This field is apparently something that CUI uses to manually wire up objectives  to display info.  I am unsure how it works.
+        $NOTE $amola 2017-01-19 This field is apparently something that CUI uses to manually wire up objectivesto display info.  I am unsure how it works.
 
         :param id: The id of this DestinyDefinitionsDirectorDestinyActivityGraphDisplayObjectiveDefinition.
         :type: int

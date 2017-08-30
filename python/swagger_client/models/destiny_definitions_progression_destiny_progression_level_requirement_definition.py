@@ -72,7 +72,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def requirement_curve(self):
         """
         Gets the requirement_curve of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        A curve of level requirements, weighted by the related progressions' level.    Interpolate against this curve with the character's progression level to determine  what the level requirement of the generated item that is using this data will be.
+        A curve of level requirements, weighted by the related progressions' level.  Interpolate against this curve with the character's progression level to determinewhat the level requirement of the generated item that is using this data will be.
 
         :return: The requirement_curve of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :rtype: list[InterpolationInterpolationPointFloat]
@@ -83,7 +83,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def requirement_curve(self, requirement_curve):
         """
         Sets the requirement_curve of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        A curve of level requirements, weighted by the related progressions' level.    Interpolate against this curve with the character's progression level to determine  what the level requirement of the generated item that is using this data will be.
+        A curve of level requirements, weighted by the related progressions' level.  Interpolate against this curve with the character's progression level to determinewhat the level requirement of the generated item that is using this data will be.
 
         :param requirement_curve: The requirement_curve of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :type: list[InterpolationInterpolationPointFloat]
@@ -95,7 +95,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def progression_hash(self):
         """
         Gets the progression_hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        The progression whose level should be used to determine the level requirement.    Look up the DestinyProgressionDefinition with this hash for more information about  the progression in question.
+        The progression whose level should be used to determine the level requirement.  Look up the DestinyProgressionDefinition with this hash for more information aboutthe progression in question.
 
         :return: The progression_hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :rtype: int
@@ -106,7 +106,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def progression_hash(self, progression_hash):
         """
         Sets the progression_hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        The progression whose level should be used to determine the level requirement.    Look up the DestinyProgressionDefinition with this hash for more information about  the progression in question.
+        The progression whose level should be used to determine the level requirement.  Look up the DestinyProgressionDefinition with this hash for more information aboutthe progression in question.
 
         :param progression_hash: The progression_hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :type: int
@@ -118,7 +118,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :rtype: int
@@ -129,7 +129,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :type: int
@@ -164,7 +164,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :rtype: bool
@@ -175,7 +175,7 @@ class DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition(
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsProgressionDestinyProgressionLevelRequirementDefinition.
         :type: bool

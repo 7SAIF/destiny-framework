@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyItemSocketBlockDefinition(object):
     def detail(self):
         """
         Gets the detail of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
-        This was supposed to be a string that would give per-item details about sockets.  In practice, it turns out that all this ever has is the localized word \"details\".  ... that's lame, but perhaps it will become something cool in the future.
+        This was supposed to be a string that would give per-item details about sockets.In practice, it turns out that all this ever has is the localized word \"details\".... that's lame, but perhaps it will become something cool in the future.
 
         :return: The detail of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
         :rtype: str
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyItemSocketBlockDefinition(object):
     def detail(self, detail):
         """
         Sets the detail of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
-        This was supposed to be a string that would give per-item details about sockets.  In practice, it turns out that all this ever has is the localized word \"details\".  ... that's lame, but perhaps it will become something cool in the future.
+        This was supposed to be a string that would give per-item details about sockets.In practice, it turns out that all this ever has is the localized word \"details\".... that's lame, but perhaps it will become something cool in the future.
 
         :param detail: The detail of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
         :type: str
@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyItemSocketBlockDefinition(object):
     def socket_categories(self):
         """
         Gets the socket_categories of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
-        A convenience property, that refers to the sockets in the \"sockets\" property, pre-grouped  by category and ordered in the manner that they should be grouped in the UI.  You could form this yourself with the existing data, but why would you want to?  Enjoy life man.
+        A convenience property, that refers to the sockets in the \"sockets\" property, pre-groupedby category and ordered in the manner that they should be grouped in the UI.You could form this yourself with the existing data, but why would you want to?  Enjoy life man.
 
         :return: The socket_categories of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
         :rtype: list[DestinyDefinitionsDestinyItemSocketCategoryDefinition]
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyItemSocketBlockDefinition(object):
     def socket_categories(self, socket_categories):
         """
         Sets the socket_categories of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
-        A convenience property, that refers to the sockets in the \"sockets\" property, pre-grouped  by category and ordered in the manner that they should be grouped in the UI.  You could form this yourself with the existing data, but why would you want to?  Enjoy life man.
+        A convenience property, that refers to the sockets in the \"sockets\" property, pre-groupedby category and ordered in the manner that they should be grouped in the UI.You could form this yourself with the existing data, but why would you want to?  Enjoy life man.
 
         :param socket_categories: The socket_categories of this DestinyDefinitionsDestinyItemSocketBlockDefinition.
         :type: list[DestinyDefinitionsDestinyItemSocketCategoryDefinition]

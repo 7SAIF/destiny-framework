@@ -52,7 +52,7 @@ class DestinyEntitiesItemsDestinyItemObjectivesComponent(object):
     def objectives(self):
         """
         Gets the objectives of this DestinyEntitiesItemsDestinyItemObjectivesComponent.
-        If the item has a hard association with objectives, your progress on them  will be defined here.      Objectives are our standard way to describe a series of tasks that have to be completed for a reward.
+        If the item has a hard association with objectives, your progress on themwill be defined here.    Objectives are our standard way to describe a series of tasks that have to be completed for a reward.
 
         :return: The objectives of this DestinyEntitiesItemsDestinyItemObjectivesComponent.
         :rtype: list[DestinyQuestsDestinyObjectiveProgress]
@@ -63,7 +63,7 @@ class DestinyEntitiesItemsDestinyItemObjectivesComponent(object):
     def objectives(self, objectives):
         """
         Sets the objectives of this DestinyEntitiesItemsDestinyItemObjectivesComponent.
-        If the item has a hard association with objectives, your progress on them  will be defined here.      Objectives are our standard way to describe a series of tasks that have to be completed for a reward.
+        If the item has a hard association with objectives, your progress on themwill be defined here.    Objectives are our standard way to describe a series of tasks that have to be completed for a reward.
 
         :param objectives: The objectives of this DestinyEntitiesItemsDestinyItemObjectivesComponent.
         :type: list[DestinyQuestsDestinyObjectiveProgress]

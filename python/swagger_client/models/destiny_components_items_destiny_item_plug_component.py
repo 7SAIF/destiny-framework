@@ -57,7 +57,7 @@ class DestinyComponentsItemsDestinyItemPlugComponent(object):
     def insert_fail_indexes(self):
         """
         Gets the insert_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
-        If the plug cannot be inserted for some reason, this will have the indexes into the plug item definition's   plug.insertionRules property, so you can show the reasons why it can't be inserted.    This list will be empty if the plug can be inserted.
+        If the plug cannot be inserted for some reason, this will have the indexes into the plug item definition's plug.insertionRules property, so you can show the reasons why it can't be inserted.  This list will be empty if the plug can be inserted.
 
         :return: The insert_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
         :rtype: list[int]
@@ -68,7 +68,7 @@ class DestinyComponentsItemsDestinyItemPlugComponent(object):
     def insert_fail_indexes(self, insert_fail_indexes):
         """
         Sets the insert_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
-        If the plug cannot be inserted for some reason, this will have the indexes into the plug item definition's   plug.insertionRules property, so you can show the reasons why it can't be inserted.    This list will be empty if the plug can be inserted.
+        If the plug cannot be inserted for some reason, this will have the indexes into the plug item definition's plug.insertionRules property, so you can show the reasons why it can't be inserted.  This list will be empty if the plug can be inserted.
 
         :param insert_fail_indexes: The insert_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
         :type: list[int]
@@ -80,7 +80,7 @@ class DestinyComponentsItemsDestinyItemPlugComponent(object):
     def enable_fail_indexes(self):
         """
         Gets the enable_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
-        If a plug is not enabled, this will be populated with indexes into the plug item definition's   plug.enabledRules property, so that you can show the reasons why it is not enabled.    This list will be empty if the plug is enabled.
+        If a plug is not enabled, this will be populated with indexes into the plug item definition's plug.enabledRules property, so that you can show the reasons why it is not enabled.  This list will be empty if the plug is enabled.
 
         :return: The enable_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
         :rtype: list[int]
@@ -91,7 +91,7 @@ class DestinyComponentsItemsDestinyItemPlugComponent(object):
     def enable_fail_indexes(self, enable_fail_indexes):
         """
         Sets the enable_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
-        If a plug is not enabled, this will be populated with indexes into the plug item definition's   plug.enabledRules property, so that you can show the reasons why it is not enabled.    This list will be empty if the plug is enabled.
+        If a plug is not enabled, this will be populated with indexes into the plug item definition's plug.enabledRules property, so that you can show the reasons why it is not enabled.  This list will be empty if the plug is enabled.
 
         :param enable_fail_indexes: The enable_fail_indexes of this DestinyComponentsItemsDestinyItemPlugComponent.
         :type: list[int]

@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **category_index** | **int** | The index of the category in the original category definitions for the vendor. | [optional] 
 **category_id** | **str** | The string identifier of the category. | [optional] 
-**category_hash** | **int** | The hashed identifier for the category.  (note that this is NOT pointing to a DestinyVendorCategoryDefinition,  it&#39;s confusing but this is a sale item category in a vendor, not a categorization of vendors themselves) | [optional] 
+**category_hash** | **int** | The hashed identifier for the category.  (note that this is NOT pointing to a DestinyVendorCategoryDefinition,it&#39;s confusing but this is a sale item category in a vendor, not a categorization of vendors themselves) | [optional] 
 **quantity_available** | **int** | The amount of items that will be available when this category is shown. | [optional] 
 **show_unavailable_items** | **bool** | If items aren&#39;t up for sale in this category, should we still show them (greyed out)? | [optional] 
 **hide_if_no_currency** | **bool** | If you don&#39;t have the currency required to buy items from this category, should the items be hidden? | [optional] 

@@ -33,28 +33,33 @@ class DestinyHistoricalStatsDestinyHistoricalStatsPerCharacter(object):
     swagger_types = {
         'character_id': 'int',
         'deleted': 'bool',
+        'results': 'dict(str, DestinyHistoricalStatsDestinyHistoricalStatsByPeriod)',
         'merged': 'DestinyHistoricalStatsDestinyHistoricalStatsByPeriod'
     }
 
     attribute_map = {
         'character_id': 'characterId',
         'deleted': 'deleted',
+        'results': 'results',
         'merged': 'merged'
     }
 
-    def __init__(self, character_id=None, deleted=None, merged=None):
+    def __init__(self, character_id=None, deleted=None, results=None, merged=None):
         """
         DestinyHistoricalStatsDestinyHistoricalStatsPerCharacter - a model defined in Swagger
         """
 
         self._character_id = None
         self._deleted = None
+        self._results = None
         self._merged = None
 
         if character_id is not None:
           self.character_id = character_id
         if deleted is not None:
           self.deleted = deleted
+        if results is not None:
+          self.results = results
         if merged is not None:
           self.merged = merged
 
@@ -99,6 +104,27 @@ class DestinyHistoricalStatsDestinyHistoricalStatsPerCharacter(object):
         """
 
         self._deleted = deleted
+
+    @property
+    def results(self):
+        """
+        Gets the results of this DestinyHistoricalStatsDestinyHistoricalStatsPerCharacter.
+
+        :return: The results of this DestinyHistoricalStatsDestinyHistoricalStatsPerCharacter.
+        :rtype: dict(str, DestinyHistoricalStatsDestinyHistoricalStatsByPeriod)
+        """
+        return self._results
+
+    @results.setter
+    def results(self, results):
+        """
+        Sets the results of this DestinyHistoricalStatsDestinyHistoricalStatsPerCharacter.
+
+        :param results: The results of this DestinyHistoricalStatsDestinyHistoricalStatsPerCharacter.
+        :type: dict(str, DestinyHistoricalStatsDestinyHistoricalStatsByPeriod)
+        """
+
+        self._results = results
 
     @property
     def merged(self):

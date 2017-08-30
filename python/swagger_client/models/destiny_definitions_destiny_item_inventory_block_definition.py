@@ -82,7 +82,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def stack_unique_label(self):
         """
         Gets the stack_unique_label of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        If this string is populated, you can't have more than one stack with this label in a given inventory.  Note that this is different from the equipping block's unique label, which is used for equipping uniqueness.
+        If this string is populated, you can't have more than one stack with this label in a given inventory.Note that this is different from the equipping block's unique label, which is used for equipping uniqueness.
 
         :return: The stack_unique_label of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :rtype: str
@@ -93,7 +93,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def stack_unique_label(self, stack_unique_label):
         """
         Sets the stack_unique_label of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        If this string is populated, you can't have more than one stack with this label in a given inventory.  Note that this is different from the equipping block's unique label, which is used for equipping uniqueness.
+        If this string is populated, you can't have more than one stack with this label in a given inventory.Note that this is different from the equipping block's unique label, which is used for equipping uniqueness.
 
         :param stack_unique_label: The stack_unique_label of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :type: str
@@ -128,7 +128,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def bucket_type_hash(self):
         """
         Gets the bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        The hash identifier for the DestinyInventoryBucketDefinition to which this item belongs.  I should have named this \"bucketHash\", but too many things refer to it now.  Sigh.
+        The hash identifier for the DestinyInventoryBucketDefinition to which this item belongs.I should have named this \"bucketHash\", but too many things refer to it now.  Sigh.
 
         :return: The bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :rtype: int
@@ -139,7 +139,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def bucket_type_hash(self, bucket_type_hash):
         """
         Sets the bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        The hash identifier for the DestinyInventoryBucketDefinition to which this item belongs.  I should have named this \"bucketHash\", but too many things refer to it now.  Sigh.
+        The hash identifier for the DestinyInventoryBucketDefinition to which this item belongs.I should have named this \"bucketHash\", but too many things refer to it now.  Sigh.
 
         :param bucket_type_hash: The bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :type: int
@@ -151,7 +151,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def recovery_bucket_type_hash(self):
         """
         Gets the recovery_bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        If the item is picked up by the lost loot queue, this is the hash identifier  for the DestinyInventoryBucketDefinition into which it will be placed.  Again, I should have named this recoveryBucketHash instead.
+        If the item is picked up by the lost loot queue, this is the hash identifierfor the DestinyInventoryBucketDefinition into which it will be placed.Again, I should have named this recoveryBucketHash instead.
 
         :return: The recovery_bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :rtype: int
@@ -162,7 +162,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def recovery_bucket_type_hash(self, recovery_bucket_type_hash):
         """
         Sets the recovery_bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        If the item is picked up by the lost loot queue, this is the hash identifier  for the DestinyInventoryBucketDefinition into which it will be placed.  Again, I should have named this recoveryBucketHash instead.
+        If the item is picked up by the lost loot queue, this is the hash identifierfor the DestinyInventoryBucketDefinition into which it will be placed.Again, I should have named this recoveryBucketHash instead.
 
         :param recovery_bucket_type_hash: The recovery_bucket_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :type: int
@@ -174,7 +174,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def tier_type_hash(self):
         """
         Gets the tier_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        The hash identifier for the Tier Type of the item, use to look up its DestinyItemTierTypeDefinition  if you need to show localized data for the item's tier.
+        The hash identifier for the Tier Type of the item, use to look up its DestinyItemTierTypeDefinitionif you need to show localized data for the item's tier.
 
         :return: The tier_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :rtype: int
@@ -185,7 +185,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def tier_type_hash(self, tier_type_hash):
         """
         Sets the tier_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        The hash identifier for the Tier Type of the item, use to look up its DestinyItemTierTypeDefinition  if you need to show localized data for the item's tier.
+        The hash identifier for the Tier Type of the item, use to look up its DestinyItemTierTypeDefinitionif you need to show localized data for the item's tier.
 
         :param tier_type_hash: The tier_type_hash of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :type: int
@@ -220,7 +220,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def tier_type_name(self):
         """
         Gets the tier_type_name of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        The localized name of the tier type, which is a useful shortcut so you don't have to look up the definition every   time.  However, it's mostly a holdover from days before we had a DestinyItemTierTypeDefinition to refer to.
+        The localized name of the tier type, which is a useful shortcut so you don't have to look up the definition every time.  However, it's mostly a holdover from days before we had a DestinyItemTierTypeDefinition to refer to.
 
         :return: The tier_type_name of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :rtype: str
@@ -231,7 +231,7 @@ class DestinyDefinitionsDestinyItemInventoryBlockDefinition(object):
     def tier_type_name(self, tier_type_name):
         """
         Sets the tier_type_name of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
-        The localized name of the tier type, which is a useful shortcut so you don't have to look up the definition every   time.  However, it's mostly a holdover from days before we had a DestinyItemTierTypeDefinition to refer to.
+        The localized name of the tier type, which is a useful shortcut so you don't have to look up the definition every time.  However, it's mostly a holdover from days before we had a DestinyItemTierTypeDefinition to refer to.
 
         :param tier_type_name: The tier_type_name of this DestinyDefinitionsDestinyItemInventoryBlockDefinition.
         :type: str

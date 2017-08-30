@@ -103,7 +103,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def equipment_category_hash(self):
         """
         Gets the equipment_category_hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        These technically point to \"Equipment Category Definitions\".  But don't get excited.  There's  nothing of significant value in those definitions, so I didn't bother to expose them.  You can use the  hash here to group equipment slots by common functionality, which serves the same purpose as if we had  the Equipment Category definitions exposed.
+        These technically point to \"Equipment Category Definitions\".  But don't get excited.  There'snothing of significant value in those definitions, so I didn't bother to expose them.  You can use thehash here to group equipment slots by common functionality, which serves the same purpose as if we hadthe Equipment Category definitions exposed.
 
         :return: The equipment_category_hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :rtype: int
@@ -114,7 +114,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def equipment_category_hash(self, equipment_category_hash):
         """
         Sets the equipment_category_hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        These technically point to \"Equipment Category Definitions\".  But don't get excited.  There's  nothing of significant value in those definitions, so I didn't bother to expose them.  You can use the  hash here to group equipment slots by common functionality, which serves the same purpose as if we had  the Equipment Category definitions exposed.
+        These technically point to \"Equipment Category Definitions\".  But don't get excited.  There'snothing of significant value in those definitions, so I didn't bother to expose them.  You can use thehash here to group equipment slots by common functionality, which serves the same purpose as if we hadthe Equipment Category definitions exposed.
 
         :param equipment_category_hash: The equipment_category_hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :type: int
@@ -149,7 +149,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def apply_custom_art_dyes(self):
         """
         Gets the apply_custom_art_dyes of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        If True, equipped items should have their custom art dyes applied when rendering the item.  Otherwise, custom art dyes on an item should be ignored if the item is equipped in this slot.
+        If True, equipped items should have their custom art dyes applied when rendering the item.Otherwise, custom art dyes on an item should be ignored if the item is equipped in this slot.
 
         :return: The apply_custom_art_dyes of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :rtype: bool
@@ -160,7 +160,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def apply_custom_art_dyes(self, apply_custom_art_dyes):
         """
         Sets the apply_custom_art_dyes of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        If True, equipped items should have their custom art dyes applied when rendering the item.  Otherwise, custom art dyes on an item should be ignored if the item is equipped in this slot.
+        If True, equipped items should have their custom art dyes applied when rendering the item.Otherwise, custom art dyes on an item should be ignored if the item is equipped in this slot.
 
         :param apply_custom_art_dyes: The apply_custom_art_dyes of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :type: bool
@@ -172,7 +172,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :rtype: int
@@ -183,7 +183,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :type: int
@@ -218,7 +218,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :rtype: bool
@@ -229,7 +229,7 @@ class DestinyDefinitionsDestinyEquipmentSlotDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyEquipmentSlotDefinition.
         :type: bool

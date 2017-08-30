@@ -22,16 +22,6 @@ class BungieMembershipType(object):
     Do not edit the class manually.
     """
 
-    """
-    allowed enum values
-    """
-    _0 = "0"
-    _1 = "1"
-    _2 = "2"
-    _4 = "4"
-    _10 = "10"
-    _254 = "254"
-    _1 = "-1"
 
     """
     Attributes:

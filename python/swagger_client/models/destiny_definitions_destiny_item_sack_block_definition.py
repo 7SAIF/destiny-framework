@@ -67,7 +67,7 @@ class DestinyDefinitionsDestinyItemSackBlockDefinition(object):
     def detail_action(self):
         """
         Gets the detail_action of this DestinyDefinitionsDestinyItemSackBlockDefinition.
-        A description of what will happen when you open the sack.  As far as I can tell, this is blank currently.  Unknown whether it will  eventually be populated with useful info.
+        A description of what will happen when you open the sack.As far as I can tell, this is blank currently.  Unknown whether it willeventually be populated with useful info.
 
         :return: The detail_action of this DestinyDefinitionsDestinyItemSackBlockDefinition.
         :rtype: str
@@ -78,7 +78,7 @@ class DestinyDefinitionsDestinyItemSackBlockDefinition(object):
     def detail_action(self, detail_action):
         """
         Sets the detail_action of this DestinyDefinitionsDestinyItemSackBlockDefinition.
-        A description of what will happen when you open the sack.  As far as I can tell, this is blank currently.  Unknown whether it will  eventually be populated with useful info.
+        A description of what will happen when you open the sack.As far as I can tell, this is blank currently.  Unknown whether it willeventually be populated with useful info.
 
         :param detail_action: The detail_action of this DestinyDefinitionsDestinyItemSackBlockDefinition.
         :type: str

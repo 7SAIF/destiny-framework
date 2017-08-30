@@ -82,7 +82,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def level(self):
         """
         Gets the level of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The level at which the item spawns.  Essentially the Primary Key  for this source data: there will be multiple of these source entries per item that  has source data, grouped by the level at which the item spawns.
+        The level at which the item spawns.  Essentially the Primary Keyfor this source data: there will be multiple of these source entries per item thathas source data, grouped by the level at which the item spawns.
 
         :return: The level of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :rtype: int
@@ -93,7 +93,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def level(self, level):
         """
         Sets the level of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The level at which the item spawns.  Essentially the Primary Key  for this source data: there will be multiple of these source entries per item that  has source data, grouped by the level at which the item spawns.
+        The level at which the item spawns.  Essentially the Primary Keyfor this source data: there will be multiple of these source entries per item thathas source data, grouped by the level at which the item spawns.
 
         :param level: The level of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :type: int
@@ -105,7 +105,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def min_quality(self):
         """
         Gets the min_quality of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The minimum Quality at which the item spawns for this level.  Examine DestinyInventoryItemDefinition  for more information about what Quality means.  Just don't ask Phaedrus about it,  he'll never stop talking and you'll have to write a book about it.
+        The minimum Quality at which the item spawns for this level.  Examine DestinyInventoryItemDefinitionfor more information about what Quality means.  Just don't ask Phaedrus about it,he'll never stop talking and you'll have to write a book about it.
 
         :return: The min_quality of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :rtype: int
@@ -116,7 +116,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def min_quality(self, min_quality):
         """
         Sets the min_quality of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The minimum Quality at which the item spawns for this level.  Examine DestinyInventoryItemDefinition  for more information about what Quality means.  Just don't ask Phaedrus about it,  he'll never stop talking and you'll have to write a book about it.
+        The minimum Quality at which the item spawns for this level.  Examine DestinyInventoryItemDefinitionfor more information about what Quality means.  Just don't ask Phaedrus about it,he'll never stop talking and you'll have to write a book about it.
 
         :param min_quality: The min_quality of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :type: int
@@ -151,7 +151,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def min_level_required(self):
         """
         Gets the min_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The minimum Character Level required for equipping the item when the item spawns at the item level  defined on this DestinyItemSourceDefinition, as far as we saw in our processing.
+        The minimum Character Level required for equipping the item when the item spawns at the item leveldefined on this DestinyItemSourceDefinition, as far as we saw in our processing.
 
         :return: The min_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :rtype: int
@@ -162,7 +162,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def min_level_required(self, min_level_required):
         """
         Sets the min_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The minimum Character Level required for equipping the item when the item spawns at the item level  defined on this DestinyItemSourceDefinition, as far as we saw in our processing.
+        The minimum Character Level required for equipping the item when the item spawns at the item leveldefined on this DestinyItemSourceDefinition, as far as we saw in our processing.
 
         :param min_level_required: The min_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :type: int
@@ -174,7 +174,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def max_level_required(self):
         """
         Gets the max_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The maximum Character Level required for equipping the item when the item spawns at the item level  defined on this DestinyItemSourceDefinition, as far as we saw in our processing.
+        The maximum Character Level required for equipping the item when the item spawns at the item leveldefined on this DestinyItemSourceDefinition, as far as we saw in our processing.
 
         :return: The max_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :rtype: int
@@ -185,7 +185,7 @@ class DestinyDefinitionsSourcesDestinyItemSourceDefinition(object):
     def max_level_required(self, max_level_required):
         """
         Sets the max_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
-        The maximum Character Level required for equipping the item when the item spawns at the item level  defined on this DestinyItemSourceDefinition, as far as we saw in our processing.
+        The maximum Character Level required for equipping the item when the item spawns at the item leveldefined on this DestinyItemSourceDefinition, as far as we saw in our processing.
 
         :param max_level_required: The max_level_required of this DestinyDefinitionsSourcesDestinyItemSourceDefinition.
         :type: int

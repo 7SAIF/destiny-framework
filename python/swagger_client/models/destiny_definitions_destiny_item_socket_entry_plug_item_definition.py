@@ -52,7 +52,7 @@ class DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition(object):
     def plug_item_hash(self):
         """
         Gets the plug_item_hash of this DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition.
-        The hash identifier of a DestinyInventoryItemDefinition representing the plug  that can be inserted.
+        The hash identifier of a DestinyInventoryItemDefinition representing the plugthat can be inserted.
 
         :return: The plug_item_hash of this DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition.
         :rtype: int
@@ -63,7 +63,7 @@ class DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition(object):
     def plug_item_hash(self, plug_item_hash):
         """
         Sets the plug_item_hash of this DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition.
-        The hash identifier of a DestinyInventoryItemDefinition representing the plug  that can be inserted.
+        The hash identifier of a DestinyInventoryItemDefinition representing the plugthat can be inserted.
 
         :param plug_item_hash: The plug_item_hash of this DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition.
         :type: int

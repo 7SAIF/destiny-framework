@@ -118,7 +118,7 @@ class DestinyDefinitionsDestinyTalentExclusiveGroup(object):
     def node_hashes(self):
         """
         Gets the node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
-        A quick reference of the talent nodes that are part of this group, by their Talent Node hashes.  (See DestinyTalentNodeDefinition.nodeHash)
+        A quick reference of the talent nodes that are part of this group, by their Talent Node hashes.(See DestinyTalentNodeDefinition.nodeHash)
 
         :return: The node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
         :rtype: list[int]
@@ -129,7 +129,7 @@ class DestinyDefinitionsDestinyTalentExclusiveGroup(object):
     def node_hashes(self, node_hashes):
         """
         Sets the node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
-        A quick reference of the talent nodes that are part of this group, by their Talent Node hashes.  (See DestinyTalentNodeDefinition.nodeHash)
+        A quick reference of the talent nodes that are part of this group, by their Talent Node hashes.(See DestinyTalentNodeDefinition.nodeHash)
 
         :param node_hashes: The node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
         :type: list[int]
@@ -164,7 +164,7 @@ class DestinyDefinitionsDestinyTalentExclusiveGroup(object):
     def opposing_node_hashes(self):
         """
         Gets the opposing_node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
-        A quick reference of Nodes that will be deactivated if any node in this group is activated, by  their Talent Node hashes. (See DestinyTalentNodeDefinition.nodeHash)
+        A quick reference of Nodes that will be deactivated if any node in this group is activated, bytheir Talent Node hashes. (See DestinyTalentNodeDefinition.nodeHash)
 
         :return: The opposing_node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
         :rtype: list[int]
@@ -175,7 +175,7 @@ class DestinyDefinitionsDestinyTalentExclusiveGroup(object):
     def opposing_node_hashes(self, opposing_node_hashes):
         """
         Sets the opposing_node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
-        A quick reference of Nodes that will be deactivated if any node in this group is activated, by  their Talent Node hashes. (See DestinyTalentNodeDefinition.nodeHash)
+        A quick reference of Nodes that will be deactivated if any node in this group is activated, bytheir Talent Node hashes. (See DestinyTalentNodeDefinition.nodeHash)
 
         :param opposing_node_hashes: The opposing_node_hashes of this DestinyDefinitionsDestinyTalentExclusiveGroup.
         :type: list[int]

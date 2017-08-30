@@ -57,7 +57,7 @@ class DestinyHistoricalStatsDestinyHistoricalStatsPeriodGroup(object):
     def period(self):
         """
         Gets the period of this DestinyHistoricalStatsDestinyHistoricalStatsPeriodGroup.
-        Period for the group.  If the stat periodType is day, then this will have a specific day. If the type is monthly, then  this value will be the first day of the applicable month. This value is not set when the periodType is 'all time'.
+        Period for the group.  If the stat periodType is day, then this will have a specific day. If the type is monthly, thenthis value will be the first day of the applicable month. This value is not set when the periodType is 'all time'.
 
         :return: The period of this DestinyHistoricalStatsDestinyHistoricalStatsPeriodGroup.
         :rtype: datetime
@@ -68,7 +68,7 @@ class DestinyHistoricalStatsDestinyHistoricalStatsPeriodGroup(object):
     def period(self, period):
         """
         Sets the period of this DestinyHistoricalStatsDestinyHistoricalStatsPeriodGroup.
-        Period for the group.  If the stat periodType is day, then this will have a specific day. If the type is monthly, then  this value will be the first day of the applicable month. This value is not set when the periodType is 'all time'.
+        Period for the group.  If the stat periodType is day, then this will have a specific day. If the type is monthly, thenthis value will be the first day of the applicable month. This value is not set when the periodType is 'all time'.
 
         :param period: The period of this DestinyHistoricalStatsDestinyHistoricalStatsPeriodGroup.
         :type: datetime

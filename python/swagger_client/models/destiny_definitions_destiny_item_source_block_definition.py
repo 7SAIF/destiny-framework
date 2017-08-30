@@ -80,7 +80,7 @@ class DestinyDefinitionsDestinyItemSourceBlockDefinition(object):
     def sources(self):
         """
         Gets the sources of this DestinyDefinitionsDestinyItemSourceBlockDefinition.
-        A collection of details about the stats that were computed for the ways we found that the item  could be spawned.
+        A collection of details about the stats that were computed for the ways we found that the itemcould be spawned.
 
         :return: The sources of this DestinyDefinitionsDestinyItemSourceBlockDefinition.
         :rtype: list[DestinyDefinitionsSourcesDestinyItemSourceDefinition]
@@ -91,7 +91,7 @@ class DestinyDefinitionsDestinyItemSourceBlockDefinition(object):
     def sources(self, sources):
         """
         Sets the sources of this DestinyDefinitionsDestinyItemSourceBlockDefinition.
-        A collection of details about the stats that were computed for the ways we found that the item  could be spawned.
+        A collection of details about the stats that were computed for the ways we found that the itemcould be spawned.
 
         :param sources: The sources of this DestinyDefinitionsDestinyItemSourceBlockDefinition.
         :type: list[DestinyDefinitionsSourcesDestinyItemSourceDefinition]

@@ -1,6 +1,6 @@
 # swagger_client.TrendingApi
 
-All URIs are relative to *https://https://bungie.net/Platform*
+All URIs are relative to *https://bungie.net/Platform*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **trending_get_trending_categories**
-> InlineResponse20034 trending_get_trending_categories()
+> InlineResponse20036 trending_get_trending_categories()
 
 
 
@@ -39,7 +39,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**InlineResponse20034**](InlineResponse20034.md)
+[**InlineResponse20036**](InlineResponse20036.md)
 
 ### Authorization
 
@@ -53,7 +53,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **trending_get_trending_category**
-> InlineResponse20035 trending_get_trending_category(category_id, page_number)
+> InlineResponse20037 trending_get_trending_category(category_id, page_number)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**InlineResponse20035**](InlineResponse20035.md)
+[**InlineResponse20037**](InlineResponse20037.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **trending_get_trending_entry_detail**
-> InlineResponse20036 trending_get_trending_entry_detail(identifier, trending_entry_type)
+> InlineResponse20038 trending_get_trending_entry_detail(identifier, trending_entry_type)
 
 
 
@@ -119,7 +119,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = swagger_client.TrendingApi()
 identifier = 'identifier_example' # str | The identifier for the entity to be returned.
-trending_entry_type = 'trending_entry_type_example' # str | The type of entity to be returned.
+trending_entry_type = 56 # int | The type of entity to be returned.
 
 try: 
     api_response = api_instance.trending_get_trending_entry_detail(identifier, trending_entry_type)
@@ -133,11 +133,11 @@ except ApiException as e:
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **identifier** | **str**| The identifier for the entity to be returned. | 
- **trending_entry_type** | **str**| The type of entity to be returned. | 
+ **trending_entry_type** | **int**| The type of entity to be returned. | 
 
 ### Return type
 
-[**InlineResponse20036**](InlineResponse20036.md)
+[**InlineResponse20038**](InlineResponse20038.md)
 
 ### Authorization
 

@@ -80,7 +80,7 @@ class DestinyEntitiesItemsDestinyItemRenderComponent(object):
     def art_regions(self):
         """
         Gets the art_regions of this DestinyEntitiesItemsDestinyItemRenderComponent.
-        A dictionary for rendering gear components, with:    key = Art Arrangement Region Index    value = The chosen Arrangement Index for the Region, based on the value of a stat on the item used for making the choice.
+        A dictionary for rendering gear components, with:  key = Art Arrangement Region Index  value = The chosen Arrangement Index for the Region, based on the value of a stat on the item used for making the choice.
 
         :return: The art_regions of this DestinyEntitiesItemsDestinyItemRenderComponent.
         :rtype: dict(str, int)
@@ -91,7 +91,7 @@ class DestinyEntitiesItemsDestinyItemRenderComponent(object):
     def art_regions(self, art_regions):
         """
         Sets the art_regions of this DestinyEntitiesItemsDestinyItemRenderComponent.
-        A dictionary for rendering gear components, with:    key = Art Arrangement Region Index    value = The chosen Arrangement Index for the Region, based on the value of a stat on the item used for making the choice.
+        A dictionary for rendering gear components, with:  key = Art Arrangement Region Index  value = The chosen Arrangement Index for the Region, based on the value of a stat on the item used for making the choice.
 
         :param art_regions: The art_regions of this DestinyEntitiesItemsDestinyItemRenderComponent.
         :type: dict(str, int)

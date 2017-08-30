@@ -57,7 +57,7 @@ class DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition(object):
     def category_hash(self):
         """
         Gets the category_hash of this DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition.
-        The hash identifier of the Plug Category to compare against the plug item's plug.plugCategoryHash.    Note that this does NOT relate to any Definition in itself, it is only used for comparison purposes.
+        The hash identifier of the Plug Category to compare against the plug item's plug.plugCategoryHash.  Note that this does NOT relate to any Definition in itself, it is only used for comparison purposes.
 
         :return: The category_hash of this DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition.
         :rtype: int
@@ -68,7 +68,7 @@ class DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition(object):
     def category_hash(self, category_hash):
         """
         Sets the category_hash of this DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition.
-        The hash identifier of the Plug Category to compare against the plug item's plug.plugCategoryHash.    Note that this does NOT relate to any Definition in itself, it is only used for comparison purposes.
+        The hash identifier of the Plug Category to compare against the plug item's plug.plugCategoryHash.  Note that this does NOT relate to any Definition in itself, it is only used for comparison purposes.
 
         :param category_hash: The category_hash of this DestinyDefinitionsSocketsDestinyPlugWhitelistEntryDefinition.
         :type: int

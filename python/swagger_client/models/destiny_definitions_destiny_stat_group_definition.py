@@ -82,7 +82,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def maximum_value(self):
         """
         Gets the maximum_value of this DestinyDefinitionsDestinyStatGroupDefinition.
-        The maximum possible value that any stat in this group can be transformed into.    This is used by stats that *don't* have scaledStats entries below, but that  still need to be displayed as a progress bar, in which case this is used  as the upper bound for said progress bar.  (the lower bound is always 0)
+        The maximum possible value that any stat in this group can be transformed into.  This is used by stats that *don't* have scaledStats entries below, but thatstill need to be displayed as a progress bar, in which case this is usedas the upper bound for said progress bar.  (the lower bound is always 0)
 
         :return: The maximum_value of this DestinyDefinitionsDestinyStatGroupDefinition.
         :rtype: int
@@ -93,7 +93,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def maximum_value(self, maximum_value):
         """
         Sets the maximum_value of this DestinyDefinitionsDestinyStatGroupDefinition.
-        The maximum possible value that any stat in this group can be transformed into.    This is used by stats that *don't* have scaledStats entries below, but that  still need to be displayed as a progress bar, in which case this is used  as the upper bound for said progress bar.  (the lower bound is always 0)
+        The maximum possible value that any stat in this group can be transformed into.  This is used by stats that *don't* have scaledStats entries below, but thatstill need to be displayed as a progress bar, in which case this is usedas the upper bound for said progress bar.  (the lower bound is always 0)
 
         :param maximum_value: The maximum_value of this DestinyDefinitionsDestinyStatGroupDefinition.
         :type: int
@@ -105,7 +105,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def ui_position(self):
         """
         Gets the ui_position of this DestinyDefinitionsDestinyStatGroupDefinition.
-        This apparently indicates the position of the stats in the UI?  I've returned it  in case anyone can use it, but it's not of any use to us on BNet.  Something's being  lost in translation with this value.
+        This apparently indicates the position of the stats in the UI?  I've returned itin case anyone can use it, but it's not of any use to us on BNet.  Something's beinglost in translation with this value.
 
         :return: The ui_position of this DestinyDefinitionsDestinyStatGroupDefinition.
         :rtype: int
@@ -116,7 +116,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def ui_position(self, ui_position):
         """
         Sets the ui_position of this DestinyDefinitionsDestinyStatGroupDefinition.
-        This apparently indicates the position of the stats in the UI?  I've returned it  in case anyone can use it, but it's not of any use to us on BNet.  Something's being  lost in translation with this value.
+        This apparently indicates the position of the stats in the UI?  I've returned itin case anyone can use it, but it's not of any use to us on BNet.  Something's beinglost in translation with this value.
 
         :param ui_position: The ui_position of this DestinyDefinitionsDestinyStatGroupDefinition.
         :type: int
@@ -128,7 +128,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def scaled_stats(self):
         """
         Gets the scaled_stats of this DestinyDefinitionsDestinyStatGroupDefinition.
-        Any stat that requires scaling to be transformed from an \"Investment\" stat to a \"Display\"  stat will have an entry in this list.  For more information on what those types of stats  mean and the transformation process, see DestinyStatDefinition.    In retrospect, I wouldn't mind if this was a dictionary keyed by the stat hash instead.  But I'm going to leave it be because [[After Apple Picking]].
+        Any stat that requires scaling to be transformed from an \"Investment\" stat to a \"Display\"stat will have an entry in this list.  For more information on what those types of statsmean and the transformation process, see DestinyStatDefinition.  In retrospect, I wouldn't mind if this was a dictionary keyed by the stat hash instead.But I'm going to leave it be because [[After Apple Picking]].
 
         :return: The scaled_stats of this DestinyDefinitionsDestinyStatGroupDefinition.
         :rtype: list[DestinyDefinitionsDestinyStatDisplayDefinition]
@@ -139,7 +139,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def scaled_stats(self, scaled_stats):
         """
         Sets the scaled_stats of this DestinyDefinitionsDestinyStatGroupDefinition.
-        Any stat that requires scaling to be transformed from an \"Investment\" stat to a \"Display\"  stat will have an entry in this list.  For more information on what those types of stats  mean and the transformation process, see DestinyStatDefinition.    In retrospect, I wouldn't mind if this was a dictionary keyed by the stat hash instead.  But I'm going to leave it be because [[After Apple Picking]].
+        Any stat that requires scaling to be transformed from an \"Investment\" stat to a \"Display\"stat will have an entry in this list.  For more information on what those types of statsmean and the transformation process, see DestinyStatDefinition.  In retrospect, I wouldn't mind if this was a dictionary keyed by the stat hash instead.But I'm going to leave it be because [[After Apple Picking]].
 
         :param scaled_stats: The scaled_stats of this DestinyDefinitionsDestinyStatGroupDefinition.
         :type: list[DestinyDefinitionsDestinyStatDisplayDefinition]
@@ -151,7 +151,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def overrides(self):
         """
         Gets the overrides of this DestinyDefinitionsDestinyStatGroupDefinition.
-        The game has the ability to override, based on the stat group, what the localized text is  that is displayed for Stats being shown on the item.    Mercifully, no Stat Groups use this feature currently.  If they start using them,  we'll all need to start using them (and those of you who are more prudent than I am  can go ahead and start pre-checking for this.)
+        The game has the ability to override, based on the stat group, what the localized text isthat is displayed for Stats being shown on the item.  Mercifully, no Stat Groups use this feature currently.  If they start using them,we'll all need to start using them (and those of you who are more prudent than I amcan go ahead and start pre-checking for this.)
 
         :return: The overrides of this DestinyDefinitionsDestinyStatGroupDefinition.
         :rtype: dict(str, DestinyDefinitionsDestinyStatOverrideDefinition)
@@ -162,7 +162,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def overrides(self, overrides):
         """
         Sets the overrides of this DestinyDefinitionsDestinyStatGroupDefinition.
-        The game has the ability to override, based on the stat group, what the localized text is  that is displayed for Stats being shown on the item.    Mercifully, no Stat Groups use this feature currently.  If they start using them,  we'll all need to start using them (and those of you who are more prudent than I am  can go ahead and start pre-checking for this.)
+        The game has the ability to override, based on the stat group, what the localized text isthat is displayed for Stats being shown on the item.  Mercifully, no Stat Groups use this feature currently.  If they start using them,we'll all need to start using them (and those of you who are more prudent than I amcan go ahead and start pre-checking for this.)
 
         :param overrides: The overrides of this DestinyDefinitionsDestinyStatGroupDefinition.
         :type: dict(str, DestinyDefinitionsDestinyStatOverrideDefinition)
@@ -174,7 +174,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyStatGroupDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyStatGroupDefinition.
         :rtype: int
@@ -185,7 +185,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyStatGroupDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyStatGroupDefinition.
         :type: int
@@ -220,7 +220,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyStatGroupDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyStatGroupDefinition.
         :rtype: bool
@@ -231,7 +231,7 @@ class DestinyDefinitionsDestinyStatGroupDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyStatGroupDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyStatGroupDefinition.
         :type: bool

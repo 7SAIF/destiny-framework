@@ -108,7 +108,7 @@ class DestinyDestinyStat(object):
     def maximum_value(self):
         """
         Gets the maximum_value of this DestinyDestinyStat.
-        The highest possible value for the stat, if we were able to compute it.  (I wouldn't necessarily trust this  value right now.  I would like to improve its calculation in later iterations of the API.  Consider this  a placeholder for desired future functionality)
+        The highest possible value for the stat, if we were able to compute it.  (I wouldn't necessarily trust thisvalue right now.  I would like to improve its calculation in later iterations of the API.  Consider thisa placeholder for desired future functionality)
 
         :return: The maximum_value of this DestinyDestinyStat.
         :rtype: int
@@ -119,7 +119,7 @@ class DestinyDestinyStat(object):
     def maximum_value(self, maximum_value):
         """
         Sets the maximum_value of this DestinyDestinyStat.
-        The highest possible value for the stat, if we were able to compute it.  (I wouldn't necessarily trust this  value right now.  I would like to improve its calculation in later iterations of the API.  Consider this  a placeholder for desired future functionality)
+        The highest possible value for the stat, if we were able to compute it.  (I wouldn't necessarily trust thisvalue right now.  I would like to improve its calculation in later iterations of the API.  Consider thisa placeholder for desired future functionality)
 
         :param maximum_value: The maximum_value of this DestinyDestinyStat.
         :type: int

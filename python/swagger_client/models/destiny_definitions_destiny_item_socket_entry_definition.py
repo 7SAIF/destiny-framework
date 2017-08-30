@@ -62,7 +62,7 @@ class DestinyDefinitionsDestinyItemSocketEntryDefinition(object):
     def socket_type_hash(self):
         """
         Gets the socket_type_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
-        All sockets have a type, and this is the hash identifier for this particular type.  Use it to look up the DestinySocketTypeDefinition: read there for more information on  how socket types affect the behavior of the socket.
+        All sockets have a type, and this is the hash identifier for this particular type.Use it to look up the DestinySocketTypeDefinition: read there for more information onhow socket types affect the behavior of the socket.
 
         :return: The socket_type_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
         :rtype: int
@@ -73,7 +73,7 @@ class DestinyDefinitionsDestinyItemSocketEntryDefinition(object):
     def socket_type_hash(self, socket_type_hash):
         """
         Sets the socket_type_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
-        All sockets have a type, and this is the hash identifier for this particular type.  Use it to look up the DestinySocketTypeDefinition: read there for more information on  how socket types affect the behavior of the socket.
+        All sockets have a type, and this is the hash identifier for this particular type.Use it to look up the DestinySocketTypeDefinition: read there for more information onhow socket types affect the behavior of the socket.
 
         :param socket_type_hash: The socket_type_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
         :type: int
@@ -85,7 +85,7 @@ class DestinyDefinitionsDestinyItemSocketEntryDefinition(object):
     def single_initial_item_hash(self):
         """
         Gets the single_initial_item_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
-        If a valid hash, this is the hash identifier for the DestinyInventoryItemDefinition  representing the Plug that will be initially inserted into the item on item creation.  Otherwise, this Socket will either start without a plug inserted, or will have one randomly  inserted.
+        If a valid hash, this is the hash identifier for the DestinyInventoryItemDefinitionrepresenting the Plug that will be initially inserted into the item on item creation.Otherwise, this Socket will either start without a plug inserted, or will have one randomlyinserted.
 
         :return: The single_initial_item_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
         :rtype: int
@@ -96,7 +96,7 @@ class DestinyDefinitionsDestinyItemSocketEntryDefinition(object):
     def single_initial_item_hash(self, single_initial_item_hash):
         """
         Sets the single_initial_item_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
-        If a valid hash, this is the hash identifier for the DestinyInventoryItemDefinition  representing the Plug that will be initially inserted into the item on item creation.  Otherwise, this Socket will either start without a plug inserted, or will have one randomly  inserted.
+        If a valid hash, this is the hash identifier for the DestinyInventoryItemDefinitionrepresenting the Plug that will be initially inserted into the item on item creation.Otherwise, this Socket will either start without a plug inserted, or will have one randomlyinserted.
 
         :param single_initial_item_hash: The single_initial_item_hash of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
         :type: int
@@ -108,7 +108,7 @@ class DestinyDefinitionsDestinyItemSocketEntryDefinition(object):
     def reusable_plug_items(self):
         """
         Gets the reusable_plug_items of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
-        This is a list of pre-determined plugs that can *always* be plugged into this socket, without  the character having the plug in their inventory.    If this list is populated, you will not be allowed to plug an arbitrary item in the socket: you  will only be able to choose from one of these reusable plugs.
+        This is a list of pre-determined plugs that can *always* be plugged into this socket, withoutthe character having the plug in their inventory.  If this list is populated, you will not be allowed to plug an arbitrary item in the socket: youwill only be able to choose from one of these reusable plugs.
 
         :return: The reusable_plug_items of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
         :rtype: list[DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition]
@@ -119,7 +119,7 @@ class DestinyDefinitionsDestinyItemSocketEntryDefinition(object):
     def reusable_plug_items(self, reusable_plug_items):
         """
         Sets the reusable_plug_items of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
-        This is a list of pre-determined plugs that can *always* be plugged into this socket, without  the character having the plug in their inventory.    If this list is populated, you will not be allowed to plug an arbitrary item in the socket: you  will only be able to choose from one of these reusable plugs.
+        This is a list of pre-determined plugs that can *always* be plugged into this socket, withoutthe character having the plug in their inventory.  If this list is populated, you will not be allowed to plug an arbitrary item in the socket: youwill only be able to choose from one of these reusable plugs.
 
         :param reusable_plug_items: The reusable_plug_items of this DestinyDefinitionsDestinyItemSocketEntryDefinition.
         :type: list[DestinyDefinitionsDestinyItemSocketEntryPlugItemDefinition]

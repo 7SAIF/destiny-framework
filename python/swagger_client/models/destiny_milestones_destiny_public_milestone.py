@@ -72,7 +72,7 @@ class DestinyMilestonesDestinyPublicMilestone(object):
     def milestone_hash(self):
         """
         Gets the milestone_hash of this DestinyMilestonesDestinyPublicMilestone.
-        The hash identifier for the milestone.  Use it to look up the DestinyMilestoneDefinition for  static data about the Milestone.
+        The hash identifier for the milestone.  Use it to look up the DestinyMilestoneDefinition forstatic data about the Milestone.
 
         :return: The milestone_hash of this DestinyMilestonesDestinyPublicMilestone.
         :rtype: int
@@ -83,7 +83,7 @@ class DestinyMilestonesDestinyPublicMilestone(object):
     def milestone_hash(self, milestone_hash):
         """
         Sets the milestone_hash of this DestinyMilestonesDestinyPublicMilestone.
-        The hash identifier for the milestone.  Use it to look up the DestinyMilestoneDefinition for  static data about the Milestone.
+        The hash identifier for the milestone.  Use it to look up the DestinyMilestoneDefinition forstatic data about the Milestone.
 
         :param milestone_hash: The milestone_hash of this DestinyMilestonesDestinyPublicMilestone.
         :type: int
@@ -118,7 +118,7 @@ class DestinyMilestonesDestinyPublicMilestone(object):
     def vendor_hashes(self):
         """
         Gets the vendor_hashes of this DestinyMilestonesDestinyPublicMilestone.
-        Sometimes milestones - or activities active in milestones - will have relevant vendors.  These are the vendors that are currently relevant.
+        Sometimes milestones - or activities active in milestones - will have relevant vendors.These are the vendors that are currently relevant.
 
         :return: The vendor_hashes of this DestinyMilestonesDestinyPublicMilestone.
         :rtype: list[int]
@@ -129,7 +129,7 @@ class DestinyMilestonesDestinyPublicMilestone(object):
     def vendor_hashes(self, vendor_hashes):
         """
         Sets the vendor_hashes of this DestinyMilestonesDestinyPublicMilestone.
-        Sometimes milestones - or activities active in milestones - will have relevant vendors.  These are the vendors that are currently relevant.
+        Sometimes milestones - or activities active in milestones - will have relevant vendors.These are the vendors that are currently relevant.
 
         :param vendor_hashes: The vendor_hashes of this DestinyMilestonesDestinyPublicMilestone.
         :type: list[int]

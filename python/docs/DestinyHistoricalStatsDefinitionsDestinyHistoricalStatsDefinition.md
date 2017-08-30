@@ -4,6 +4,8 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **stat_id** | **str** | Unique programmer friendly ID for this stat | [optional] 
+**period_types** | [**list[DestinyHistoricalStatsDefinitionsPeriodType]**](DestinyHistoricalStatsDefinitionsPeriodType.md) | Time periods the statistic covers | [optional] 
+**modes** | [**list[DestinyHistoricalStatsDefinitionsDestinyActivityModeType]**](DestinyHistoricalStatsDefinitionsDestinyActivityModeType.md) | Game modes where this statistic can be reported. | [optional] 
 **stat_name** | **str** | Display name | [optional] 
 **stat_description** | **str** | Description of a stat if applicable. | [optional] 
 **icon_image** | **str** | Optional URI to an icon for the statistic | [optional] 

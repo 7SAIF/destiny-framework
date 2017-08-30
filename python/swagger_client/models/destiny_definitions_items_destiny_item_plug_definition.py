@@ -87,7 +87,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def insertion_rules(self):
         """
         Gets the insertion_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The rules around when this plug can be inserted into a socket, aside  from the socket's individual restrictions.    The live data DestinyItemPlugComponent.insertFailIndexes will be an index into  this array, so you can pull out the failure strings appropriate for the user.
+        The rules around when this plug can be inserted into a socket, asidefrom the socket's individual restrictions.  The live data DestinyItemPlugComponent.insertFailIndexes will be an index intothis array, so you can pull out the failure strings appropriate for the user.
 
         :return: The insertion_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :rtype: list[DestinyDefinitionsItemsDestinyPlugRuleDefinition]
@@ -98,7 +98,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def insertion_rules(self, insertion_rules):
         """
         Sets the insertion_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The rules around when this plug can be inserted into a socket, aside  from the socket's individual restrictions.    The live data DestinyItemPlugComponent.insertFailIndexes will be an index into  this array, so you can pull out the failure strings appropriate for the user.
+        The rules around when this plug can be inserted into a socket, asidefrom the socket's individual restrictions.  The live data DestinyItemPlugComponent.insertFailIndexes will be an index intothis array, so you can pull out the failure strings appropriate for the user.
 
         :param insertion_rules: The insertion_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :type: list[DestinyDefinitionsItemsDestinyPlugRuleDefinition]
@@ -110,7 +110,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def plug_category_identifier(self):
         """
         Gets the plug_category_identifier of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The string identifier for the plug's category.  Use the socket's DestinySocketTypeDefinition.plugWhitelist  to determine whether this plug can be inserted into the socket.
+        The string identifier for the plug's category.  Use the socket's DestinySocketTypeDefinition.plugWhitelistto determine whether this plug can be inserted into the socket.
 
         :return: The plug_category_identifier of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :rtype: str
@@ -121,7 +121,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def plug_category_identifier(self, plug_category_identifier):
         """
         Sets the plug_category_identifier of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The string identifier for the plug's category.  Use the socket's DestinySocketTypeDefinition.plugWhitelist  to determine whether this plug can be inserted into the socket.
+        The string identifier for the plug's category.  Use the socket's DestinySocketTypeDefinition.plugWhitelistto determine whether this plug can be inserted into the socket.
 
         :param plug_category_identifier: The plug_category_identifier of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :type: str
@@ -133,7 +133,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def plug_category_hash(self):
         """
         Gets the plug_category_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The hash for the plugCategoryIdentifier.  You can use this instead if you wish: I put both in the definition  for debugging purposes.
+        The hash for the plugCategoryIdentifier.  You can use this instead if you wish: I put both in the definitionfor debugging purposes.
 
         :return: The plug_category_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :rtype: int
@@ -144,7 +144,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def plug_category_hash(self, plug_category_hash):
         """
         Sets the plug_category_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The hash for the plugCategoryIdentifier.  You can use this instead if you wish: I put both in the definition  for debugging purposes.
+        The hash for the plugCategoryIdentifier.  You can use this instead if you wish: I put both in the definitionfor debugging purposes.
 
         :param plug_category_hash: The plug_category_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :type: int
@@ -179,7 +179,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def insertion_material_requirement_hash(self):
         """
         Gets the insertion_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        If inserting this plug requires materials, this is the hash identifier for looking up the  DestinyMaterialRequirementSetDefinition for those requirements.
+        If inserting this plug requires materials, this is the hash identifier for looking up theDestinyMaterialRequirementSetDefinition for those requirements.
 
         :return: The insertion_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :rtype: int
@@ -190,7 +190,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def insertion_material_requirement_hash(self, insertion_material_requirement_hash):
         """
         Sets the insertion_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        If inserting this plug requires materials, this is the hash identifier for looking up the  DestinyMaterialRequirementSetDefinition for those requirements.
+        If inserting this plug requires materials, this is the hash identifier for looking up theDestinyMaterialRequirementSetDefinition for those requirements.
 
         :param insertion_material_requirement_hash: The insertion_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :type: int
@@ -202,7 +202,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def preview_item_override_hash(self):
         """
         Gets the preview_item_override_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        In the game, if you're inspecting a plug item directly, this will be the item shown  with the plug attached.  Look up the DestinyInventoryItemDefinition for this hash for the item.
+        In the game, if you're inspecting a plug item directly, this will be the item shownwith the plug attached.  Look up the DestinyInventoryItemDefinition for this hash for the item.
 
         :return: The preview_item_override_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :rtype: int
@@ -213,7 +213,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def preview_item_override_hash(self, preview_item_override_hash):
         """
         Sets the preview_item_override_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        In the game, if you're inspecting a plug item directly, this will be the item shown  with the plug attached.  Look up the DestinyInventoryItemDefinition for this hash for the item.
+        In the game, if you're inspecting a plug item directly, this will be the item shownwith the plug attached.  Look up the DestinyInventoryItemDefinition for this hash for the item.
 
         :param preview_item_override_hash: The preview_item_override_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :type: int
@@ -225,7 +225,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def enabled_material_requirement_hash(self):
         """
         Gets the enabled_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        It's not enough for the plug to be inserted.  It has to be enabled as well.  For it to be enabled, it may require materials.  This is the hash identifier for the DestinyMaterialRequirementSetDefinition for those requirements,  if there is one.
+        It's not enough for the plug to be inserted.  It has to be enabled as well.For it to be enabled, it may require materials.This is the hash identifier for the DestinyMaterialRequirementSetDefinition for those requirements,if there is one.
 
         :return: The enabled_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :rtype: int
@@ -236,7 +236,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def enabled_material_requirement_hash(self, enabled_material_requirement_hash):
         """
         Sets the enabled_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        It's not enough for the plug to be inserted.  It has to be enabled as well.  For it to be enabled, it may require materials.  This is the hash identifier for the DestinyMaterialRequirementSetDefinition for those requirements,  if there is one.
+        It's not enough for the plug to be inserted.  It has to be enabled as well.For it to be enabled, it may require materials.This is the hash identifier for the DestinyMaterialRequirementSetDefinition for those requirements,if there is one.
 
         :param enabled_material_requirement_hash: The enabled_material_requirement_hash of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :type: int
@@ -248,7 +248,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def enabled_rules(self):
         """
         Gets the enabled_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The rules around whether the plug, once inserted, is enabled and providing its benefits.    The live data DestinyItemPlugComponent.enableFailIndexes will be an index into  this array, so you can pull out the failure strings appropriate for the user.
+        The rules around whether the plug, once inserted, is enabled and providing its benefits.  The live data DestinyItemPlugComponent.enableFailIndexes will be an index intothis array, so you can pull out the failure strings appropriate for the user.
 
         :return: The enabled_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :rtype: list[DestinyDefinitionsItemsDestinyPlugRuleDefinition]
@@ -259,7 +259,7 @@ class DestinyDefinitionsItemsDestinyItemPlugDefinition(object):
     def enabled_rules(self, enabled_rules):
         """
         Sets the enabled_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
-        The rules around whether the plug, once inserted, is enabled and providing its benefits.    The live data DestinyItemPlugComponent.enableFailIndexes will be an index into  this array, so you can pull out the failure strings appropriate for the user.
+        The rules around whether the plug, once inserted, is enabled and providing its benefits.  The live data DestinyItemPlugComponent.enableFailIndexes will be an index intothis array, so you can pull out the failure strings appropriate for the user.
 
         :param enabled_rules: The enabled_rules of this DestinyDefinitionsItemsDestinyItemPlugDefinition.
         :type: list[DestinyDefinitionsItemsDestinyPlugRuleDefinition]

@@ -90,7 +90,7 @@ class DestinyDefinitionsDestinyItemSetBlockDefinition(object):
     def require_ordered_set_item_add(self):
         """
         Gets the require_ordered_set_item_add of this DestinyDefinitionsDestinyItemSetBlockDefinition.
-        If true, items in the set can only be added in increasing order, and adding an item will remove any previous item.  For Quests, this is by necessity true.  Only one quest step is present at a time, and previous steps are removed  as you advance in the quest.
+        If true, items in the set can only be added in increasing order, and adding an item will remove any previous item.For Quests, this is by necessity true.  Only one quest step is present at a time, and previous steps are removedas you advance in the quest.
 
         :return: The require_ordered_set_item_add of this DestinyDefinitionsDestinyItemSetBlockDefinition.
         :rtype: bool
@@ -101,7 +101,7 @@ class DestinyDefinitionsDestinyItemSetBlockDefinition(object):
     def require_ordered_set_item_add(self, require_ordered_set_item_add):
         """
         Sets the require_ordered_set_item_add of this DestinyDefinitionsDestinyItemSetBlockDefinition.
-        If true, items in the set can only be added in increasing order, and adding an item will remove any previous item.  For Quests, this is by necessity true.  Only one quest step is present at a time, and previous steps are removed  as you advance in the quest.
+        If true, items in the set can only be added in increasing order, and adding an item will remove any previous item.For Quests, this is by necessity true.  Only one quest step is present at a time, and previous steps are removedas you advance in the quest.
 
         :param require_ordered_set_item_add: The require_ordered_set_item_add of this DestinyDefinitionsDestinyItemSetBlockDefinition.
         :type: bool

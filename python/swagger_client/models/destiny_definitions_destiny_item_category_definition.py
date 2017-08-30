@@ -118,7 +118,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def visible(self):
         """
         Gets the visible of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        If True, this category should be visible in UI.  Sometimes we make categories that we  don't think are interesting externally.  It's up to you if you want to skip on showing them.
+        If True, this category should be visible in UI.  Sometimes we make categories that wedon't think are interesting externally.  It's up to you if you want to skip on showing them.
 
         :return: The visible of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :rtype: bool
@@ -129,7 +129,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def visible(self, visible):
         """
         Sets the visible of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        If True, this category should be visible in UI.  Sometimes we make categories that we  don't think are interesting externally.  It's up to you if you want to skip on showing them.
+        If True, this category should be visible in UI.  Sometimes we make categories that wedon't think are interesting externally.  It's up to you if you want to skip on showing them.
 
         :param visible: The visible of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :type: bool
@@ -141,7 +141,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def short_title(self):
         """
         Gets the short_title of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        A shortened version of the title.  The reason why we have this is because the Armory in German  had titles that were too long to display in our UI, so these were localized abbreviated versions  of those categories.  The property still exists today, even though the Armory doesn't exist for D2... yet.
+        A shortened version of the title.  The reason why we have this is because the Armory in Germanhad titles that were too long to display in our UI, so these were localized abbreviated versionsof those categories.  The property still exists today, even though the Armory doesn't exist for D2... yet.
 
         :return: The short_title of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :rtype: str
@@ -152,7 +152,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def short_title(self, short_title):
         """
         Sets the short_title of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        A shortened version of the title.  The reason why we have this is because the Armory in German  had titles that were too long to display in our UI, so these were localized abbreviated versions  of those categories.  The property still exists today, even though the Armory doesn't exist for D2... yet.
+        A shortened version of the title.  The reason why we have this is because the Armory in Germanhad titles that were too long to display in our UI, so these were localized abbreviated versionsof those categories.  The property still exists today, even though the Armory doesn't exist for D2... yet.
 
         :param short_title: The short_title of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :type: str
@@ -164,7 +164,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def item_type_regex(self):
         """
         Gets the item_type_regex of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        The janky regular expression we used against the item type to try and discern whether  the item belongs to this category.
+        The janky regular expression we used against the item type to try and discern whetherthe item belongs to this category.
 
         :return: The item_type_regex of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :rtype: str
@@ -175,7 +175,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def item_type_regex(self, item_type_regex):
         """
         Sets the item_type_regex of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        The janky regular expression we used against the item type to try and discern whether  the item belongs to this category.
+        The janky regular expression we used against the item type to try and discern whetherthe item belongs to this category.
 
         :param item_type_regex: The item_type_regex of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :type: str
@@ -233,7 +233,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def grouped_category_hashes(self):
         """
         Gets the grouped_category_hashes of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        If this category is a \"parent\" category of other categories, those children will have their  hashes listed in rendering order here, and can be looked up using these hashes against  DestinyItemCategoryDefinition.    In this way, you can build up a visual hierarchy of item categories.  That's what we did,  and you can do it too.  I believe in you.  Yes, you, Carl.    (I hope someone named Carl reads this someday)
+        If this category is a \"parent\" category of other categories, those children will have theirhashes listed in rendering order here, and can be looked up using these hashes againstDestinyItemCategoryDefinition.  In this way, you can build up a visual hierarchy of item categories.  That's what we did,and you can do it too.  I believe in you.  Yes, you, Carl.  (I hope someone named Carl reads this someday)
 
         :return: The grouped_category_hashes of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :rtype: list[int]
@@ -244,7 +244,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def grouped_category_hashes(self, grouped_category_hashes):
         """
         Sets the grouped_category_hashes of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        If this category is a \"parent\" category of other categories, those children will have their  hashes listed in rendering order here, and can be looked up using these hashes against  DestinyItemCategoryDefinition.    In this way, you can build up a visual hierarchy of item categories.  That's what we did,  and you can do it too.  I believe in you.  Yes, you, Carl.    (I hope someone named Carl reads this someday)
+        If this category is a \"parent\" category of other categories, those children will have theirhashes listed in rendering order here, and can be looked up using these hashes againstDestinyItemCategoryDefinition.  In this way, you can build up a visual hierarchy of item categories.  That's what we did,and you can do it too.  I believe in you.  Yes, you, Carl.  (I hope someone named Carl reads this someday)
 
         :param grouped_category_hashes: The grouped_category_hashes of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :type: list[int]
@@ -256,7 +256,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def hash(self):
         """
         Gets the hash of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :return: The hash of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :rtype: int
@@ -267,7 +267,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def hash(self, hash):
         """
         Sets the hash of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.    When entities refer to each other in Destiny content, it is this hash that they are referring to.
+        The unique identifier for this entity.  Guaranteed to be unique for the type of entity, but not globally.  When entities refer to each other in Destiny content, it is this hash that they are referring to.
 
         :param hash: The hash of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :type: int
@@ -302,7 +302,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def redacted(self):
         """
         Gets the redacted of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :return: The redacted of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :rtype: bool
@@ -313,7 +313,7 @@ class DestinyDefinitionsDestinyItemCategoryDefinition(object):
     def redacted(self, redacted):
         """
         Sets the redacted of this DestinyDefinitionsDestinyItemCategoryDefinition.
-        If this is true, then there is an entity with this identifier/type combination, but BNet is  not yet allowed to show it.  Sorry!
+        If this is true, then there is an entity with this identifier/type combination, but BNet isnot yet allowed to show it.  Sorry!
 
         :param redacted: The redacted of this DestinyDefinitionsDestinyItemCategoryDefinition.
         :type: bool

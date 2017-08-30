@@ -364,7 +364,7 @@ class ForumPostSearchResponse(object):
     def use_total_results(self):
         """
         Gets the use_total_results of this ForumPostSearchResponse.
-        If useTotalResults is true, then totalResults represents an accurate count.    If False, it does not, and may be estimated/only the size of the current page.    Either way, you should probably always only trust hasMore.    This is a long-held historical throwback to when we used to do paging with known total results.  Those queries toasted our database, and we were left to hastily alter our endpoints and create backward-  compatible shims, of which useTotalResults is one.
+        If useTotalResults is true, then totalResults represents an accurate count.  If False, it does not, and may be estimated/only the size of the current page.  Either way, you should probably always only trust hasMore.  This is a long-held historical throwback to when we used to do paging with known total results.Those queries toasted our database, and we were left to hastily alter our endpoints and create backward-compatible shims, of which useTotalResults is one.
 
         :return: The use_total_results of this ForumPostSearchResponse.
         :rtype: bool
@@ -375,7 +375,7 @@ class ForumPostSearchResponse(object):
     def use_total_results(self, use_total_results):
         """
         Sets the use_total_results of this ForumPostSearchResponse.
-        If useTotalResults is true, then totalResults represents an accurate count.    If False, it does not, and may be estimated/only the size of the current page.    Either way, you should probably always only trust hasMore.    This is a long-held historical throwback to when we used to do paging with known total results.  Those queries toasted our database, and we were left to hastily alter our endpoints and create backward-  compatible shims, of which useTotalResults is one.
+        If useTotalResults is true, then totalResults represents an accurate count.  If False, it does not, and may be estimated/only the size of the current page.  Either way, you should probably always only trust hasMore.  This is a long-held historical throwback to when we used to do paging with known total results.Those queries toasted our database, and we were left to hastily alter our endpoints and create backward-compatible shims, of which useTotalResults is one.
 
         :param use_total_results: The use_total_results of this ForumPostSearchResponse.
         :type: bool

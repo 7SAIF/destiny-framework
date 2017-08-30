@@ -217,7 +217,7 @@ class DestinyDestinyProgression(object):
     def current_progress(self):
         """
         Gets the current_progress of this DestinyDestinyProgression.
-        This is the total amount of progress obtained overall for this  progression (for instance, the total amount of Character Level experience earned)
+        This is the total amount of progress obtained overall for thisprogression (for instance, the total amount of Character Level experience earned)
 
         :return: The current_progress of this DestinyDestinyProgression.
         :rtype: int
@@ -228,7 +228,7 @@ class DestinyDestinyProgression(object):
     def current_progress(self, current_progress):
         """
         Sets the current_progress of this DestinyDestinyProgression.
-        This is the total amount of progress obtained overall for this  progression (for instance, the total amount of Character Level experience earned)
+        This is the total amount of progress obtained overall for thisprogression (for instance, the total amount of Character Level experience earned)
 
         :param current_progress: The current_progress of this DestinyDestinyProgression.
         :type: int
@@ -263,7 +263,7 @@ class DestinyDestinyProgression(object):
     def level_cap(self):
         """
         Gets the level_cap of this DestinyDestinyProgression.
-        This is the maximum possible level you can achieve for this progression (for example, the maximum  character level obtainable)
+        This is the maximum possible level you can achieve for this progression (for example, the maximumcharacter level obtainable)
 
         :return: The level_cap of this DestinyDestinyProgression.
         :rtype: int
@@ -274,7 +274,7 @@ class DestinyDestinyProgression(object):
     def level_cap(self, level_cap):
         """
         Sets the level_cap of this DestinyDestinyProgression.
-        This is the maximum possible level you can achieve for this progression (for example, the maximum  character level obtainable)
+        This is the maximum possible level you can achieve for this progression (for example, the maximumcharacter level obtainable)
 
         :param level_cap: The level_cap of this DestinyDestinyProgression.
         :type: int
@@ -286,7 +286,7 @@ class DestinyDestinyProgression(object):
     def step_index(self):
         """
         Gets the step_index of this DestinyDestinyProgression.
-        Progressions define their levels in \"steps\".  Since the last step may be repeatable, the user may  be at a higher level than the actual Step achieved in the progression.  Not necessarily useful, but  potentially interesting for those cruising the API.  Relate this to the \"steps\" property of the DestinyProgression  to see which step the user is on, if you care about that.  (Note that this is Content Version dependent since  it refers to indexes.)
+        Progressions define their levels in \"steps\".  Since the last step may be repeatable, the user maybe at a higher level than the actual Step achieved in the progression.  Not necessarily useful, butpotentially interesting for those cruising the API.  Relate this to the \"steps\" property of the DestinyProgressionto see which step the user is on, if you care about that.  (Note that this is Content Version dependent sinceit refers to indexes.)
 
         :return: The step_index of this DestinyDestinyProgression.
         :rtype: int
@@ -297,7 +297,7 @@ class DestinyDestinyProgression(object):
     def step_index(self, step_index):
         """
         Sets the step_index of this DestinyDestinyProgression.
-        Progressions define their levels in \"steps\".  Since the last step may be repeatable, the user may  be at a higher level than the actual Step achieved in the progression.  Not necessarily useful, but  potentially interesting for those cruising the API.  Relate this to the \"steps\" property of the DestinyProgression  to see which step the user is on, if you care about that.  (Note that this is Content Version dependent since  it refers to indexes.)
+        Progressions define their levels in \"steps\".  Since the last step may be repeatable, the user maybe at a higher level than the actual Step achieved in the progression.  Not necessarily useful, butpotentially interesting for those cruising the API.  Relate this to the \"steps\" property of the DestinyProgressionto see which step the user is on, if you care about that.  (Note that this is Content Version dependent sinceit refers to indexes.)
 
         :param step_index: The step_index of this DestinyDestinyProgression.
         :type: int
@@ -309,7 +309,7 @@ class DestinyDestinyProgression(object):
     def progress_to_next_level(self):
         """
         Gets the progress_to_next_level of this DestinyDestinyProgression.
-        The amount of progression (i.e. \"Experience\") needed to reach the next level of this Progression.  Jeez, progression is such an overloaded word.
+        The amount of progression (i.e. \"Experience\") needed to reach the next level of this Progression.Jeez, progression is such an overloaded word.
 
         :return: The progress_to_next_level of this DestinyDestinyProgression.
         :rtype: int
@@ -320,7 +320,7 @@ class DestinyDestinyProgression(object):
     def progress_to_next_level(self, progress_to_next_level):
         """
         Sets the progress_to_next_level of this DestinyDestinyProgression.
-        The amount of progression (i.e. \"Experience\") needed to reach the next level of this Progression.  Jeez, progression is such an overloaded word.
+        The amount of progression (i.e. \"Experience\") needed to reach the next level of this Progression.Jeez, progression is such an overloaded word.
 
         :param progress_to_next_level: The progress_to_next_level of this DestinyDestinyProgression.
         :type: int
