@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: swagger-client
+Version: 1.0.0
+Summary: Bungie.Net API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: support@bungie.com
+License: UNKNOWN
+Description:     These endpoints constitute the functionality exposed by Bungie.net, both for more traditional website functionality and for connectivity to Bungie video games and their related functionality.
+            
+Keywords: Swagger,Bungie.Net API
+Platform: UNKNOWN
