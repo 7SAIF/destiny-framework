@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**DestinyMilestonesDestinyMilestoneContent**](DestinyMilestonesDestinyMilestoneContent.md) |  | [optional] 
+**response** | [**DestinyResponsesDestinyProfileResponse**](DestinyResponsesDestinyProfileResponse.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 

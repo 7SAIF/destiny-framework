@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**list[DestinyResponsesDestinyVendorResponse]**](DestinyResponsesDestinyVendorResponse.md) |  | [optional] 
+**response** | [**GroupsV2GroupResponse**](GroupsV2GroupResponse.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 

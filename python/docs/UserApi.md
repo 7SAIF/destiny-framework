@@ -1,6 +1,6 @@
 # swagger_client.UserApi
 
-All URIs are relative to *https://bungie.net/Platform*
+All URIs are relative to *https://www.bungie.net/Platform*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,7 +20,7 @@ Method | HTTP request | Description
 
 Returns a list of all available user themes.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -31,7 +31,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = swagger_client.UserApi()
 
-try: 
+try:
     api_response = api_instance.user_get_available_themes()
     pprint(api_response)
 except ApiException as e:
@@ -63,7 +63,7 @@ No authorization required
 
 Loads a bungienet user by membership id.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -75,7 +75,7 @@ from pprint import pprint
 api_instance = swagger_client.UserApi()
 id = 789 # int | The requested Bungie.net membership id.
 
-try: 
+try:
     api_response = api_instance.user_get_bungie_net_user_by_id(id)
     pprint(api_response)
 except ApiException as e:
@@ -110,7 +110,7 @@ No authorization required
 
 Returns a list of accounts associated with the supplied membership ID and membership type. This will include all linked accounts (even when hidden) if supplied credentials permit it.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -123,7 +123,7 @@ api_instance = swagger_client.UserApi()
 membership_id = 789 # int | The membership ID of the target user.
 membership_type = 56 # int | Type of the supplied membership ID.
 
-try: 
+try:
     api_response = api_instance.user_get_membership_data_by_id(membership_id, membership_type)
     pprint(api_response)
 except ApiException as e:
@@ -159,7 +159,7 @@ No authorization required
 
 Returns a list of accounts associated with signed in user. This is useful for OAuth implementations that do not give you access to the token response.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -168,12 +168,13 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+configuration = swagger_client.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = swagger_client.UserApi(swagger_client.ApiClient(configuration))
 
-try: 
+try:
     api_response = api_instance.user_get_membership_data_for_current_user()
     pprint(api_response)
 except ApiException as e:
@@ -205,7 +206,7 @@ This endpoint does not need any parameter.
 
 Returns a user's linked Partnerships.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -217,7 +218,7 @@ from pprint import pprint
 api_instance = swagger_client.UserApi()
 membership_id = 789 # int | The ID of the member for whom partnerships should be returned.
 
-try: 
+try:
     api_response = api_instance.user_get_partnerships(membership_id)
     pprint(api_response)
 except ApiException as e:
@@ -252,7 +253,7 @@ No authorization required
 
 Loads aliases of a bungienet membership id.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -264,7 +265,7 @@ from pprint import pprint
 api_instance = swagger_client.UserApi()
 id = 789 # int | The requested Bungie.net membership id.
 
-try: 
+try:
     api_response = api_instance.user_get_user_aliases(id)
     pprint(api_response)
 except ApiException as e:
@@ -299,7 +300,7 @@ No authorization required
 
 Returns a list of possible users based on the search string
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -311,7 +312,7 @@ from pprint import pprint
 api_instance = swagger_client.UserApi()
 q = 'q_example' # str | The search string. (optional)
 
-try: 
+try:
     api_response = api_instance.user_search_users(q=q)
     pprint(api_response)
 except ApiException as e:

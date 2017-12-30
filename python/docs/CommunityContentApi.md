@@ -1,6 +1,6 @@
 # swagger_client.CommunityContentApi
 
-All URIs are relative to *https://bungie.net/Platform*
+All URIs are relative to *https://www.bungie.net/Platform*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -19,7 +19,7 @@ Method | HTTP request | Description
 
 Returns community content.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -33,7 +33,7 @@ media_filter = 56 # int | The type of media to get
 page = 56 # int | Zero based page
 sort = 56 # int | The sort mode.
 
-try: 
+try:
     api_response = api_instance.community_content_get_community_content(media_filter, page, sort)
     pprint(api_response)
 except ApiException as e:
@@ -64,13 +64,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **community_content_get_community_live_statuses**
-> InlineResponse20034 community_content_get_community_live_statuses(page, partnership_type, sort, mode_hash=mode_hash, stream_locale=stream_locale)
+> InlineResponse20051 community_content_get_community_live_statuses(page, partnership_type, sort, mode_hash=mode_hash, stream_locale=stream_locale)
 
 
 
 Returns info about community members who are live streaming.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -83,10 +83,10 @@ api_instance = swagger_client.CommunityContentApi()
 page = 56 # int | Zero based page.
 partnership_type = 56 # int | The type of partnership for which the status should be returned.
 sort = 56 # int | The sort mode.
-mode_hash = 56 # int | The hash of the Activity Mode for which streams should be retrieved.  Don't pass it in or pass 0 to not filter by mode. (optional)
-stream_locale = 'stream_locale_example' # str | The locale for streams you'd like to see.  Don't pass this to fall back on your BNet locale.  Pass 'ALL' to not filter by locale. (optional)
+mode_hash = 56 # int | The hash of the Activity Mode for which streams should be retrieved. Don't pass it in or pass 0 to not filter by mode. (optional)
+stream_locale = 'stream_locale_example' # str | The locale for streams you'd like to see. Don't pass this to fall back on your BNet locale. Pass 'ALL' to not filter by locale. (optional)
 
-try: 
+try:
     api_response = api_instance.community_content_get_community_live_statuses(page, partnership_type, sort, mode_hash=mode_hash, stream_locale=stream_locale)
     pprint(api_response)
 except ApiException as e:
@@ -100,12 +100,12 @@ Name | Type | Description  | Notes
  **page** | **int**| Zero based page. | 
  **partnership_type** | **int**| The type of partnership for which the status should be returned. | 
  **sort** | **int**| The sort mode. | 
- **mode_hash** | **int**| The hash of the Activity Mode for which streams should be retrieved.  Don&#39;t pass it in or pass 0 to not filter by mode. | [optional] 
- **stream_locale** | **str**| The locale for streams you&#39;d like to see.  Don&#39;t pass this to fall back on your BNet locale.  Pass &#39;ALL&#39; to not filter by locale. | [optional] 
+ **mode_hash** | **int**| The hash of the Activity Mode for which streams should be retrieved. Don&#39;t pass it in or pass 0 to not filter by mode. | [optional] 
+ **stream_locale** | **str**| The locale for streams you&#39;d like to see. Don&#39;t pass this to fall back on your BNet locale. Pass &#39;ALL&#39; to not filter by locale. | [optional] 
 
 ### Return type
 
-[**InlineResponse20034**](InlineResponse20034.md)
+[**InlineResponse20051**](InlineResponse20051.md)
 
 ### Authorization
 
@@ -119,13 +119,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **community_content_get_community_live_statuses_for_clanmates**
-> InlineResponse20034 community_content_get_community_live_statuses_for_clanmates(page, partnership_type, sort)
+> InlineResponse20051 community_content_get_community_live_statuses_for_clanmates(page, partnership_type, sort)
 
 
 
 Returns info about community members who are live streaming in your clans.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -139,7 +139,7 @@ page = 56 # int | Zero based page.
 partnership_type = 56 # int | The type of partnership for which the status should be returned.
 sort = 56 # int | The sort mode.
 
-try: 
+try:
     api_response = api_instance.community_content_get_community_live_statuses_for_clanmates(page, partnership_type, sort)
     pprint(api_response)
 except ApiException as e:
@@ -156,7 +156,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**InlineResponse20034**](InlineResponse20034.md)
+[**InlineResponse20051**](InlineResponse20051.md)
 
 ### Authorization
 
@@ -170,13 +170,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **community_content_get_community_live_statuses_for_friends**
-> InlineResponse20034 community_content_get_community_live_statuses_for_friends(page, partnership_type, sort)
+> InlineResponse20051 community_content_get_community_live_statuses_for_friends(page, partnership_type, sort)
 
 
 
 Returns info about community members who are live streaming among your friends.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -190,7 +190,7 @@ page = 56 # int | Zero based page.
 partnership_type = 56 # int | The type of partnership for which the status should be returned.
 sort = 56 # int | The sort mode.
 
-try: 
+try:
     api_response = api_instance.community_content_get_community_live_statuses_for_friends(page, partnership_type, sort)
     pprint(api_response)
 except ApiException as e:
@@ -207,7 +207,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**InlineResponse20034**](InlineResponse20034.md)
+[**InlineResponse20051**](InlineResponse20051.md)
 
 ### Authorization
 
@@ -221,13 +221,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **community_content_get_featured_community_live_statuses**
-> InlineResponse20034 community_content_get_featured_community_live_statuses(page, partnership_type, sort, stream_locale=stream_locale)
+> InlineResponse20051 community_content_get_featured_community_live_statuses(page, partnership_type, sort, stream_locale=stream_locale)
 
 
 
 Returns info about Featured live streams.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -240,9 +240,9 @@ api_instance = swagger_client.CommunityContentApi()
 page = 56 # int | Zero based page.
 partnership_type = 56 # int | The type of partnership for which the status should be returned.
 sort = 56 # int | The sort mode.
-stream_locale = 'stream_locale_example' # str | The locale for streams you'd like to see.  Don't pass this to fall back on your BNet locale.  Pass 'ALL' to not filter by locale. (optional)
+stream_locale = 'stream_locale_example' # str | The locale for streams you'd like to see. Don't pass this to fall back on your BNet locale. Pass 'ALL' to not filter by locale. (optional)
 
-try: 
+try:
     api_response = api_instance.community_content_get_featured_community_live_statuses(page, partnership_type, sort, stream_locale=stream_locale)
     pprint(api_response)
 except ApiException as e:
@@ -256,11 +256,11 @@ Name | Type | Description  | Notes
  **page** | **int**| Zero based page. | 
  **partnership_type** | **int**| The type of partnership for which the status should be returned. | 
  **sort** | **int**| The sort mode. | 
- **stream_locale** | **str**| The locale for streams you&#39;d like to see.  Don&#39;t pass this to fall back on your BNet locale.  Pass &#39;ALL&#39; to not filter by locale. | [optional] 
+ **stream_locale** | **str**| The locale for streams you&#39;d like to see. Don&#39;t pass this to fall back on your BNet locale. Pass &#39;ALL&#39; to not filter by locale. | [optional] 
 
 ### Return type
 
-[**InlineResponse20034**](InlineResponse20034.md)
+[**InlineResponse20051**](InlineResponse20051.md)
 
 ### Authorization
 
@@ -274,13 +274,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **community_content_get_streaming_status_for_member**
-> InlineResponse20035 community_content_get_streaming_status_for_member(membership_id, membership_type, partnership_type)
+> InlineResponse20052 community_content_get_streaming_status_for_member(membership_id, membership_type, partnership_type)
 
 
 
 Gets the Live Streaming status of a particular Account and Membership Type.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -294,7 +294,7 @@ membership_id = 789 # int | The membershipId related to that type.
 membership_type = 56 # int | The type of account for which info will be extracted.
 partnership_type = 56 # int | The type of partnership for which info will be extracted.
 
-try: 
+try:
     api_response = api_instance.community_content_get_streaming_status_for_member(membership_id, membership_type, partnership_type)
     pprint(api_response)
 except ApiException as e:
@@ -311,7 +311,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**InlineResponse20035**](InlineResponse20035.md)
+[**InlineResponse20052**](InlineResponse20052.md)
 
 ### Authorization
 

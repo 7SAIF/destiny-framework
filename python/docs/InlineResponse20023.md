@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**dict(str, DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition)**](DestinyHistoricalStatsDefinitionsDestinyHistoricalStatsDefinition.md) |  | [optional] 
+**response** | [**SearchResultOfGroupBan**](SearchResultOfGroupBan.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 

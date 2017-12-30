@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **rating_image_path** | **str** |  | [optional] 
 **author** | [**UserGeneralUser**](UserGeneralUser.md) |  | [optional] 
 **auto_english_property_fallback** | **bool** |  | [optional] 
-**properties** | **dict(str, object)** | Firehose content is really a collection of metadata and \&quot;properties\&quot;, which arethe potentially-but-not-strictly localizable data that comprises the meat ofwhatever content is being shown.  As Cole Porter would have crooned, \&quot;Anything Goes\&quot; with Firehose properties.They are most often strings, but they can theoretically be anything.  They are JSONencoded, and could be JSON structures, simple strings, numbers etc...  The Content Typeof the item (cType) will describe the properties, and thus how they ought to be deserialized. | [optional] 
+**properties** | **dict(str, object)** | Firehose content is really a collection of metadata and \&quot;properties\&quot;, which are the potentially-but-not-strictly localizable data that comprises the meat of whatever content is being shown.  As Cole Porter would have crooned, \&quot;Anything Goes\&quot; with Firehose properties. They are most often strings, but they can theoretically be anything. They are JSON encoded, and could be JSON structures, simple strings, numbers etc... The Content Type of the item (cType) will describe the properties, and thus how they ought to be deserialized. | [optional] 
 **representations** | [**list[ContentContentRepresentation]**](ContentContentRepresentation.md) |  | [optional] 
 **tags** | **list[str]** |  | [optional] 
 **comment_summary** | [**ContentCommentSummary**](ContentCommentSummary.md) |  | [optional] 

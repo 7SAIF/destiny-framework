@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**SearchResultOfTrendingEntry**](SearchResultOfTrendingEntry.md) |  | [optional] 
+**response** | [**DestinyResponsesDestinyVendorResponse**](DestinyResponsesDestinyVendorResponse.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 

@@ -1,6 +1,6 @@
 # swagger_client.ForumApi
 
-All URIs are relative to *https://bungie.net/Platform*
+All URIs are relative to *https://www.bungie.net/Platform*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -27,7 +27,7 @@ Method | HTTP request | Description
 
 Allows the owner of a fireteam thread to approve all joined members and start a private message conversation with them.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -36,13 +36,14 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+configuration = swagger_client.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ForumApi()
+api_instance = swagger_client.ForumApi(swagger_client.ApiClient(configuration))
 topic_id = 789 # int | The post id of the recruitment topic to approve.
 
-try: 
+try:
     api_response = api_instance.forum_approve_fireteam_thread(topic_id)
     pprint(api_response)
 except ApiException as e:
@@ -77,7 +78,7 @@ Name | Type | Description  | Notes
 
 Gets a listing of all topics marked as part of the core group.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -93,7 +94,7 @@ quick_date = 56 # int | The date filter.
 sort = 56 # int | The sort mode.
 locales = 'locales_example' # str | Comma seperated list of locales posts must match to return in the result list. Default 'en' (optional)
 
-try: 
+try:
     api_response = api_instance.forum_get_core_topics_paged(category_filter, page, quick_date, sort, locales=locales)
     pprint(api_response)
 except ApiException as e:
@@ -132,7 +133,7 @@ No authorization required
 
 Gets tag suggestions based on partial text entry, matching them with other tags previously used in the forums.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -144,7 +145,7 @@ from pprint import pprint
 api_instance = swagger_client.ForumApi()
 partialtag = 'partialtag_example' # str | The partial tag input to generate suggestions from. (optional)
 
-try: 
+try:
     api_response = api_instance.forum_get_forum_tag_suggestions(partialtag=partialtag)
     pprint(api_response)
 except ApiException as e:
@@ -179,7 +180,7 @@ No authorization required
 
 Gets the specified forum poll.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -191,7 +192,7 @@ from pprint import pprint
 api_instance = swagger_client.ForumApi()
 topic_id = 789 # int | The post id of the topic that has the poll.
 
-try: 
+try:
     api_response = api_instance.forum_get_poll(topic_id)
     pprint(api_response)
 except ApiException as e:
@@ -226,7 +227,7 @@ No authorization required
 
 Returns the post specified and its immediate parent.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -239,7 +240,7 @@ api_instance = swagger_client.ForumApi()
 child_post_id = 56 # int | 
 showbanned = 'showbanned_example' # str | If this value is not null or empty, banned posts are requested to be returned (optional)
 
-try: 
+try:
     api_response = api_instance.forum_get_post_and_parent(child_post_id, showbanned=showbanned)
     pprint(api_response)
 except ApiException as e:
@@ -275,7 +276,7 @@ No authorization required
 
 Returns the post specified and its immediate parent of posts that are awaiting approval.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -288,7 +289,7 @@ api_instance = swagger_client.ForumApi()
 child_post_id = 56 # int | 
 showbanned = 'showbanned_example' # str | If this value is not null or empty, banned posts are requested to be returned (optional)
 
-try: 
+try:
     api_response = api_instance.forum_get_post_and_parent_awaiting_approval(child_post_id, showbanned=showbanned)
     pprint(api_response)
 except ApiException as e:
@@ -324,7 +325,7 @@ No authorization required
 
 Returns a thread of posts at the given parent, optionally returning replies to those posts as well as the original parent.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -343,7 +344,7 @@ root_thread_mode = true # bool |
 sort_mode = 56 # int | 
 showbanned = 'showbanned_example' # str | If this value is not null or empty, banned posts are requested to be returned (optional)
 
-try: 
+try:
     api_response = api_instance.forum_get_posts_threaded_paged(get_parent_post, page, page_size, parent_post_id, reply_size, root_thread_mode, sort_mode, showbanned=showbanned)
     pprint(api_response)
 except ApiException as e:
@@ -385,7 +386,7 @@ No authorization required
 
 Returns a thread of posts starting at the topicId of the input childPostId, optionally returning replies to those posts as well as the original parent.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -403,7 +404,7 @@ root_thread_mode = true # bool |
 sort_mode = 56 # int | 
 showbanned = 'showbanned_example' # str | If this value is not null or empty, banned posts are requested to be returned (optional)
 
-try: 
+try:
     api_response = api_instance.forum_get_posts_threaded_paged_from_child(child_post_id, page, page_size, reply_size, root_thread_mode, sort_mode, showbanned=showbanned)
     pprint(api_response)
 except ApiException as e:
@@ -444,7 +445,7 @@ No authorization required
 
 Allows the caller to get a list of to 25 recruitment thread summary information objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -455,7 +456,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = swagger_client.ForumApi()
 
-try: 
+try:
     api_response = api_instance.forum_get_recruitment_thread_summaries()
     pprint(api_response)
 except ApiException as e:
@@ -487,7 +488,7 @@ No authorization required
 
 Gets the post Id for the given content item's comments, if it exists.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -499,7 +500,7 @@ from pprint import pprint
 api_instance = swagger_client.ForumApi()
 content_id = 789 # int | 
 
-try: 
+try:
     api_response = api_instance.forum_get_topic_for_content(content_id)
     pprint(api_response)
 except ApiException as e:
@@ -534,7 +535,7 @@ No authorization required
 
 Get topics from any forum.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -553,7 +554,7 @@ sort = 56 # int | The sort mode.
 locales = 'locales_example' # str | Comma seperated list of locales posts must match to return in the result list. Default 'en' (optional)
 tagstring = 'tagstring_example' # str | The tags to search, if any. (optional)
 
-try: 
+try:
     api_response = api_instance.forum_get_topics_paged(category_filter, group, page, page_size, quick_date, sort, locales=locales, tagstring=tagstring)
     pprint(api_response)
 except ApiException as e:
@@ -593,9 +594,9 @@ No authorization required
 
 
 
-Allows a user to slot themselves into a recuritment thread fireteam slot. Returns the new state of the fireteam.
+Allows a user to slot themselves into a recruitment thread fireteam slot. Returns the new state of the fireteam.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -604,13 +605,14 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+configuration = swagger_client.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ForumApi()
+api_instance = swagger_client.ForumApi(swagger_client.ApiClient(configuration))
 topic_id = 789 # int | The post id of the recruitment topic you wish to join.
 
-try: 
+try:
     api_response = api_instance.forum_join_fireteam_thread(topic_id)
     pprint(api_response)
 except ApiException as e:
@@ -645,7 +647,7 @@ Name | Type | Description  | Notes
 
 Allows a recruitment thread owner to kick a join user from the fireteam. Returns the new state of the fireteam.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -654,14 +656,15 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+configuration = swagger_client.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ForumApi()
+api_instance = swagger_client.ForumApi(swagger_client.ApiClient(configuration))
 target_membership_id = 789 # int | The id of the user you wish to kick.
 topic_id = 789 # int | The post id of the recruitment topic you wish to join.
 
-try: 
+try:
     api_response = api_instance.forum_kick_ban_fireteam_applicant(target_membership_id, topic_id)
     pprint(api_response)
 except ApiException as e:
@@ -695,9 +698,9 @@ Name | Type | Description  | Notes
 
 
 
-Allows a user to remove themselves from a recuritment thread fireteam slot. Returns the new state of the fireteam.
+Allows a user to remove themselves from a recruitment thread fireteam slot. Returns the new state of the fireteam.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -706,13 +709,14 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+configuration = swagger_client.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ForumApi()
+api_instance = swagger_client.ForumApi(swagger_client.ApiClient(configuration))
 topic_id = 789 # int | The post id of the recruitment topic you wish to leave.
 
-try: 
+try:
     api_response = api_instance.forum_leave_fireteam_thread(topic_id)
     pprint(api_response)
 except ApiException as e:

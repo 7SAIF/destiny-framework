@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**DestinyHistoricalStatsDestinyPostGameCarnageReportData**](DestinyHistoricalStatsDestinyPostGameCarnageReportData.md) |  | [optional] 
+**response** | [**GroupsV2GroupMemberLeaveResult**](GroupsV2GroupMemberLeaveResult.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 

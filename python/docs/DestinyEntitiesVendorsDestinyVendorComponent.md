@@ -3,10 +3,11 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**vendor_hash** | **int** | The unique identifier for the vendor.  Use it to look up their DestinyVendorDefinition. | [optional] 
+**vendor_hash** | **int** | The unique identifier for the vendor. Use it to look up their DestinyVendorDefinition. | [optional] 
 **next_refresh_date** | **datetime** | The date when this vendor&#39;s inventory will next rotate/refresh. | [optional] 
-**enabled** | **bool** | If True, the Vendor is currently accessible.    If False, they may not actually be visible in the world at the moment. | [optional] 
-**can_purchase** | **bool** | If True, you can purchase from the Vendor.  Theoretically, Vendors can be restricted from selling items.  In practice, none do that (yet?). | [optional] 
+**enabled** | **bool** | If True, the Vendor is currently accessible.   If False, they may not actually be visible in the world at the moment. | [optional] 
+**can_purchase** | **bool** | If True, you can purchase from the Vendor.  Theoretically, Vendors can be restricted from selling items. In practice, none do that (yet?). | [optional] 
+**progression** | **object** | If the Vendor has a related Reputation, this is the Progression data that represents the character&#39;s Reputation level with this Vendor. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

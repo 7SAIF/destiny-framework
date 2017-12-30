@@ -4,10 +4,14 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **stat_id** | **str** | Unique programmer friendly ID for this stat | [optional] 
+**group** | **object** | Statistic group | [optional] 
 **period_types** | [**list[DestinyHistoricalStatsDefinitionsPeriodType]**](DestinyHistoricalStatsDefinitionsPeriodType.md) | Time periods the statistic covers | [optional] 
 **modes** | [**list[DestinyHistoricalStatsDefinitionsDestinyActivityModeType]**](DestinyHistoricalStatsDefinitionsDestinyActivityModeType.md) | Game modes where this statistic can be reported. | [optional] 
+**category** | **object** | Category for the stat. | [optional] 
 **stat_name** | **str** | Display name | [optional] 
+**stat_name_abbr** | **str** | Display name abbreviated | [optional] 
 **stat_description** | **str** | Description of a stat if applicable. | [optional] 
+**unit_type** | **object** | Unit, if any, for the statistic | [optional] 
 **icon_image** | **str** | Optional URI to an icon for the statistic | [optional] 
 **merge_method** | **int** | Optional icon for the statistic | [optional] 
 **unit_label** | **str** | Localized Unit Name for the stat. | [optional] 

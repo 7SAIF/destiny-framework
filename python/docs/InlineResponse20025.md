@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**list[DestinyHistoricalStatsDestinyClanAggregateStat]**](DestinyHistoricalStatsDestinyClanAggregateStat.md) |  | [optional] 
+**response** | [**SearchResultOfGroupMemberApplication**](SearchResultOfGroupMemberApplication.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 

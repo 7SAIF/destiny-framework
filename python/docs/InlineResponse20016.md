@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response** | [**DestinyMilestonesDestinyMilestone**](DestinyMilestonesDestinyMilestone.md) |  | [optional] 
+**response** | [**list[GroupsV2GroupV2Card]**](GroupsV2GroupV2Card.md) |  | [optional] 
 **error_code** | [**ExceptionsPlatformErrorCodes**](ExceptionsPlatformErrorCodes.md) |  | [optional] 
 **throttle_seconds** | **int** |  | [optional] 
 **error_status** | **str** |  | [optional] 
